@@ -1,0 +1,13 @@
+Mã tuyến,Công ty vận chuyển,TP xuất phát,TP đích,Phương thức,Chi phí/kg (VNĐ),Phí tối thiểu (VNĐ),Thời gian (ngày),Hệ số quy đổi,Loại hàng,Ghi chú
+RT-VN-001,Viettel Post Quốc tế,Thâm Quyến,Hà Nội,Đường bộ,45000,500000,3-5,5000,Hàng thông thường/Điện tử,Qua cửa khẩu Hữu Nghị
+RT-VN-002,Viettel Post Quốc tế,Thâm Quyến,TP Hồ Chí Minh,Đường bộ,52000,550000,5-7,5000,Hàng thông thường,Qua cửa khẩu Hữu Nghị + nội địa
+RT-VN-003,J&T Express Việt Nam,Quảng Châu,Hà Nội,Đường bộ,48000,480000,4-6,5000,Hàng thương mại điện tử,Qua cửa khẩu Lạng Sơn
+RT-VN-004,J&T Express Việt Nam,Quảng Châu,TP Hồ Chí Minh,Đường bộ + Bay,68000,600000,3-5,5000,Hàng nhẹ/Giá trị cao,Bay từ Hà Nội đến HCM
+RT-VN-005,Kerry Logistics VN,Thượng Hải,Hải Phòng,Đường biển,22000,1200000,8-12,4000,Hàng nặng/Cồng kềnh,Tàu container
+RT-VN-006,Kerry Logistics VN,Thượng Hải,TP Hồ Chí Minh,Đường biển,25000,1300000,10-14,4000,Hàng nặng/Nguyên liệu,Tàu container qua Cát Lái
+RT-VN-007,Nhất Tín Logistics,Thâm Quyến,Hà Nội,Đường hàng không,125000,350000,1-2,5000,Hàng giá trị cao/Khẩn cấp,Chuyến bay thẳng
+RT-VN-008,Nhất Tín Logistics,Quảng Châu,TP Hồ Chí Minh,Đường hàng không,130000,380000,2-3,5000,Toàn bộ loại hàng,Chuyến bay thẳng
+RT-VN-009,BEST Express VN,Nghĩa Ô,Hà Nội,Đường bộ,42000,450000,5-7,5000,Hàng nhẹ/Thương mại điện tử,Qua cửa khẩu Lào Cai
+RT-VN-010,Giao Hàng Nhanh,Thâm Quyến,Đà Nẵng,Đường bộ + Biển,38000,600000,6-9,4500,Hàng thông thường,Bộ đến Hải Phòng + biển ven bờ
+RT-VN-011,SPX Express,Quảng Châu,Hà Nội,Đường bộ nhanh,55000,400000,2-4,5000,Thương mại điện tử/Nhỏ gọn,Dịch vụ ưu tiên
+RT-VN-012,Lazada Logistics,Thâm Quyến,TP Hồ Chí Minh,Đường hàng không,115000,300000,2-3,5000,Sàn thương mại điện tử,Chỉ dành cho seller Lazada

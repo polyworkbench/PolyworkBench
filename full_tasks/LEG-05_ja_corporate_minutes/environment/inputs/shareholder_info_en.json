@@ -1,0 +1,109 @@
+{
+  "company": {
+    "name": "Pacific Rim Technology Holdings Inc.",
+    "ticker": "PRTH",
+    "exchange": "Tokyo Stock Exchange (Prime Market)",
+    "shares_outstanding": 60000000,
+    "fiscal_year_end": "December 31"
+  },
+  "shareholders": [
+    {
+      "name": "Tanaka Hiroshi (田中宏)",
+      "shares": 9000000,
+      "percentage": 15.0,
+      "type": "Founder & CEO",
+      "voting_rights": 9000000
+    },
+    {
+      "name": "Japan Investment Trust",
+      "shares": 7200000,
+      "percentage": 12.0,
+      "type": "Institutional Investor",
+      "voting_rights": 7200000
+    },
+    {
+      "name": "Pacific Capital Partners",
+      "shares": 6000000,
+      "percentage": 10.0,
+      "type": "Private Equity",
+      "voting_rights": 6000000
+    },
+    {
+      "name": "Nomura Asset Management",
+      "shares": 4800000,
+      "percentage": 8.0,
+      "type": "Institutional Investor",
+      "voting_rights": 4800000
+    },
+    {
+      "name": "Employee Stock Ownership Plan (ESOP)",
+      "shares": 3600000,
+      "percentage": 6.0,
+      "type": "Employee Trust",
+      "voting_rights": 3600000
+    },
+    {
+      "name": "Chen Xiaoming (陳小明)",
+      "shares": 3000000,
+      "percentage": 5.0,
+      "type": "Director",
+      "voting_rights": 3000000
+    },
+    {
+      "name": "Samsung Venture Investment",
+      "shares": 2400000,
+      "percentage": 4.0,
+      "type": "Strategic Investor",
+      "voting_rights": 2400000
+    },
+    {
+      "name": "Other institutional investors",
+      "shares": 12000000,
+      "percentage": 20.0,
+      "type": "Various",
+      "voting_rights": 12000000
+    },
+    {
+      "name": "Retail investors",
+      "shares": 12000000,
+      "percentage": 20.0,
+      "type": "Individual",
+      "voting_rights": 12000000
+    }
+  ],
+  "board_composition": {
+    "total_directors": 6,
+    "independent_directors": 2,
+    "quorum": 4,
+    "term_years": 2,
+    "committees": [
+      {
+        "name": "Audit Committee",
+        "members": ["Robert J. Williams (Chair)", "Dr. Kim Sung-ho"],
+        "meetings_per_year": 4
+      },
+      {
+        "name": "Nomination Committee",
+        "members": ["Dr. Kim Sung-ho (Chair)", "Robert J. Williams", "Suzuki Yoko"],
+        "meetings_per_year": 2
+      },
+      {
+        "name": "Compensation Committee",
+        "members": ["Robert J. Williams (Chair)", "Dr. Kim Sung-ho", "Tanaka Hiroshi"],
+        "meetings_per_year": 2
+      }
+    ]
+  },
+  "dividend_history": [
+    {"year": 2021, "annual_dividend_per_share_jpy": 30},
+    {"year": 2022, "annual_dividend_per_share_jpy": 35},
+    {"year": 2023, "interim_dividend_per_share_jpy": 20, "proposed_yearend_per_share_jpy": 45}
+  ],
+  "corporate_governance": {
+    "governance_code": "Japan Corporate Governance Code (Prime Market)",
+    "external_auditor": "Deloitte Tohmatsu LLC",
+    "internal_audit": "Internal Audit Department (8 staff)",
+    "compliance_officer": "Suzuki Yoko (COO)",
+    "whistleblower_hotline": true
+  }
+}

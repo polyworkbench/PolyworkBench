@@ -1,0 +1,21 @@
+id = "KNW-05_vi_training_material"
+name = "Convert English slides and Chinese docs into Vietnamese training manual"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 3
+estimated_steps = 6
+timeout_sec = 1800
+tags = ["vi-instruction", "en-source", "zh-source", "vi-output", "training", "education"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["training_manual_vi.md", "exercises_vi.json", "glossary_vi_en_zh.json", "assessment_questions_vi.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

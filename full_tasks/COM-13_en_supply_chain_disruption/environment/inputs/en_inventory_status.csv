@@ -1,0 +1,16 @@
+sku,product_name,current_stock_units,reorder_point,safety_stock_weeks,avg_weekly_demand,weeks_of_supply,status,warehouse
+MCU-7201,Microcontroller Unit A,12000,15000,4,3750,3.2,below_reorder,US-West
+MCU-7202,Microcontroller Unit B,9500,10000,4,2667,3.6,below_reorder,US-West
+RF-3101,RF Transceiver Module,8200,9000,3,2333,3.5,below_reorder,EU-Central
+PCB-A501,Main Board Assembly,4500,6000,3,1500,3.0,below_reorder,US-East
+PCB-A502,Control Board Assembly,3800,4000,3,1000,3.8,below_reorder,US-East
+FPC-201,Flexible PCB Type A,15000,12000,2,2917,5.1,adequate,Asia-Hub
+CON-100,High-Speed Connector,28000,22000,3,5417,5.2,adequate,EU-Central
+PAS-200,Capacitor Array Module,55000,40000,3,10000,5.5,adequate,US-West
+CAB-300,Custom Cable Harness,7500,7000,2,1833,4.1,adequate,Asia-Hub
+PWR-400,DC-DC Converter,4200,5000,3,1250,3.4,below_reorder,US-West
+SNS-500,Temperature Sensor IC,18000,13000,3,3333,5.4,adequate,EU-Central
+DSP-600,OLED Display Module,1800,2500,4,667,2.7,critical,US-East
+MEM-700,Flash Memory 256GB,6200,8000,3,2083,3.0,below_reorder,US-West
+ANT-800,5G Antenna Module,5500,6000,3,1500,3.7,below_reorder,Asia-Hub
+BAT-900,Li-Po Battery Pack,12000,10000,2,2500,4.8,adequate,Asia-Hub

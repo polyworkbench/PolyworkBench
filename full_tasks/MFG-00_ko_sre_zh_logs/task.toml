@@ -1,0 +1,21 @@
+id = "MFG-00_ko_sre_zh_logs"
+name = "Korean SRE incident request over Chinese K8s logs"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 4
+estimated_steps = 8
+timeout_sec = 2400
+tags = ["ko-instruction", "zh-source", "en-output", "ko-output", "logs", "sre", "timezone"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["rca.md", "summary_ko.md", "timeline_kst.json", "action_items.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

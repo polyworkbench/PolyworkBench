@@ -1,0 +1,150 @@
+{
+  "reference_version": "2024-01",
+  "description": "Ставки ввозных таможенных пошлин Единого таможенного тарифа ЕАЭС",
+  "vat_rate_percent": 20,
+  "rates": [
+    {
+      "hs_code": "8528591000",
+      "description": "Мониторы с LCD экраном",
+      "duty_rate_percent": 8,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "8471494000",
+      "description": "Вычислительные машины",
+      "duty_rate_percent": 0,
+      "duty_type": "адвалорная",
+      "excise": false,
+      "notes": "Нулевая ставка для компьютерной техники"
+    },
+    {
+      "hs_code": "8534009000",
+      "description": "Печатные схемы",
+      "duty_rate_percent": 0,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "8506509000",
+      "description": "Литиевые батареи",
+      "duty_rate_percent": 5,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "8504403000",
+      "description": "Зарядные устройства",
+      "duty_rate_percent": 5,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "7616999009",
+      "description": "Изделия из алюминия",
+      "duty_rate_percent": 12,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "7419999000",
+      "description": "Изделия из меди",
+      "duty_rate_percent": 10,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "8517620000",
+      "description": "Аппаратура передачи данных",
+      "duty_rate_percent": 0,
+      "duty_type": "адвалорная",
+      "excise": false,
+      "notes": "Нулевая ставка по соглашению ITA"
+    },
+    {
+      "hs_code": "8525801900",
+      "description": "Цифровые камеры",
+      "duty_rate_percent": 0,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "8518290000",
+      "description": "Громкоговорители",
+      "duty_rate_percent": 8,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "8536909500",
+      "description": "Соединители",
+      "duty_rate_percent": 5,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "4819200000",
+      "description": "Коробки из картона",
+      "duty_rate_percent": 15,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "8544429000",
+      "description": "Кабели с соединителями",
+      "duty_rate_percent": 5,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "7007190000",
+      "description": "Закалённое стекло",
+      "duty_rate_percent": 15,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "4901990000",
+      "description": "Печатные материалы",
+      "duty_rate_percent": 0,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "3923290000",
+      "description": "Пакеты из полимеров",
+      "duty_rate_percent": 10,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "4821100000",
+      "description": "Этикетки печатные",
+      "duty_rate_percent": 5,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "7326909800",
+      "description": "Изделия из чёрных металлов",
+      "duty_rate_percent": 15,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "3926909709",
+      "description": "Изделия из пластмасс",
+      "duty_rate_percent": 10,
+      "duty_type": "адвалорная",
+      "excise": false
+    },
+    {
+      "hs_code": "8529909200",
+      "description": "Сенсорные экраны",
+      "duty_rate_percent": 0,
+      "duty_type": "адвалорная",
+      "excise": false,
+      "notes": "Части для аппаратуры 8525-8528"
+    }
+  ]
+}

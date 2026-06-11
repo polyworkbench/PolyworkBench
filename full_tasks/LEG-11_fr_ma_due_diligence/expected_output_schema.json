@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["memo_dd_fr_md", "risk_register", "glossaire", "traceability_fr_md"],
+  "properties": {
+    "memo_dd_fr_md": {"type": "string"},
+    "risk_register": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "categorie", "description_fr", "severite", "probabilite", "source"],
+        "properties": {
+          "id": {"type": "string"},
+          "categorie": {"type": "string", "enum": ["financier", "fiscal", "juridique", "gouvernance", "operationnel", "reglementaire"]},
+          "description_fr": {"type": "string"},
+          "severite": {"type": "string", "enum": ["faible", "moyenne", "élevée", "critique"]},
+          "probabilite": {"type": "string", "enum": ["faible", "moyenne", "élevée"]},
+          "source": {"type": "string", "description": "[Source: fichier, ligne/section]"},
+          "mitigation": {"type": "string"}
+        }
+      },
+      "minItems": 5
+    },
+    "glossaire": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["fr", "en"],
+        "properties": {
+          "fr": {"type": "string"},
+          "en": {"type": "string"},
+          "zh": {"type": "string"},
+          "ja": {"type": "string"},
+          "ko": {"type": "string"},
+          "note": {"type": "string"}
+        }
+      },
+      "minItems": 15
+    },
+    "traceability_fr_md": {"type": "string"}
+  }
+}

@@ -1,0 +1,20 @@
+id = "COM-11_es_multicurrency_reconciliation"
+name = "Multi-currency invoice reconciliation with discrepancy detection"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["es-instruction", "en-source", "zh-source", "es-output", "reconciliation"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["reconciliation_report_es.md", "discrepancies.json", "converted_totals.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+rubric = "tests/rubric.md"

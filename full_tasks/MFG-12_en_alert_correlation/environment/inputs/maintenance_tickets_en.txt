@@ -1,0 +1,76 @@
+MAINTENANCE TICKET LOG - Week of March 10-16, 2024
+=================================================
+
+Ticket: MT-2024-001
+Date: 2024-03-10
+Equipment: Conveyor Belt CB-01
+Priority: Low
+Description: Routine belt tension adjustment
+Status: Completed
+
+Ticket: MT-2024-002
+Date: 2024-03-10
+Equipment: HVAC System
+Priority: Low
+Description: Filter replacement scheduled
+Status: Completed
+
+Ticket: MT-2024-003
+Date: 2024-03-11
+Equipment: Pump P-03
+Priority: High
+Description: Bearing replacement required. Excessive vibration and temperature readings detected. Bearing has exceeded service life (623 hours vs 500 hour interval).
+Status: In Progress
+Related Alerts: Multiple vibration and temperature alerts from P-03
+
+Ticket: MT-2024-004
+Date: 2024-03-11
+Equipment: Tank T-01
+Priority: Medium
+Description: Pressure sensor calibration drift detected. Sensor showing intermittent false readings. Scheduled for recalibration.
+Status: Scheduled
+Notes: Sensor readings unreliable - alerts from T-01 are likely false positives
+
+Ticket: MT-2024-005
+Date: 2024-03-12
+Equipment: Safety Cell C-02
+Priority: Low
+Description: Operator training refresher needed. Multiple safety door and fence violations logged.
+Status: Pending
+
+Ticket: MT-2024-006
+Date: 2024-03-12
+Equipment: Lighting Circuit
+Priority: Low
+Description: Fluorescent ballast replacement in Zone 3
+Status: Completed
+
+Ticket: MT-2024-007
+Date: 2024-03-13
+Equipment: Power Distribution Board PDB-2
+Priority: High
+Description: Recurring power quality issues. UPS switchover events and voltage fluctuations traced to utility supply instability. Electrician dispatched.
+Status: In Progress
+Related Alerts: Voltage and power quality alerts from PDB-2
+
+Ticket: MT-2024-008
+Date: 2024-03-13
+Equipment: Dust Collector
+Priority: Medium
+Description: Filter differential pressure high. Bag replacement scheduled.
+Status: Scheduled
+
+Ticket: MT-2024-009
+Date: 2024-03-14
+Equipment: CNC Lathe M-05
+Priority: High
+Description: Coolant system leak identified. Coolant level dropping, temperature rising. Leak traced to fitting on return line. Parts ordered.
+Status: In Progress
+Related Alerts: Coolant temperature and flow alerts from M-05
+
+Ticket: MT-2024-010
+Date: 2024-03-15
+Equipment: Exhaust Fan EF-02
+Priority: Medium
+Description: Fan motor bearing noise. Monitoring for now.
+Status: Monitoring

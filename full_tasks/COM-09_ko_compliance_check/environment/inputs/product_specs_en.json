@@ -1,0 +1,221 @@
+{
+  "products": [
+    {
+      "id": "PROD-001",
+      "name": "SmartBand Pro X1",
+      "category": "health_wellness_device",
+      "description": "Fitness tracker with heart rate, SpO2, and sleep monitoring",
+      "specifications": {
+        "battery": {
+          "type": "Li-ion",
+          "capacity_mah": 230,
+          "voltage": "3.7V",
+          "charge_cycles_rated": 500,
+          "charge_protection_voltage": "4.20V",
+          "discharge_cutoff_voltage": "3.0V"
+        },
+        "wireless": {
+          "bluetooth": "5.2 BLE",
+          "sar_value_w_per_kg": 0.45,
+          "frequency": "2.4GHz"
+        },
+        "physical": {
+          "weight_g": 28,
+          "water_resistance": "IP68",
+          "materials_skin_contact": "medical-grade silicone, stainless steel",
+          "operating_temp_c": "-10 to 50",
+          "storage_temp_c": "-20 to 60"
+        },
+        "measurements": {
+          "heart_rate_accuracy": "±3bpm",
+          "spo2_accuracy": "±2%",
+          "claims": ["heart rate monitoring", "blood oxygen level", "sleep tracking"]
+        },
+        "certifications_held": ["FCC Part 15", "CE", "UN 38.3"],
+        "labeling": {
+          "languages": ["English", "Chinese"],
+          "includes_fcc_id": true,
+          "includes_safety_warnings": true
+        }
+      }
+    },
+    {
+      "id": "PROD-002",
+      "name": "PowerStation 20000",
+      "category": "consumer_electronics_accessory",
+      "subcategory": "portable_charger",
+      "description": "20000mAh portable power bank with 65W PD fast charging",
+      "specifications": {
+        "battery": {
+          "type": "Li-polymer",
+          "capacity_mah": 20000,
+          "voltage": "3.85V",
+          "energy_wh": 77,
+          "charge_cycles_rated": 280,
+          "charge_protection_voltage": "4.30V",
+          "discharge_cutoff_voltage": "2.7V",
+          "overcurrent_protection": "1.5x rated current, 8s cutoff"
+        },
+        "charging": {
+          "input": "USB-C PD 65W (20V/3.25A)",
+          "output_usbc": "65W PD (5V/3A, 9V/3A, 12V/3A, 15V/3A, 20V/3.25A)",
+          "output_usba": "QC 3.0 18W",
+          "simultaneous_output": true
+        },
+        "physical": {
+          "weight_g": 420,
+          "dimensions_mm": "152 x 72 x 25",
+          "drop_test_height_m": 1.0,
+          "operating_temp_c": "0 to 40",
+          "storage_temp_c": "-10 to 45",
+          "humidity_max_pct": 85
+        },
+        "emc": {
+          "conducted_emission_class": "B",
+          "radiated_emission_tested_to_mhz": 1000,
+          "esd_contact_kv": 4,
+          "esd_air_kv": 8
+        },
+        "certifications_held": ["FCC Part 15", "CE", "UN 38.3", "USB-IF certified"],
+        "labeling": {
+          "languages": ["English", "Chinese", "Japanese"],
+          "capacity_marking": "20000mAh / 77Wh",
+          "includes_fcc_id": true
+        }
+      }
+    },
+    {
+      "id": "PROD-003",
+      "name": "AirSound NC700",
+      "category": "electronic_device",
+      "subcategory": "wireless_headphone",
+      "description": "Active noise cancelling over-ear headphones with Bluetooth 5.3",
+      "specifications": {
+        "battery": {
+          "type": "Li-polymer",
+          "capacity_mah": 700,
+          "voltage": "3.7V",
+          "charge_cycles_rated": 400,
+          "charge_protection_voltage": "4.20V",
+          "discharge_cutoff_voltage": "3.2V"
+        },
+        "wireless": {
+          "bluetooth": "5.3",
+          "sar_value_w_per_kg": 0.12,
+          "frequency": "2.4GHz",
+          "codec": ["SBC", "AAC", "LDAC"]
+        },
+        "audio": {
+          "driver_size_mm": 40,
+          "frequency_response_hz": "20-40000",
+          "anc_depth_db": -35,
+          "impedance_ohm": 32
+        },
+        "physical": {
+          "weight_g": 265,
+          "materials_skin_contact": "protein leather, memory foam, ABS plastic",
+          "operating_temp_c": "0 to 45",
+          "storage_temp_c": "-20 to 50",
+          "drop_test_height_m": 1.2
+        },
+        "emc": {
+          "conducted_emission_class": "B",
+          "radiated_emission_tested_to_mhz": 1000,
+          "esd_contact_kv": 4,
+          "esd_air_kv": 6
+        },
+        "certifications_held": ["FCC Part 15", "CE", "MFi"],
+        "labeling": {
+          "languages": ["English"],
+          "includes_fcc_id": true,
+          "includes_safety_warnings": true
+        }
+      }
+    },
+    {
+      "id": "PROD-004",
+      "name": "SmartScale WiFi S2",
+      "category": "health_wellness_device",
+      "description": "Smart body composition scale with WiFi connectivity and app integration",
+      "specifications": {
+        "battery": {
+          "type": "AAA batteries x4",
+          "voltage": "6V total",
+          "estimated_life_months": 12
+        },
+        "wireless": {
+          "wifi": "2.4GHz 802.11 b/g/n",
+          "bluetooth": "5.0 BLE",
+          "sar_value_w_per_kg": null
+        },
+        "measurements": {
+          "weight_accuracy": "±100g",
+          "body_fat_accuracy": "±1.5%",
+          "max_load_kg": 180,
+          "claims": ["body weight", "body fat percentage", "muscle mass", "BMI"]
+        },
+        "physical": {
+          "weight_g": 1800,
+          "materials_skin_contact": "tempered glass, ITO conductive layer",
+          "operating_temp_c": "5 to 40",
+          "storage_temp_c": "-10 to 50"
+        },
+        "emc": {
+          "conducted_emission_class": "B",
+          "radiated_emission_tested_to_mhz": 6000,
+          "esd_contact_kv": 4,
+          "esd_air_kv": 8
+        },
+        "certifications_held": ["FCC Part 15", "CE"],
+        "labeling": {
+          "languages": ["English", "Chinese"],
+          "includes_fcc_id": true,
+          "includes_safety_warnings": false
+        }
+      }
+    },
+    {
+      "id": "PROD-005",
+      "name": "ChargeHub 65W",
+      "category": "consumer_electronics_accessory",
+      "subcategory": "wall_charger",
+      "description": "GaN 65W USB-C charger with dual ports",
+      "specifications": {
+        "electrical": {
+          "input": "100-240V AC, 50/60Hz, 1.5A max",
+          "output_usbc1": "65W PD3.0 (5V/3A, 9V/3A, 12V/3A, 15V/3A, 20V/3.25A)",
+          "output_usbc2": "30W PD (5V/3A, 9V/2.22A, 12V/2.5A, 15V/2A)",
+          "total_output": "65W max combined",
+          "efficiency": ">92%"
+        },
+        "safety": {
+          "overcurrent_protection": true,
+          "overvoltage_protection": true,
+          "short_circuit_protection": true,
+          "over_temperature_protection": "auto-shutdown at 110°C"
+        },
+        "physical": {
+          "weight_g": 120,
+          "dimensions_mm": "55 x 55 x 32",
+          "operating_temp_c": "0 to 40",
+          "surface_temp_max_c": 72,
+          "plug_type": "US/EU foldable prongs"
+        },
+        "emc": {
+          "conducted_emission_class": "B",
+          "radiated_emission_tested_to_mhz": 1000,
+          "esd_contact_kv": 4,
+          "esd_air_kv": 8,
+          "leakage_current_ma": 0.20
+        },
+        "certifications_held": ["FCC Part 15", "UL 62368-1", "CE", "USB-IF PD3.0"],
+        "labeling": {
+          "languages": ["English", "Chinese", "Korean"],
+          "includes_fcc_id": true,
+          "includes_safety_warnings": true,
+          "includes_prop65_warning": false
+        }
+      }
+    }
+  ]
+}

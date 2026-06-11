@@ -1,0 +1,21 @@
+id = "LEG-02_vi_labor_compliance"
+name = "Vietnamese labor contract compliance audit against ILO standards"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 3
+estimated_steps = 6
+timeout_sec = 1800
+tags = ["vi-instruction", "vi-source", "en-source", "vi-output", "legal", "labor", "compliance"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["compliance_checklist_vi.md", "gap_analysis_vi.json", "risk_items_vi.json", "remediation_plan_vi.md"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

@@ -1,0 +1,38 @@
+{
+  "weekly_target": {
+    "SMT-A线": {
+      "daily_plan": 2400,
+      "yield_target": 0.97,
+      "shift_plan": "2 shifts"
+    },
+    "SMT-B线": {
+      "daily_plan": 2000,
+      "yield_target": 0.96,
+      "shift_plan": "2 shifts"
+    },
+    "组装线C": {
+      "daily_plan": 1600,
+      "yield_target": 0.97,
+      "shift_plan": "2 shifts"
+    }
+  },
+  "quality_target": 0.97,
+  "period": "2024-03-18 to 2024-03-24",
+  "working_days": 7,
+  "total_weekly_target": {
+    "SMT-A线": 16800,
+    "SMT-B线": 14000,
+    "组装线C": 11200
+  },
+  "kpi_targets": {
+    "oee_target": 0.85,
+    "scrap_rate_max": 0.03,
+    "downtime_max_minutes_per_day": 30,
+    "delivery_rate": 0.98
+  },
+  "notes": [
+    "周三SMT-A线有预防性维护计划",
+    "本周有新物料批次投入SMT-B线",
+    "组装线C的测试设备需要校准"
+  ]
+}

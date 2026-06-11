@@ -1,0 +1,65 @@
+{
+  "valuation_date": "2024-02-28",
+  "prepared_by": "Deloitte Touche Tohmatsu (Japan)",
+  "target_company": "Beijing Huashu Intelligent Technology Co., Ltd.",
+  "methodology": {
+    "primary": "DCF (Discounted Cash Flow)",
+    "secondary": "Comparable Company Analysis",
+    "crosscheck": "Precedent Transaction Analysis"
+  },
+  "dcf_parameters": {
+    "projection_period_years": 5,
+    "terminal_growth_rate_pct": 3.0,
+    "wacc_pct": 12.5,
+    "revenue_cagr_pct": 15.0,
+    "terminal_ebitda_margin_pct": 18.0,
+    "projected_revenues_rmb_millions": [328, 377, 433, 498, 573],
+    "projected_ebitda_rmb_millions": [49, 60, 74, 90, 103],
+    "enterprise_value_rmb_millions": 830,
+    "net_debt_rmb_millions": -53,
+    "equity_value_rmb_millions": 883,
+    "equity_value_usd_millions": 122.6,
+    "exchange_rate_usd_rmb": 7.2
+  },
+  "comparable_companies": {
+    "companies": [
+      {"name": "Kingdee International", "ev_revenue": 5.2, "ev_ebitda": 28.0},
+      {"name": "Yonyou Network", "ev_revenue": 4.8, "ev_ebitda": 32.0},
+      {"name": "Sangfor Technologies", "ev_revenue": 6.1, "ev_ebitda": 22.0},
+      {"name": "Glodon Company", "ev_revenue": 7.3, "ev_ebitda": 35.0}
+    ],
+    "median_ev_revenue": 5.65,
+    "median_ev_ebitda": 30.0,
+    "implied_ev_usd_millions": [112, 128],
+    "implied_equity_usd_millions": [119, 135]
+  },
+  "valuation_summary": {
+    "dcf_equity_value_usd_millions": 122.6,
+    "comps_equity_value_range_usd_millions": [119, 135],
+    "selected_enterprise_value_usd_millions": 125.0,
+    "40_pct_stake_value_usd_millions": 50.0,
+    "control_premium_pct": 10,
+    "minority_discount_pct": 0,
+    "notes": "Control premium applied as acquisition completes 100% ownership"
+  },
+  "net_asset_value": {
+    "total_assets_rmb_millions": 420,
+    "total_liabilities_rmb_millions": 146,
+    "net_assets_rmb_millions": 274,
+    "net_assets_usd_millions": 38.06,
+    "book_value_40pct_usd_millions": 15.2,
+    "premium_to_book_pct": 229
+  },
+  "key_assumptions": [
+    "China enterprise software market growth at 12-15% CAGR",
+    "Target maintains government client relationships",
+    "No material regulatory changes affecting data business",
+    "Successful integration with parent company systems",
+    "RMB/USD exchange rate remains within 7.0-7.5 range"
+  ],
+  "risk_adjustments": [
+    {"factor": "China regulatory risk", "discount_pct": 5},
+    {"factor": "Key person dependency (Chen Wei)", "discount_pct": 3},
+    {"factor": "Government client concentration", "discount_pct": 2}
+  ]
+}

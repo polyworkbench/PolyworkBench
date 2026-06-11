@@ -1,0 +1,21 @@
+id = "COM-09_ko_compliance_check"
+name = "Multi-framework regulatory compliance check with Korean output"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["ko-instruction", "en-source", "zh-source", "ja-source", "ko-output", "compliance", "regulatory"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["compliance_matrix_ko.json", "gap_analysis_ko.md", "action_items_ko.json", "regulatory_summary.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COM-07 Output Schema",
+  "type": "object",
+  "required": ["total_products", "inconsistency_count", "markets_analyzed"],
+  "properties": {
+    "total_products": {
+      "type": "integer",
+      "description": "Total number of products analyzed across markets"
+    },
+    "inconsistency_count": {
+      "type": "integer",
+      "description": "Number of pricing inconsistencies detected"
+    },
+    "markets_analyzed": {
+      "type": "array",
+      "description": "List of market codes analyzed (e.g., CN, RU, KR, VN)",
+      "items": {"type": "string"}
+    },
+    "arbitrage_opportunities": {
+      "type": "integer",
+      "description": "Number of potential arbitrage opportunities identified"
+    },
+    "margin_violations": {
+      "type": "integer",
+      "description": "Number of margin threshold violations detected"
+    },
+    "most_inconsistent_product": {
+      "type": "string",
+      "description": "Product ID with the highest pricing variance across markets"
+    }
+  }
+}

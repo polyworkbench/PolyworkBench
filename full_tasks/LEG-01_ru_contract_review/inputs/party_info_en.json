@@ -1,0 +1,44 @@
+{
+  "parties": {
+    "seller": {
+      "name": "Shenzhen HuaTech Electronics Co., Ltd.",
+      "name_zh": "深圳华科电子有限公司",
+      "jurisdiction": "People's Republic of China",
+      "registration_number": "91440300MA5DQRX42K",
+      "address": "Building 12, Nanshan Science Park, Shenzhen, Guangdong 518057, PRC",
+      "authorized_representative": "Chen Wei (陈伟)",
+      "title": "Chief Executive Officer",
+      "contact_email": "chen.wei@huatech-sz.cn",
+      "annual_revenue_usd": 120000000,
+      "employees": 3500,
+      "certifications": ["ISO 9001:2015", "ISO 14001:2015", "IATF 16949:2016"]
+    },
+    "buyer": {
+      "name": "Thornton-Clarke Industrial Solutions Ltd.",
+      "jurisdiction": "England and Wales",
+      "registration_number": "08934521",
+      "address": "45 Canary Wharf Tower, London E14 5AB, United Kingdom",
+      "authorized_representative": "James R. Thornton",
+      "title": "Managing Director",
+      "contact_email": "j.thornton@thornton-clarke.co.uk",
+      "annual_revenue_usd": 85000000,
+      "employees": 1200,
+      "parent_company": "Thornton Group Holdings plc"
+    }
+  },
+  "relationship": {
+    "type": "supply_agreement",
+    "duration_years": 3,
+    "commencement_date": "2024-03-15",
+    "annual_contract_value_usd": 4500000,
+    "strategic_importance": "high",
+    "previous_dealings": false
+  },
+  "regulatory_context": {
+    "seller_jurisdiction_regulator": "State Administration for Market Regulation (SAMR)",
+    "buyer_jurisdiction_regulator": "Companies House / FCA",
+    "trade_compliance": ["UK Export Control Act 2002", "PRC Export Control Law 2020"],
+    "sanctions_screening": "completed_2024-02-28",
+    "anti_bribery": ["UK Bribery Act 2010", "PRC Anti-Unfair Competition Law"]
+  }
+}

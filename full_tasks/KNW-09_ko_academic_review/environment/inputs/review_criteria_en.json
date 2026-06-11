@@ -1,0 +1,47 @@
+{
+  "conference": "ACML 2025 (Asian Conference on Machine Learning)",
+  "review_type": "double-blind peer review",
+  "criteria": [
+    {
+      "name": "novelty",
+      "description": "Originality and novelty of the proposed approach compared to existing work",
+      "weight": 0.25,
+      "scale": "1-10"
+    },
+    {
+      "name": "methodology",
+      "description": "Soundness of the proposed method, theoretical grounding, and technical correctness",
+      "weight": 0.3,
+      "scale": "1-10"
+    },
+    {
+      "name": "clarity",
+      "description": "Quality of writing, organization, and presentation of ideas",
+      "weight": 0.2,
+      "scale": "1-10"
+    },
+    {
+      "name": "significance",
+      "description": "Potential impact, practical applicability, and contribution to the field",
+      "weight": 0.25,
+      "scale": "1-10"
+    }
+  ],
+  "overall_recommendation_options": [
+    "strong accept",
+    "accept",
+    "weak accept",
+    "borderline",
+    "weak reject",
+    "reject",
+    "strong reject"
+  ],
+  "required_sections": [
+    "Summary",
+    "Strengths",
+    "Weaknesses",
+    "Questions to Authors",
+    "Suggestions for Improvement",
+    "Overall Assessment"
+  ]
+}

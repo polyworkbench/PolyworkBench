@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KNW-07 Output Schema",
+  "type": "object",
+  "required": ["questions_answered", "sources_consulted"],
+  "properties": {
+    "questions_answered": {
+      "type": "integer",
+      "description": "Number of questions answered from cross-lingual sources"
+    },
+    "sources_consulted": {
+      "type": "integer",
+      "description": "Number of source documents consulted across 5 languages"
+    },
+    "languages_covered": {
+      "type": ["integer", "array"],
+      "description": "Number or list of languages from which sources were used"
+    },
+    "average_confidence": {
+      "type": "number",
+      "description": "Average confidence score across all answers"
+    },
+    "verified_facts": {
+      "type": "integer",
+      "description": "Number of facts verified with citations"
+    }
+  }
+}

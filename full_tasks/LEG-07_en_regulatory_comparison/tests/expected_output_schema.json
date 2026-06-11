@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LEG-07 Output Schema",
+  "type": "object",
+  "required": ["jurisdictions_analyzed", "total_requirements_mapped"],
+  "properties": {
+    "jurisdictions_analyzed": {
+      "type": ["integer", "array"],
+      "description": "Number or list of jurisdictions analyzed (China, Korea, Vietnam, Japan)"
+    },
+    "total_requirements_mapped": {
+      "type": "integer",
+      "description": "Total number of regulatory requirements mapped across jurisdictions"
+    },
+    "gaps_identified": {
+      "type": "integer",
+      "description": "Number of compliance gaps identified"
+    },
+    "strictest_jurisdiction": {
+      "type": "string",
+      "description": "Jurisdiction with the strictest data protection requirements"
+    },
+    "compliance_roadmap_items": {
+      "type": "integer",
+      "description": "Number of items in the compliance roadmap"
+    }
+  }
+}

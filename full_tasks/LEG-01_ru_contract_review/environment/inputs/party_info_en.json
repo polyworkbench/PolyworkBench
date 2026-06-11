@@ -1,0 +1,40 @@
+{
+  "buyer": {
+    "legal_name": "TechGlobal Solutions Ltd.",
+    "jurisdiction": "England and Wales",
+    "registration_number": "12345678",
+    "registered_address": "45 Canary Wharf, London E14 5AB, United Kingdom",
+    "representative": {
+      "name": "James Richardson",
+      "title": "Chief Procurement Officer",
+      "email": "j.richardson@techglobal.co.uk"
+    },
+    "business_type": "Electronics distribution and integration",
+    "annual_revenue_usd": 850000000,
+    "employees": 4200
+  },
+  "seller": {
+    "legal_name_en": "Shenzhen HuaChuang Technology Co., Ltd.",
+    "legal_name_zh": "深圳华创科技有限公司",
+    "jurisdiction": "People's Republic of China",
+    "unified_social_credit_code": "91440300MA5F4XYZ12",
+    "registered_address": "Building 8, Nanshan Science Park, Shenzhen 518057, China",
+    "representative": {
+      "name_en": "Wang Jianming",
+      "name_zh": "王建明",
+      "title_en": "General Manager",
+      "title_zh": "总经理",
+      "email": "wangjm@huachuangtech.cn"
+    },
+    "business_type": "Semiconductor manufacturing and electronic components",
+    "annual_revenue_cny": 2300000000,
+    "employees": 8500
+  },
+  "relationship": {
+    "first_transaction_date": "2021-06-15",
+    "total_orders_to_date": 47,
+    "total_value_usd": 23500000,
+    "average_order_value_usd": 500000,
+    "payment_history": "Generally compliant, 3 late payments in 2023"
+  }
+}

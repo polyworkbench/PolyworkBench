@@ -1,0 +1,39 @@
+===== DEFECT PHOTO DESCRIPTIONS =====
+(Visual inspection documentation - text descriptions of defect photographs)
+
+Photo ID: DEF-20240319-001
+Date: 2024-03-19
+Batch: LOT-A0319-01
+Description: Close-up 10x magnification of QFP U3 (MCU). Multiple cold solder joints visible on pins 15-22 (south side). Solder appears dull gray with visible separation between pad and pin. Wicking observed on pins 18-19. Likely cause: insufficient reflow temperature or time above liquidus too short.
+
+Photo ID: DEF-20240319-002
+Date: 2024-03-19
+Batch: LOT-B0319-01
+Description: Wide-angle view of board bottom side. Approximately 30% of solder joints on bottom side show incomplete reflow. Solder paste has partially melted but not fully wetted to pads. Pattern suggests temperature profile issue - bottom heaters may be insufficient.
+
+Photo ID: DEF-20240320-001
+Date: 2024-03-20
+Batch: LOT-A0320-01
+Description: Series of 5 boards from same batch showing progressive degradation of solder quality. First board (produced 06:15) shows acceptable joints. Last board (produced 08:45) shows widespread cold solder. Consistent with gradual temperature drop in reflow zone 3.
+
+Photo ID: DEF-20240320-002
+Date: 2024-03-20
+Batch: LOT-A0320-01
+Description: High magnification (20x) of IC U5 pins 12-13 showing solder bridge. Excess solder has formed a continuous connection between adjacent pins. Pin pitch is 0.5mm. Also visible: bridge between pins 45-46 on opposite side. Stencil aperture may need review.
+
+Photo ID: DEF-20240320-003
+Date: 2024-03-20
+Batch: LOT-A0320-01
+Description: X-ray image showing BGA U1 (underneath). 3 voids detected in corner balls (>25% void area). Ball diameter appears within spec but voiding exceeds IPC-A-610 Class 2 limit of 25%. Likely moisture-related.
+
+Photo ID: DEF-20240321-001
+Date: 2024-03-21
+Batch: LOT-B0321-01
+Description: QFP package showing misalignment and partial cold solder on leads. Paste deposition appears uneven - some pads have excess paste while adjacent pads are starved. Nozzle contamination suspected causing placement pressure variation.
+
+Photo ID: DEF-20240323-001
+Date: 2024-03-23
+Batch: LOT-A0323-01
+Description: Component placement area showing 3 missing capacitors (C8, C9 positions). Feeder tape visible in reject bin shows bent cover tape suggesting mechanical jam. Adjacent components show slight positional shift suggesting vibration during placement.
+
+===== END OF DESCRIPTIONS =====

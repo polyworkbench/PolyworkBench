@@ -1,0 +1,21 @@
+id = "KNW-04_ja_patent_landscape"
+name = "Trilingual patent landscape analysis into Japanese report"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["ja-instruction", "en-source", "zh-source", "ko-source", "ja-output", "patent", "analysis"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["landscape_report_ja.md", "patent_matrix.json", "trend_analysis_ja.json", "whitespace_map.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

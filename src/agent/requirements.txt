@@ -1,0 +1,4 @@
+# LongHorizon Agent Module Dependencies
+python-dotenv>=1.0.0
+tomli>=2.0.0;python_version<"3.11"
+requests>=2.28.0

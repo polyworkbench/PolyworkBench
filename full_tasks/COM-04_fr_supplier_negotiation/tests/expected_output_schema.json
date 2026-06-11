@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COM-04 Output Schema",
+  "type": "object",
+  "required": ["landed_cost_analysis"],
+  "properties": {
+    "landed_cost_analysis": {
+      "type": ["array", "object"],
+      "description": "Landed cost breakdown per product in EUR with FOB, freight, insurance, duty components"
+    },
+    "risk_matrix": {
+      "type": ["array", "object"],
+      "description": "Risk matrix with probability, impact scoring, and mitigation measures"
+    },
+    "memo_negociation": {
+      "type": "string",
+      "description": "French negotiation memo content with supplier analysis"
+    },
+    "counter_proposal": {
+      "type": "string",
+      "description": "French counter-proposal with revised negotiation terms"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+id = "LOC-11_es_code_doc_localization"
+name = "Spanish API documentation localization preserving code blocks"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 10
+timeout_sec = 3000
+tags = ["es-instruction", "en-source", "es-output", "localization", "technical", "code-preservation"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["api_docs_es.md", "validation_results.json", "translation_log.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

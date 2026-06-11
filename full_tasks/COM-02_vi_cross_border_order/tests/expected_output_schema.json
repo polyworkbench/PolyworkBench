@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COM-02 Output Schema",
+  "type": "object",
+  "required": ["orders_reconciled"],
+  "properties": {
+    "orders_reconciled": {
+      "type": ["array", "object"],
+      "description": "Reconciled orders with customs data including VND values and HS codes"
+    },
+    "shipping_labels": {
+      "type": ["array", "object"],
+      "description": "Vietnamese shipping labels with recipient addresses and phone numbers"
+    },
+    "customs_declarations": {
+      "type": ["array", "object"],
+      "description": "Vietnamese customs declarations with HS codes and declared values"
+    },
+    "discrepancies": {
+      "type": ["array", "object", "string"],
+      "description": "Detected discrepancies between invoices and customs declarations"
+    }
+  }
+}

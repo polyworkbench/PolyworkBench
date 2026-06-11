@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MFG-08 Output Schema",
+  "type": "object",
+  "required": ["test_summary"],
+  "properties": {
+    "test_summary": {
+      "type": ["array", "object"],
+      "description": "Test results summary mapping Chinese GB tests to EU EN standards with pass/fail status"
+    },
+    "declaration_conformite": {
+      "type": "string",
+      "description": "French Declaration of Conformity document content"
+    },
+    "rapport_technique": {
+      "type": "string",
+      "description": "French technical report with test coverage for LVD, EMC, and RoHS"
+    },
+    "checklist_ce": {
+      "type": ["object", "array"],
+      "description": "CE marking checklist with conformity status for each requirement"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+id = "KNW-02_ko_tech_report"
+name = "Synthesize English whitepaper and Japanese notes into Korean tech assessment"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 4
+estimated_steps = 7
+timeout_sec = 2400
+tags = ["ko-instruction", "en-source", "ja-source", "ko-output", "technology", "assessment"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["tech_assessment_ko.md", "comparison_matrix.json", "feasibility_ko.json", "recommendations_ko.md"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

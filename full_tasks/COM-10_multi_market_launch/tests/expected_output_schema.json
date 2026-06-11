@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COM-10 Output Schema",
+  "type": "object",
+  "required": ["markets_covered", "total_contradictions_found", "recommended_launch_order", "go_no_go_recommendation"],
+  "properties": {
+    "markets_covered": {
+      "type": "integer",
+      "description": "Number of target markets covered in analysis (expected: 4)"
+    },
+    "total_contradictions_found": {
+      "type": "integer",
+      "description": "Total contradictions detected across multilingual data sources"
+    },
+    "recommended_launch_order": {
+      "type": "array",
+      "description": "Recommended market launch sequence",
+      "items": {"type": "string"}
+    },
+    "go_no_go_recommendation": {
+      "type": "string",
+      "description": "Overall launch recommendation (go, no-go, or conditional)"
+    },
+    "total_budget_allocated_usd": {
+      "type": "number",
+      "description": "Total budget allocated in USD (max 8.5M constraint)"
+    }
+  }
+}

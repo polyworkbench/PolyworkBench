@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LEG-06 Output Schema",
+  "type": "object",
+  "required": ["dispute_type", "claim_amount"],
+  "properties": {
+    "dispute_type": {
+      "type": "string",
+      "description": "Type of dispute (e.g., contract breach, arbitration)"
+    },
+    "claim_amount": {
+      "type": ["number", "string"],
+      "description": "Total claim amount in the dispute"
+    },
+    "key_evidence_count": {
+      "type": "integer",
+      "description": "Number of key evidence items compiled"
+    },
+    "recommended_strategy": {
+      "type": "string",
+      "description": "Recommended litigation strategy"
+    },
+    "timeline_events": {
+      "type": "integer",
+      "description": "Number of key timeline events documented"
+    }
+  }
+}

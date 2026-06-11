@@ -1,0 +1,56 @@
+GOVERNING LAW REFERENCE NOTES
+==============================
+
+1. ENGLISH LAW (as referenced in Master Agreement Article 13)
+
+- The Senior Courts Act 1981 governs jurisdiction of English courts
+- Commercial contracts governed by English law benefit from extensive case law
+- English courts generally respect choice of law clauses in international contracts
+- The Unfair Contract Terms Act 1977 (UCTA) may affect liability limitation clauses
+- Under English law, a "side letter" or supplemental agreement can modify the master agreement if properly executed
+
+2. CHINESE LAW (as referenced in Side Letter Article 4)
+
+- The Civil Code of the People's Republic of China (2021) is the primary governing legislation
+- Article 510: Where terms are unclear, parties may supplement by agreement
+- Article 142: Interpretation of expressions of intent - literal meaning + context + purpose
+- CIETAC (China International Economic and Trade Arbitration Commission) is China's leading arbitration institution
+- Chinese law generally respects party autonomy in international commercial contracts
+- Under Chinese law, a supplemental agreement (补充协议) signed later prevails over earlier agreements if conflicts exist (Article 567 of Civil Code)
+
+3. CONFLICT OF LAWS ISSUES
+
+- When two agreements specify different governing laws, the choice of law clause in the later agreement may control
+- Under English conflict of laws rules (Rome I Regulation, retained): parties' choice of law is generally respected
+- Under Chinese Private International Law: Article 41 of the Law on Application of Law for Foreign-Related Civil Relations - parties may choose applicable law
+- Key issue: If the side letter specifies Chinese law and the master agreement specifies English law, there is a genuine conflict
+- Practical risk: An English court would likely apply English law; a Chinese court/CIETAC tribunal would likely apply Chinese law
+- This creates "forum shopping" risk where outcome depends on where proceedings are initiated
+
+4. PAYMENT TERMS CONFLICT
+
+- English commercial practice: Net 30 is standard; longer payment terms increase credit risk
+- Chinese commercial practice: Net 60 is common in domestic Chinese supply chains
+- Currency risk: Switching from USD to CNY introduces exchange rate exposure
+- Late Payment of Commercial Debts (Interest) Act 1998 (UK) may apply under English law terms
+
+5. LIABILITY CAP CONSIDERATIONS
+
+- CNY 5,000,000 ≈ approximately USD 700,000 (at approximate rate of 7.1 CNY/USD)
+- CNY 10,000,000 ≈ approximately USD 1,400,000
+- Doubling the liability cap significantly increases financial exposure for both parties
+- Under English law, liability caps must be "reasonable" per UCTA
+- Under Chinese law, liability caps are generally enforceable unless unconscionable
+
+6. DELIVERY TERMS (INCOTERMS 2020)
+
+- Master Agreement: DDP (Delivered Duty Paid) UK - maximum obligation on Seller
+- Side Letter: FOB Shenzhen - risk transfers to Buyer at port of shipment
+- This represents a fundamental shift in risk allocation for transit, customs, and insurance
+
+7. PRACTICAL RECOMMENDATIONS
+
+- Conflicts between master agreements and side letters should be resolved by explicit hierarchy clause
+- Both documents should ideally reference the same governing law
+- An arbitration clause should clearly specify: seat, rules, language, and number of arbitrators
+- Payment terms should be aligned across all documents to avoid disputes

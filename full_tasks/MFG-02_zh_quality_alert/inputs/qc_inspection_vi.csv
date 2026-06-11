@@ -1,0 +1,21 @@
+mã_kiểm_tra,ngày,ca,dây_chuyền,sản_phẩm,lô_hàng,loại_lỗi,mô_tả_lỗi,vị_trí,mức_độ,số_lượng_lỗi,tổng_kiểm,nhân_viên_QC
+QC-001,2024-04-01,Sáng,A,PCB-X500,LOT-2024-0401A,Hàn,Hàn thiếc không đều tại chân IC U3 vùng BGA,U3-BGA,Nghiêm trọng,3,200,Nguyễn Thị Lan
+QC-002,2024-04-01,Sáng,A,PCB-X500,LOT-2024-0401A,Hàn,Cầu thiếc giữa chân 12 và 13 của connector J5,J5-Pin12-13,Nặng,5,200,Nguyễn Thị Lan
+QC-003,2024-04-01,Chiều,A,PCB-X500,LOT-2024-0401B,Hàn,Thiếc lạnh tại chân linh kiện R22 và R23,R22-R23,Nhẹ,8,200,Trần Văn Minh
+QC-004,2024-04-01,Chiều,B,PCB-X500,LOT-2024-0401C,Lắp ráp,Vít bị xiết quá lực tại vị trí M3-07 gây nứt vỏ,M3-07,Nặng,2,150,Lê Thị Hoa
+QC-005,2024-04-02,Sáng,A,PCB-X500,LOT-2024-0402A,Hàn,BGA bị void >25% tại IC U3,U3-BGA,Nghiêm trọng,4,200,Nguyễn Thị Lan
+QC-006,2024-04-02,Sáng,A,PCB-X500,LOT-2024-0402A,Linh kiện,Tụ C15 bị nứt bề mặt do nhiệt độ reflow quá cao,C15,Nghiêm trọng,2,200,Nguyễn Thị Lan
+QC-007,2024-04-02,Chiều,A,PCB-X500,LOT-2024-0402B,Hàn,Thiếc không bám tại pad linh kiện Q7,Q7-Pad,Nặng,6,200,Trần Văn Minh
+QC-008,2024-04-02,Chiều,B,PCB-X500,LOT-2024-0402C,Lắp ráp,Cáp FPC bị gập gãy khi lắp vào connector CN3,CN3-FPC,Nặng,3,150,Lê Thị Hoa
+QC-009,2024-04-03,Sáng,A,PCB-X500,LOT-2024-0403A,Hàn,Cầu thiếc nhiều vị trí trên IC U1 (QFP-64),U1-QFP64,Nghiêm trọng,5,200,Nguyễn Thị Lan
+QC-010,2024-04-03,Sáng,A,PCB-X500,LOT-2024-0403A,Bề mặt,Vết ố flux chưa rửa sạch vùng xung quanh U1,U1-Area,Nhẹ,12,200,Nguyễn Thị Lan
+QC-011,2024-04-03,Chiều,A,PCB-X500,LOT-2024-0403B,Hàn,Tombstone trên linh kiện R45 R46 R47,R45-R47,Nặng,7,200,Trần Văn Minh
+QC-012,2024-04-03,Chiều,C,PCB-X500,LOT-2024-0403D,Chức năng,Lỗi test chức năng: tín hiệu UART không ổn định,UART-Port,Nghiêm trọng,4,180,Phạm Quốc Huy
+QC-013,2024-04-04,Sáng,A,PCB-X500,LOT-2024-0404A,Hàn,BGA void tỷ lệ cao >30% tại U3 và U5,U3-U5-BGA,Nghiêm trọng,6,200,Nguyễn Thị Lan
+QC-014,2024-04-04,Sáng,B,PCB-X500,LOT-2024-0404B,Lắp ráp,Keo dán không đủ độ bám tại heat sink,Heatsink,Nặng,4,150,Lê Thị Hoa
+QC-015,2024-04-04,Chiều,A,PCB-X500,LOT-2024-0404C,Linh kiện,IC U3 bị lệch vị trí >0.3mm so với pad,U3-Placement,Nghiêm trọng,3,200,Trần Văn Minh
+QC-016,2024-04-04,Chiều,C,PCB-X500,LOT-2024-0404D,Chức năng,Mạch không boot được - nghi ngờ do hàn BGA lỗi,Boot-Fail,Nghiêm trọng,5,180,Phạm Quốc Huy
+QC-017,2024-04-05,Sáng,A,PCB-X500,LOT-2024-0405A,Hàn,Hiện tượng wetting kém trên pad Cu bị oxy hóa,Multi-Pad,Nặng,9,200,Nguyễn Thị Lan
+QC-018,2024-04-05,Sáng,A,PCB-X500,LOT-2024-0405A,Bề mặt,Solder ball rời trên bề mặt PCB vùng BGA,BGA-Area,Nặng,4,200,Nguyễn Thị Lan
+QC-019,2024-04-05,Chiều,B,PCB-X500,LOT-2024-0405B,Lắp ráp,Vít thiếu tại vị trí M3-02 và M3-05,M3-02-05,Nặng,3,150,Lê Thị Hoa
+QC-020,2024-04-05,Chiều,C,PCB-X500,LOT-2024-0405C,Chức năng,Dòng tiêu thụ vượt spec 15% ở chế độ standby,Power-Rail,Nặng,6,180,Phạm Quốc Huy

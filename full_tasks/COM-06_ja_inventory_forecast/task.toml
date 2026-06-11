@@ -1,0 +1,21 @@
+id = "COM-06_ja_inventory_forecast"
+name = "Multi-warehouse inventory reconciliation and Japanese forecast"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 4
+estimated_steps = 7
+timeout_sec = 2400
+tags = ["ja-instruction", "zh-source", "ko-source", "en-source", "ja-output", "inventory", "forecast"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["inventory_reconciliation.json", "forecast_report_ja.md", "forecast_script.py", "discrepancies.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

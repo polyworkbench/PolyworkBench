@@ -1,0 +1,69 @@
+{
+  "product_category": "Information Technology Equipment (ITE)",
+  "applicable_directives": [
+    {
+      "id": "2014/35/EU",
+      "name": "Low Voltage Directive (LVD)",
+      "scope": "Electrical safety for equipment operating between 50-1000V AC or 75-1500V DC"
+    },
+    {
+      "id": "2014/30/EU",
+      "name": "Electromagnetic Compatibility (EMC) Directive",
+      "scope": "EMC requirements for all electrical/electronic equipment"
+    },
+    {
+      "id": "2011/65/EU",
+      "name": "Restriction of Hazardous Substances (RoHS) Directive",
+      "scope": "Restriction of certain hazardous substances in EEE"
+    }
+  ],
+  "harmonized_standards": [
+    {
+      "id": "EN 62368-1:2020+A11:2020",
+      "title": "Audio/video, information and communication technology equipment - Safety requirements",
+      "maps_to_gb": "GB4943.1-2022",
+      "directive": "2014/35/EU",
+      "test_categories": ["electrical_safety"]
+    },
+    {
+      "id": "EN 55032:2015+A1:2020",
+      "title": "Electromagnetic compatibility of multimedia equipment - Emission requirements",
+      "maps_to_gb": "GB/T9254.1-2021",
+      "directive": "2014/30/EU",
+      "test_categories": ["conducted_emissions", "radiated_emissions"]
+    },
+    {
+      "id": "EN 55035:2017+A11:2020",
+      "title": "Electromagnetic compatibility of multimedia equipment - Immunity requirements",
+      "maps_to_gb": ["GB/T17626.2-2018", "GB/T17626.4-2018", "GB/T17626.5-2019", "GB/T17626.6-2017", "GB/T17626.11-2020"],
+      "directive": "2014/30/EU",
+      "test_categories": ["esd", "eft", "surge", "conducted_immunity", "voltage_dips"]
+    },
+    {
+      "id": "EN IEC 63000:2018",
+      "title": "Technical documentation for the assessment of electrical and electronic products with respect to the restriction of hazardous substances",
+      "maps_to_gb": "GB/T26572-2011",
+      "directive": "2011/65/EU",
+      "test_categories": ["rohs"]
+    },
+    {
+      "id": "EN 60529:1991+A2:2013",
+      "title": "Degrees of protection provided by enclosures (IP Code)",
+      "maps_to_gb": "GB/T4208-2017",
+      "directive": "2014/35/EU",
+      "test_categories": ["ingress_protection"]
+    }
+  ],
+  "gb_to_en_mapping": {
+    "GB4943.1-2022": "EN 62368-1:2020+A11:2020",
+    "GB/T9254.1-2021": "EN 55032:2015+A1:2020",
+    "GB/T17626.2-2018": "EN 55035:2017+A11:2020 (Section 4.2 - ESD)",
+    "GB/T17626.4-2018": "EN 55035:2017+A11:2020 (Section 4.4 - EFT)",
+    "GB/T17626.5-2019": "EN 55035:2017+A11:2020 (Section 4.5 - Surge)",
+    "GB/T17626.6-2017": "EN 55035:2017+A11:2020 (Section 4.6 - Conducted immunity)",
+    "GB/T17626.11-2020": "EN 55035:2017+A11:2020 (Section 4.11 - Voltage dips)",
+    "GB/T26572-2011": "EN IEC 63000:2018",
+    "GB/T4208-2017": "EN 60529:1991+A2:2013"
+  },
+  "notes": "Chinese GB standards are technically equivalent to IEC/EN standards in most cases. CB scheme test reports can support mutual recognition."
+}

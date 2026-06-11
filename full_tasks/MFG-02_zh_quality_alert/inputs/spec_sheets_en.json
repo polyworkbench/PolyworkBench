@@ -1,0 +1,94 @@
+{
+  "product": "PCB-X500",
+  "revision": "C",
+  "date": "2024-02-15",
+  "specifications": {
+    "BGA_void_limit": {
+      "parameter": "BGA Void Percentage",
+      "unit": "%",
+      "max": 20.0,
+      "critical_threshold": 25.0,
+      "measurement_method": "X-ray inspection",
+      "reference": "IPC-7095D Section 8.3"
+    },
+    "solder_bridge": {
+      "parameter": "Solder Bridge",
+      "unit": "count",
+      "max": 0,
+      "critical_threshold": 0,
+      "measurement_method": "AOI + Visual",
+      "reference": "IPC-A-610G Class 2"
+    },
+    "component_placement": {
+      "parameter": "Component Placement Offset",
+      "unit": "mm",
+      "max": 0.15,
+      "critical_threshold": 0.25,
+      "measurement_method": "AOI measurement",
+      "reference": "IPC-A-610G Section 8.3.2"
+    },
+    "cold_solder": {
+      "parameter": "Cold Solder Joint",
+      "unit": "count",
+      "max": 0,
+      "critical_threshold": 0,
+      "measurement_method": "Visual inspection",
+      "reference": "IPC-A-610G Section 5.2.7"
+    },
+    "tombstone": {
+      "parameter": "Tombstone Defect",
+      "unit": "count",
+      "max": 0,
+      "critical_threshold": 0,
+      "measurement_method": "AOI",
+      "reference": "IPC-A-610G Section 8.3.5"
+    },
+    "screw_torque": {
+      "parameter": "Screw Torque",
+      "unit": "N·m",
+      "min": 0.4,
+      "max": 0.6,
+      "critical_threshold_over": 0.8,
+      "measurement_method": "Torque wrench",
+      "reference": "Assembly SOP-A500-Rev3"
+    },
+    "flux_residue": {
+      "parameter": "Flux Residue",
+      "unit": "μg/cm²",
+      "max": 1.56,
+      "critical_threshold": 3.0,
+      "measurement_method": "Ion chromatography",
+      "reference": "IPC-TM-650 2.3.28"
+    },
+    "standby_current": {
+      "parameter": "Standby Current Consumption",
+      "unit": "mA",
+      "max": 12.0,
+      "critical_threshold": 15.0,
+      "measurement_method": "Current meter at 3.3V rail",
+      "reference": "EE-SPEC-X500-Rev2 Section 4.2"
+    },
+    "uart_signal": {
+      "parameter": "UART Signal Integrity",
+      "unit": "Eye opening %",
+      "min": 70.0,
+      "critical_threshold_under": 50.0,
+      "measurement_method": "Oscilloscope eye diagram",
+      "reference": "EE-SPEC-X500-Rev2 Section 5.1"
+    },
+    "thermal_pad_coverage": {
+      "parameter": "Thermal Pad Solder Coverage",
+      "unit": "%",
+      "min": 60.0,
+      "critical_threshold_under": 40.0,
+      "measurement_method": "X-ray inspection",
+      "reference": "IPC-7093 Section 6.2"
+    }
+  },
+  "acceptance_criteria": {
+    "AQL_critical": 0.0,
+    "AQL_major": 0.65,
+    "AQL_minor": 2.5,
+    "sample_size": "Level II per ANSI/ASQ Z1.4"
+  }
+}

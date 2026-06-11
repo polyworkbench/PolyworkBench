@@ -1,0 +1,146 @@
+{
+  "reference_version": "2024-01",
+  "description": "Справочник кодов ТН ВЭД ЕАЭС для электронных компонентов и аксессуаров",
+  "codes": [
+    {
+      "code": "8528591000",
+      "description_ru": "Мониторы прочие, с жидкокристаллическим экраном (LCD)",
+      "description_en": "Other monitors with LCD screen",
+      "category": "displays",
+      "notes": "Для отдельных LCD модулей без встроенного тюнера"
+    },
+    {
+      "code": "8471494000",
+      "description_ru": "Вычислительные машины, представленные в виде систем, прочие",
+      "description_en": "Data processing machines presented as systems, other",
+      "category": "computers",
+      "notes": "Для главных плат/системных плат с процессором"
+    },
+    {
+      "code": "8534009000",
+      "description_ru": "Печатные схемы прочие",
+      "description_en": "Other printed circuits",
+      "category": "pcb",
+      "notes": "Для электронных модулей на печатных платах"
+    },
+    {
+      "code": "8506509000",
+      "description_ru": "Элементы гальванические и батареи гальванические литиевые прочие",
+      "description_en": "Other lithium cells and batteries",
+      "category": "batteries",
+      "notes": "Для литий-полимерных аккумуляторов"
+    },
+    {
+      "code": "8504403000",
+      "description_ru": "Преобразователи статические, зарядные устройства для аккумуляторов",
+      "description_en": "Static converters, battery chargers",
+      "category": "chargers",
+      "notes": "Для зарядных устройств USB"
+    },
+    {
+      "code": "7616999009",
+      "description_ru": "Изделия из алюминия прочие",
+      "description_en": "Other articles of aluminum",
+      "category": "housing",
+      "notes": "Для корпусов из алюминиевого сплава"
+    },
+    {
+      "code": "7419999000",
+      "description_ru": "Изделия из меди прочие",
+      "description_en": "Other articles of copper",
+      "category": "cooling",
+      "notes": "Для медных теплоотводов и тепловых трубок"
+    },
+    {
+      "code": "8517620000",
+      "description_ru": "Аппаратура для приёма, преобразования и передачи данных",
+      "description_en": "Machines for reception, conversion and transmission of data",
+      "category": "wireless",
+      "notes": "Для модулей WiFi/Bluetooth"
+    },
+    {
+      "code": "8525801900",
+      "description_ru": "Камеры телевизионные, цифровые камеры и записывающие видеокамеры прочие",
+      "description_en": "Other television cameras, digital cameras and video recorders",
+      "category": "cameras",
+      "notes": "Для модулей камер"
+    },
+    {
+      "code": "8518290000",
+      "description_ru": "Громкоговорители прочие",
+      "description_en": "Other loudspeakers",
+      "category": "speakers",
+      "notes": "Для динамиков/громкоговорителей"
+    },
+    {
+      "code": "8536909500",
+      "description_ru": "Аппаратура для коммутации электрических цепей, соединители",
+      "description_en": "Apparatus for switching electrical circuits, connectors",
+      "category": "connectors",
+      "notes": "Для разъёмов USB-C, аудио, SIM, SD"
+    },
+    {
+      "code": "4819200000",
+      "description_ru": "Коробки, ящики из негофрированной бумаги или картона",
+      "description_en": "Boxes and cases of non-corrugated paper or paperboard",
+      "category": "packaging",
+      "notes": "Для картонной упаковки"
+    },
+    {
+      "code": "8544429000",
+      "description_ru": "Проводники электрические прочие, снабжённые соединителями",
+      "description_en": "Other electric conductors with connectors",
+      "category": "cables",
+      "notes": "Для кабелей данных с разъёмами"
+    },
+    {
+      "code": "7007190000",
+      "description_ru": "Стекло закалённое безопасное прочее",
+      "description_en": "Other toughened safety glass",
+      "category": "glass",
+      "notes": "Для защитных стёкол экрана"
+    },
+    {
+      "code": "4901990000",
+      "description_ru": "Книги, брошюры, листовки и аналогичные печатные материалы прочие",
+      "description_en": "Other printed books, brochures, leaflets",
+      "category": "printed",
+      "notes": "Для руководств пользователя и документации"
+    },
+    {
+      "code": "3923290000",
+      "description_ru": "Мешки и пакеты из полимеров этилена прочие",
+      "description_en": "Other sacks and bags of polymers of ethylene",
+      "category": "bags",
+      "notes": "Для полиэтиленовых пакетов и антистатических мешков"
+    },
+    {
+      "code": "4821100000",
+      "description_ru": "Этикетки и ярлыки из бумаги или картона, печатные",
+      "description_en": "Printed labels of paper or paperboard",
+      "category": "labels",
+      "notes": "Для наклеек и этикеток"
+    },
+    {
+      "code": "7326909800",
+      "description_ru": "Изделия из чёрных металлов прочие",
+      "description_en": "Other articles of iron or steel",
+      "category": "metal_parts",
+      "notes": "Для мелких металлических изделий (иглы, штифты)"
+    },
+    {
+      "code": "3926909709",
+      "description_ru": "Изделия из пластмасс и изделия из прочих материалов прочие",
+      "description_en": "Other articles of plastics",
+      "category": "plastic",
+      "notes": "Для силиконовых/пластиковых чехлов и аксессуаров"
+    },
+    {
+      "code": "8529909200",
+      "description_ru": "Части, предназначенные для аппаратуры товарных позиций 8525-8528, сенсорные экраны",
+      "description_en": "Parts for apparatus of headings 8525-8528, touch screens",
+      "category": "touchscreen",
+      "notes": "Для сенсорных панелей/тачскринов"
+    }
+  ]
+}

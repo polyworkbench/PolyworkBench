@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LOC-08 Output Schema",
+  "type": "object",
+  "required": ["total_lessons_adapted", "exercises_created"],
+  "properties": {
+    "total_lessons_adapted": {
+      "type": "integer",
+      "description": "Total number of lessons adapted to Vietnamese curriculum"
+    },
+    "exercises_created": {
+      "type": "integer",
+      "description": "Number of exercises created in Vietnamese"
+    },
+    "assessment_items": {
+      "type": "integer",
+      "description": "Number of assessment items created"
+    },
+    "cultural_adaptations": {
+      "type": "integer",
+      "description": "Number of cultural/pedagogical adaptations made for Vietnamese context"
+    }
+  }
+}

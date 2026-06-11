@@ -1,0 +1,21 @@
+id = "MFG-08_fr_export_certification"
+name = "French CE marking documentation from Chinese test data"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 4
+estimated_steps = 7
+timeout_sec = 2400
+tags = ["fr-instruction", "zh-source", "en-source", "fr-output", "certification", "CE-marking", "compliance"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["declaration_conformite_fr.md", "rapport_technique_fr.md", "test_summary.json", "checklist_ce.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

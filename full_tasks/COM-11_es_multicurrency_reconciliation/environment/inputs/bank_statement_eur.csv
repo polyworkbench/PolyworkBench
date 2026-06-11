@@ -1,0 +1,20 @@
+date,reference,description,debit_eur,credit_eur,balance_eur
+2024-03-01,PAY-USD-081,Acme Corp - Cloud hosting,7820.00,,142180.00
+2024-03-03,PAY-USD-082,TechParts - Server comp,11730.00,,130450.00
+2024-03-04,PAY-CNY-881,Shenzhen Huake - PCB A,11050.00,,119400.00
+2024-03-05,PAY-USD-083,DataFlow - API sub,2944.00,,116456.00
+2024-03-06,PAY-CNY-882,Shanghai Mingtong - Ship,5460.00,,110996.00
+2024-03-07,PAY-CNY-883,Guangzhou Precision - Mold,7384.00,,103612.00
+2024-03-08,PAY-USD-084,Acme Corp - Support,4140.00,,99472.00
+2024-03-09,PAY-CNY-884,Shenzhen Huake - PCB B,4940.00,,94532.00
+2024-03-10,PAY-USD-085,GlobalNet - Bandwidth,2576.00,,91956.00
+2024-03-11,PAY-CNY-885,Beijing Ruanchuang - ERP,3250.00,,88706.00
+2024-03-12,PAY-USD-086,TechParts - Spare parts,1794.00,,86912.00
+2024-03-13,PAY-CNY-886,Shanghai Mingtong - Storage,2405.00,,84507.00
+2024-03-15,PAY-USD-087,SecurityFirst - License,5796.00,,78711.00
+2024-03-16,PAY-CNY-887,Hangzhou Xinda - Chips,4225.00,,74486.00
+2024-03-17,PAY-INV017,Supplier X - Service,2340.00,,72146.00
+2024-03-20,PAY-USD-089,CloudScale - Migration,2806.00,,69340.00
+2024-03-21,PAY-CNY-892,Shenzhen Huake - PCB A DUP,11050.00,,58290.00
+2024-03-22,PAY-CNY-889,Dongguan Lida - Packaging,884.00,,57406.00
+2024-03-25,PAY-CNY-890,Shanghai Mingtong - Express,1950.00,,55456.00

@@ -1,0 +1,21 @@
+id = "KNW-08_zh_competitive_intel"
+name = "Chinese competitive intelligence from EN/KO/JA sources"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 4
+estimated_steps = 7
+timeout_sec = 2400
+tags = ["zh-instruction", "en-source", "ko-source", "ja-source", "zh-output", "competitive-intelligence", "research"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["competitive_digest_zh.md", "competitor_profiles.json", "threat_analysis_zh.json", "strategic_implications_zh.md"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

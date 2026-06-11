@@ -1,0 +1,57 @@
+{
+  "company": "DeepSilicon",
+  "headquarters": "Shenzhen",
+  "products": [
+    {
+      "name": "DS-T800",
+      "type": "training",
+      "process": "5nm",
+      "fp16_tflops": 820,
+      "price_usd": 18000,
+      "market_share_percent": 3.2
+    },
+    {
+      "name": "DS-T900",
+      "type": "training next-gen",
+      "planned_launch": "2025 Q3",
+      "process": "3nm",
+      "fp16_tflops_target": 1400,
+      "target_price_usd": 24000
+    },
+    {
+      "name": "DS-I200",
+      "type": "inference",
+      "process": "7nm",
+      "int8_tops": 1200,
+      "price_usd": 5500
+    },
+    {
+      "name": "DS-I300",
+      "type": "inference next-gen",
+      "planned_launch": "2025 Q2",
+      "process": "4nm",
+      "int8_tops_target": 2800,
+      "target_price_usd": 9000
+    },
+    {
+      "name": "DS-E50",
+      "type": "edge AI",
+      "planned_launch": "2026 Q1",
+      "int8_tops_target": 120
+    }
+  ],
+  "financials_2024": {
+    "revenue_billion_cny": 4.8,
+    "yoy_growth_percent": 85,
+    "gross_margin_percent": 52,
+    "rd_percent_of_revenue": 45,
+    "employees": 2100
+  },
+  "strategic_priorities_2025": [
+    "3nm chip mass production",
+    "inference market share to 8%",
+    "software ecosystem",
+    "overseas expansion",
+    "edge AI product line"
+  ]
+}

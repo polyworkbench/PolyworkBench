@@ -1,0 +1,85 @@
+{
+  "mandatory_terms": [
+    {
+      "en": "Terms of Service",
+      "fr": "Conditions Générales d'Utilisation"
+    },
+    {
+      "en": "Privacy Policy",
+      "fr": "Politique de Confidentialité"
+    },
+    {
+      "en": "Cookie Policy",
+      "fr": "Politique relative aux Cookies"
+    },
+    {
+      "en": "Personal Data",
+      "fr": "Données Personnelles"
+    },
+    {
+      "en": "Service",
+      "fr": "Service"
+    },
+    {
+      "en": "User",
+      "fr": "Utilisateur"
+    },
+    {
+      "en": "Controller",
+      "fr": "Responsable du traitement"
+    },
+    {
+      "en": "Data Subject",
+      "fr": "Personne concernée"
+    },
+    {
+      "en": "Consent",
+      "fr": "Consentement"
+    },
+    {
+      "en": "Processing",
+      "fr": "Traitement"
+    },
+    {
+      "en": "Legitimate Interest",
+      "fr": "Intérêt légitime"
+    },
+    {
+      "en": "Data Portability",
+      "fr": "Portabilité des données"
+    },
+    {
+      "en": "Right to be Forgotten",
+      "fr": "Droit à l'effacement"
+    },
+    {
+      "en": "Standard Contractual Clauses",
+      "fr": "Clauses Contractuelles Types"
+    },
+    {
+      "en": "Intellectual Property",
+      "fr": "Propriété intellectuelle"
+    },
+    {
+      "en": "Limitation of Liability",
+      "fr": "Limitation de responsabilité"
+    },
+    {
+      "en": "Governing Law",
+      "fr": "Droit applicable"
+    },
+    {
+      "en": "Dispute Resolution",
+      "fr": "Résolution des litiges"
+    },
+    {
+      "en": "Data Retention",
+      "fr": "Conservation des données"
+    },
+    {
+      "en": "Cookie Consent",
+      "fr": "Consentement aux cookies"
+    }
+  ],
+  "notes": "All terms MUST be translated exactly as specified. No alternatives allowed."
+}

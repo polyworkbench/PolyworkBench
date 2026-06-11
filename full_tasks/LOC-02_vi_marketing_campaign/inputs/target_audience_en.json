@@ -1,0 +1,64 @@
+{
+  "campaign": "ShopSmart Q3 2024",
+  "market": "Vietnam",
+  "demographics": {
+    "primary_audience": {
+      "age_range": "18-34",
+      "gender": "All",
+      "income_level": "Middle class, rising income",
+      "education": "University educated",
+      "location": "Urban areas (Ho Chi Minh City, Hanoi, Da Nang)",
+      "digital_behavior": {
+        "primary_platforms": ["Facebook", "Zalo", "TikTok", "Instagram"],
+        "shopping_habits": "Mobile-first, price-sensitive, research before purchase",
+        "peak_online_hours": "12:00-13:00, 20:00-23:00",
+        "preferred_payment": ["E-wallets (MoMo, ZaloPay)", "COD", "Bank transfer"]
+      }
+    },
+    "secondary_audience": {
+      "age_range": "35-50",
+      "gender": "Female-skewing (65%)",
+      "income_level": "Upper middle class",
+      "location": "Urban and suburban",
+      "digital_behavior": {
+        "primary_platforms": ["Facebook", "Zalo"],
+        "shopping_habits": "Brand-conscious, loyalty-driven, value quality",
+        "peak_online_hours": "21:00-23:00"
+      }
+    }
+  },
+  "psychographics": {
+    "values": [
+      "Value for money (giá trị đồng tiền)",
+      "Social proof / peer recommendations",
+      "Convenience and time-saving",
+      "Trust and authenticity",
+      "Family-oriented decisions"
+    ],
+    "pain_points": [
+      "Overwhelmed by too many options",
+      "Worried about fake products",
+      "High shipping costs",
+      "Difficult return processes",
+      "Language barriers in international apps"
+    ],
+    "motivations": [
+      "Finding the best deal",
+      "Saving time comparing prices",
+      "Getting exclusive offers",
+      "Earning rewards and cashback",
+      "Social sharing of good deals"
+    ]
+  },
+  "content_preferences": {
+    "tone": "Friendly, relatable, slightly humorous",
+    "format": "Short-form video > Image > Text",
+    "language_style": "Conversational Vietnamese, minimal English loanwords",
+    "trust_signals": ["User reviews", "Celebrity endorsements", "Official brand partnerships"],
+    "engagement_triggers": ["Limited time offers", "Social proof numbers", "Gamification", "Lucky draws"]
+  },
+  "competitive_landscape": {
+    "main_competitors": ["Shopee", "Lazada", "Tiki", "Sendo"],
+    "differentiator": "AI-powered price comparison across all platforms"
+  }
+}

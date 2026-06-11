@@ -1,0 +1,24 @@
+invoice_number,item_description,quantity,unit,net_weight_kg,gross_weight_kg,length_cm,width_cm,height_cm,packages,package_type
+INV-2024-0381,LCD Display Module 10.1inch TFT IPS 1920x1200,500,pcs,75.0,82.5,25.0,17.0,1.2,10,carton
+INV-2024-0381,Capacitive Touch Panel 10.1inch Multi-touch,500,pcs,35.0,40.0,25.5,17.5,0.5,10,carton
+INV-2024-0381,Main Control Board ARM Cortex-A53 Quad-core Android,300,pcs,12.0,15.0,12.0,8.0,1.5,6,carton
+INV-2024-0382,Lithium Polymer Battery 3.7V 6000mAh w/ protection,800,pcs,96.0,108.0,10.0,7.0,1.0,16,carton_DG
+INV-2024-0382,USB-C Fast Charger 5V/3A with cable,800,pcs,48.0,56.0,8.0,5.0,3.0,8,carton
+INV-2024-0383,Aluminum Alloy Housing 10.1inch anodized,500,pcs,125.0,140.0,26.0,18.0,1.0,10,carton
+INV-2024-0383,Copper Heat Dissipation Module w/ thermal pad,500,pcs,25.0,30.0,8.0,5.0,0.8,5,carton
+INV-2024-0384,WiFi 6 + BT 5.2 Dual-band Module PCIe,600,pcs,3.6,5.0,3.0,2.0,0.3,3,carton
+INV-2024-0384,Camera Module Front 5MP + Rear 13MP AF,400,pcs,4.0,6.0,2.0,2.0,0.5,4,carton
+INV-2024-0385,Dual Speaker Module 8ohm 1.5W,500,pcs,5.0,7.0,3.0,2.0,1.0,2,carton
+INV-2024-0385,Connector Kit USB-C+Audio+SIM+SD,500,sets,2.5,4.0,5.0,3.0,1.0,2,carton
+INV-2024-0385,Retail Packaging Box color printed with insert,1000,pcs,50.0,60.0,28.0,20.0,5.0,10,carton
+INV-2024-0385,USB-C to USB-C Data Cable 1m,1000,pcs,20.0,25.0,12.0,8.0,3.0,5,carton
+INV-2024-0385,Tempered Glass Screen Protector 10.1inch,1000,pcs,30.0,35.0,26.0,18.0,0.3,5,carton
+INV-2024-0385,User Manual multilingual RU/EN/CN,1000,pcs,25.0,28.0,20.0,14.0,0.5,2,carton
+INV-2024-0385,Warranty Card and Certificate,1000,sets,2.0,3.0,15.0,10.0,0.1,1,carton
+INV-2024-0385,Anti-static Bags various sizes,2000,pcs,4.0,5.0,30.0,20.0,0.1,2,carton
+INV-2024-0385,Serial Number Labels + EAC stickers,2000,sets,1.0,1.5,10.0,5.0,0.1,1,carton
+INV-2024-0385,Metal SIM Ejection Pin,1000,pcs,1.5,2.0,7.0,0.5,0.5,1,carton
+INV-2024-0385,Silicone Protective Case 10.1inch black,500,pcs,30.0,35.0,26.0,18.0,1.5,5,carton
+TOTAL,,,,599.6,687.5,,,,,108,mixed
+SHIPPING,Sea Freight Shenzhen to Vladivostok,,,,,,,,,1,container_20ft
+INSURANCE,Marine Cargo Insurance CIF 110%,,,,,,,,,,

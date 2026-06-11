@@ -1,0 +1,406 @@
+{
+  "game_title": "星霜のアリア (Aria of Starfrost)",
+  "total_lines": 40,
+  "dialogue": [
+    {
+      "id": "dialogue_001",
+      "character": "アキラ",
+      "character_en": "Akira",
+      "emotion": "determined",
+      "context": "Opening scene - Akira addresses the party before entering the dungeon",
+      "text": "みんな、聞いてくれ。この先には強大な敵が待っている。だが、俺たちなら必ず突破できる。",
+      "honorific_level": "casual_male",
+      "notes": "Uses 俺 (ore) - masculine casual first person"
+    },
+    {
+      "id": "dialogue_002",
+      "character": "ミヅキ",
+      "character_en": "Mizuki",
+      "emotion": "gentle",
+      "context": "Mizuki, the healer, responds to Akira encouragingly",
+      "text": "アキラさん、大丈夫ですよ。私がみんなを守りますから。",
+      "honorific_level": "polite_female",
+      "notes": "Uses さん with Akira, polite desu/masu form"
+    },
+    {
+      "id": "dialogue_003",
+      "character": "レン",
+      "character_en": "Ren",
+      "emotion": "arrogant",
+      "context": "Ren, the rival, challenges the party's confidence",
+      "text": "ふん、お前たちに何ができる？足手まといにならないでくれよ。",
+      "honorific_level": "rude_male",
+      "notes": "Uses お前たち (omaetachi) - rude/condescending"
+    },
+    {
+      "id": "dialogue_004",
+      "character": "皇帝ヴァルス",
+      "character_en": "Emperor Valus",
+      "emotion": "commanding",
+      "context": "The emperor gives orders to his generals",
+      "text": "我が帝国の栄光のために、あの者どもを排除せよ。失敗は許さぬ。",
+      "honorific_level": "archaic_royal",
+      "notes": "Uses archaic imperial speech - 我が, せよ, 許さぬ"
+    },
+    {
+      "id": "dialogue_005",
+      "character": "サクラ",
+      "character_en": "Sakura",
+      "emotion": "cheerful",
+      "context": "Sakura greets the party at the guild",
+      "text": "おはよーございまーす！今日もお仕事頑張りましょうね！",
+      "honorific_level": "polite_cheerful",
+      "notes": "Elongated casual-polite speech, very energetic"
+    },
+    {
+      "id": "dialogue_006",
+      "character": "アキラ",
+      "character_en": "Akira",
+      "emotion": "shocked",
+      "context": "Akira discovers the truth about his father",
+      "text": "嘘だろ…親父が…帝国の将軍だったって言うのか？",
+      "honorific_level": "casual_male",
+      "notes": "親父 (oyaji) - casual/rough way to say father"
+    },
+    {
+      "id": "dialogue_007",
+      "character": "老師カイン",
+      "character_en": "Master Cain",
+      "emotion": "wise",
+      "context": "The old master teaches Akira about the power of starfrost",
+      "text": "星霜の力とは、この世界の根源たる力じゃ。使い方を誤れば、世界を滅ぼすこともできよう。",
+      "honorific_level": "archaic_elderly",
+      "notes": "Uses じゃ and できよう - old man speech pattern"
+    },
+    {
+      "id": "dialogue_008",
+      "character": "ミヅキ",
+      "character_en": "Mizuki",
+      "emotion": "worried",
+      "context": "Mizuki tends to an injured Akira",
+      "text": "動かないでください！傷が深いんです。回復魔法をかけますから、少し我慢してくださいね。",
+      "honorific_level": "polite_female",
+      "notes": "Polite imperative + explanatory の/ん"
+    },
+    {
+      "id": "dialogue_009",
+      "character": "レン",
+      "character_en": "Ren",
+      "emotion": "grudging_respect",
+      "context": "After Akira saves Ren in battle",
+      "text": "…チッ、借りができたな。次は俺が助けてやる。それまで死ぬんじゃねえぞ。",
+      "honorific_level": "rude_male",
+      "notes": "Tsundere moment - reluctant gratitude, rough speech"
+    },
+    {
+      "id": "dialogue_010",
+      "character": "女王エリス",
+      "character_en": "Queen Eris",
+      "emotion": "graceful",
+      "context": "The queen welcomes the heroes to her kingdom",
+      "text": "よくぞ参られた、勇者たちよ。我が国の危機を救っていただけるのですね。心より感謝いたします。",
+      "honorific_level": "royal_feminine",
+      "notes": "Regal feminine speech - very formal but warm"
+    },
+    {
+      "id": "dialogue_011",
+      "character": "アキラ",
+      "character_en": "Akira",
+      "emotion": "battle_cry",
+      "context": "Akira activates his ultimate skill in battle",
+      "text": "これで終わりだ！星霜の刃よ、すべてを切り裂け！",
+      "honorific_level": "casual_male",
+      "notes": "Battle cry - imperative form, dramatic"
+    },
+    {
+      "id": "dialogue_012",
+      "character": "商人ゴルド",
+      "character_en": "Merchant Goldo",
+      "emotion": "sly",
+      "context": "Merchant tries to sell items to the party",
+      "text": "へへへ、お客さん、いいモノありますぜ。今日だけ特別価格でお譲りしますよ。",
+      "honorific_level": "casual_merchant",
+      "notes": "Merchant speech pattern - ますぜ, sly/friendly"
+    },
+    {
+      "id": "dialogue_013",
+      "character": "サクラ",
+      "character_en": "Sakura",
+      "emotion": "sad",
+      "context": "Sakura reveals her past to the party",
+      "text": "実は…私、故郷を帝国に滅ぼされたんです。だからこの仕事を始めたんですよ。",
+      "honorific_level": "polite_cheerful",
+      "notes": "Serious moment - maintains polite speech but subdued"
+    },
+    {
+      "id": "dialogue_014",
+      "character": "皇帝ヴァルス",
+      "character_en": "Emperor Valus",
+      "emotion": "menacing",
+      "context": "Emperor confronts the heroes directly",
+      "text": "愚かな虫けらどもが。この世界の支配者たるこの私に逆らうとはな。",
+      "honorific_level": "archaic_royal",
+      "notes": "Villain speech - この私 (kono watashi) for emphasis"
+    },
+    {
+      "id": "dialogue_015",
+      "character": "ミヅキ",
+      "character_en": "Mizuki",
+      "emotion": "determined",
+      "context": "Mizuki stands up to protect friends despite fear",
+      "text": "怖いけど…でも、友達を見捨てるなんて、できません！",
+      "honorific_level": "polite_female",
+      "notes": "Shows strength - polite but firm"
+    },
+    {
+      "id": "dialogue_016",
+      "character": "アキラ",
+      "character_en": "Akira",
+      "emotion": "nostalgic",
+      "context": "Akira reminisces about his hometown",
+      "text": "昔はよく、この丘から夕日を見てたんだ。あの頃は何も知らなかった。",
+      "honorific_level": "casual_male",
+      "notes": "Reflective mood - casual past tense"
+    },
+    {
+      "id": "dialogue_017",
+      "character": "レン",
+      "character_en": "Ren",
+      "emotion": "competitive",
+      "context": "Ren challenges Akira to a sparring match",
+      "text": "おい、アキラ。暇なら俺と手合わせしろ。お前が強くなったか、この目で確かめてやる。",
+      "honorific_level": "rude_male",
+      "notes": "Commanding/challenging tone - しろ imperative"
+    },
+    {
+      "id": "dialogue_018",
+      "character": "老師カイン",
+      "character_en": "Master Cain",
+      "emotion": "mysterious",
+      "context": "Cain hints at a prophecy",
+      "text": "かつて予言書にこう記されておる。「星霜の継承者、闇と光の狭間に立つ者、世界の命運を握る」とな。",
+      "honorific_level": "archaic_elderly",
+      "notes": "Quoting prophecy - おる, とな - old sage speech"
+    },
+    {
+      "id": "dialogue_019",
+      "character": "サクラ",
+      "character_en": "Sakura",
+      "emotion": "excited",
+      "context": "Sakura discovers a rare item",
+      "text": "わーっ！見てください見てください！こんなレアなアイテム、初めて見ました！",
+      "honorific_level": "polite_cheerful",
+      "notes": "Very excited - repeated words, exclamation"
+    },
+    {
+      "id": "dialogue_020",
+      "character": "システム",
+      "character_en": "System",
+      "emotion": "neutral",
+      "context": "System message - quest notification",
+      "text": "新しいクエストを受注しました。「星霜の遺跡を調査せよ」",
+      "honorific_level": "system",
+      "notes": "System/UI text - neutral polite"
+    },
+    {
+      "id": "dialogue_021",
+      "character": "アキラ",
+      "character_en": "Akira",
+      "emotion": "angry",
+      "context": "Akira confronts a traitor",
+      "text": "お前…最初から俺たちを裏切るつもりだったのか！許さねえ！",
+      "honorific_level": "casual_male",
+      "notes": "Angry - 許さねえ rough negative"
+    },
+    {
+      "id": "dialogue_022",
+      "character": "ミヅキ",
+      "character_en": "Mizuki",
+      "emotion": "blushing",
+      "context": "Mizuki is flustered by a compliment from Akira",
+      "text": "え、えっと…そんなこと言われると…その…困ります…。",
+      "honorific_level": "polite_female",
+      "notes": "Flustered speech - stuttering, trailing off"
+    },
+    {
+      "id": "dialogue_023",
+      "character": "商人ゴルド",
+      "character_en": "Merchant Goldo",
+      "emotion": "panicked",
+      "context": "Merchant during a monster attack on the town",
+      "text": "た、助けてくれー！商品が！大事な商品がー！金貨が散らばっちまうー！",
+      "honorific_level": "casual_merchant",
+      "notes": "Panicked - drops formality, stuttering"
+    },
+    {
+      "id": "dialogue_024",
+      "character": "女王エリス",
+      "character_en": "Queen Eris",
+      "emotion": "sorrowful",
+      "context": "Queen mourns fallen soldiers",
+      "text": "尊い犠牲を払った者たちよ…安らかに眠りたまえ。あなたたちの勇気は決して忘れません。",
+      "honorific_level": "royal_feminine",
+      "notes": "Solemn speech - たまえ (tamae) command of blessing"
+    },
+    {
+      "id": "dialogue_025",
+      "character": "レン",
+      "character_en": "Ren",
+      "emotion": "vulnerable",
+      "context": "Ren reveals his tragic backstory to Akira at night",
+      "text": "…俺にも、守りたい奴がいたんだ。もう、いないけどな。",
+      "honorific_level": "rude_male",
+      "notes": "Rare vulnerable moment - still uses rough speech but softer"
+    },
+    {
+      "id": "dialogue_026",
+      "character": "アキラ",
+      "character_en": "Akira",
+      "emotion": "resolute",
+      "context": "Akira makes a promise after learning the truth",
+      "text": "俺は必ず、この世界を救ってみせる。親父の過ちは、俺が正す。",
+      "honorific_level": "casual_male",
+      "notes": "Determined promise - てみせる (I'll show/prove)"
+    },
+    {
+      "id": "dialogue_027",
+      "character": "システム",
+      "character_en": "System",
+      "emotion": "neutral",
+      "context": "System message - level up",
+      "text": "レベルが上がりました！新しいスキル「氷結の星霜」を習得しました。",
+      "honorific_level": "system",
+      "notes": "System notification - level up"
+    },
+    {
+      "id": "dialogue_028",
+      "character": "老師カイン",
+      "character_en": "Master Cain",
+      "emotion": "stern",
+      "context": "Cain scolds Akira for being reckless",
+      "text": "馬鹿者が！力を制御できぬ者が、その力を振るえばどうなるか分からぬのか！",
+      "honorific_level": "archaic_elderly",
+      "notes": "Scolding - stern old master, archaic negatives"
+    },
+    {
+      "id": "dialogue_029",
+      "character": "サクラ",
+      "character_en": "Sakura",
+      "emotion": "determined",
+      "context": "Sakura decides to fight alongside the party",
+      "text": "私も戦います！受付嬢だからって、守られるだけなんて嫌です！",
+      "honorific_level": "polite_cheerful",
+      "notes": "Breaking character slightly - still polite but assertive"
+    },
+    {
+      "id": "dialogue_030",
+      "character": "皇帝ヴァルス",
+      "character_en": "Emperor Valus",
+      "emotion": "monologue",
+      "context": "Emperor's flashback - his motivation revealed",
+      "text": "この世界は腐っている。ならば、私が一度すべてを壊し、新たに作り直すまでのこと。",
+      "honorific_level": "archaic_royal",
+      "notes": "Philosophical villain monologue - formal 私"
+    },
+    {
+      "id": "dialogue_031",
+      "character": "ミヅキ",
+      "character_en": "Mizuki",
+      "emotion": "confession",
+      "context": "Mizuki confesses feelings (optional scene)",
+      "text": "あの…アキラさん。ずっと言えなかったんですけど…私、アキラさんのことが…好きです。",
+      "honorific_level": "polite_female",
+      "notes": "Love confession - hesitant, polite, emotional"
+    },
+    {
+      "id": "dialogue_032",
+      "character": "アキラ",
+      "character_en": "Akira",
+      "emotion": "gentle",
+      "context": "Akira responds to Mizuki's confession",
+      "text": "ミヅキ…ありがとう。俺も、お前のことが大切だ。この戦いが終わったら、ちゃんと話そう。",
+      "honorific_level": "casual_male",
+      "notes": "Gentle response - uses お前 but in an intimate/caring way"
+    },
+    {
+      "id": "dialogue_033",
+      "character": "レン",
+      "character_en": "Ren",
+      "emotion": "battle_rage",
+      "context": "Ren goes berserk after seeing allies hurt",
+      "text": "ぶっ殺してやる…！一人残らず…叩き潰してやるからな…！",
+      "honorific_level": "rude_male",
+      "notes": "Extreme rage - very rough language, threatening"
+    },
+    {
+      "id": "dialogue_034",
+      "character": "女王エリス",
+      "character_en": "Queen Eris",
+      "emotion": "hopeful",
+      "context": "Queen's speech before the final battle",
+      "text": "勇者たちよ、この世界の未来はあなたたちの手の中にあります。どうか、希望の光を守ってください。",
+      "honorific_level": "royal_feminine",
+      "notes": "Inspirational speech - formal but warm"
+    },
+    {
+      "id": "dialogue_035",
+      "character": "システム",
+      "character_en": "System",
+      "emotion": "neutral",
+      "context": "System message - save point",
+      "text": "セーブポイントに到達しました。進行状況を保存しますか？",
+      "honorific_level": "system",
+      "notes": "Save prompt - polite question"
+    },
+    {
+      "id": "dialogue_036",
+      "character": "商人ゴルド",
+      "character_en": "Merchant Goldo",
+      "emotion": "grateful",
+      "context": "After the party saves his shop",
+      "text": "いやー、助かりましたぜ！お礼に特別割引しときますわ。常連さんは大事にしねえとな！",
+      "honorific_level": "casual_merchant",
+      "notes": "Grateful merchant - mixed polite/casual"
+    },
+    {
+      "id": "dialogue_037",
+      "character": "アキラ",
+      "character_en": "Akira",
+      "emotion": "final_battle",
+      "context": "Akira's final confrontation with Emperor Valus",
+      "text": "ヴァルス！お前の野望はここで終わりだ！世界は、お前一人のものじゃない！",
+      "honorific_level": "casual_male",
+      "notes": "Final battle declaration - strong, passionate"
+    },
+    {
+      "id": "dialogue_038",
+      "character": "皇帝ヴァルス",
+      "character_en": "Emperor Valus",
+      "emotion": "final_battle",
+      "context": "Emperor's response in final battle",
+      "text": "来い、星霜の継承者よ！貴様の力が本物か、この身をもって確かめてやろう！",
+      "honorific_level": "archaic_royal",
+      "notes": "Final battle acceptance - 貴様 (kisama) + やろう"
+    },
+    {
+      "id": "dialogue_039",
+      "character": "アキラ",
+      "character_en": "Akira",
+      "emotion": "epilogue",
+      "context": "Akira's narration in the ending",
+      "text": "あれから一年が経った。世界は少しずつ、元の姿を取り戻している。俺たちの冒険は終わったけど、新しい日々が始まる。",
+      "honorific_level": "casual_male",
+      "notes": "Epilogue narration - reflective, peaceful"
+    },
+    {
+      "id": "dialogue_040",
+      "character": "ミヅキ",
+      "character_en": "Mizuki",
+      "emotion": "happy_ending",
+      "context": "Final line - Mizuki calls out to Akira",
+      "text": "アキラさーん！早く来てください！みんな待ってますよ！",
+      "honorific_level": "polite_cheerful",
+      "notes": "Happy ending - elongated call, energetic"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+failure_id,date,equipment_type,equipment_id,failure_mode,downtime_hours,repair_action
+F-001,2024-01-04,Conveyor,CV-02,Motor overheat,4,Repaired
+F-002,2024-01-07,Welder,WR-01,Gas leak,8,Repaired
+F-003,2024-01-10,Forklift,FL-02,Battery,1,Repaired
+F-004,2024-01-13,CNC,CNC-02,Coolant,6,Repaired
+F-005,2024-01-16,Press,PR-02,Hydraulic leak,3,Repaired
+F-006,2024-01-19,Conveyor,CV-01,Belt slip,12,Repaired
+F-007,2024-01-22,Welder,WR-02,Wire feed,5,Repaired
+F-008,2024-01-25,Forklift,FL-01,Tire,2,Repaired
+F-009,2024-01-28,CNC,CNC-01,Spindle,4,Repaired
+F-010,2024-01-03,Press,PR-01,Safety interlock,2,Repaired
+F-011,2024-01-06,Conveyor,CV-03,Guard missing,4,Repaired
+F-012,2024-01-09,Welder,WR-01,Arc failure,8,Repaired
+F-013,2024-01-12,Forklift,FL-02,Hydraulic,1,Repaired
+F-014,2024-01-15,CNC,CNC-03,Tool break,6,Repaired
+F-015,2024-02-18,Press,PR-02,Die jam,3,Repaired
+F-016,2024-02-21,Conveyor,CV-02,Motor overheat,12,Repaired
+F-017,2024-02-24,Welder,WR-02,Gas leak,5,Repaired
+F-018,2024-02-27,Forklift,FL-01,Battery,2,Repaired
+F-019,2024-02-02,CNC,CNC-02,Coolant,4,Repaired
+F-020,2024-02-05,Press,PR-01,Hydraulic leak,2,Repaired
+F-021,2024-02-08,Conveyor,CV-01,Belt slip,4,Repaired
+F-022,2024-02-11,Welder,WR-01,Wire feed,8,Repaired
+F-023,2024-02-14,Forklift,FL-02,Tire,1,Repaired
+F-024,2024-02-17,CNC,CNC-01,Spindle,6,Repaired
+F-025,2024-02-20,Press,PR-02,Safety interlock,3,Repaired
+F-026,2024-02-23,Conveyor,CV-03,Guard missing,12,Repaired
+F-027,2024-02-26,Welder,WR-02,Arc failure,5,Repaired
+F-028,2024-02-01,Forklift,FL-01,Hydraulic,2,Repaired
+F-029,2024-02-04,CNC,CNC-03,Tool break,4,Repaired
+F-030,2024-03-07,Press,PR-01,Die jam,2,Repaired
+F-031,2024-03-10,Conveyor,CV-02,Motor overheat,4,Repaired
+F-032,2024-03-13,Welder,WR-01,Gas leak,8,Repaired
+F-033,2024-03-16,Forklift,FL-02,Battery,1,Repaired
+F-034,2024-03-19,CNC,CNC-02,Coolant,6,Repaired
+F-035,2024-03-22,Press,PR-02,Hydraulic leak,3,Repaired
+F-036,2024-03-25,Conveyor,CV-01,Belt slip,12,Repaired
+F-037,2024-03-28,Welder,WR-02,Wire feed,5,Repaired
+F-038,2024-03-03,Forklift,FL-01,Tire,2,Repaired
+F-039,2024-03-06,CNC,CNC-01,Spindle,4,Repaired
+F-040,2024-03-09,Press,PR-01,Safety interlock,2,Repaired
+F-041,2024-03-12,Conveyor,CV-03,Guard missing,4,Repaired
+F-042,2024-03-15,Welder,WR-01,Arc failure,8,Repaired
+F-043,2024-03-18,Forklift,FL-02,Hydraulic,1,Repaired
+F-044,2024-03-21,CNC,CNC-03,Tool break,6,Repaired
+F-045,2024-04-24,Press,PR-02,Die jam,3,Repaired
+F-046,2024-04-27,Conveyor,CV-02,Motor overheat,12,Repaired
+F-047,2024-04-02,Welder,WR-02,Gas leak,5,Repaired
+F-048,2024-04-05,Forklift,FL-01,Battery,2,Repaired
+F-049,2024-04-08,CNC,CNC-02,Coolant,4,Repaired
+F-050,2024-04-11,Press,PR-01,Hydraulic leak,2,Repaired

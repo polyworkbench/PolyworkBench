@@ -1,0 +1,21 @@
+id = "LEG-14_en_patent_prior_art"
+name = "Patent prior art analysis across languages"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 6
+estimated_steps = 12
+timeout_sec = 3600
+tags = ["en-instruction", "ja-source", "en-source", "de-source", "en-output", "legal", "patent"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["prior_art_report.md", "claim_mapping.json", "novelty_assessment.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

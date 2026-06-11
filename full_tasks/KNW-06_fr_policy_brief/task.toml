@@ -1,0 +1,21 @@
+id = "KNW-06_fr_policy_brief"
+name = "French policy brief from trilingual sources"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["fr-instruction", "en-source", "zh-source", "ru-source", "fr-output", "policy", "research"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["note_politique_fr.md", "synthese_sources.json", "recommandations_fr.json", "bibliographie.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

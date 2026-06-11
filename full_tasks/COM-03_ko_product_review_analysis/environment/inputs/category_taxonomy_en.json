@@ -1,0 +1,72 @@
+{
+  "taxonomy_version": "2.1",
+  "description": "Issue category taxonomy for cross-border e-commerce product review analysis",
+  "categories": [
+    {
+      "id": "QUAL-HW",
+      "name": "Hardware Quality",
+      "description": "Physical defects, manufacturing issues, durability problems",
+      "subcategories": [
+        {"id": "QUAL-HW-DEF", "name": "Manufacturing Defect", "examples": ["dead on arrival", "scratches", "broken parts"]},
+        {"id": "QUAL-HW-DUR", "name": "Durability Issue", "examples": ["broke after X months", "wear and tear", "degradation"]},
+        {"id": "QUAL-HW-BAT", "name": "Battery Degradation", "examples": ["battery life decreased", "won't charge", "swelling"]}
+      ]
+    },
+    {
+      "id": "QUAL-SW",
+      "name": "Software & Connectivity",
+      "description": "Firmware bugs, app issues, Bluetooth connectivity problems",
+      "subcategories": [
+        {"id": "QUAL-SW-CON", "name": "Connection Issues", "examples": ["frequent disconnection", "pairing failure", "unstable"]},
+        {"id": "QUAL-SW-APP", "name": "App Problems", "examples": ["app crashes", "poor UX", "missing features"]},
+        {"id": "QUAL-SW-FW", "name": "Firmware Issues", "examples": ["update broke features", "bugs after update"]}
+      ]
+    },
+    {
+      "id": "PERF",
+      "name": "Performance",
+      "description": "Audio quality, ANC effectiveness, call quality issues",
+      "subcategories": [
+        {"id": "PERF-AUD", "name": "Audio Quality", "examples": ["poor sound", "distortion", "imbalanced frequencies"]},
+        {"id": "PERF-ANC", "name": "ANC Performance", "examples": ["weak noise cancellation", "pressure feeling", "dizziness"]},
+        {"id": "PERF-MIC", "name": "Microphone/Call Quality", "examples": ["poor call clarity", "wind noise", "echo"]}
+      ]
+    },
+    {
+      "id": "FIT",
+      "name": "Fit & Comfort",
+      "description": "Ergonomics, ear tip sizing, comfort during extended use",
+      "subcategories": [
+        {"id": "FIT-SIZE", "name": "Sizing Issues", "examples": ["too big", "too small", "falls out"]},
+        {"id": "FIT-COMF", "name": "Comfort Problems", "examples": ["ear pain", "pressure", "heavy"]},
+        {"id": "FIT-CTRL", "name": "Control Usability", "examples": ["accidental touches", "hard to use", "unresponsive"]}
+      ]
+    },
+    {
+      "id": "TRUST",
+      "name": "Trust & Transparency",
+      "description": "False advertising, authenticity concerns, misleading specs",
+      "subcategories": [
+        {"id": "TRUST-AD", "name": "False Advertising", "examples": ["specs don't match", "exaggerated claims", "misleading photos"]},
+        {"id": "TRUST-AUTH", "name": "Authenticity Concerns", "examples": ["suspected counterfeit", "no verification", "different from listing"]},
+        {"id": "TRUST-LOC", "name": "Localization Issues", "examples": ["no local language manual", "poor translation", "missing local support"]}
+      ]
+    },
+    {
+      "id": "SVC",
+      "name": "Service & Support",
+      "description": "After-sales service, warranty claims, customer support quality",
+      "subcategories": [
+        {"id": "SVC-WAR", "name": "Warranty Issues", "examples": ["no local service center", "refused repair", "long wait"]},
+        {"id": "SVC-SHIP", "name": "Shipping & Packaging", "examples": ["damaged package", "slow delivery", "wrong item"]},
+        {"id": "SVC-CS", "name": "Customer Service", "examples": ["unresponsive", "language barrier", "unhelpful"]}
+      ]
+    }
+  ],
+  "severity_levels": [
+    {"level": 1, "name": "Minor", "description": "Cosmetic or preference issue, does not affect core function"},
+    {"level": 2, "name": "Moderate", "description": "Affects user experience but product is still usable"},
+    {"level": 3, "name": "Major", "description": "Significantly impacts core functionality"},
+    {"level": 4, "name": "Critical", "description": "Product unusable, safety concern, or fraud"}
+  ]
+}

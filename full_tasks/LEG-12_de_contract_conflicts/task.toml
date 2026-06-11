@@ -1,0 +1,21 @@
+id = "LEG-12_de_contract_conflicts"
+name = "German-instruction contract amendment conflict analysis"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 11
+timeout_sec = 3000
+tags = ["de-instruction", "de-source", "en-source", "de-output", "legal", "contracts"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["konfliktanalyse.md", "conflicts.json", "resolution_matrix.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

@@ -1,0 +1,96 @@
+{
+  "description": "15 factual questions to be answered from multilingual source documents",
+  "instructions": "Each question should be answered with a specific fact found in one of the source documents. Provide the answer, source file, and original text.",
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "What was China GDP growth rate in Q3 2024?",
+      "source_hint": "source_zh.md",
+      "expected_answer": "4.6%"
+    },
+    {
+      "id": "Q02",
+      "question": "How many new energy vehicles did China produce in Q3 2024?",
+      "source_hint": "source_zh.md",
+      "expected_answer": "2.87 million (287 wan)"
+    },
+    {
+      "id": "Q03",
+      "question": "What is Samsung 3nm GAA process yield rate as of September 2024?",
+      "source_hint": "source_ko.md",
+      "expected_answer": "72%"
+    },
+    {
+      "id": "Q04",
+      "question": "What is SK Hynix global market share in HBM?",
+      "source_hint": "source_ko.md",
+      "expected_answer": "53%"
+    },
+    {
+      "id": "Q05",
+      "question": "What was Russia average daily oil production in the first 9 months of 2024?",
+      "source_hint": "source_ru.md",
+      "expected_answer": "9.23 million barrels per day"
+    },
+    {
+      "id": "Q06",
+      "question": "What percentage of Russia electricity comes from nuclear power?",
+      "source_hint": "source_ru.md",
+      "expected_answer": "21.4%"
+    },
+    {
+      "id": "Q07",
+      "question": "What was Japan domestic AI market size in 2024?",
+      "source_hint": "source_ja.md",
+      "expected_answer": "1.87 trillion yen (approximately 12.5 billion USD)"
+    },
+    {
+      "id": "Q08",
+      "question": "What is Fujitsu superconducting quantum computer qubit count achieved in August 2024?",
+      "source_hint": "source_ja.md",
+      "expected_answer": "1,000 qubits"
+    },
+    {
+      "id": "Q09",
+      "question": "What was Vietnam manufacturing PMI average for the first 9 months of 2024?",
+      "source_hint": "source_vi.md",
+      "expected_answer": "52.8"
+    },
+    {
+      "id": "Q10",
+      "question": "What percentage of Samsung global phone production is manufactured in Vietnam?",
+      "source_hint": "source_vi.md",
+      "expected_answer": "50%"
+    },
+    {
+      "id": "Q11",
+      "question": "What was China urban surveyed unemployment rate in the first 9 months of 2024?",
+      "source_hint": "source_zh.md",
+      "expected_answer": "5.1%"
+    },
+    {
+      "id": "Q12",
+      "question": "What was South Korea total semiconductor export value for Jan-Sep 2024?",
+      "source_hint": "source_ko.md",
+      "expected_answer": "102.4 billion USD"
+    },
+    {
+      "id": "Q13",
+      "question": "How much natural gas did Russia export to China via Power of Siberia pipeline?",
+      "source_hint": "source_ru.md",
+      "expected_answer": "28.1 billion cubic meters"
+    },
+    {
+      "id": "Q14",
+      "question": "What was the year-over-year growth rate of Japan semiconductor sales in H1 2024?",
+      "source_hint": "source_ja.md",
+      "expected_answer": "14.7%"
+    },
+    {
+      "id": "Q15",
+      "question": "What was total FDI registered in Vietnam for the first 9 months of 2024?",
+      "source_hint": "source_vi.md",
+      "expected_answer": "25.7 billion USD"
+    }
+  ]
+}

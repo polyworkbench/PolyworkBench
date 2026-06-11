@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MFG-09 Output Schema",
+  "type": "object",
+  "required": ["value_stream_map", "improvement_plan"],
+  "properties": {
+    "value_stream_map": {
+      "type": ["object", "array"],
+      "description": "Value stream map data with process steps, cycle times, and WIP levels"
+    },
+    "improvement_plan": {
+      "type": ["object", "array"],
+      "description": "Korean lean improvement plan with time-phased actions and cost estimates"
+    },
+    "metrics_comparison": {
+      "type": ["object", "array"],
+      "description": "Current vs target metrics comparison with OEE and bottleneck analysis"
+    },
+    "lean_analysis": {
+      "type": "string",
+      "description": "Korean lean analysis report applying TPS principles and 7 wastes"
+    }
+  }
+}

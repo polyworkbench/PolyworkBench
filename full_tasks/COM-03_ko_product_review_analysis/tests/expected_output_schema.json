@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COM-03 Output Schema",
+  "type": "object",
+  "required": ["sentiment_analysis"],
+  "properties": {
+    "sentiment_analysis": {
+      "type": ["array", "object"],
+      "description": "Sentiment analysis results for each review with labels and scores"
+    },
+    "issues_report": {
+      "type": "string",
+      "description": "Korean executive issues report with categorized product problems"
+    },
+    "data_appendix": {
+      "type": "object",
+      "description": "English data appendix with statistics, distributions, and trends"
+    },
+    "summary_stats": {
+      "type": "object",
+      "description": "Summary statistics including sentiment distribution and key metrics"
+    }
+  }
+}

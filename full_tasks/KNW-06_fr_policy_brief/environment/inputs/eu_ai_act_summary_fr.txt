@@ -1,0 +1,79 @@
+RÉSUMÉ DU RÈGLEMENT EUROPÉEN SUR L'INTELLIGENCE ARTIFICIELLE (AI ACT)
+=======================================================================
+
+Date d'entrée en vigueur : 1er août 2025
+Adopté par : Parlement européen et Conseil de l'Union européenne
+Référence : Règlement (UE) 2024/1689
+
+CLASSIFICATION DES RISQUES
+---------------------------
+Le règlement établit quatre niveaux de risque :
+
+1. RISQUE INACCEPTABLE (interdit) :
+   - Systèmes de notation sociale par les gouvernements
+   - Surveillance biométrique en temps réel dans l'espace public (sauf exceptions)
+   - Manipulation subliminale ou exploitation de vulnérabilités
+   - Catégorisation biométrique selon des critères sensibles
+
+2. RISQUE ÉLEVÉ (obligations strictes) :
+   - Systèmes utilisés dans les infrastructures critiques
+   - Systèmes éducatifs et de formation professionnelle
+   - Systèmes d'emploi et de gestion des travailleurs
+   - Services essentiels (crédit, assurance)
+   - Systèmes de maintien de l'ordre et de justice
+   - Systèmes de migration et de contrôle aux frontières
+
+3. RISQUE LIMITÉ (obligations de transparence) :
+   - Chatbots et systèmes conversationnels
+   - Systèmes de génération de contenu (deepfakes)
+   - Systèmes de reconnaissance des émotions
+   - Systèmes de catégorisation biométrique
+
+4. RISQUE MINIMAL (pas d'obligations spécifiques) :
+   - Filtres anti-spam
+   - Jeux vidéo utilisant l'IA
+   - Systèmes de gestion des stocks
+
+OBLIGATIONS POUR LES SYSTÈMES À HAUT RISQUE
+---------------------------------------------
+- Évaluation de conformité avant mise sur le marché
+- Système de gestion des risques documenté
+- Gouvernance des données d'entraînement
+- Documentation technique détaillée
+- Journalisation automatique des événements
+- Transparence et information des utilisateurs
+- Contrôle humain effectif
+- Exactitude, robustesse et cybersécurité
+
+MODÈLES DE FONDATION (GPAI)
+-----------------------------
+Obligations spécifiques pour les modèles d'IA à usage général :
+- Documentation technique et information aux fournisseurs en aval
+- Politique de respect du droit d'auteur
+- Résumé des données d'entraînement
+
+Pour les modèles à risque systémique (>10^25 FLOP d'entraînement) :
+- Évaluation du modèle et tests adversariaux
+- Évaluation et atténuation des risques systémiques
+- Suivi et signalement des incidents graves
+- Protection adéquate en matière de cybersécurité
+
+SANCTIONS
+----------
+- Pratiques interdites : jusqu'à 35 millions € ou 7% du CA mondial
+- Non-conformité aux obligations : jusqu'à 15 millions € ou 3% du CA mondial
+- Informations inexactes : jusqu'à 7,5 millions € ou 1,5% du CA mondial
+
+CALENDRIER DE MISE EN ŒUVRE
+-----------------------------
+- Février 2025 : Interdiction des pratiques à risque inacceptable
+- Août 2025 : Obligations pour les modèles GPAI
+- Août 2026 : Application complète pour les systèmes à haut risque
+- Août 2027 : Obligations pour les systèmes IA intégrés dans des produits réglementés
+
+GOUVERNANCE
+------------
+- Bureau européen de l'IA (AI Office) au sein de la Commission
+- Comité européen de l'intelligence artificielle
+- Forum consultatif (parties prenantes)
+- Panel scientifique d'experts indépendants

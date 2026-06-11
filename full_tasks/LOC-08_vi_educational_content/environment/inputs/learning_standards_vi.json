@@ -1,0 +1,95 @@
+{
+  "framework": "Chương trình giáo dục phổ thông 2018",
+  "subject": "Toán học",
+  "grade_level": "Lớp 7-8",
+  "standards": [
+    {
+      "id": "TOAN-7-DS-01",
+      "domain": "Đại số",
+      "standard": "Biểu thức đại số",
+      "description": "Học sinh hiểu khái niệm biến số, hằng số, biểu thức đại số; tính giá trị biểu thức đại số",
+      "skills": ["Nhận biết biến số", "Viết biểu thức đại số", "Tính giá trị biểu thức"],
+      "lesson_mapping": [1]
+    },
+    {
+      "id": "TOAN-7-DS-02",
+      "domain": "Đại số",
+      "standard": "Đơn thức và đa thức",
+      "description": "Thu gọn đơn thức, cộng trừ đa thức, nhận biết đa thức đồng dạng",
+      "skills": ["Thu gọn đơn thức đồng dạng", "Cộng trừ đa thức", "Áp dụng tính chất phân phối"],
+      "lesson_mapping": [2, 9]
+    },
+    {
+      "id": "TOAN-7-DS-03",
+      "domain": "Đại số",
+      "standard": "Phương trình bậc nhất một ẩn",
+      "description": "Giải phương trình bậc nhất một ẩn, áp dụng giải bài toán bằng cách lập phương trình",
+      "skills": ["Giải phương trình một bước", "Giải phương trình nhiều bước", "Lập phương trình từ bài toán"],
+      "lesson_mapping": [3, 4, 5]
+    },
+    {
+      "id": "TOAN-7-DS-04",
+      "domain": "Đại số",
+      "standard": "Bất phương trình bậc nhất một ẩn",
+      "description": "Hiểu và giải bất phương trình bậc nhất, biểu diễn nghiệm trên trục số",
+      "skills": ["Hiểu ký hiệu bất đẳng thức", "Giải bất phương trình", "Biểu diễn trên trục số"],
+      "lesson_mapping": [6]
+    },
+    {
+      "id": "TOAN-8-DS-01",
+      "domain": "Đại số",
+      "standard": "Hàm số bậc nhất",
+      "description": "Hiểu khái niệm hàm số, vẽ đồ thị hàm số bậc nhất y=ax+b",
+      "skills": ["Xác định hệ số góc và tung độ gốc", "Vẽ đồ thị", "Xác định giao điểm"],
+      "lesson_mapping": [7]
+    },
+    {
+      "id": "TOAN-8-DS-02",
+      "domain": "Đại số",
+      "standard": "Hệ phương trình bậc nhất hai ẩn",
+      "description": "Giải hệ phương trình bằng phương pháp thế và phương pháp cộng đại số",
+      "skills": ["Phương pháp thế", "Phương pháp cộng đại số", "Giải bài toán bằng hệ phương trình"],
+      "lesson_mapping": [8]
+    },
+    {
+      "id": "TOAN-8-DS-03",
+      "domain": "Đại số",
+      "standard": "Phép tính đa thức",
+      "description": "Thực hiện phép cộng, trừ, nhân đa thức; áp dụng hằng đẳng thức",
+      "skills": ["Cộng trừ đa thức", "Nhân đơn thức với đa thức", "Nhân đa thức với đa thức"],
+      "lesson_mapping": [9]
+    },
+    {
+      "id": "TOAN-8-DS-04",
+      "domain": "Đại số",
+      "standard": "Giải bài toán bằng cách lập phương trình",
+      "description": "Chuyển đổi bài toán thực tế thành mô hình đại số, giải và kiểm tra kết quả",
+      "skills": ["Phân tích bài toán", "Lập phương trình", "Kiểm tra tính hợp lý"],
+      "lesson_mapping": [10]
+    }
+  ],
+  "assessment_guidelines": {
+    "midterm": {
+      "after_lesson": 5,
+      "duration_minutes": 45,
+      "structure": {
+        "trac_nghiem": {"count": 8, "points_each": 0.5, "total": 4},
+        "tu_luan": {"count": 4, "points_each": 1.5, "total": 6}
+      }
+    },
+    "final": {
+      "after_lesson": 10,
+      "duration_minutes": 90,
+      "structure": {
+        "trac_nghiem": {"count": 10, "points_each": 0.5, "total": 5},
+        "tu_luan": {"count": 5, "points_each": 1.0, "total": 5}
+      }
+    }
+  },
+  "competency_levels": {
+    "nhan_biet": "Nhận biết - Nhớ, nhận diện kiến thức đã học",
+    "thong_hieu": "Thông hiểu - Giải thích, diễn giải ý nghĩa",
+    "van_dung": "Vận dụng - Áp dụng kiến thức vào tình huống quen thuộc",
+    "van_dung_cao": "Vận dụng cao - Áp dụng kiến thức vào tình huống mới"
+  }
+}

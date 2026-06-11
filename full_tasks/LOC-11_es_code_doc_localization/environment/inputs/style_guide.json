@@ -1,0 +1,52 @@
+{
+  "target": "es-ES",
+  "register": "formal",
+  "terminology": {
+    "endpoint": "endpoint",
+    "API": "API",
+    "token": "token",
+    "webhook": "webhook",
+    "upload": "carga",
+    "download": "descarga",
+    "file": "archivo",
+    "folder": "carpeta",
+    "authentication": "autenticación",
+    "authorization": "autorización",
+    "request": "solicitud",
+    "response": "respuesta",
+    "error handling": "manejo de errores",
+    "rate limiting": "limitación de velocidad",
+    "retry": "reintento",
+    "timeout": "tiempo de espera",
+    "SDK": "SDK",
+    "batch": "lote",
+    "stream": "flujo",
+    "sync": "sincronización",
+    "conflict": "conflicto",
+    "version": "versión",
+    "quota": "cuota",
+    "shared link": "enlace compartido",
+    "permissions": "permisos"
+  },
+  "rules": [
+    "Use usted form",
+    "Preserve all code blocks",
+    "Preserve all URLs",
+    "Do NOT translate inline code",
+    "Do NOT translate code comments",
+    "Use standard Spanish tech terminology",
+    "Maintain consistent terminology",
+    "Numbers and units unchanged"
+  ],
+  "known_traps": [
+    "Block 7: Long docstring - DO NOT translate",
+    "Block 9: Long docstring - DO NOT translate",
+    "Inline variable_name - DO NOT translate"
+  ],
+  "quality_checks": [
+    "Spanish ratio > 60%",
+    "15 code blocks byte-identical",
+    "6 URLs preserved",
+    "No English in prose (except terms)"
+  ]
+}

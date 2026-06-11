@@ -1,0 +1,57 @@
+{
+  "framework_name": "Asian Data Protection Comparative Framework",
+  "version": "2.0",
+  "jurisdictions": ["China (PIPL)", "South Korea (PIPA)", "Vietnam (PDPD)", "Japan (APPI)"],
+  "comparison_dimensions": [
+    {
+      "id": "scope",
+      "name": "Scope & Applicability",
+      "criteria": ["territorial_scope", "extraterritorial_application", "material_scope", "exemptions"]
+    },
+    {
+      "id": "legal_basis",
+      "name": "Legal Bases for Processing",
+      "criteria": ["consent", "contractual_necessity", "legitimate_interest", "legal_obligation", "vital_interests", "public_interest"]
+    },
+    {
+      "id": "consent",
+      "name": "Consent Requirements",
+      "criteria": ["form_of_consent", "granularity", "withdrawal_mechanism", "children_age_threshold", "sensitive_data_consent"]
+    },
+    {
+      "id": "data_subject_rights",
+      "name": "Data Subject Rights",
+      "criteria": ["access", "rectification", "erasure", "restriction", "portability", "objection", "automated_decision_making"]
+    },
+    {
+      "id": "cross_border",
+      "name": "Cross-Border Transfer",
+      "criteria": ["adequacy_mechanism", "standard_contracts", "certification", "consent_based", "government_notification", "data_localization"]
+    },
+    {
+      "id": "breach_notification",
+      "name": "Breach Notification",
+      "criteria": ["authority_notification_timeline", "individual_notification", "threshold_for_notification", "content_requirements"]
+    },
+    {
+      "id": "dpo",
+      "name": "Data Protection Officer",
+      "criteria": ["mandatory_appointment", "threshold", "qualifications", "responsibilities"]
+    },
+    {
+      "id": "penalties",
+      "name": "Penalties & Enforcement",
+      "criteria": ["maximum_fine_amount", "revenue_based_fine", "criminal_penalties", "private_right_of_action", "enforcement_body"]
+    }
+  ],
+  "evaluation_scale": {
+    "requirement_level": ["mandatory", "recommended", "not_required", "not_addressed"],
+    "stringency": ["very_strict", "strict", "moderate", "lenient"]
+  },
+  "output_requirements": {
+    "regulation_matrix": "JSON matrix with each dimension as rows and jurisdictions as columns, including specific article references",
+    "gap_summary": "JSON array of identified gaps/conflicts between jurisdictions with severity rating (high/medium/low)",
+    "compliance_roadmap": "JSON with prioritized actions, estimated timeline (weeks), effort level, and responsible party",
+    "comparative_analysis": "Markdown document with executive summary, detailed comparison by dimension, and recommendations"
+  }
+}

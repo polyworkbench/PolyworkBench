@@ -1,0 +1,21 @@
+id = "MFG-07v2_zh_vi_shift_handover"
+name = "Bilingual shift handover v2 with validation and quality metrics"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 4
+estimated_steps = 8
+timeout_sec = 2400
+tags = ["zh-instruction", "vi-source", "zh-source", "en-source", "zh-output", "vi-output", "manufacturing", "v2"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["handover_zh.md", "handover_vi.md", "quality_summary.json", "validation_output.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

@@ -1,0 +1,21 @@
+id = "LOC-01_ru_app_localization"
+name = "Mobile app localization to Russian"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 3
+estimated_steps = 6
+timeout_sec = 1800
+tags = ["ru-instruction", "en-source", "zh-source", "ru-output", "localization", "mobile"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["strings_ru.json", "length_report.json", "context_notes_ru.md", "qa_checklist.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

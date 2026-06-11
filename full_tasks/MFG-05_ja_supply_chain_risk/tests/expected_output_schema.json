@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MFG-05 Output Schema",
+  "type": "object",
+  "required": ["total_suppliers", "critical_risks", "highest_risk_country"],
+  "properties": {
+    "total_suppliers": {
+      "type": "integer",
+      "description": "Total number of suppliers evaluated across all countries"
+    },
+    "critical_risks": {
+      "type": "integer",
+      "description": "Number of critical-level risks identified"
+    },
+    "highest_risk_country": {
+      "type": "string",
+      "description": "Country with highest overall supply chain risk"
+    },
+    "avg_risk_score": {
+      "type": "number",
+      "description": "Average risk score across all suppliers"
+    },
+    "recommended_actions": {
+      "type": "integer",
+      "description": "Total number of recommended mitigation actions"
+    }
+  }
+}

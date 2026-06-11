@@ -1,0 +1,11 @@
+invoice_id,date,vendor,description,amount_usd,currency,status
+US-INV-081,2024-03-01,Acme Corp,Cloud hosting Q1,8500.00,USD,paid
+US-INV-082,2024-03-03,TechParts Inc,Server components,12750.00,USD,paid
+US-INV-083,2024-03-05,DataFlow Systems,API subscription,3200.00,USD,paid
+US-INV-084,2024-03-08,Acme Corp,Support contract,4500.00,USD,paid
+US-INV-085,2024-03-10,GlobalNet LLC,Bandwidth upgrade,2800.00,USD,paid
+US-INV-086,2024-03-12,TechParts Inc,Spare parts,1950.00,USD,paid
+US-INV-087,2024-03-15,SecurityFirst,Annual license,6300.00,USD,paid
+US-INV-088,2024-03-18,DataFlow Systems,Premium tier,4200.00,USD,pending
+US-INV-089,2024-03-20,CloudScale,Migration service,3050.00,USD,paid
+TOTAL,,,,,47250.00,,

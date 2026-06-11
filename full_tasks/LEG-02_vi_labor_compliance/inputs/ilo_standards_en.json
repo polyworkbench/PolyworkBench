@@ -1,0 +1,114 @@
+{
+  "conventions": [
+    {
+      "id": "C001",
+      "title": "Hours of Work (Industry) Convention, 1919",
+      "key_requirements": [
+        "Working hours shall not exceed 8 hours per day and 48 hours per week",
+        "Overtime shall not exceed the limits prescribed by national law",
+        "Total working hours including overtime shall not exceed 56 hours per week on a regular basis",
+        "Workers must be informed of overtime requirements at least 24 hours in advance where practicable"
+      ],
+      "overtime_limits": {
+        "daily_max_total_hours": 12,
+        "monthly_max_overtime_hours": 40,
+        "annual_max_overtime_hours": 200,
+        "exceptional_annual_max": 300,
+        "note": "Monthly overtime exceeding 40 hours is a serious violation of international labor standards"
+      }
+    },
+    {
+      "id": "C014",
+      "title": "Weekly Rest (Industry) Convention, 1921",
+      "key_requirements": [
+        "Workers shall enjoy a period of rest comprising at least 24 consecutive hours in every period of 7 days",
+        "The weekly rest period shall, wherever possible, coincide with the day of the week established as rest day by tradition or custom",
+        "Workers on rotating shifts must still receive the minimum weekly rest"
+      ]
+    },
+    {
+      "id": "C030",
+      "title": "Hours of Work (Commerce and Offices) Convention, 1930",
+      "key_requirements": [
+        "Hours of work shall not exceed 48 per week and 8 per day",
+        "Exceptions may be made for intermittent work or preparatory/complementary work",
+        "Compensatory rest must be provided for any excess hours worked"
+      ]
+    },
+    {
+      "id": "C089",
+      "title": "Night Work (Women) Convention (Revised), 1948",
+      "key_requirements": [
+        "Women workers shall not be employed during the night in any public or private industrial undertaking",
+        "Exceptions: force majeure, raw materials subject to rapid deterioration, women in managerial positions",
+        "Night means a period of at least 11 consecutive hours including the hours between 22:00 and 05:00"
+      ],
+      "note": "This convention has been superseded by C171 in many jurisdictions, but some requirements remain applicable"
+    },
+    {
+      "id": "C138",
+      "title": "Minimum Age Convention, 1973",
+      "key_requirements": [
+        "The minimum age for admission to employment shall not be less than 15 years",
+        "For light work: minimum age 13 years (developing countries: 12 years)",
+        "For hazardous work: minimum age 18 years",
+        "Young persons between 15-18 may work but with additional protections",
+        "Working hours for persons under 18 shall not exceed 8 hours per day"
+      ],
+      "young_worker_protections": {
+        "max_daily_hours": 8,
+        "max_weekly_hours": 40,
+        "night_work_prohibition": true,
+        "night_period": "22:00 to 06:00",
+        "overtime_prohibition": true,
+        "mandatory_rest_between_shifts_hours": 12,
+        "hazardous_work_prohibition": true
+      }
+    },
+    {
+      "id": "C171",
+      "title": "Night Work Convention, 1990",
+      "key_requirements": [
+        "Night work means all work performed during a period of not less than 7 consecutive hours including the interval from midnight to 5 a.m.",
+        "Night workers shall have their health assessed free of charge before assignment and at regular intervals thereafter",
+        "Night workers shall receive appropriate compensation (additional pay or reduced hours or equivalent benefits)",
+        "Specific protections for pregnant women and nursing mothers performing night work"
+      ],
+      "compensation": {
+        "minimum_additional_pay_percentage": 30,
+        "alternative": "reduced working hours with same pay"
+      }
+    },
+    {
+      "id": "C132",
+      "title": "Holidays with Pay Convention (Revised), 1970",
+      "key_requirements": [
+        "Annual leave shall be at least 3 working weeks for one year of service",
+        "Public holidays shall not be counted as part of annual leave",
+        "Leave cannot be waived or compensated by payment except on termination of employment",
+        "Division of annual leave is permitted but one portion must be at least 2 uninterrupted weeks"
+      ]
+    },
+    {
+      "id": "R116",
+      "title": "Reduction of Hours of Work Recommendation, 1962",
+      "key_requirements": [
+        "Progressive reduction of normal hours of work to 40 hours per week",
+        "Overtime should be compensated at a rate not less than 125% of the normal rate",
+        "Night work and weekend work should receive higher compensation",
+        "Rest period between shifts should be at least 12 hours"
+      ],
+      "rest_periods": {
+        "between_shifts_minimum_hours": 12,
+        "during_shift_break_minimum_minutes": 30,
+        "note": "8 hours between shifts is critically insufficient for worker recovery"
+      }
+    }
+  ],
+  "fundamental_principles": [
+    "Freedom of association and collective bargaining (C087, C098)",
+    "Elimination of forced labor (C029, C105)",
+    "Abolition of child labor (C138, C182)",
+    "Elimination of discrimination (C100, C111)"
+  ]
+}

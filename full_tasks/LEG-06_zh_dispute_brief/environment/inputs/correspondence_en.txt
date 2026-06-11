@@ -1,0 +1,172 @@
+From: Li Wei <li.wei@huatech.cn>
+To: Dmitri Volkov <d.volkov@volgasupply.ru>
+Date: 2023-08-28
+Subject: Re: Upcoming Batch #4 Delivery
+
+Dear Dmitri,
+
+Thank you for your email regarding Batch #4. I want to inform you that we are experiencing some supply chain difficulties with certain components (specifically the ST32F series microcontrollers). Our usual sub-supplier has reduced output due to the new export licensing requirements.
+
+We are actively working on sourcing alternatives and expect to resolve this within 2-3 weeks. I will keep you updated on the progress.
+
+Best regards,
+Li Wei
+VP Operations, Huatech Electronics
+
+---
+
+From: Dmitri Volkov <d.volkov@volgasupply.ru>
+To: Li Wei <li.wei@huatech.cn>
+Date: 2023-09-02
+Subject: Re: Re: Upcoming Batch #4 Delivery
+
+Dear Li Wei,
+
+We appreciate the update but must express our concern. Our end-customers have strict delivery timelines and any delay beyond 15 days will trigger penalty clauses in our downstream contracts.
+
+Please treat this as urgent and provide a confirmed delivery date by September 5.
+
+Regards,
+Dmitri Volkov
+CEO, Volga Industrial Supply
+
+---
+
+From: Li Wei <li.wei@huatech.cn>
+To: Dmitri Volkov <d.volkov@volgasupply.ru>
+Date: 2023-09-05
+Subject: Force Majeure Notice - Contract SC-2023-0847
+
+Dear Dmitri,
+
+Further to our recent correspondence, I am writing to formally notify you of force majeure circumstances affecting our ability to perform under Contract SC-2023-0847.
+
+As you are aware, the People's Republic of China introduced new semiconductor export control regulations effective July 24, 2023. These regulations require export licenses for certain categories of chips and electronic components that form part of our deliverables under the Contract.
+
+Additionally, Guangdong Province experienced severe energy rationing during July-August 2023, which affected our manufacturing capacity. While the energy restrictions have since been lifted, the backlog created has impacted our production schedule for Q4 2023.
+
+Furthermore, our critical sub-suppliers have significantly reduced output, creating a cascading supply chain disruption that is beyond our reasonable control.
+
+We believe these circumstances constitute force majeure under Clause 25 of the Contract and relieve us from liability for delays during the affected period.
+
+We remain committed to fulfilling our obligations and will resume normal deliveries as soon as circumstances permit.
+
+Best regards,
+Li Wei
+VP Operations, Huatech Electronics
+
+---
+
+From: Dmitri Volkov <d.volkov@volgasupply.ru>
+To: Li Wei <li.wei@huatech.cn>
+Date: 2023-09-08
+Subject: Re: Force Majeure Notice - Contract SC-2023-0847
+
+Dear Li Wei,
+
+We acknowledge receipt of your force majeure notice dated September 5, 2023. However, we do not accept that the circumstances described constitute force majeure under the Contract or applicable English law.
+
+1. The export restrictions were announced in advance and were foreseeable at the time of contract execution.
+2. Supply chain disruptions are a normal commercial risk.
+3. The energy restrictions ended before the delivery date for Batch #4.
+
+We reserve all our rights under the Contract and applicable law. We expect delivery of Batch #4 no later than September 30, 2023.
+
+Regards,
+Dmitri Volkov
+
+---
+
+From: Li Wei <li.wei@huatech.cn>
+To: Dmitri Volkov <d.volkov@volgasupply.ru>
+Date: 2023-09-20
+Subject: Batch #4 Status Update
+
+Dear Dmitri,
+
+I regret to inform you that we will not be able to meet the September 30 deadline for Batch #4. Our current projection is delivery in the third week of October.
+
+We have secured alternative component sources but lead times are longer than our previous supply chain. We are doing everything possible to accelerate delivery.
+
+I understand this is frustrating and we sincerely apologize for the inconvenience.
+
+Best regards,
+Li Wei
+
+---
+
+From: Dmitri Volkov <d.volkov@volgasupply.ru>
+To: Li Wei <li.wei@huatech.cn>
+Date: 2023-09-22
+Subject: URGENT: Batch #4 Delay - Formal Protest
+
+Dear Li Wei,
+
+This is unacceptable. Each day of delay costs us significant amounts in penalties to our downstream customers. We have already incurred USD 38,000 in penalty payments due to your failure to deliver on time.
+
+We formally protest this breach of contract and reserve our right to claim all resulting damages.
+
+If Batch #4 is not delivered by October 15, 2023, we will have no choice but to source from alternative suppliers at prevailing market prices (which are approximately 25% higher than our contract price) and hold you liable for the price difference.
+
+Regards,
+Dmitri Volkov
+
+---
+
+From: Li Wei <li.wei@huatech.cn>
+To: Dmitri Volkov <d.volkov@volgasupply.ru>
+Date: 2024-02-15
+Subject: Re: Batch #7 Planning
+
+Dear Dmitri,
+
+Regarding Batch #7 scheduled for March 2024, I must be transparent with you. Our production capacity remains significantly constrained. The export licensing process is taking 8-12 weeks per application, and we have not yet received approval for the components designated for Batch #7.
+
+We are exploring whether we can fulfill this batch with alternative components that do not require export licenses, but this would require your technical team's approval as the specifications would differ slightly.
+
+Could we arrange a call this week to discuss options?
+
+Best regards,
+Li Wei
+
+---
+
+From: Dmitri Volkov <d.volkov@volgasupply.ru>
+To: Li Wei <li.wei@huatech.cn>
+Date: 2024-02-18
+Subject: Re: Re: Batch #7 Planning
+
+Dear Li Wei,
+
+We cannot accept alternative specifications. Our end-customers have certified their products based on the original specifications in Appendix A. Any substitution would require re-certification, which takes 6+ months and costs substantial money.
+
+We need the exact components as specified in the Contract. If you cannot deliver Batch #7 as agreed, please confirm in writing so we can make alternative arrangements and pursue our contractual remedies.
+
+This situation has persisted for nearly 6 months. Our patience has limits.
+
+Regards,
+Dmitri Volkov
+
+---
+
+From: Dmitri Volkov <d.volkov@volgasupply.ru>
+To: Li Wei <li.wei@huatech.cn>
+Date: 2024-04-20
+Subject: Notice of Default - Batch #7
+
+Dear Li Wei,
+
+Batch #7 was due on March 15, 2024. It is now over 35 days past the delivery date and we have received no delivery, no confirmed shipment date, and no adequate explanation.
+
+This constitutes a material breach of Contract SC-2023-0847. We hereby formally declare you in default under the Contract.
+
+We are instructing our legal counsel to commence arbitration proceedings under Article 28 of the Contract.
+
+Our total claims currently stand at approximately USD 2.3 million, comprising:
+- Value of undelivered goods
+- Value of defective goods (Batch #5)
+- Consequential losses including lost profits, cover costs, and penalties paid
+
+Regards,
+Dmitri Volkov
+CEO, Volga Industrial Supply

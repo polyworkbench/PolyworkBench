@@ -1,0 +1,21 @@
+id = "COM-10_multi_market_launch"
+name = "Multi-market product launch planning with 5-language synthesis"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 6
+estimated_steps = 12
+timeout_sec = 3600
+tags = ["zh-instruction", "en-source", "ja-source", "ko-source", "ru-source", "vi-source", "zh-output", "en-output", "launch", "strategy"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["launch_plan_zh.md", "executive_brief_en.md", "market_synthesis.json", "contradiction_report.json", "timeline.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

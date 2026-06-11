@@ -1,0 +1,21 @@
+id = "KNW-10_multi_source_verification"
+name = "Cross-language fact verification from 6 sources"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 6
+estimated_steps = 12
+timeout_sec = 3600
+tags = ["en-instruction", "zh-source", "ja-source", "ko-source", "ru-source", "vi-source", "fr-source", "en-output", "verification", "research"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["verification_report.md", "claims_matrix.json", "contradictions.json", "confidence_scores.json", "source_reliability.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

@@ -1,0 +1,91 @@
+{
+  "ilo_conventions": [
+    {
+      "id": "C001",
+      "title": "Hours of Work (Industry) Convention, 1919",
+      "key_requirements": [
+        "Working hours shall not exceed 8 hours per day and 48 hours per week",
+        "Overtime shall not exceed limits set by national regulation, generally recommended maximum of 12 hours per week",
+        "Overtime must be voluntary and compensated at a premium rate of at least 125% of normal wage",
+        "Workers must have a minimum rest period of 24 consecutive hours per week"
+      ],
+      "maximum_overtime_monthly": "Recommended not to exceed 40 hours per month as per ILO guidelines",
+      "rest_requirements": "Minimum 11 consecutive hours rest between shifts"
+    },
+    {
+      "id": "C014",
+      "title": "Weekly Rest (Industry) Convention, 1921",
+      "key_requirements": [
+        "Every worker shall enjoy a period of rest comprising at least 24 consecutive hours in every period of 7 days",
+        "The weekly rest period shall, wherever possible, coincide with the day recognized as rest day by tradition or custom",
+        "Exceptions may be made for force majeure or urgent work"
+      ]
+    },
+    {
+      "id": "C029",
+      "title": "Forced Labour Convention, 1930",
+      "key_requirements": [
+        "No forced or compulsory labour shall be exacted",
+        "Overtime must be genuinely voluntary",
+        "Workers must not be penalized for refusing overtime beyond legal limits",
+        "Non-compete clauses without compensation may constitute restriction on freedom to work"
+      ]
+    },
+    {
+      "id": "C095",
+      "title": "Protection of Wages Convention, 1949",
+      "key_requirements": [
+        "Wages shall be paid regularly and in full",
+        "Deductions from wages shall be limited and regulated",
+        "Workers shall be informed of wage conditions before employment",
+        "Probation wages shall not be unreasonably below standard rates"
+      ]
+    },
+    {
+      "id": "C111",
+      "title": "Discrimination (Employment and Occupation) Convention, 1958",
+      "key_requirements": [
+        "No discrimination in terms of employment based on race, sex, religion, political opinion, national extraction, or social origin",
+        "Equal remuneration for work of equal value",
+        "Notice periods should be equal for employer and employee"
+      ]
+    },
+    {
+      "id": "C158",
+      "title": "Termination of Employment Convention, 1982",
+      "key_requirements": [
+        "Employment shall not be terminated without valid reason",
+        "Worker must be given opportunity to defend against charges before dismissal",
+        "Adequate notice period must be provided",
+        "Severance pay shall be provided upon termination",
+        "Disciplinary dismissal requires due process and progressive discipline"
+      ]
+    },
+    {
+      "id": "C183",
+      "title": "Maternity Protection Convention, 2000",
+      "key_requirements": [
+        "Maternity leave of not less than 14 weeks",
+        "Cash benefits during maternity leave at no less than two-thirds of previous earnings",
+        "Employment protection during pregnancy and maternity leave"
+      ]
+    },
+    {
+      "id": "R198",
+      "title": "Employment Relationship Recommendation, 2006",
+      "key_requirements": [
+        "Clear documentation of employment terms",
+        "Probation periods must be reasonable and clearly defined",
+        "Maximum probation period should not exceed 6 months for highly skilled positions",
+        "Probation period should be proportional to the nature of the job"
+      ]
+    }
+  ],
+  "general_principles": {
+    "freedom_of_association": "Workers have the right to form and join organizations of their choosing",
+    "collective_bargaining": "Workers have the right to bargain collectively",
+    "elimination_of_forced_labor": "All forms of forced or compulsory labor must be eliminated",
+    "abolition_of_child_labor": "Effective abolition of child labor",
+    "elimination_of_discrimination": "Elimination of discrimination in employment and occupation"
+  }
+}

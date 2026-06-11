@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "source": "Tarifs et coûts logistiques import Chine-France 2024",
+    "currency": "EUR",
+    "last_updated": "2024-11-01",
+    "exchange_rate_eur_cny": 0.128,
+    "exchange_rate_cny_eur": 7.81
+  },
+  "fret_maritime": {
+    "description": "Tarifs fret maritime FCL (Full Container Load) depuis les ports chinois vers Le Havre/Marseille",
+    "rates": {
+      "20ft_container": {
+        "shenzhen_le_havre": 1850,
+        "shanghai_le_havre": 1750,
+        "ningbo_le_havre": 1780,
+        "shenzhen_marseille": 1950,
+        "shanghai_marseille": 1850
+      },
+      "40ft_container": {
+        "shenzhen_le_havre": 2800,
+        "shanghai_le_havre": 2650,
+        "ningbo_le_havre": 2700,
+        "shenzhen_marseille": 2950,
+        "shanghai_marseille": 2800
+      }
+    },
+    "transit_time_days": {
+      "shenzhen_le_havre": 32,
+      "shanghai_le_havre": 30,
+      "ningbo_le_havre": 31,
+      "shenzhen_marseille": 28,
+      "shanghai_marseille": 26
+    },
+    "surcharges": {
+      "BAF": 150,
+      "CAF_percentage": 3.5,
+      "THC_origin": 120,
+      "THC_destination": 185,
+      "documentation_fee": 45,
+      "ISPS_fee": 15
+    }
+  },
+  "assurance_transport": {
+    "taux_standard": 0.35,
+    "taux_fragile": 0.55,
+    "taux_electronique": 0.45,
+    "franchise_minimum_eur": 500,
+    "note": "Taux en pourcentage de la valeur CIF"
+  },
+  "droits_de_douane_ue": {
+    "description": "Tarif Extérieur Commun UE - Droits applicables aux produits d'origine chinoise",
+    "categories": {
+      "8518_ecouteurs": {"taux": 2.0, "code_taric": "8518300090"},
+      "6214_echarpes_soie": {"taux": 8.0, "code_taric": "6214100010"},
+      "7323_articles_inox": {"taux": 3.5, "code_taric": "7323930090"},
+      "6911_porcelaine": {"taux": 12.0, "code_taric": "6911101000"},
+      "0902_the_vert": {"taux": 3.2, "code_taric": "0902100010"},
+      "3304_cosmetiques": {"taux": 0.0, "code_taric": "3304990010"},
+      "9102_montres": {"taux": 4.5, "code_taric": "9102120000"},
+      "6404_chaussures": {"taux": 16.9, "code_taric": "6404110000"}
+    }
+  },
+  "frais_dedouanement": {
+    "honoraires_commissionnaire": 185,
+    "frais_dossier": 45,
+    "vacation_douane": 75,
+    "TVA_taux": 20.0,
+    "note": "TVA calculée sur valeur CIF + droits de douane"
+  },
+  "transport_interieur": {
+    "le_havre_paris": 380,
+    "le_havre_lyon": 520,
+    "le_havre_marseille": 680,
+    "marseille_paris": 550,
+    "marseille_lyon": 280,
+    "entrepot_manutention": 95,
+    "note": "Prix par palette EUR standard, transport routier"
+  },
+  "frais_divers": {
+    "inspection_pre_expedition": 350,
+    "certificat_origine": 25,
+    "frais_bancaires_virement": 35,
+    "frais_lc": 450,
+    "controle_qualite_arrivee": 200
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COM-08 Output Schema",
+  "type": "object",
+  "required": ["total_routes_analyzed", "cheapest_route_russia", "fastest_route_russia"],
+  "properties": {
+    "total_routes_analyzed": {
+      "type": "integer",
+      "description": "Total number of logistics routes analyzed"
+    },
+    "cheapest_route_russia": {
+      "type": "string",
+      "description": "Identification of cheapest route to Russia"
+    },
+    "fastest_route_russia": {
+      "type": "string",
+      "description": "Identification of fastest route to Russia"
+    },
+    "cheapest_route_vietnam": {
+      "type": "string",
+      "description": "Identification of cheapest route to Vietnam"
+    },
+    "fastest_route_vietnam": {
+      "type": "string",
+      "description": "Identification of fastest route to Vietnam"
+    },
+    "avg_cost_difference_pct": {
+      "type": "number",
+      "description": "Average cost difference percentage between Russia and Vietnam corridors"
+    },
+    "avg_time_difference_days": {
+      "type": "number",
+      "description": "Average transit time difference in days between corridors"
+    }
+  }
+}

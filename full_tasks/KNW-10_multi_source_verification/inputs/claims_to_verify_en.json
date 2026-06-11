@@ -1,0 +1,126 @@
+{
+  "description": "20 factual claims to verify against multilingual source documents",
+  "instructions": "Verify each claim using the provided source documents. Some claims are supported, some contradicted, some partially verified.",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "China GDP grew by 4.8% in the first three quarters of 2024.",
+      "category": "economics",
+      "expected_status": "VERIFIED"
+    },
+    {
+      "id": "C02",
+      "claim": "The global semiconductor market reached 620 billion USD in 2024.",
+      "category": "technology",
+      "expected_status": "CONTRADICTED"
+    },
+    {
+      "id": "C03",
+      "claim": "Vietnam FDI inflows exceeded 30 billion USD in 2024.",
+      "category": "investment",
+      "expected_status": "CONTRADICTED"
+    },
+    {
+      "id": "C04",
+      "claim": "Russia nuclear energy accounts for 21.4% of its electricity generation.",
+      "category": "energy",
+      "expected_status": "VERIFIED"
+    },
+    {
+      "id": "C05",
+      "claim": "Japan AI market size reached 2.5 trillion yen in 2024.",
+      "category": "technology",
+      "expected_status": "CONTRADICTED"
+    },
+    {
+      "id": "C06",
+      "claim": "South Korea semiconductor exports grew by 42.3% year-over-year in Jan-Sep 2024.",
+      "category": "trade",
+      "expected_status": "VERIFIED"
+    },
+    {
+      "id": "C07",
+      "claim": "France renewable energy capacity exceeded 70 GW in 2024.",
+      "category": "energy",
+      "expected_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "id": "C08",
+      "claim": "China new energy vehicle production reached 8 million units in first 9 months of 2024.",
+      "category": "manufacturing",
+      "expected_status": "CONTRADICTED"
+    },
+    {
+      "id": "C09",
+      "claim": "Russia oil production averaged 9.23 million barrels per day in Jan-Sep 2024.",
+      "category": "energy",
+      "expected_status": "VERIFIED"
+    },
+    {
+      "id": "C10",
+      "claim": "Vietnam electronics exports totaled 52.8 billion USD in the first 9 months of 2024.",
+      "category": "trade",
+      "expected_status": "VERIFIED"
+    },
+    {
+      "id": "C11",
+      "claim": "The global AI chip market was worth 45 billion USD in 2024.",
+      "category": "technology",
+      "expected_status": "CONTRADICTED"
+    },
+    {
+      "id": "C12",
+      "claim": "Japan robotics industry maintained a 45.2% global market share.",
+      "category": "manufacturing",
+      "expected_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "id": "C13",
+      "claim": "South Korea HBM market share (Samsung + SK Hynix) reached 98%.",
+      "category": "technology",
+      "expected_status": "VERIFIED"
+    },
+    {
+      "id": "C14",
+      "claim": "France nuclear energy provides 65% of its electricity.",
+      "category": "energy",
+      "expected_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "id": "C15",
+      "claim": "Russia natural gas exports to China via Power of Siberia reached 35 billion cubic meters.",
+      "category": "energy",
+      "expected_status": "CONTRADICTED"
+    },
+    {
+      "id": "C16",
+      "claim": "Vietnam manufacturing PMI averaged above 50 for the first 9 months of 2024.",
+      "category": "economics",
+      "expected_status": "VERIFIED"
+    },
+    {
+      "id": "C17",
+      "claim": "China high-tech manufacturing grew by 9.1% in Q3 2024.",
+      "category": "manufacturing",
+      "expected_status": "VERIFIED"
+    },
+    {
+      "id": "C18",
+      "claim": "Japan semiconductor sales reached 3 trillion yen in H1 2024.",
+      "category": "technology",
+      "expected_status": "CONTRADICTED"
+    },
+    {
+      "id": "C19",
+      "claim": "Global AI investment exceeded 150 billion USD in 2024.",
+      "category": "investment",
+      "expected_status": "PARTIALLY_VERIFIED"
+    },
+    {
+      "id": "C20",
+      "claim": "South Korea total semiconductor capital investment was 72 trillion won in 2024.",
+      "category": "investment",
+      "expected_status": "VERIFIED"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "methodology": {
+    "name": "Global Manufacturing Excellence Benchmark (GMEB)",
+    "version": "2.1",
+    "description": "Standardized methodology for cross-plant performance comparison"
+  },
+  "normalization_rules": {
+    "production_volume": {
+      "metric": "monthly_output",
+      "normalize_by": "number_of_lines",
+      "unit": "units/line/month"
+    },
+    "labor_productivity": {
+      "metric": "output_per_capita",
+      "normalize_by": "headcount",
+      "unit": "units/person/month"
+    },
+    "energy_efficiency": {
+      "metric": "energy_per_unit",
+      "formula": "total_energy_kwh / total_output",
+      "unit": "kWh/unit",
+      "lower_is_better": true
+    },
+    "oee": {
+      "formula": "availability * performance * quality",
+      "components": {
+        "availability": "(planned_time - unplanned_downtime) / planned_time",
+        "performance": "actual_output / theoretical_output",
+        "quality": "good_units / total_units"
+      },
+      "validation": "reported_oee should equal calculated_oee within 2% tolerance"
+    },
+    "safety": {
+      "metric": "incident_rate",
+      "formula": "incidents * 200000 / (headcount * hours_worked_per_month)",
+      "hours_per_month": 176,
+      "unit": "incidents per 200k hours"
+    }
+  },
+  "benchmarks": {
+    "world_class": {
+      "oee_pct": 85,
+      "yield_pct": 99.0,
+      "on_time_delivery_pct": 98,
+      "energy_efficiency_kwh_per_unit": 12.0,
+      "safety_incident_rate": 0.5,
+      "changeover_time_min": 10,
+      "inventory_days": 5
+    },
+    "industry_average": {
+      "oee_pct": 75,
+      "yield_pct": 97.0,
+      "on_time_delivery_pct": 92,
+      "energy_efficiency_kwh_per_unit": 16.0,
+      "safety_incident_rate": 2.0,
+      "changeover_time_min": 25,
+      "inventory_days": 15
+    },
+    "minimum_acceptable": {
+      "oee_pct": 65,
+      "yield_pct": 95.0,
+      "on_time_delivery_pct": 85,
+      "energy_efficiency_kwh_per_unit": 20.0,
+      "safety_incident_rate": 4.0,
+      "changeover_time_min": 45,
+      "inventory_days": 30
+    }
+  },
+  "inconsistency_detection": {
+    "rules": [
+      {
+        "id": "CONST_VALUE",
+        "name": "Suspiciously Constant Values",
+        "description": "Flag metrics with zero or near-zero variance across 12 months",
+        "threshold": "coefficient_of_variation < 0.5%"
+      },
+      {
+        "id": "OEE_CROSS_CHECK",
+        "name": "OEE Component Cross-Validation",
+        "description": "Verify that availability * performance * quality ≈ reported OEE",
+        "tolerance_pct": 2.0
+      },
+      {
+        "id": "PHYSICAL_LIMIT",
+        "name": "Physical Plausibility",
+        "description": "Flag values exceeding physical limits (e.g., yield > 100%, OEE > 100%)",
+        "limits": {
+          "yield_max": 100.0,
+          "oee_max": 100.0,
+          "safety_min": 0
+        }
+      },
+      {
+        "id": "ROUND_NUMBER",
+        "name": "Suspicious Rounding",
+        "description": "Flag metrics that are always round numbers (suggesting estimation rather than measurement)",
+        "threshold": "all values are multiples of 0.5 or integers"
+      },
+      {
+        "id": "MISSING_VARIATION",
+        "name": "Missing Seasonal Variation",
+        "description": "Manufacturing plants should show some monthly variation due to holidays, maintenance schedules, etc."
+      },
+      {
+        "id": "CORRELATION_CHECK",
+        "name": "Metric Correlation Validation",
+        "description": "Higher output should correlate with higher energy use; higher incidents may correlate with new employees"
+      }
+    ]
+  },
+  "scoring_weights": {
+    "oee": 0.20,
+    "yield": 0.15,
+    "productivity": 0.15,
+    "energy_efficiency": 0.10,
+    "safety": 0.15,
+    "on_time_delivery": 0.15,
+    "inventory_turns": 0.10
+  }
+}

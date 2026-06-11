@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LOC-03 Output Schema",
+  "type": "object",
+  "required": ["total_dialogues_translated", "characters_covered"],
+  "properties": {
+    "total_dialogues_translated": {
+      "type": "integer",
+      "description": "Total number of game dialogue entries translated to Korean"
+    },
+    "characters_covered": {
+      "type": "integer",
+      "description": "Number of game characters whose dialogue was localized"
+    },
+    "cultural_adaptations": {
+      "type": "integer",
+      "description": "Number of cultural adaptations made beyond direct translation"
+    },
+    "qa_flags_count": {
+      "type": "integer",
+      "description": "Number of QA flags raised during localization"
+    }
+  }
+}

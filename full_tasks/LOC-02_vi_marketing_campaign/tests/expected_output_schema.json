@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LOC-02 Output Schema",
+  "type": "object",
+  "required": ["total_materials_adapted", "social_posts_count"],
+  "properties": {
+    "total_materials_adapted": {
+      "type": "integer",
+      "description": "Total number of marketing materials adapted to Vietnamese"
+    },
+    "social_posts_count": {
+      "type": "integer",
+      "description": "Number of social media posts created in Vietnamese"
+    },
+    "ad_copies_count": {
+      "type": "integer",
+      "description": "Number of ad copy variants created"
+    },
+    "brand_compliance_score": {
+      "type": ["number", "string"],
+      "description": "Brand compliance assessment score or rating"
+    }
+  }
+}

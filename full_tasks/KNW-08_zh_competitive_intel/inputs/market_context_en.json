@@ -1,0 +1,74 @@
+{
+  "report_title": "Global AI Chip Market Report 2024",
+  "source": "TechInsights",
+  "total_market_size_2024_usd_billion": 72.4,
+  "yoy_growth_percent": 48.3,
+  "segments": {
+    "training_chips": {
+      "market_size_usd_billion": 45.2,
+      "top_players": [
+        {
+          "company": "NVIDIA",
+          "share_percent": 72.8
+        },
+        {
+          "company": "NovaTech",
+          "share_percent": 18.4
+        },
+        {
+          "company": "AMD",
+          "share_percent": 4.2
+        },
+        {
+          "company": "DeepSilicon",
+          "share_percent": 3.2
+        }
+      ]
+    },
+    "inference_chips": {
+      "market_size_usd_billion": 18.7,
+      "top_players": [
+        {
+          "company": "NVIDIA",
+          "share_percent": 48.3
+        },
+        {
+          "company": "Intel",
+          "share_percent": 12.4
+        },
+        {
+          "company": "SiliconWave",
+          "share_percent": 6.8
+        },
+        {
+          "company": "DeepSilicon",
+          "share_percent": 5.1
+        }
+      ]
+    },
+    "edge_ai_chips": {
+      "market_size_usd_billion": 8.5,
+      "top_players": [
+        {
+          "company": "Qualcomm",
+          "share_percent": 22.1
+        },
+        {
+          "company": "MediaTek",
+          "share_percent": 18.4
+        },
+        {
+          "company": "QuantumCore",
+          "share_percent": 4.7
+        }
+      ]
+    }
+  },
+  "regional_demand": {
+    "north_america_percent": 38.2,
+    "china_percent": 28.4,
+    "europe_percent": 14.7,
+    "japan_percent": 8.3,
+    "korea_percent": 5.8
+  }
+}

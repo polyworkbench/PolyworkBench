@@ -1,0 +1,21 @@
+id = "COM-01_ru_marketplace_listing"
+name = "Chinese product catalog to Russian marketplace listings"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 3
+estimated_steps = 6
+timeout_sec = 1800
+tags = ["ru-instruction", "zh-source", "en-source", "ru-output", "ecommerce", "seo", "localization"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["listings_ru.json", "seo_keywords_ru.txt", "size_conversion_table.json", "compliance_tags.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

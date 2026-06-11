@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "source": "BloombergNEF Battery Price Survey",
+    "last_updated": "2024-Q4",
+    "currency": "USD"
+  },
+  "pack_level_prices": {
+    "2018": {"average_usd_kwh": 185, "min_usd_kwh": 145, "max_usd_kwh": 240},
+    "2019": {"average_usd_kwh": 161, "min_usd_kwh": 128, "max_usd_kwh": 215},
+    "2020": {"average_usd_kwh": 140, "min_usd_kwh": 110, "max_usd_kwh": 195},
+    "2021": {"average_usd_kwh": 132, "min_usd_kwh": 105, "max_usd_kwh": 178},
+    "2022": {"average_usd_kwh": 151, "min_usd_kwh": 118, "max_usd_kwh": 198},
+    "2023": {"average_usd_kwh": 139, "min_usd_kwh": 95, "max_usd_kwh": 182},
+    "2024": {"average_usd_kwh": 115, "min_usd_kwh": 75, "max_usd_kwh": 158}
+  },
+  "cell_level_prices": {
+    "2023_LFP": {"average_usd_kwh": 72, "china_usd_kwh": 58},
+    "2023_NMC": {"average_usd_kwh": 98, "china_usd_kwh": 82},
+    "2024_LFP": {"average_usd_kwh": 62, "china_usd_kwh": 53},
+    "2024_NMC": {"average_usd_kwh": 85, "china_usd_kwh": 72}
+  },
+  "forecasts": {
+    "2025": {"pack_average": 98, "lfp_cell_china": 48, "nmc_cell_avg": 78},
+    "2026": {"pack_average": 88, "lfp_cell_china": 44, "nmc_cell_avg": 72},
+    "2027": {"pack_average": 78, "lfp_cell_china": 40, "nmc_cell_avg": 65},
+    "2028": {"pack_average": 72, "lfp_cell_china": 37, "nmc_cell_avg": 60},
+    "2029": {"pack_average": 67, "lfp_cell_china": 35, "nmc_cell_avg": 56},
+    "2030": {"pack_average": 62, "lfp_cell_china": 33, "nmc_cell_avg": 52}
+  },
+  "raw_material_prices": {
+    "lithium_carbonate_usd_ton": {
+      "2023_avg": 28500,
+      "2024_avg": 14200,
+      "2024_q4": 11800,
+      "trend": "declining"
+    },
+    "nickel_usd_ton": {
+      "2023_avg": 21500,
+      "2024_avg": 17800,
+      "2024_q4": 16200,
+      "trend": "declining"
+    },
+    "cobalt_usd_ton": {
+      "2023_avg": 35200,
+      "2024_avg": 28500,
+      "2024_q4": 25800,
+      "trend": "declining"
+    },
+    "graphite_usd_ton": {
+      "2023_avg": 1250,
+      "2024_avg": 980,
+      "2024_q4": 890,
+      "trend": "stable"
+    }
+  },
+  "regional_price_comparison_2024": {
+    "china": {"lfp_pack": 82, "nmc_pack": 105},
+    "europe": {"lfp_pack": 128, "nmc_pack": 142},
+    "north_america": {"lfp_pack": 122, "nmc_pack": 138},
+    "southeast_asia": {"lfp_pack": 95, "nmc_pack": 118}
+  }
+}

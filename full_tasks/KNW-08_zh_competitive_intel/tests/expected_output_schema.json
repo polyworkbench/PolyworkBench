@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KNW-08 Output Schema",
+  "type": "object",
+  "required": ["competitors_profiled", "threats_identified"],
+  "properties": {
+    "competitors_profiled": {
+      "type": "integer",
+      "description": "Number of competitors profiled from EN/KO/JA sources"
+    },
+    "threats_identified": {
+      "type": "integer",
+      "description": "Number of competitive threats identified"
+    },
+    "strategic_implications": {
+      "type": ["integer", "array"],
+      "description": "Number or list of strategic implications"
+    },
+    "data_sources_used": {
+      "type": "integer",
+      "description": "Number of intelligence data sources analyzed"
+    }
+  }
+}

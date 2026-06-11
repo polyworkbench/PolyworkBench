@@ -1,0 +1,107 @@
+{
+  "year": 2024,
+  "market": "Vietnam",
+  "events": [
+    {
+      "name": "Tết Nguyên Đán",
+      "name_en": "Lunar New Year",
+      "date_range": "2024-02-08 to 2024-02-14",
+      "significance": "Ngày lễ quan trọng nhất trong năm. Gia đình đoàn tụ, mua sắm tết, tặng quà.",
+      "marketing_opportunity": "HIGH - Mua sắm đồ tết, quần áo mới, quà tặng, thực phẩm",
+      "taboos": ["Không nhắc đến chết chóc, chia ly. Tránh màu đen. Dùng màu đỏ, vàng."],
+      "suggested_themes": ["Đoàn viên", "May mắn", "Khởi đầu mới", "Quà tết"]
+    },
+    {
+      "name": "Ngày Quốc tế Phụ nữ",
+      "name_en": "International Women's Day",
+      "date_range": "2024-03-08",
+      "significance": "Tặng quà cho phụ nữ. Rất phổ biến ở Việt Nam.",
+      "marketing_opportunity": "HIGH - Quà tặng, mỹ phẩm, thời trang, spa",
+      "taboos": ["Tránh giọng điệu coi thường phụ nữ"],
+      "suggested_themes": ["Yêu thương", "Tôn vinh phụ nữ", "Quà tặng ý nghĩa"]
+    },
+    {
+      "name": "Ngày Phụ nữ Việt Nam",
+      "name_en": "Vietnamese Women's Day",
+      "date_range": "2024-10-20",
+      "significance": "Ngày lễ dành riêng cho phụ nữ Việt Nam",
+      "marketing_opportunity": "HIGH - Tương tự 8/3",
+      "taboos": [],
+      "suggested_themes": ["Phụ nữ Việt", "Yêu thương", "Tri ân"]
+    },
+    {
+      "name": "Ngày Nhà giáo Việt Nam",
+      "name_en": "Vietnamese Teachers' Day",
+      "date_range": "2024-11-20",
+      "significance": "Tặng quà cho giáo viên, thể hiện lòng biết ơn",
+      "marketing_opportunity": "MEDIUM - Quà tặng, hoa, sách",
+      "taboos": [],
+      "suggested_themes": ["Tri ân thầy cô", "Quà tặng ý nghĩa"]
+    },
+    {
+      "name": "Tết Trung Thu",
+      "name_en": "Mid-Autumn Festival",
+      "date_range": "2024-09-17",
+      "significance": "Tết dành cho trẻ em. Bánh trung thu, đèn lồng, múa lân.",
+      "marketing_opportunity": "MEDIUM - Bánh trung thu, đồ chơi, quà tặng gia đình",
+      "taboos": [],
+      "suggested_themes": ["Gia đình", "Trẻ em", "Truyền thống"]
+    },
+    {
+      "name": "Ngày Quốc khánh",
+      "name_en": "National Day",
+      "date_range": "2024-09-02",
+      "significance": "Ngày lễ quốc gia, nghỉ lễ",
+      "marketing_opportunity": "MEDIUM - Sale dịp nghỉ lễ",
+      "taboos": ["Tránh nội dung chính trị, nhạy cảm"],
+      "suggested_themes": ["Tự hào Việt Nam", "Nghỉ lễ vui vẻ"]
+    },
+    {
+      "name": "Black Friday",
+      "name_en": "Black Friday",
+      "date_range": "2024-11-29",
+      "significance": "Ngày mua sắm giảm giá lớn (du nhập từ phương Tây)",
+      "marketing_opportunity": "HIGH - Flash sale, giảm giá sốc",
+      "taboos": [],
+      "suggested_themes": ["Giảm giá sốc", "Mua sắm thả ga", "Deal hot"]
+    },
+    {
+      "name": "Ngày Độc thân 11/11",
+      "name_en": "Singles' Day",
+      "date_range": "2024-11-11",
+      "significance": "Ngày hội mua sắm online lớn nhất (du nhập từ Trung Quốc)",
+      "marketing_opportunity": "HIGH - Sale lớn, flash deal",
+      "taboos": [],
+      "suggested_themes": ["Yêu bản thân", "Tự thưởng", "Deal khủng"]
+    },
+    {
+      "name": "Mùa tựu trường",
+      "name_en": "Back to School Season",
+      "date_range": "2024-08-15 to 2024-09-05",
+      "significance": "Mua sắm chuẩn bị cho năm học mới",
+      "marketing_opportunity": "HIGH - Đồ dùng học tập, quần áo, balo, sách vở",
+      "taboos": [],
+      "suggested_themes": ["Năm học mới", "Chuẩn bị cho con", "Tựu trường vui vẻ"]
+    },
+    {
+      "name": "Ngày Valentine",
+      "name_en": "Valentine's Day",
+      "date_range": "2024-02-14",
+      "significance": "Ngày lễ tình nhân, phổ biến với giới trẻ",
+      "marketing_opportunity": "MEDIUM - Quà tặng đôi, hoa, chocolate, trải nghiệm",
+      "taboos": [],
+      "suggested_themes": ["Tình yêu", "Khoảnh khắc đôi lứa", "Quà tặng người yêu"]
+    }
+  ],
+  "monthly_shopping_peaks": {
+    "January": "Chuẩn bị Tết",
+    "February": "Mua sắm Tết + Valentine",
+    "March": "8/3 Quà tặng phụ nữ",
+    "June": "Hè - Du lịch, giải trí",
+    "August": "Tựu trường",
+    "September": "Trung Thu + Quốc khánh",
+    "October": "20/10 Phụ nữ VN",
+    "November": "11/11 + Black Friday + 20/11",
+    "December": "Giáng sinh + Năm mới"
+  }
+}

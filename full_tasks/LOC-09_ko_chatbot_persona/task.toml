@@ -1,0 +1,21 @@
+id = "LOC-09_ko_chatbot_persona"
+name = "Korean chatbot persona design and adaptation"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["ko-instruction", "en-source", "ja-source", "zh-source", "ko-output", "chatbot", "persona"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["chatbot_scripts_ko.json", "persona_guide_ko.md", "dialogue_flows_ko.json", "tone_analysis.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

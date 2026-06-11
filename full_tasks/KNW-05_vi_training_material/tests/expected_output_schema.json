@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KNW-05 Output Schema",
+  "type": "object",
+  "required": ["total_modules", "exercises_count"],
+  "properties": {
+    "total_modules": {
+      "type": "integer",
+      "description": "Total number of training modules created in Vietnamese"
+    },
+    "exercises_count": {
+      "type": "integer",
+      "description": "Number of exercises/activities created"
+    },
+    "glossary_terms": {
+      "type": "integer",
+      "description": "Number of terms in the trilingual glossary (VI/EN/ZH)"
+    },
+    "assessment_questions": {
+      "type": "integer",
+      "description": "Number of assessment questions created"
+    }
+  }
+}

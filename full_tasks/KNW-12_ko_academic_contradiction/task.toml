@@ -1,0 +1,21 @@
+id = "KNW-12_ko_academic_contradiction"
+name = "Korean-instruction academic paper contradiction analysis"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 10
+timeout_sec = 3000
+tags = ["ko-instruction", "ko-source", "ja-source", "en-source", "ko-output", "academic", "knowledge"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["contradiction_report_ko.md", "citations.json", "analysis_summary.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

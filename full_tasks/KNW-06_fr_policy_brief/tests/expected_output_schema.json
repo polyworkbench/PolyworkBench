@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KNW-06 Output Schema",
+  "type": "object",
+  "required": ["sources_synthesized", "recommendations_count"],
+  "properties": {
+    "sources_synthesized": {
+      "type": "integer",
+      "description": "Number of sources synthesized from EN/ZH/RU"
+    },
+    "recommendations_count": {
+      "type": "integer",
+      "description": "Number of policy recommendations made"
+    },
+    "key_findings": {
+      "type": "array",
+      "description": "Key findings from the policy analysis",
+      "items": {"type": "string"}
+    },
+    "bibliography_entries": {
+      "type": "integer",
+      "description": "Number of bibliography entries"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+mã_giao_dịch,ngày_giờ,người_bán_id,người_mua_id,số_tiền_usd,danh_mục,ip,thành_phố_thanh_toán,thành_phố_giao_hàng,trạng_thái,ngày_tạo_tài_khoản,đánh_giá_trung_bình
+TXN-022,2024-03-15 08:00:12,SEL-VN-201,BUY-6001,85.00,thời trang,113.22.33.44,Hồ Chí Minh,Hồ Chí Minh,thành công,2023-01-15,4.5
+TXN-023,2024-03-15 08:30:45,SEL-VN-202,BUY-6002,120.00,điện tử,113.22.33.50,Hà Nội,Hà Nội,thành công,2022-06-20,4.8
+TXN-024,2024-03-15 09:00:00,SEL-VN-203,BUY-6003,45.00,sách,113.22.33.55,Đà Nẵng,Đà Nẵng,thành công,2023-03-10,4.2
+TXN-025,2024-03-15 09:30:22,SEL-VN-204,BUY-6004,250.00,điện tử,113.22.33.60,Hồ Chí Minh,Hồ Chí Minh,thành công,2022-09-05,4.6
+TXN-026,2024-03-15 10:00:15,SEL-VN-205,BUY-6005,178.00,gia dụng,113.22.33.65,Hải Phòng,Hải Phòng,thành công,2023-05-18,4.3
+TXN-027,2024-03-15 10:30:33,SEL-VN-201,BUY-6006,92.00,thời trang,113.22.33.44,Hồ Chí Minh,Hồ Chí Minh,thành công,2023-01-15,4.5
+TXN-028,2024-03-15 11:00:00,SEL-VN-206,BUY-6007,310.00,điện tử,113.22.33.70,Cần Thơ,Cần Thơ,thành công,2022-11-22,4.7
+TXN-029,2024-03-15 11:30:12,SEL-VN-207,BUY-6008,55.00,sách,113.22.33.75,Huế,Huế,thành công,2023-07-01,4.1
+TXN-030,2024-03-15 12:00:45,SEL-VN-202,BUY-6009,195.00,điện tử,113.22.33.50,Hà Nội,Hà Nội,thành công,2022-06-20,4.8
+TXN-031,2024-03-15 12:30:00,SEL-VN-208,BUY-6010,420.00,điện tử,113.22.33.80,Hồ Chí Minh,Hồ Chí Minh,thành công,2023-02-14,4.4
+TXN-032,2024-03-15 13:00:22,SEL-VN-203,BUY-6011,38.00,sách,113.22.33.55,Đà Nẵng,Đà Nẵng,thành công,2023-03-10,4.2
+TXN-033,2024-03-15 13:30:10,SEL-VN-209,BUY-6012,145.00,thể thao,113.22.33.85,Nha Trang,Nha Trang,thành công,2022-12-08,4.6
+TXN-034,2024-03-15 14:00:33,SEL-VN-204,BUY-6013,275.00,điện tử,113.22.33.60,Hồ Chí Minh,Hồ Chí Minh,thành công,2022-09-05,4.6
+TXN-035,2024-03-15 14:30:45,SEL-VN-210,BUY-6014,88.00,làm đẹp,113.22.33.90,Vũng Tàu,Vũng Tàu,thành công,2023-04-20,4.3
+TXN-036,2024-03-15 15:00:00,SEL-VN-205,BUY-6015,162.00,gia dụng,113.22.33.65,Hải Phòng,Hải Phòng,thành công,2023-05-18,4.3
+TXN-038,2024-03-16 09:00:12,SEL-VN-206,BUY-6016,285.00,điện tử,113.22.33.70,Cần Thơ,Cần Thơ,thành công,2022-11-22,4.7
+TXN-039,2024-03-16 09:30:00,SEL-VN-211,BUY-6017,110.00,thời trang,113.22.33.95,Hồ Chí Minh,Hồ Chí Minh,thành công,2023-08-12,4.0
+TXN-040,2024-03-16 10:00:22,SEL-VN-207,BUY-6018,65.00,sách,113.22.33.75,Huế,Huế,thành công,2023-07-01,4.1
+TXN-048,2024-03-16 12:00:00,SEL-VN-299,BUY-6019,3800.00,điện tử,103.45.67.89,Hồ Chí Minh,Hồ Chí Minh,thành công,2024-03-16,0.0
+TXN-042,2024-03-16 13:00:33,SEL-VN-208,BUY-6020,380.00,điện tử,113.22.33.80,Hồ Chí Minh,Hồ Chí Minh,thành công,2023-02-14,4.4

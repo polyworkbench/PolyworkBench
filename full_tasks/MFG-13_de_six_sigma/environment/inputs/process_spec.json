@@ -1,0 +1,51 @@
+{
+  "process_name": "Precision Shaft Diameter - Outer Ring",
+  "part_number": "PS-2024-001",
+  "revision": "C",
+  "characteristic": "Outer Diameter",
+  "usl_mm": 10.05,
+  "lsl_mm": 9.95,
+  "target_mm": 10.0,
+  "unit": "mm",
+  "measurement_method": "CMM - Coordinate Measuring Machine",
+  "instrument": "Mitutoyo Crysta-Apex S574",
+  "resolution_mm": 0.001,
+  "measurement_uncertainty_mm": 0.002,
+  "sample_size": 5,
+  "subgroup_size": 5,
+  "frequency": "every 30 minutes",
+  "total_measurements": 80,
+  "measurement_period": "2024-03-10 to 2024-03-14",
+  "shifts_covered": [
+    "Fruehschicht (06:00-14:00)",
+    "Spaetschicht (14:00-22:00)"
+  ],
+  "operators": [
+    "Mueller",
+    "Schmidt",
+    "Weber",
+    "Fischer"
+  ],
+  "machine": "CNC Drehmaschine DMG MORI CLX 350",
+  "material": "Stahl 42CrMo4",
+  "hardness_hrc": "28-32",
+  "coolant": "Emulsion 8%",
+  "tool_type": "CNMG 120408 TiAlN coated",
+  "tool_life_expected_min": 45,
+  "cutting_speed_m_min": 180,
+  "feed_mm_rev": 0.15,
+  "depth_of_cut_mm": 0.5,
+  "customer_requirement": "Cpk >= 1.33",
+  "internal_target": "Cpk >= 1.67",
+  "previous_cpk": 1.25,
+  "improvement_goal": "Achieve Cpk >= 1.33 within 30 days",
+  "known_issues": [
+    "Tool wear causes diameter drift over time",
+    "Shift change introduces offset due to different tool settings",
+    "Material hardness variation between batches"
+  ],
+  "control_plan_ref": "CP-2024-001-Rev-C",
+  "fmea_ref": "FMEA-PS-2024-001",
+  "customer": "Automotive OEM - Tier 1 Supplier",
+  "application": "Transmission input shaft bearing seat"
+}

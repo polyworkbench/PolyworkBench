@@ -1,0 +1,21 @@
+id = "COM-07_en_global_pricing"
+name = "Cross-market pricing validation and English strategy memo"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 10
+timeout_sec = 3000
+tags = ["en-instruction", "zh-source", "ru-source", "ko-source", "vi-source", "en-output", "pricing", "strategy"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["pricing_analysis.json", "inconsistency_report.md", "pricing_strategy.md", "market_comparison.json", "validation_script.py"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

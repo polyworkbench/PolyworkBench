@@ -1,0 +1,26 @@
+Part Number,Description,Category,Compatible Equipment,Unit Price USD,Lead Time Days,Min Order Qty,Supplier,Weight kg,Status
+NZL-H24-01S,Nozzle Type 01 (0201-0402),Nozzle,NXT-III H24,45.00,14,5,Fuji America,0.02,Active
+NZL-H24-03M,Nozzle Type 03 (0603-0805),Nozzle,NXT-III H24,52.00,14,5,Fuji America,0.03,Active
+NZL-H24-05L,Nozzle Type 05 (1206-2512),Nozzle,NXT-III H24,58.00,14,5,Fuji America,0.04,Active
+NZL-H24-07X,Nozzle Type 07 (QFP/SOP),Nozzle,NXT-III H24,85.00,21,3,Fuji America,0.05,Active
+NZL-H24-10B,Nozzle Type 10 (BGA),Nozzle,NXT-III H24,120.00,21,2,Fuji America,0.06,Active
+SPK-NXT-8MM,Sprocket 8mm Feeder,Feeder Parts,NXT-III H24,28.00,7,10,Fuji America,0.08,Active
+SPK-NXT-12MM,Sprocket 12mm Feeder,Feeder Parts,NXT-III H24,32.00,7,10,Fuji America,0.10,Active
+SPK-NXT-16MM,Sprocket 16mm Feeder,Feeder Parts,NXT-III H24,35.00,7,5,Fuji America,0.12,Active
+BLT-X-NXT3,Timing Belt X-Axis,Drive System,NXT-III H24,180.00,28,2,Fuji America,0.35,Active
+BLT-Y-NXT3,Timing Belt Y-Axis,Drive System,NXT-III H24,195.00,28,2,Fuji America,0.40,Active
+BLT-Z-NXT3,Timing Belt Z-Axis (Head),Drive System,NXT-III H24,85.00,21,4,Fuji America,0.15,Active
+FLT-AIR-NXT,Air Filter Element,Pneumatics,NXT-III H24,22.00,7,6,Local Supplier,0.08,Active
+FLT-VAC-NXT,Vacuum Filter Element,Pneumatics,NXT-III H24,18.00,7,12,Local Supplier,0.05,Active
+LED-CAM-TOP,Camera LED Unit (Top),Vision System,NXT-III H24,350.00,35,1,Fuji America,0.25,Active
+LED-CAM-BOT,Camera LED Unit (Bottom),Vision System,NXT-III H24,380.00,35,1,Fuji America,0.28,Active
+BRG-SRV-XY,Servo Motor Bearing (X/Y),Drive System,NXT-III H24,95.00,21,4,NSK Distributor,0.15,Active
+BRG-SRV-Z,Servo Motor Bearing (Z/Theta),Drive System,NXT-III H24,68.00,21,6,NSK Distributor,0.08,Active
+BSC-X-NXT3,Ball Screw X-Axis Assembly,Drive System,NXT-III H24,1250.00,45,1,Fuji America,2.80,Active
+BSC-Y-NXT3,Ball Screw Y-Axis Assembly,Drive System,NXT-III H24,1380.00,45,1,Fuji America,3.20,Active
+GRS-LTH-01,Lithium Grease (Specified),Consumable,NXT-III H24,45.00,7,2,THK Distributor,0.40,Active
+PIN-BKP-STD,Backup Pin (Standard),Board Support,NXT-III H24,3.50,7,20,Local Supplier,0.02,Active
+PIN-BKP-MAG,Backup Pin (Magnetic),Board Support,NXT-III H24,8.50,7,10,Local Supplier,0.03,Active
+CNV-BLT-510,Conveyor Belt 510mm,Transport,NXT-III H24,125.00,14,2,Local Supplier,0.55,Active
+PSU-MAIN-48V,Main Power Supply 48V,Electrical,NXT-III H24,680.00,28,1,Fuji America,1.80,Active
+RLY-CTRL-01,Control Relay Module,Electrical,NXT-III H24,42.00,14,4,Omron Distributor,0.05,Active

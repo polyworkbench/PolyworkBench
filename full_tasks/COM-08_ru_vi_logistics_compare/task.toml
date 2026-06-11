@@ -1,0 +1,21 @@
+id = "COM-08_ru_vi_logistics_compare"
+name = "China-Russia vs China-Vietnam logistics comparison with Russian report"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 4
+estimated_steps = 7
+timeout_sec = 2400
+tags = ["ru-instruction", "vi-source", "zh-source", "en-source", "ru-output", "logistics", "comparison"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["logistics_comparison_ru.md", "route_analysis.json", "cost_calculator.py", "recommendations_ru.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

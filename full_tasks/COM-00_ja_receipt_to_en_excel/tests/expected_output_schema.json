@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["concur_expense_csv", "extraction", "exceptions_md"],
+  "properties": {
+    "concur_expense_csv": {
+      "type": "string",
+      "description": "CSV text with BOM; columns: Date,Vendor,Description,Amount_JPY,Tax_Rate,Amount_CNY,Receipt_ID,Status,Notes"
+    },
+    "extraction": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["receipt_id", "date_iso", "vendor", "addressee", "tax_breakdown", "total_jpy", "confidence", "issues"],
+        "properties": {
+          "receipt_id": {"type": "string"},
+          "date_iso": {"type": "string", "format": "date"},
+          "date_jp_original": {"type": "string"},
+          "vendor": {"type": "string"},
+          "addressee": {"type": "string"},
+          "tax_breakdown": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "rate": {"type": "number"},
+                "taxable_amount": {"type": "number"},
+                "tax": {"type": "number"}
+              }
+            }
+          },
+          "total_jpy": {"type": "number"},
+          "total_cny": {"type": "number"},
+          "handwritten_notes": {"type": "string"},
+          "stamp_present": {"type": "boolean"},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "issues": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "exceptions_md": {"type": "string"},
+    "calculation_check": {
+      "type": "object",
+      "properties": {
+        "rate_used": {"type": "number"},
+        "checks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "receipt_id": {"type": "string"},
+              "total_jpy_extracted": {"type": "number"},
+              "total_jpy_recalculated": {"type": "number"},
+              "delta_jpy": {"type": "number"},
+              "cny_expected": {"type": "number"},
+              "cny_actual": {"type": "number"},
+              "pass": {"type": "boolean"}
+            }
+          }
+        },
+        "all_pass": {"type": "boolean"}
+      }
+    },
+    "compliance_check": {
+      "type": "object",
+      "properties": {
+        "rules_applied": {"type": "array", "items": {"type": "string"}},
+        "results": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "receipt_id": {"type": "string"},
+              "rule": {"type": "string"},
+              "status": {"type": "string", "enum": ["pass", "fail", "pending_review"]},
+              "reason": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "summary_stats": {
+      "type": "object",
+      "properties": {
+        "total_receipts": {"type": "integer"},
+        "approved_count": {"type": "integer"},
+        "rejected_count": {"type": "integer"},
+        "pending_count": {"type": "integer"},
+        "total_approved_jpy": {"type": "number"},
+        "total_approved_cny": {"type": "number"},
+        "average_confidence": {"type": "number"}
+      }
+    }
+  }
+}

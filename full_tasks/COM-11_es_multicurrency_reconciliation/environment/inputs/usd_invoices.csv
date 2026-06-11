@@ -1,0 +1,21 @@
+invoice_id,date,vendor,description,amount_usd,payment_status,bank_ref
+US-INV-001,2024-03-01,Acme Corp,Server hosting Q1,4500.00,paid,BNK-US-001
+US-INV-002,2024-03-03,TechParts Inc,Network switches x10,8750.00,paid,BNK-US-002
+US-INV-003,2024-03-05,CloudServ LLC,Cloud storage annual,3200.00,paid,BNK-US-003
+US-INV-004,2024-03-07,DataFlow Systems,API gateway license,2100.00,paid,BNK-US-004
+US-INV-005,2024-03-08,Acme Corp,Maintenance contract,1500.00,paid,BNK-US-005
+US-INV-006,2024-03-10,SecureNet,Firewall appliance,4200.00,paid,BNK-US-006
+US-INV-007,2024-03-12,TechParts Inc,RAM modules x50,3750.00,paid,BNK-US-007
+US-INV-008,2024-03-14,CloudServ LLC,Bandwidth upgrade,1800.00,paid,BNK-US-008
+US-INV-009,2024-03-15,LogiTrans,Shipping - electronics,950.00,paid,BNK-US-009
+US-INV-010,2024-03-17,DataFlow Systems,Data pipeline setup,5500.00,paid,BNK-US-010
+US-INV-011,2024-03-19,Acme Corp,Emergency support,2200.00,paid,BNK-US-011
+US-INV-012,2024-03-20,SecureNet,SSL certificates x20,1600.00,paid,BNK-US-012
+US-INV-013,2024-03-22,TechParts Inc,SSD drives x25,3450.00,paid,BNK-US-013
+US-INV-089,2024-03-24,GlobalParts Ltd,Custom PCB assembly,3750.00,pending,
+US-INV-014,2024-03-25,CloudServ LLC,Disaster recovery setup,2800.00,paid,BNK-US-014
+US-INV-015,2024-03-27,DataFlow Systems,ML model deployment,4300.00,paid,BNK-US-015
+US-INV-016,2024-03-28,LogiTrans,Express shipping,750.00,paid,BNK-US-016
+US-INV-017,2024-03-29,Acme Corp,Hardware refresh,6100.00,paid,BNK-US-017
+US-INV-018,2024-03-30,SecureNet,Penetration testing,3200.00,paid,BNK-US-018
+US-INV-019,2024-03-31,TechParts Inc,Cable management kit,850.00,paid,BNK-US-019

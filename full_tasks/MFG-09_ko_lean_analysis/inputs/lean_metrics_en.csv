@@ -1,0 +1,11 @@
+process_step,takt_time_sec,cycle_time_sec,changeover_time_min,planned_uptime_min,actual_uptime_min,total_output,good_output,theoretical_capacity,oee_pct,availability_pct,performance_pct,quality_pct
+Stamping,60,52,25,480,438,505,492,552,72.8,91.3,84.1,97.4
+Welding_1,60,68,15,480,455,401,389,455,68.5,94.8,75.3,97.0
+Welding_2,60,55,18,480,450,491,480,540,74.1,93.8,82.5,97.8
+Painting,60,72,35,480,420,350,336,420,60.0,87.5,71.4,96.0
+Drying,60,45,5,480,470,627,621,627,92.6,97.9,95.5,99.0
+Assembly_1,60,58,12,480,460,476,463,552,72.2,95.8,78.3,97.3
+Assembly_2,60,65,20,480,445,411,398,534,61.6,92.7,69.1,96.8
+Inspection,60,40,8,480,468,702,695,702,95.0,97.5,98.7,99.0
+Packaging,60,35,10,480,462,792,786,792,95.5,96.3,100.0,99.2
+Final_QC,60,42,5,480,472,674,670,674,96.3,98.3,99.1,99.4

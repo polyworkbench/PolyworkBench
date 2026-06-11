@@ -1,0 +1,124 @@
+{
+  "terms": [
+    {
+      "en": "API key",
+      "ja": "APIキー"
+    },
+    {
+      "en": "stream",
+      "ja": "ストリーム"
+    },
+    {
+      "en": "pipeline",
+      "ja": "パイプライン"
+    },
+    {
+      "en": "processor",
+      "ja": "プロセッサ"
+    },
+    {
+      "en": "event",
+      "ja": "イベント"
+    },
+    {
+      "en": "buffer",
+      "ja": "バッファ"
+    },
+    {
+      "en": "timeout",
+      "ja": "タイムアウト"
+    },
+    {
+      "en": "authentication",
+      "ja": "認証"
+    },
+    {
+      "en": "rate limiting",
+      "ja": "レート制限"
+    },
+    {
+      "en": "monitoring",
+      "ja": "モニタリング"
+    },
+    {
+      "en": "dashboard",
+      "ja": "ダッシュボード"
+    },
+    {
+      "en": "deployment",
+      "ja": "デプロイメント"
+    },
+    {
+      "en": "configuration",
+      "ja": "設定"
+    },
+    {
+      "en": "real-time",
+      "ja": "リアルタイム"
+    },
+    {
+      "en": "batch processing",
+      "ja": "バッチ処理"
+    },
+    {
+      "en": "error handling",
+      "ja": "エラーハンドリング"
+    },
+    {
+      "en": "payload",
+      "ja": "ペイロード"
+    },
+    {
+      "en": "endpoint",
+      "ja": "エンドポイント"
+    },
+    {
+      "en": "namespace",
+      "ja": "ネームスペース"
+    },
+    {
+      "en": "latency",
+      "ja": "レイテンシ"
+    },
+    {
+      "en": "throughput",
+      "ja": "スループット"
+    },
+    {
+      "en": "retry",
+      "ja": "リトライ"
+    },
+    {
+      "en": "token",
+      "ja": "トークン"
+    },
+    {
+      "en": "SDK",
+      "ja": "SDK"
+    },
+    {
+      "en": "middleware",
+      "ja": "ミドルウェア"
+    },
+    {
+      "en": "callback",
+      "ja": "コールバック"
+    },
+    {
+      "en": "schema",
+      "ja": "スキーマ"
+    },
+    {
+      "en": "metadata",
+      "ja": "メタデータ"
+    },
+    {
+      "en": "webhook",
+      "ja": "Webhook"
+    },
+    {
+      "en": "cluster",
+      "ja": "クラスター"
+    }
+  ]
+}

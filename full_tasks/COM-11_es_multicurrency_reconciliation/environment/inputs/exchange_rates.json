@@ -1,0 +1,13 @@
+{
+  "base_currency": "EUR",
+  "rates_date": "2024-03-01",
+  "valid_through": "2024-03-31",
+  "rates": {
+    "USD/EUR": 0.92,
+    "CNY/EUR": 0.13,
+    "EUR/USD": 1.087,
+    "EUR/CNY": 7.692
+  },
+  "source": "European Central Bank",
+  "notes": "Monthly average rates for March 2024"
+}

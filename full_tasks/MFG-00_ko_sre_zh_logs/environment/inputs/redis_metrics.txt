@@ -1,0 +1,28 @@
+# Prometheus scrape, all timestamps UTC
+# Format: <metric>{labels} <value> <unix_ts>
+
+redis_master_link_status{instance="redis-master-0"} 1 1732024500   # 14:00:00 UTC
+redis_master_link_status{instance="redis-master-0"} 1 1732024560   # 14:01:00 UTC
+redis_master_link_status{instance="redis-master-0"} 0 1732024620   # 14:02:00 UTC -- DOWN
+redis_master_link_status{instance="redis-master-0"} 0 1732024680   # 14:03:00 UTC
+redis_master_link_status{instance="redis-master-1"} 1 1732024740   # 14:04:00 UTC -- new master elected
+redis_connected_clients{instance="redis-master-0"} 142 1732024500
+redis_connected_clients{instance="redis-master-0"} 0 1732024620    # DROP
+redis_connected_clients{instance="redis-master-1"} 138 1732024740
+
+# Sentinel events
+sentinel_failover_total{cluster="payment"} 1 1732024740            # 14:02 -> 14:04 UTC
+
+# Kafka
+kafka_consumergroup_lag{group="payment-consumer", topic="payment-events"} 0 1732024500
+kafka_consumergroup_lag{group="payment-consumer", topic="payment-events"} 12450 1732024884   # ~14:08 UTC
+kafka_consumergroup_lag{group="payment-consumer", topic="payment-events"} 18900 1732025013   # ~14:10 UTC
+kafka_consumergroup_lag{group="payment-consumer", topic="payment-events"} 6700 1732025400    # ~14:17 UTC
+kafka_consumergroup_lag{group="payment-consumer", topic="payment-events"} 0 1732025700       # ~14:25 UTC
+
+# Payment service SLI
+payment_success_rate{service="payment-service"} 0.998 1732024500
+payment_success_rate{service="payment-service"} 0.612 1732024800   # 14:00 UTC degraded
+payment_success_rate{service="payment-service"} 0.450 1732025100   # 14:05 UTC worst
+payment_success_rate{service="payment-service"} 0.880 1732025700   # 14:15 UTC recovering
+payment_success_rate{service="payment-service"} 0.997 1732026000   # 14:20 UTC restored

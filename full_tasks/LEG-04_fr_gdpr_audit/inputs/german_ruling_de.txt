@@ -1,0 +1,133 @@
+LANDGERICHT BERLIN
+Urteil vom 14. November 2023
+Aktenzeichen: 16 O 340/23
+
+Leitsätze:
+
+1. Ein Cookie-Banner, der lediglich die Optionen "Alle akzeptieren" und "Weiter zur Seite"
+   anbietet, stellt keine wirksame Einwilligung im Sinne von Art. 6 Abs. 1 lit. a DSGVO
+   i.V.m. § 25 Abs. 1 TTDSG dar.
+
+2. Analyticscookies (z.B. Google Analytics, Hotjar) sind nicht für die Bereitstellung
+   eines ausdrücklich vom Nutzer angeforderten Dienstes erforderlich und bedürfen daher
+   der vorherigen Einwilligung.
+
+3. Eine automatisierte Entscheidungsfindung im Sinne von Art. 22 DSGVO liegt vor, wenn
+   ein Algorithmus die Preisgestaltung für einzelne Nutzer bestimmt und dies zu
+   Preisunterschieden von mehr als 20% zwischen Nutzersegmenten führt.
+
+---
+
+TATBESTAND:
+
+Der Kläger, ein Verbraucher mit Wohnsitz in Berlin, nutzte die SaaS-Plattform der
+Beklagten für geschäftliche Analysezwecke. Die Beklagte, ein US-amerikanisches
+Technologieunternehmen mit europäischer Niederlassung in den Niederlanden, betreibt
+eine cloudbasierte Analyseplattform.
+
+Der Kläger macht geltend:
+
+1. Das Cookie-Banner der Beklagten bietet keine gleichwertige Möglichkeit zur Ablehnung
+   nicht-essentieller Cookies. Der Button "Weiter zur Seite" impliziert zwar keine
+   ausdrückliche Zustimmung, aktiviert jedoch Analytics-Cookies automatisch.
+
+2. Die Beklagte nutzt automatisierte Profilierung zur Preisdifferenzierung. Der Kläger
+   stellte fest, dass ihm ein um 35% höherer Preis angezeigt wurde als einem Kollegen
+   mit identischem Nutzungsprofil aber anderem Standort.
+
+3. Die Beklagte hat keine Datenschutz-Folgenabschätzung (DSFA) gemäß Art. 35 DSGVO
+   durchgeführt, obwohl sie systematisches Profiling mit erheblichen Auswirkungen auf
+   betroffene Personen betreibt.
+
+4. Die Aufbewahrungsfristen der Beklagten (5 Jahre für Nutzungsdaten, 7 Jahre für
+   Kontodaten nach Kontoschließung) sind unverhältnismäßig und nicht durch einen
+   legitimen Zweck gerechtfertigt.
+
+---
+
+ENTSCHEIDUNGSGRÜNDE:
+
+I. Zur Wirksamkeit der Cookie-Einwilligung
+
+Das Gericht stellt fest, dass die von der Beklagten verwendete Cookie-Banner-Gestaltung
+nicht den Anforderungen an eine wirksame Einwilligung gemäß Art. 4 Nr. 11, Art. 7 DSGVO
+i.V.m. § 25 Abs. 1 TTDSG genügt.
+
+Eine Einwilligung ist nur dann "freiwillig" erteilt, wenn die betroffene Person eine
+echte und freie Wahl hat. Dies erfordert:
+
+a) Eine gleichwertige Ablehnungsmöglichkeit auf derselben Ebene wie die Zustimmung
+b) Keine voreingestellten Häkchen oder vorausgewählten Optionen
+c) Keine Designtricks (sog. "Dark Patterns"), die den Nutzer zur Zustimmung drängen
+
+Die Gestaltung "Alle akzeptieren" (farbiger, prominenter Button) vs. "Weiter zur Seite"
+(grauer, weniger auffälliger Link) stellt ein unzulässiges Dark Pattern dar.
+
+Darüber hinaus stellt das automatische Laden von Analytics-Cookies beim Klick auf
+"Weiter zur Seite" eine rechtswidrige Verarbeitung dar, da keine Einwilligung vorliegt
+und kein Ausnahmetatbestand nach § 25 Abs. 2 TTDSG gegeben ist.
+
+II. Zur automatisierten Entscheidungsfindung (Art. 22 DSGVO)
+
+Die algorithmische Preisdifferenzierung von bis zu 35% zwischen Nutzersegmenten stellt
+eine automatisierte Entscheidung mit erheblicher Auswirkung dar. Dies erfordert:
+
+a) Ausdrückliche Einwilligung (Art. 22 Abs. 2 lit. c DSGVO) oder
+b) Erforderlichkeit für Vertragsschluss (Art. 22 Abs. 2 lit. a DSGVO)
+
+Die bloße Berufung auf "berechtigtes Interesse" ist für solche Verarbeitungen nicht
+ausreichend. Die Beklagte muss die ausdrückliche Einwilligung der betroffenen Personen
+einholen und diese über die Logik der automatisierten Entscheidung informieren.
+
+III. Zur Datenschutz-Folgenabschätzung (Art. 35 DSGVO)
+
+Das Gericht bestätigt, dass die Verarbeitungstätigkeiten der Beklagten – insbesondere:
+- Systematisches Profiling mit Auswirkungen auf Preisgestaltung
+- Verarbeitung von Verhaltensdaten in großem Umfang
+- Kombination von Daten aus verschiedenen Quellen (Drittanbieter-Datenanreicherung)
+- Einsatz von KI/ML-Modellen auf personenbezogenen Daten
+
+eine hohe Risikobehandlung darstellen und eine DSFA zwingend erforderlich ist.
+
+Die unterlassene DSFA stellt einen Verstoß gegen Art. 35 DSGVO dar.
+
+IV. Zu den Aufbewahrungsfristen
+
+Die Aufbewahrung von Nutzungsdaten für 5 Jahre widerspricht dem Grundsatz der
+Speicherbegrenzung (Art. 5 Abs. 1 lit. e DSGVO). Das Gericht verweist auf die
+Empfehlungen der Aufsichtsbehörden:
+- Nutzungsdaten/Analytics: maximal 13 Monate
+- Kontodaten nach Beendigung: maximal 3 Jahre (Verjährungsfrist)
+
+V. Zu den internationalen Datentransfers
+
+Das Gericht stellt fest, dass die pauschale Berufung auf Standardvertragsklauseln und
+allgemeine ergänzende Maßnahmen nicht den Anforderungen des Schrems-II-Urteils genügt.
+Für jeden einzelnen Datentransfer muss eine individuelle Transferfolgenabschätzung (TIA)
+durchgeführt werden.
+
+---
+
+URTEILSTENOR:
+
+1. Die Beklagte wird verurteilt, ihr Cookie-Banner so umzugestalten, dass eine
+   gleichwertige Ablehnungsmöglichkeit auf derselben Ebene wie die Zustimmung angeboten
+   wird (Frist: 30 Tage).
+
+2. Die Beklagte wird verurteilt, die automatisierte Preisdifferenzierung einzustellen,
+   bis eine wirksame Einwilligung der betroffenen Personen eingeholt wird
+   (Frist: 60 Tage).
+
+3. Die Beklagte wird verurteilt, eine Datenschutz-Folgenabschätzung gemäß Art. 35 DSGVO
+   durchzuführen und der zuständigen Aufsichtsbehörde auf Verlangen vorzulegen
+   (Frist: 90 Tage).
+
+4. Die Beklagte wird verurteilt, die Aufbewahrungsfristen für Nutzungsdaten auf maximal
+   13 Monate zu reduzieren (Frist: 6 Monate).
+
+5. Die Beklagte trägt die Kosten des Rechtsstreits.
+
+---
+
+Rechtsmittelbelehrung: Gegen dieses Urteil ist die Berufung zum Kammergericht Berlin
+statthaft. Die Berufungsfrist beträgt einen Monat ab Zustellung des Urteils.

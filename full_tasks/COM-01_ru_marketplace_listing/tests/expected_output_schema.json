@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COM-01 Output Schema",
+  "type": "object",
+  "required": ["listings", "seo_keywords_text", "size_conversion", "compliance_tags"],
+  "properties": {
+    "listings": {
+      "type": "array",
+      "description": "Array of product listings localized to Russian marketplace format",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {"type": "string"},
+          "description": {"type": "string"},
+          "category": {"type": "string"},
+          "price_rub": {"type": "number"},
+          "sku": {"type": "string"},
+          "material": {"type": "string"},
+          "weight": {"type": ["number", "string"]}
+        }
+      }
+    },
+    "seo_keywords_text": {
+      "type": "string",
+      "description": "SEO keywords in Russian for marketplace optimization"
+    },
+    "size_conversion": {
+      "type": ["object", "array"],
+      "description": "CN to RU size conversion table"
+    },
+    "compliance_tags": {
+      "type": ["object", "array"],
+      "description": "Russian TR TS/EAC compliance tags per product"
+    }
+  }
+}

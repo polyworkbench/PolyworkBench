@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LEG-03 Output Schema",
+  "type": "object",
+  "required": ["total_claims", "prior_art_references"],
+  "properties": {
+    "total_claims": {
+      "type": "integer",
+      "description": "Total number of patent claims translated to Korean"
+    },
+    "prior_art_references": {
+      "type": "integer",
+      "description": "Number of prior art references analyzed from Japanese and Chinese sources"
+    },
+    "novelty_assessment": {
+      "type": "string",
+      "description": "Overall novelty assessment conclusion"
+    },
+    "filing_readiness": {
+      "type": "string",
+      "description": "Assessment of filing readiness for KIPO"
+    }
+  }
+}

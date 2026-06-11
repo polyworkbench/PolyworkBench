@@ -1,0 +1,16 @@
+product_line,sku,product_name,q2_forecast_units,unit_price_usd,q2_revenue_forecast,priority,primary_supplier
+MCU Series,MCU-7201,Microcontroller Unit A,45000,12.50,562500,critical,SKR-7
+MCU Series,MCU-7202,Microcontroller Unit B,32000,15.00,480000,critical,SKR-7
+RF Modules,RF-3101,RF Transceiver Module,28000,22.00,616000,high,SKR-7
+PCB Assembly,PCB-A501,Main Board Assembly,18000,45.00,810000,critical,SZH-3
+PCB Assembly,PCB-A502,Control Board Assembly,12000,38.00,456000,high,SZH-3
+Flex Circuits,FPC-201,Flexible PCB Type A,35000,8.50,297500,medium,SZH-3
+Connectors,CON-100,High-Speed Connector,65000,3.20,208000,high,SEN-2
+Passive Components,PAS-200,Capacitor Array Module,120000,1.50,180000,medium,SEN-2
+Cable Assembly,CAB-300,Custom Cable Harness,22000,6.80,149600,medium,SEN-2
+Power Modules,PWR-400,DC-DC Converter,15000,18.00,270000,high,SKR-7
+Sensors,SNS-500,Temperature Sensor IC,40000,5.50,220000,medium,SKR-7
+Display,DSP-600,OLED Display Module,8000,65.00,520000,critical,SZH-3
+Memory,MEM-700,Flash Memory 256GB,25000,28.00,700000,high,SKR-7
+Antenna,ANT-800,5G Antenna Module,18000,32.00,576000,high,SEN-2
+Battery,BAT-900,Li-Po Battery Pack,30000,12.00,360000,medium,SEN-2

@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MFG-03 Output Schema",
+  "type": "object",
+  "required": ["total_pm_items", "annual_cost_estimate_usd", "critical_items", "avg_mtbf_hours", "avg_mttr_hours", "total_spare_parts"],
+  "properties": {
+    "total_pm_items": {
+      "type": "integer",
+      "description": "Total number of preventive maintenance items in the schedule"
+    },
+    "annual_cost_estimate_usd": {
+      "type": "number",
+      "description": "Estimated annual maintenance cost in USD"
+    },
+    "critical_items": {
+      "type": "integer",
+      "description": "Number of critical priority maintenance items"
+    },
+    "avg_mtbf_hours": {
+      "type": "number",
+      "description": "Average Mean Time Between Failures in hours"
+    },
+    "avg_mttr_hours": {
+      "type": "number",
+      "description": "Average Mean Time To Repair in hours"
+    },
+    "total_spare_parts": {
+      "type": "integer",
+      "description": "Total number of spare parts mapped"
+    }
+  }
+}

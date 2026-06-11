@@ -1,0 +1,206 @@
+{
+  "chatbot_name": "BrandBot",
+  "domain": "e-commerce customer service",
+  "intents": [
+    {
+      "intent_id": "greeting",
+      "description": "User initiates conversation",
+      "responses": [
+        "Hello! Welcome to our store. How can I help you today?",
+        "Hi there! I'm here to assist you. What can I do for you?",
+        "Welcome back! Great to see you. What are you looking for today?",
+        "Hey! Thanks for reaching out. How may I assist you?"
+      ]
+    },
+    {
+      "intent_id": "product_inquiry",
+      "description": "User asks about a specific product",
+      "responses": [
+        "I'd be happy to help you learn more about that product! What would you like to know?",
+        "Great choice! Let me pull up the details for you.",
+        "Sure thing! Here's what I can tell you about that item.",
+        "That's one of our popular items! What specific information do you need?"
+      ]
+    },
+    {
+      "intent_id": "price_check",
+      "description": "User asks about pricing",
+      "responses": [
+        "Let me check the current price for you.",
+        "Here's the pricing information you requested.",
+        "I can help with that! The current price is listed below.",
+        "Good news - let me share the latest pricing details."
+      ]
+    },
+    {
+      "intent_id": "order_status",
+      "description": "User checks their order status",
+      "responses": [
+        "Let me look up your order status right away.",
+        "I'll check on that for you. One moment please.",
+        "Sure! Let me pull up your order information.",
+        "I can help track your order. Let me find the details."
+      ]
+    },
+    {
+      "intent_id": "shipping_info",
+      "description": "User asks about shipping options/timeline",
+      "responses": [
+        "Here are our available shipping options for your area.",
+        "I'd be happy to explain our shipping policies.",
+        "Let me outline the shipping timeline for you.",
+        "Great question! Here's how our shipping works."
+      ]
+    },
+    {
+      "intent_id": "return_request",
+      "description": "User wants to return a product",
+      "responses": [
+        "I'm sorry to hear the product didn't work out. Let me help you with the return process.",
+        "No problem at all. I can guide you through our return policy.",
+        "I understand. Let me initiate the return process for you.",
+        "Of course, I'll help you with that. Here's how our returns work."
+      ]
+    },
+    {
+      "intent_id": "payment_issue",
+      "description": "User has payment-related problems",
+      "responses": [
+        "I understand payment issues can be frustrating. Let me help resolve this.",
+        "I'm sorry you're experiencing this. Let me look into your payment issue.",
+        "Let me check what's happening with your payment right away.",
+        "I'll help sort this out. Can you tell me more about the payment problem?"
+      ]
+    },
+    {
+      "intent_id": "coupon_inquiry",
+      "description": "User asks about discounts or coupons",
+      "responses": [
+        "Let me check available promotions for you!",
+        "Great timing! Here are the current deals we have.",
+        "I'd love to help you save! Let me find applicable coupons.",
+        "Let me see what discounts are available for your order."
+      ]
+    },
+    {
+      "intent_id": "account_help",
+      "description": "User needs help with their account",
+      "responses": [
+        "I can help you with your account. What do you need assistance with?",
+        "Sure, let me help you manage your account settings.",
+        "I'll guide you through that. What account issue are you facing?",
+        "No problem! I can assist with account-related questions."
+      ]
+    },
+    {
+      "intent_id": "complaint",
+      "description": "User expresses dissatisfaction",
+      "responses": [
+        "I'm truly sorry about your experience. Let me make this right.",
+        "I sincerely apologize for the inconvenience. How can I help resolve this?",
+        "Thank you for bringing this to our attention. I want to help fix this.",
+        "I understand your frustration and I'm committed to resolving this issue."
+      ]
+    },
+    {
+      "intent_id": "product_recommendation",
+      "description": "User asks for product suggestions",
+      "responses": [
+        "I'd love to help you find the perfect product! What are you looking for?",
+        "Let me suggest some items based on your preferences.",
+        "I have some great recommendations! What's the occasion?",
+        "Happy to help! Tell me a bit about what you need."
+      ]
+    },
+    {
+      "intent_id": "size_guide",
+      "description": "User asks about sizing",
+      "responses": [
+        "I can help you find the right size! Let me pull up our size chart.",
+        "Getting the right fit is important. Here's our sizing guide.",
+        "Let me help you determine the best size for you.",
+        "Our size chart should help! Here's how to measure yourself."
+      ]
+    },
+    {
+      "intent_id": "wishlist_manage",
+      "description": "User manages their wishlist",
+      "responses": [
+        "I can help you manage your wishlist! What would you like to do?",
+        "Let me update your wishlist for you.",
+        "Sure! I'll help you add or remove items from your wishlist.",
+        "Your wishlist is a great way to save favorites! How can I help?"
+      ]
+    },
+    {
+      "intent_id": "loyalty_program",
+      "description": "User asks about loyalty/rewards program",
+      "responses": [
+        "Our loyalty program has great benefits! Let me tell you about them.",
+        "I'd be happy to explain our rewards system.",
+        "You can earn points with every purchase! Here's how it works.",
+        "Let me share the details of our loyalty program with you."
+      ]
+    },
+    {
+      "intent_id": "event_notification",
+      "description": "Bot notifies user about sales/events",
+      "responses": [
+        "Exciting news! We have a special event coming up!",
+        "Don't miss out! Here's what's happening this week.",
+        "Great news for you! Check out our latest promotion.",
+        "Hey, heads up! Something exciting is happening!"
+      ]
+    },
+    {
+      "intent_id": "farewell",
+      "description": "User ends conversation",
+      "responses": [
+        "Thank you for chatting with us! Have a wonderful day!",
+        "Glad I could help! Don't hesitate to reach out again.",
+        "Thanks for visiting! Hope to see you again soon.",
+        "Bye for now! Wishing you a great day ahead!"
+      ]
+    },
+    {
+      "intent_id": "technical_support",
+      "description": "User needs technical assistance",
+      "responses": [
+        "I can help troubleshoot that issue. Let's work through it together.",
+        "Let me guide you through the solution step by step.",
+        "I understand the technical difficulty. Here's what we can try.",
+        "Let me look into this technical issue for you right away."
+      ]
+    },
+    {
+      "intent_id": "feedback_positive",
+      "description": "User gives positive feedback",
+      "responses": [
+        "Thank you so much! That really means a lot to us!",
+        "We're so happy to hear that! Thanks for sharing!",
+        "Wonderful! Your feedback makes our day!",
+        "That's amazing to hear! We appreciate your kind words!"
+      ]
+    },
+    {
+      "intent_id": "subscription_manage",
+      "description": "User manages subscription/newsletter",
+      "responses": [
+        "I can help you manage your subscription preferences.",
+        "Let me update your notification settings.",
+        "Sure! I'll help you adjust your subscription.",
+        "Here's how you can manage your email preferences."
+      ]
+    },
+    {
+      "intent_id": "escalation",
+      "description": "User requests human agent",
+      "responses": [
+        "I understand you'd like to speak with a human agent. Let me connect you.",
+        "Of course, I'll transfer you to our customer service team right away.",
+        "No problem at all. Let me get a specialist to assist you.",
+        "I'll connect you with a team member who can help further."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "ipc_hierarchy": {
+    "H01M": {
+      "name": "Processes or means for direct conversion of chemical energy into electrical energy",
+      "subclasses": {
+        "H01M10": {
+          "name": "Secondary cells",
+          "groups": {
+            "H01M10/052": {
+              "name": "Lithium accumulators"
+            },
+            "H01M10/054": {
+              "name": "Sodium accumulators"
+            },
+            "H01M10/0525": {
+              "name": "Rocking-chair batteries"
+            },
+            "H01M10/0562": {
+              "name": "Solid electrolytes - inorganic"
+            },
+            "H01M10/0565": {
+              "name": "Solid electrolytes - polymer"
+            },
+            "H01M10/058": {
+              "name": "Manufacturing of solid electrolyte batteries"
+            },
+            "H01M10/0585": {
+              "name": "Construction of solid-state cells"
+            },
+            "H01M10/04": {
+              "name": "Construction in general"
+            },
+            "H01M10/48": {
+              "name": "Combined with measuring devices"
+            },
+            "H01M10/54": {
+              "name": "Reclaiming waste accumulators"
+            },
+            "H01M10/6568": {
+              "name": "Thermal management"
+            }
+          }
+        },
+        "H01M4": {
+          "name": "Electrodes",
+          "groups": {
+            "H01M4/04": {
+              "name": "Manufacturing processes"
+            },
+            "H01M4/131": {
+              "name": "Composite active material"
+            },
+            "H01M4/134": {
+              "name": "Metal alloy electrodes"
+            },
+            "H01M4/36": {
+              "name": "Material selection"
+            },
+            "H01M4/38": {
+              "name": "Chalcogenides - sulfur cathodes"
+            },
+            "H01M4/62": {
+              "name": "Inactive materials"
+            }
+          }
+        },
+        "H01M50": {
+          "name": "Structural details",
+          "groups": {
+            "H01M50/116": {
+              "name": "Casings or housings"
+            },
+            "H01M50/204": {
+              "name": "Module structure"
+            }
+          }
+        }
+      }
+    },
+    "H02J": {
+      "name": "Circuit arrangements for charging",
+      "subclasses": {
+        "H02J7": {
+          "name": "Charging batteries",
+          "groups": {
+            "H02J7/00": {
+              "name": "Charging circuit arrangements"
+            }
+          }
+        }
+      }
+    },
+    "G16C": {
+      "name": "Computational chemistry",
+      "subclasses": {
+        "G16C20": {
+          "name": "Chemoinformatics",
+          "groups": {
+            "G16C20/10": {
+              "name": "Structure prediction"
+            }
+          }
+        }
+      }
+    },
+    "G01N": {
+      "name": "Investigating materials",
+      "subclasses": {
+        "G01N29": {
+          "name": "Ultrasonic",
+          "groups": {
+            "G01N29/04": {
+              "name": "Analysing solids"
+            }
+          }
+        }
+      }
+    },
+    "G01R": {
+      "name": "Measuring electrical variables",
+      "subclasses": {
+        "G01R31": {
+          "name": "Testing",
+          "groups": {
+            "G01R31/389": {
+              "name": "Impedance spectroscopy"
+            }
+          }
+        }
+      }
+    },
+    "C23C": {
+      "name": "Coating metallic material",
+      "subclasses": {
+        "C23C14": {
+          "name": "Vacuum evaporation",
+          "groups": {
+            "C23C14/08": {
+              "name": "Oxides"
+            }
+          }
+        },
+        "C23C16": {
+          "name": "Chemical coating",
+          "groups": {
+            "C23C16/455": {
+              "name": "Atomic layer deposition"
+            }
+          }
+        }
+      }
+    },
+    "C04B": {
+      "name": "Ceramics",
+      "subclasses": {
+        "C04B35": {
+          "name": "Shaped ceramics",
+          "groups": {
+            "C04B35/48": {
+              "name": "Zirconium-based"
+            },
+            "C04B35/64": {
+              "name": "Sintering methods"
+            }
+          }
+        }
+      }
+    },
+    "C22B": {
+      "name": "Metal production/refining",
+      "subclasses": {
+        "C22B7": {
+          "name": "Raw materials",
+          "groups": {
+            "C22B7/00": {
+              "name": "Recycling non-ferrous"
+            }
+          }
+        }
+      }
+    },
+    "B33Y": {
+      "name": "Additive manufacturing",
+      "subclasses": {
+        "B33Y80": {
+          "name": "Products",
+          "groups": {
+            "B33Y80/00": {
+              "name": "AM products"
+            }
+          }
+        }
+      }
+    },
+    "B60L": {
+      "name": "Electric vehicle propulsion",
+      "subclasses": {
+        "B60L50": {
+          "name": "Power supply",
+          "groups": {
+            "B60L50/64": {
+              "name": "Battery-powered"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+id = "LEG-05_ja_corporate_minutes"
+name = "Japanese board minutes from English agenda, Chinese financials, Korean report"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["ja-instruction", "en-source", "zh-source", "ko-source", "ja-output", "legal", "corporate", "minutes"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["board_minutes_ja.md", "resolutions_ja.json", "financial_summary_ja.json", "action_items_ja.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

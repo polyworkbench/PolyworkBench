@@ -1,0 +1,56 @@
+BÁO CÁO GIAO CA - Ca sáng (06:00-14:00)
+Ngày: 2024-03-20
+Trưởng ca: Nguyễn Văn Hùng
+Số nhân viên: 15 người
+
+I. Tình hình sản xuất
+- Line A: Kế hoạch 1200, thực tế 1185, đạt 98.75%
+- Line B: Kế hoạch 1000, thực tế 978, đạt 97.8%
+- Line C: Kế hoạch 800, thực tế 812, đạt 101.5%
+- Tổng sản lượng: 2975 sản phẩm (KH: 3000, đạt 99.2%)
+
+II. Tình trạng thiết bị
+- Máy dán chip Line A: Bình thường, không sự cố
+- Lò reflow Line A: Bình thường, nhiệt độ ổn định
+- Máy dán chip Line B: Bình thường
+- Lò reflow Line B: 10:30 nhiệt độ zone 3 bất thường
+  Nguyên nhân: Tiếp xúc phần tử gia nhiệt kém
+  Xử lý: Siết chặt kết nối, khôi phục bình thường
+  Thời gian dừng: 30 phút (10:30-11:00)
+- Thiết bị lắp ráp Line C: Bình thường
+- Bàn test Line C: Bình thường
+- Máy nén khí: Bình thường (áp suất 4.2bar)
+- Hệ thống điều hòa: Bình thường (23C, độ ẩm 45%)
+
+III. Vấn đề chất lượng
+- Line A: 15 sản phẩm lỗi hàn (thiếu kem hàn), đã cách ly
+- Line B: 8 sản phẩm hàn ảo (trong thời gian lò reflow lỗi)
+- Line C: 5 sản phẩm lỗi ngoại quan (trầy xước)
+- Tỷ lệ lỗi: A=1.27%, B=0.82%, C=0.62%
+- Đã thông báo phòng QC phân tích
+
+IV. Vật tư
+- Kem hàn Line A: Tồn kho còn 2 ngày, đã yêu cầu bổ sung
+- Linh kiện dán Line B: Đủ 5 ngày
+- Bao bì Line C: Đủ
+- Lưu ý: Thứ hai tuần sau có lô kem hàn mới, cần kiểm tra đầu
+
+V. Nhân sự
+- Đi làm đầy đủ: 15/15 người
+- Nhân viên mới Lê Minh cần đào tạo vận hành Line C
+- Anh Trương nghỉ phép ngày mai (21/3)
+
+VI. An toàn
+- Không có sự cố an toàn
+- Kiểm tra lối thoát hiểm: Đạt
+- Vệ sinh sàn: Đạt
+- Bảo hộ lao động: Đã kiểm tra, đầy đủ
+
+VII. Công việc chuyển giao
+- Lò reflow Line B cần bảo trì phòng ngừa trong tuần
+- Bổ sung kem hàn khẩn cấp cho Line A
+- Sắp xếp đào tạo nhân viên mới
+- Hoàn thành báo cáo phân tích lỗi cho phòng QC
+
+Người ghi: Nguyễn Văn Hùng
+Thời gian: 2024-03-20 13:45

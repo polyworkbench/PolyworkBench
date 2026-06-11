@@ -1,0 +1,21 @@
+id = "LOC-12_en_ui_consistency_check"
+name = "Cross-platform UI localization consistency check (JA/KO/ZH)"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["en-instruction", "ja-source", "ko-source", "zh-source", "en-output", "localization", "qa"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["consistency_report.md", "inconsistencies.json", "key_alignment.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

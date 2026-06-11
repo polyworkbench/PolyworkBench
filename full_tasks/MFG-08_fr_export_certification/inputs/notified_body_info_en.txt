@@ -1,0 +1,52 @@
+NOTIFIED BODY INFORMATION
+==========================
+
+Notified Body: TÜV Rheinland LGA Products GmbH
+NB Number: 0197
+Address: Tillystraße 2, 90431 Nürnberg, Germany
+Contact: ce-marking@tuv.com
+
+Involvement: Module B (EU-type examination) for LVD compliance
+Certificate Number: Pending issuance upon documentation review
+CB Test Certificate: DE-62368-T1-2024-10150 (issued 2024-10-15)
+
+CERTIFICATION PATHWAY
+=====================
+
+For this product (household air purifier, Class II, <1000V AC):
+
+1. LVD (2014/35/EU):
+   - Self-declaration permitted (Module A - Internal production control)
+   - However, manufacturer opted for Module B+C (EU-type examination + conformity to type)
+   - NB involvement adds market confidence
+   - CB scheme certificate available for leveraging
+
+2. EMC (2014/30/EU):
+   - Self-declaration (Module A - Internal production control)
+   - No NB involvement required
+   - Must maintain technical file with test reports
+
+3. RoHS (2011/65/EU):
+   - Self-declaration
+   - Must maintain technical documentation per EN IEC 63000:2018
+   - Material declarations from component suppliers on file
+
+DECLARATION REQUIREMENTS
+========================
+
+The EU Declaration of Conformity must include (per Regulation 768/2008, Module A, Annex IV):
+- Name and address of the manufacturer
+- Product identification (name, type, batch, serial numbers)
+- Statement: "This declaration of conformity is issued under the sole responsibility of the manufacturer"
+- Reference to relevant EU harmonisation legislation
+- References to harmonised standards or other technical specifications
+- Where applicable: NB name, number, and certificate reference
+- Place and date of issue
+- Name, function, and signature of authorised person
+
+AUTHORIZED SIGNATORY
+====================
+Name: Chen Minghua (陈明华)
+Title: Chief Executive Officer
+Company: Shenzhen GreenSource Environmental Technology Co., Ltd.
+Authority: Full authority to sign EU declarations on behalf of the manufacturer

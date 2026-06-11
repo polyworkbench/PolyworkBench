@@ -1,0 +1,21 @@
+txn_id,date,jurisdiction,state_region,description,category,net_amount,currency
+TXN-DE-001,2024-03-01,DE,,SAP ERP Module,software,4200.00,EUR
+TXN-DE-002,2024-03-03,DE,,Siemens PLC Units x5,hardware,6500.00,EUR
+TXN-DE-003,2024-03-05,DE,,IT Consulting - March,services,3800.00,EUR
+TXN-DE-004,2024-03-08,DE,,Server Rack Equipment,hardware,5200.00,EUR
+TXN-DE-005,2024-03-12,DE,,Technical Documentation Books,books_reduced,1450.00,EUR
+TXN-DE-006,2024-03-18,DE,,Network Switches x10,hardware,2100.00,EUR
+TXN-DE-007,2024-03-25,DE,,Cloud Infrastructure License,software,558.95,EUR
+TXN-US-001,2024-03-02,US,CA,Dell Servers x3,hardware,8500.00,USD
+TXN-US-002,2024-03-04,US,NY,Microsoft 365 Enterprise,software,4200.00,USD
+TXN-US-003,2024-03-07,US,TX,Cisco Routers x4,hardware,6800.00,USD
+TXN-US-004,2024-03-10,US,CA,AWS Annual Contract,cloud_services,5200.00,USD
+TXN-US-005,2024-03-15,US,NY,Consulting Services Q1,services,3500.00,USD
+TXN-US-006,2024-03-20,US,TX,HP Printers x8,hardware,1200.00,USD
+TXN-US-007,2024-03-28,US,CA,Security Software Suite,software,742.00,USD
+TXN-JP-001,2024-03-01,JP,,富士通サーバー x2,hardware,180000,JPY
+TXN-JP-002,2024-03-06,JP,,NTTデータ コンサルティング,services,250000,JPY
+TXN-JP-003,2024-03-11,JP,,パナソニック監視カメラ,hardware,95000,JPY
+TXN-JP-004,2024-03-16,JP,,Oracle DBライセンス,software,156000,JPY
+TXN-JP-005,2024-03-22,JP,,日立製作所 ストレージ,hardware,145000,JPY
+TXN-JP-006,2024-03-29,JP,,NEC ネットワーク機器,hardware,65000,JPY

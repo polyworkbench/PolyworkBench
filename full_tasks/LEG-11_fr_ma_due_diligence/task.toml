@@ -1,0 +1,21 @@
+id = "LEG-11_fr_ma_due_diligence"
+name = "Cross-border M&A due diligence stress task"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 12
+timeout_sec = 3600
+tags = ["fr-instruction", "en-source", "zh-source", "ja-source", "ko-source", "fr-output", "ma", "legal", "finance", "stress"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["memo_dd_fr.md", "risk_register.json", "glossaire_fr_en_zh_ja_ko.json", "traceability_fr.md"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

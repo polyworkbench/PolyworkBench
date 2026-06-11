@@ -1,0 +1,49 @@
+sku_id,product_name,month,units_sold,revenue_usd,returns,market
+SKU-001,Bluetooth Earphone Pro,2025-07,120,5880,8,Japan
+SKU-001,Bluetooth Earphone Pro,2025-08,135,6615,6,Japan
+SKU-001,Bluetooth Earphone Pro,2025-09,98,4802,5,Japan
+SKU-001,Bluetooth Earphone Pro,2025-10,142,6958,9,Japan
+SKU-001,Bluetooth Earphone Pro,2025-11,168,8232,7,Japan
+SKU-001,Bluetooth Earphone Pro,2025-12,195,9555,12,Japan
+SKU-002,Wireless Charger 30W,2025-07,85,2125,3,Japan
+SKU-002,Wireless Charger 30W,2025-08,92,2300,4,Japan
+SKU-002,Wireless Charger 30W,2025-09,78,1950,2,Japan
+SKU-002,Wireless Charger 30W,2025-10,105,2625,5,Japan
+SKU-002,Wireless Charger 30W,2025-11,118,2950,4,Japan
+SKU-002,Wireless Charger 30W,2025-12,140,3500,6,Japan
+SKU-005,Smart Watch Sport Edition,2025-07,45,4455,3,Japan
+SKU-005,Smart Watch Sport Edition,2025-08,52,5148,2,Japan
+SKU-005,Smart Watch Sport Edition,2025-09,38,3762,1,Japan
+SKU-005,Smart Watch Sport Edition,2025-10,61,6039,4,Japan
+SKU-005,Smart Watch Sport Edition,2025-11,73,7227,3,Japan
+SKU-005,Smart Watch Sport Edition,2025-12,88,8712,5,Japan
+SKU-007,Noise Cancelling Headphone,2025-07,28,3920,2,Japan
+SKU-007,Noise Cancelling Headphone,2025-08,35,4900,1,Japan
+SKU-007,Noise Cancelling Headphone,2025-09,22,3080,1,Japan
+SKU-007,Noise Cancelling Headphone,2025-10,40,5600,3,Japan
+SKU-007,Noise Cancelling Headphone,2025-11,48,6720,2,Japan
+SKU-007,Noise Cancelling Headphone,2025-12,55,7700,4,Japan
+SKU-011,Screen Protector Tempered,2025-07,310,3100,15,Japan
+SKU-011,Screen Protector Tempered,2025-08,345,3450,12,Japan
+SKU-011,Screen Protector Tempered,2025-09,280,2800,10,Japan
+SKU-011,Screen Protector Tempered,2025-10,390,3900,18,Japan
+SKU-011,Screen Protector Tempered,2025-11,420,4200,14,Japan
+SKU-011,Screen Protector Tempered,2025-12,485,4850,20,Japan
+SKU-017,Fast Charger Adapter 65W,2025-07,65,1950,4,Japan
+SKU-017,Fast Charger Adapter 65W,2025-08,72,2160,3,Japan
+SKU-017,Fast Charger Adapter 65W,2025-09,58,1740,2,Japan
+SKU-017,Fast Charger Adapter 65W,2025-10,80,2400,5,Japan
+SKU-017,Fast Charger Adapter 65W,2025-11,95,2850,4,Japan
+SKU-017,Fast Charger Adapter 65W,2025-12,110,3300,6,Japan
+SKU-019,Wireless Earbuds In-ear,2025-07,55,2200,4,Japan
+SKU-019,Wireless Earbuds In-ear,2025-08,62,2480,3,Japan
+SKU-019,Wireless Earbuds In-ear,2025-09,48,1920,2,Japan
+SKU-019,Wireless Earbuds In-ear,2025-10,70,2800,5,Japan
+SKU-019,Wireless Earbuds In-ear,2025-11,82,3280,4,Japan
+SKU-019,Wireless Earbuds In-ear,2025-12,96,3840,6,Japan
+SKU-030,Mini Projector Portable,2025-07,15,3750,1,Japan
+SKU-030,Mini Projector Portable,2025-08,18,4500,2,Japan
+SKU-030,Mini Projector Portable,2025-09,12,3000,1,Japan
+SKU-030,Mini Projector Portable,2025-10,22,5500,2,Japan
+SKU-030,Mini Projector Portable,2025-11,28,7000,1,Japan
+SKU-030,Mini Projector Portable,2025-12,35,8750,3,Japan

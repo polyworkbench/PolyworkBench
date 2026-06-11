@@ -1,0 +1,116 @@
+=== TỜ KHAI HẢI QUAN NHẬP KHẨU ===
+Cơ quan Hải quan: Chi cục Hải quan cửa khẩu Tân Thanh, Lạng Sơn
+Tỷ giá quy đổi: 1 CNY = 3,450 VND
+
+--- Đơn hàng ORD-VN-001 ---
+Người nhập khẩu: Công ty TNHH Thương mại Điện tử Sài Gòn
+Mã số thuế: 0312345678
+Mô tả hàng hóa: Tai nghe không dây Bluetooth
+Xuất xứ: Trung Quốc
+Số lượng: 200 chiếc
+Trị giá khai báo: 55,200,000 VND
+Mã HS: 8518.31.00
+Thuế nhập khẩu: 5%
+Thuế VAT: 10%
+
+--- Đơn hàng ORD-VN-002 ---
+Người nhập khẩu: Công ty TNHH Thời trang Việt Phát
+Mã số thuế: 0309876543
+Mô tả hàng hóa: Váy đầm lụa nữ
+Xuất xứ: Trung Quốc
+Số lượng: 150 chiếc
+Trị giá khai báo: 66,240,000 VND
+Mã HS: 6204.43.00
+Thuế nhập khẩu: 20%
+Thuế VAT: 10%
+
+--- Đơn hàng ORD-VN-003 ---
+Người nhập khẩu: Công ty Cổ phần Gia dụng Hà Nội
+Mã số thuế: 0101234567
+Mô tả hàng hóa: Bình giữ nhiệt inox
+Xuất xứ: Trung Quốc
+Số lượng: 480 chiếc
+Trị giá khai báo: 37,950,000 VND
+Mã HS: 9617.00.00
+Thuế nhập khẩu: 15%
+Thuế VAT: 10%
+Ghi chú: Số lượng khai báo ít hơn hóa đơn 20 chiếc
+
+--- Đơn hàng ORD-VN-004 ---
+Người nhập khẩu: Công ty TNHH Công nghệ Đông Nam
+Mã số thuế: 0315678901
+Mô tả hàng hóa: Đồng hồ thông minh
+Xuất xứ: Trung Quốc
+Số lượng: 100 chiếc
+Trị giá khai báo: 68,310,000 VND
+Mã HS: 9102.12.00
+Thuế nhập khẩu: 10%
+Thuế VAT: 10%
+
+--- Đơn hàng ORD-VN-005 ---
+Người nhập khẩu: Công ty TNHH Gốm sứ Bát Tràng
+Mã số thuế: 0106789012
+Mô tả hàng hóa: Bộ bát đĩa sứ xương
+Xuất xứ: Trung Quốc
+Số lượng: 80 bộ
+Trị giá khai báo: 43,056,000 VND
+Mã HS: 6911.10.19
+Thuế nhập khẩu: 25%
+Thuế VAT: 10%
+Ghi chú: Mã HS khác với hóa đơn (6911.10.11 → 6911.10.19)
+
+--- Đơn hàng ORD-VN-006 ---
+Người nhập khẩu: Công ty TNHH Trà Việt
+Mã số thuế: 0318901234
+Mô tả hàng hóa: Trà xanh Long Tỉnh
+Xuất xứ: Trung Quốc
+Số lượng: 300 hộp
+Trị giá khai báo: 58,650,000 VND
+Mã HS: 0902.10.00
+Thuế nhập khẩu: 35%
+Thuế VAT: 10%
+Ghi chú: Trị giá khai báo thấp hơn giá trị thực (chênh lệch ~16%)
+
+--- Đơn hàng ORD-VN-007 ---
+Người nhập khẩu: Công ty TNHH Giày da Thành Đạt
+Mã số thuế: 0321012345
+Mô tả hàng hóa: Giày da nam công sở
+Xuất xứ: Trung Quốc
+Số lượng: 120 đôi
+Trị giá khai báo: 77,832,000 VND
+Mã HS: 6403.59.90
+Thuế nhập khẩu: 20%
+Thuế VAT: 10%
+
+--- Đơn hàng ORD-VN-008 ---
+Người nhập khẩu: Công ty Cổ phần Thiết bị Chiếu sáng Minh Long
+Mã số thuế: 0107890123
+Mô tả hàng hóa: Đèn bàn LED chống cận
+Xuất xứ: Trung Quốc
+Số lượng: 250 chiếc
+Trị giá khai báo: 38,812,500 VND
+Mã HS: 9405.40.90
+Thuế nhập khẩu: 15%
+Thuế VAT: 10%
+
+--- Đơn hàng ORD-VN-009 ---
+Người nhập khẩu: Công ty TNHH Mỹ phẩm Thiên Nhiên Việt
+Mã số thuế: 0313456789
+Mô tả hàng hóa: Mặt nạ dưỡng ẩm hyaluronic acid
+Xuất xứ: Trung Quốc
+Số lượng: 400 hộp
+Trị giá khai báo: 48,300,000 VND
+Mã HS: 3304.99.00
+Thuế nhập khẩu: 10%
+Thuế VAT: 10%
+
+--- Đơn hàng ORD-VN-010 ---
+Người nhập khẩu: Công ty TNHH Tơ lụa Phương Đông
+Mã số thuế: 0319012345
+Mô tả hàng hóa: Khăn lụa tơ tằm
+Xuất xứ: Trung Quốc
+Số lượng: 60 chiếc
+Trị giá khai báo: 55,476,000 VND
+Mã HS: 6214.10.00
+Thuế nhập khẩu: 20%
+Thuế VAT: 10%

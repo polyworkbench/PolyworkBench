@@ -1,0 +1,117 @@
+{
+  "framework": "US FDA",
+  "version": "2025 Edition",
+  "categories": {
+    "electronic_devices": {
+      "regulation": "21 CFR Part 1040 (Electronic Products)",
+      "requirements": [
+        {
+          "id": "FDA-E001",
+          "title": "Electromagnetic Compatibility (EMC)",
+          "description": "Electronic devices must meet FCC Part 15 EMC requirements. Radiated emissions must not exceed Class B limits.",
+          "test_standard": "ANSI C63.4",
+          "mandatory": true
+        },
+        {
+          "id": "FDA-E002",
+          "title": "Electrical Safety",
+          "description": "Products powered by mains electricity must comply with UL 62368-1 (Audio/Video and IT Equipment Safety).",
+          "test_standard": "UL 62368-1",
+          "mandatory": true
+        },
+        {
+          "id": "FDA-E003",
+          "title": "Battery Safety",
+          "description": "Lithium-ion batteries must pass UN 38.3 transportation tests. Devices with batteries must have overcharge protection.",
+          "test_standard": "UN 38.3, UL 2054",
+          "mandatory": true
+        },
+        {
+          "id": "FDA-E004",
+          "title": "SAR Limits (for wireless devices)",
+          "description": "Specific Absorption Rate must not exceed 1.6 W/kg averaged over 1g of tissue for devices used near the body.",
+          "test_standard": "IEEE 1528",
+          "mandatory": true,
+          "condition": "wireless_devices_only"
+        },
+        {
+          "id": "FDA-E005",
+          "title": "Product Labeling",
+          "description": "Must include FCC ID, model number, manufacturer info, input voltage/current, and safety warnings in English.",
+          "test_standard": "47 CFR 2.925",
+          "mandatory": true
+        }
+      ]
+    },
+    "health_wellness_devices": {
+      "regulation": "21 CFR Part 880 (General Hospital Devices) / Consumer Wellness",
+      "requirements": [
+        {
+          "id": "FDA-H001",
+          "title": "Device Classification",
+          "description": "Health/wellness devices must be correctly classified. General wellness products (non-diagnostic) may be exempt from 510(k).",
+          "test_standard": "FDA Guidance 2016",
+          "mandatory": true
+        },
+        {
+          "id": "FDA-H002",
+          "title": "Biocompatibility (skin contact)",
+          "description": "Materials in prolonged skin contact must pass ISO 10993 biocompatibility testing (cytotoxicity, sensitization, irritation).",
+          "test_standard": "ISO 10993-5, ISO 10993-10",
+          "mandatory": true,
+          "condition": "skin_contact_devices"
+        },
+        {
+          "id": "FDA-H003",
+          "title": "Accuracy Claims",
+          "description": "Any health measurement claims (heart rate, SpO2, etc.) must be validated with clinical-grade reference devices. Accuracy within ±5%.",
+          "test_standard": "Clinical validation protocol",
+          "mandatory": true,
+          "condition": "health_measurement_devices"
+        },
+        {
+          "id": "FDA-H004",
+          "title": "Water Resistance Claims",
+          "description": "IP rating claims must be validated per IEC 60529. Marketing claims must match tested rating.",
+          "test_standard": "IEC 60529",
+          "mandatory": false
+        }
+      ]
+    },
+    "consumer_electronics_accessories": {
+      "regulation": "CPSC / FCC Regulations",
+      "requirements": [
+        {
+          "id": "FDA-A001",
+          "title": "Material Safety (RoHS compliance)",
+          "description": "Products must not contain lead >100ppm, cadmium >75ppm, or other restricted substances per US state laws.",
+          "test_standard": "EPA Method 3052",
+          "mandatory": true
+        },
+        {
+          "id": "FDA-A002",
+          "title": "Charging Safety (for chargers/cables)",
+          "description": "USB chargers must have overcurrent, overvoltage, and short-circuit protection. Must comply with USB-IF specifications.",
+          "test_standard": "IEC 62368-1, USB-IF certification",
+          "mandatory": true,
+          "condition": "charging_devices"
+        },
+        {
+          "id": "FDA-A003",
+          "title": "Drop Test / Mechanical Durability",
+          "description": "Portable devices must survive 1.2m drop test onto concrete without exposing hazardous components.",
+          "test_standard": "IEC 60068-2-31",
+          "mandatory": true
+        },
+        {
+          "id": "FDA-A004",
+          "title": "California Proposition 65",
+          "description": "Products containing any Prop 65 listed chemicals must carry appropriate warning labels.",
+          "test_standard": "OEHHA guidelines",
+          "mandatory": true,
+          "condition": "california_sales"
+        }
+      ]
+    }
+  }
+}

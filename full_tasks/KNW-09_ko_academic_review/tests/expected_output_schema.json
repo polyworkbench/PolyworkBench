@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KNW-09 Output Schema",
+  "type": "object",
+  "required": ["review_criteria", "overall_recommendation"],
+  "properties": {
+    "review_criteria": {
+      "type": "integer",
+      "description": "Number of evaluation criteria used in the peer review"
+    },
+    "overall_recommendation": {
+      "type": "string",
+      "description": "Overall recommendation (accept, revise, reject)"
+    },
+    "major_issues": {
+      "type": "integer",
+      "description": "Number of major issues identified"
+    },
+    "minor_issues": {
+      "type": "integer",
+      "description": "Number of minor issues identified"
+    },
+    "references_checked": {
+      "type": "integer",
+      "description": "Number of references cross-checked against EN/ZH/JA sources"
+    }
+  }
+}

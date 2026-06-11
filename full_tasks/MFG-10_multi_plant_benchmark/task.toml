@@ -1,0 +1,21 @@
+id = "MFG-10_multi_plant_benchmark"
+name = "Five-country plant benchmarking with inconsistency detection"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 6
+estimated_steps = 12
+timeout_sec = 3600
+tags = ["en-instruction", "zh-source", "vi-source", "ko-source", "ja-source", "ru-source", "en-output", "benchmarking", "analytics"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["benchmark_report.md", "plant_comparison.json", "inconsistency_findings.json", "recommendations.json", "analysis_script.py"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

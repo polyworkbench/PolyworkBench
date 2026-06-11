@@ -1,0 +1,21 @@
+id = "MFG-12_en_alert_correlation"
+name = "SCADA alert correlation and root cause clustering"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["en-instruction", "ja-source", "en-source", "vi-source", "en-output", "manufacturing", "alert-correlation"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["alert_clusters.json", "correlation_report.md", "false_alarm_analysis.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

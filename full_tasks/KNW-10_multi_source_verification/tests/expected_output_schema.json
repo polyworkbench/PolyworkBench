@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KNW-10 Output Schema",
+  "type": "object",
+  "required": ["total_claims_verified", "contradictions_found"],
+  "properties": {
+    "total_claims_verified": {
+      "type": "integer",
+      "description": "Total number of factual claims verified across 6 language sources"
+    },
+    "contradictions_found": {
+      "type": "integer",
+      "description": "Number of contradictions found between sources"
+    },
+    "sources_analyzed": {
+      "type": "integer",
+      "description": "Number of source documents analyzed"
+    },
+    "average_confidence": {
+      "type": "number",
+      "description": "Average confidence score across verified claims"
+    },
+    "high_confidence_claims": {
+      "type": "integer",
+      "description": "Number of claims with high confidence verification"
+    },
+    "source_reliability_scores": {
+      "type": "object",
+      "description": "Reliability scores per source or language"
+    }
+  }
+}

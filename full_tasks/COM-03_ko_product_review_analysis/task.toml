@@ -1,0 +1,21 @@
+id = "COM-03_ko_product_review_analysis"
+name = "Korean product review sentiment analysis with bilingual reporting"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 4
+estimated_steps = 7
+timeout_sec = 2400
+tags = ["ko-instruction", "ko-source", "zh-source", "en-source", "ko-output", "en-output", "sentiment", "analytics"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["sentiment_analysis.json", "issues_report_ko.md", "data_appendix_en.json", "summary_stats.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

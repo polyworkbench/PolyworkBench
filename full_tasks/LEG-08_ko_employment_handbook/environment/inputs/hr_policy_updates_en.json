@@ -1,0 +1,54 @@
+{
+  "version": "2024-Q1",
+  "effective_date": "2024-04-01",
+  "updates": [
+    {
+      "id": "UPD-001",
+      "category": "remote_work",
+      "title": "Hybrid Work Policy Update",
+      "description": "Employees may work remotely up to 3 days per week. Core in-office days are Tuesday and Thursday.",
+      "previous_policy": "Remote work subject to manager approval with no standard framework",
+      "applies_to": "all_full_time"
+    },
+    {
+      "id": "UPD-002",
+      "category": "mental_health",
+      "title": "Mental Health Support Days",
+      "description": "Employees may take up to 3 additional mental health days per year without requiring medical documentation.",
+      "previous_policy": "No separate mental health day provision",
+      "applies_to": "all_employees"
+    },
+    {
+      "id": "UPD-003",
+      "category": "parental_leave",
+      "title": "Enhanced Parental Leave",
+      "description": "Paternity/partner leave extended from 4 weeks to 8 weeks paid. Secondary caregiver leave added: 4 weeks paid.",
+      "previous_policy": "4 weeks paternity leave",
+      "applies_to": "all_employees"
+    },
+    {
+      "id": "UPD-004",
+      "category": "education",
+      "title": "Learning & Development Budget Increase",
+      "description": "Education reimbursement increased from $5,000 to $7,500 per year. Now includes conferences and online subscriptions.",
+      "previous_policy": "$5,000 per year for approved courses only",
+      "applies_to": "all_full_time"
+    },
+    {
+      "id": "UPD-005",
+      "category": "dei",
+      "title": "Diversity, Equity & Inclusion Policy",
+      "description": "New comprehensive DEI policy including unconscious bias training (mandatory), ERG support, and inclusive language guidelines.",
+      "previous_policy": "Basic non-discrimination clause only",
+      "applies_to": "all_employees"
+    },
+    {
+      "id": "UPD-006",
+      "category": "data_privacy",
+      "title": "Employee Data Privacy Notice Update",
+      "description": "Updated to comply with latest data protection regulations. Includes right to access, rectification, and deletion of employee personal data.",
+      "previous_policy": "Generic privacy statement",
+      "applies_to": "all_employees"
+    }
+  ]
+}

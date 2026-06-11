@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COM-05 Output Schema",
+  "type": "object",
+  "required": ["returns_analysis"],
+  "properties": {
+    "returns_analysis": {
+      "type": ["array", "object"],
+      "description": "Returns analysis data covering Russia and Vietnam markets with reason codes and SKU matching"
+    },
+    "dashboard_data": {
+      "type": "object",
+      "description": "Dashboard-ready data for visualization with market comparisons and trends"
+    },
+    "category_breakdown": {
+      "type": "object",
+      "description": "Return reason breakdown by product category with rates"
+    },
+    "recommendations": {
+      "type": "string",
+      "description": "Chinese recommendations report with root cause analysis and prioritized actions"
+    }
+  }
+}

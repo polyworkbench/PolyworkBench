@@ -1,0 +1,13 @@
+change_id,date,document,section,description,approved_by,status
+CHG-001,2023-06-01,Amendment 1,§10,Dispute resolution changed from Landgericht München to LCIA arbitration,Marcus Hoffmann,approved
+CHG-002,2023-06-01,Amendment 1,§9,"Force majeure scope modified, pandemics explicitly excluded",Marcus Hoffmann,approved
+CHG-003,2023-06-01,Amendment 1,§5,Confidentiality period extended from 5 to 7 years,Marcus Hoffmann,approved
+CHG-004,2023-11-15,Amendment 2,§3,Payment terms changed from 30 days to 45 days net,Sarah Chen,approved
+CHG-005,2023-11-15,Amendment 2,§8,"Termination notice changed from 6 months to 90 days, quarter-end restriction removed",Sarah Chen,approved
+CHG-006,2023-11-15,Amendment 2,new,Service Level Agreement added,Sarah Chen,approved
+CHG-007,2023-11-15,Amendment 2,Anlage 2,Annual rate adjustment mechanism added (max 4%),Sarah Chen,approved
+CHG-008,2024-03-01,Amendment 3,§7,Liability cap changed from €500k to $750k,Marcus Hoffmann,approved
+CHG-009,2024-03-01,Amendment 3,new,Insurance requirements added,Marcus Hoffmann,approved
+CHG-010,2024-03-01,Amendment 3,new,Data protection addendum added,Marcus Hoffmann,approved
+CHG-011,2024-03-01,Amendment 3,§12,IP ownership changed from Contractor sole to joint ownership,Marcus Hoffmann,approved
+CHG-012,2024-03-01,Amendment 3,new,Audit rights provision added,Marcus Hoffmann,approved

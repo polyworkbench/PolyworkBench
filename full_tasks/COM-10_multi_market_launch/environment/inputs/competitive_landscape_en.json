@@ -1,0 +1,91 @@
+{
+  "report_date": "2025-12-01",
+  "product_category": "Smart Health Band / Fitness Tracker",
+  "global_market_overview": {
+    "total_market_size_2025_usd_billion": 32.5,
+    "fitness_tracker_segment_pct": 28,
+    "cagr_2025_2028_pct": 11.2
+  },
+  "competitors": [
+    {
+      "name": "Xiaomi",
+      "global_share_pct": 28,
+      "strengths": ["aggressive pricing", "wide distribution", "good enough quality"],
+      "weaknesses": ["brand perception as cheap", "limited health features", "poor after-sales service"],
+      "latest_product": "Smart Band 9 (expected Q2 2026)",
+      "price_range_usd": "25-50"
+    },
+    {
+      "name": "Apple",
+      "global_share_pct": 22,
+      "strengths": ["ecosystem lock-in", "brand prestige", "health accuracy"],
+      "weaknesses": ["high price point", "limited Android compatibility", "short battery life"],
+      "latest_product": "Apple Watch SE 3 (expected Q3 2026)",
+      "price_range_usd": "200-280"
+    },
+    {
+      "name": "Samsung",
+      "global_share_pct": 12,
+      "strengths": ["Galaxy ecosystem", "strong in Korea", "good display quality"],
+      "weaknesses": ["confusing product lineup", "limited fitness features in bands"],
+      "latest_product": "Galaxy Fit 4 (expected Q1 2026)",
+      "price_range_usd": "40-70"
+    },
+    {
+      "name": "Huawei",
+      "global_share_pct": 10,
+      "strengths": ["good value", "strong health sensors", "long battery"],
+      "weaknesses": ["US sanctions impact", "app ecosystem limitations", "trust concerns"],
+      "latest_product": "Band 10 (expected Q1 2026)",
+      "price_range_usd": "35-60"
+    },
+    {
+      "name": "Fitbit (Google)",
+      "global_share_pct": 8,
+      "strengths": ["health focus brand identity", "Google integration", "research partnerships"],
+      "weaknesses": ["declining market share", "aging hardware", "subscription model backlash"],
+      "latest_product": "Charge 7 (expected Q2 2026)",
+      "price_range_usd": "100-180"
+    },
+    {
+      "name": "Amazfit (Zepp Health)",
+      "global_share_pct": 6,
+      "strengths": ["price-performance ratio", "GPS integration", "long battery life"],
+      "weaknesses": ["low brand awareness in Japan/Korea", "inconsistent software quality"],
+      "latest_product": "Band 8 Pro (launched)",
+      "price_range_usd": "30-80"
+    }
+  ],
+  "market_gaps_identified": [
+    {
+      "gap": "Mid-price health-focused band ($50-100)",
+      "description": "Gap between cheap Xiaomi bands and expensive Apple/Fitbit. Consumers want medical-grade accuracy without premium pricing.",
+      "target_markets": ["Japan", "Korea", "Russia"],
+      "estimated_opportunity_usd_million": 450
+    },
+    {
+      "gap": "Privacy-first wearable",
+      "description": "Growing concern about health data privacy. No major brand offers on-device processing with minimal cloud dependency.",
+      "target_markets": ["Japan", "Russia", "Vietnam"],
+      "estimated_opportunity_usd_million": 200
+    },
+    {
+      "gap": "Fashion-tech crossover in SEA",
+      "description": "Southeast Asian young consumers want fashion accessories that happen to track health, not medical devices.",
+      "target_markets": ["Vietnam", "Korea"],
+      "estimated_opportunity_usd_million": 180
+    }
+  ],
+  "key_trends_2026": [
+    "AI-powered health insights becoming table-stakes feature",
+    "Blood pressure monitoring without cuff (regulatory challenges)",
+    "Integration with telehealth platforms",
+    "Sustainability/recyclable materials as differentiator",
+    "Social/gamification features for engagement"
+  ],
+  "contradictory_data_notes": [
+    "Japan report states wearable market is $2.8B; Korea report implies combined JP+KR is $4.5B which is inconsistent with our global estimate allocation",
+    "Russia CAGR of 15.2% seems high given geopolitical constraints; our model suggests 10-12% is more realistic",
+    "Vietnam market size discrepancy between local report (192M USD) and international databases (250M USD) - likely scope difference"
+  ]
+}

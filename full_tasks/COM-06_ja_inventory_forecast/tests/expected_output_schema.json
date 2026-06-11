@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COM-06 Output Schema",
+  "type": "object",
+  "required": ["total_skus", "discrepancy_count"],
+  "properties": {
+    "total_skus": {
+      "type": "integer",
+      "description": "Total number of SKUs reconciled across warehouses"
+    },
+    "discrepancy_count": {
+      "type": "integer",
+      "description": "Number of inventory discrepancies found"
+    },
+    "forecast_period": {
+      "type": "string",
+      "description": "Period covered by the demand forecast"
+    },
+    "top_demand_skus": {
+      "type": "array",
+      "description": "Top SKUs by forecasted demand",
+      "items": {"type": "string"}
+    },
+    "holiday_impact_percentage": {
+      "type": "number",
+      "description": "Percentage impact of holidays on demand forecast"
+    }
+  }
+}

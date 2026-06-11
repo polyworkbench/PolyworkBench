@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LEG-02 Output Schema",
+  "type": "object",
+  "required": ["total_violations", "contracts_reviewed"],
+  "properties": {
+    "total_violations": {
+      "type": "integer",
+      "description": "Total number of labor law violations identified across all contracts"
+    },
+    "contracts_reviewed": {
+      "type": "integer",
+      "description": "Number of labor contracts reviewed"
+    },
+    "critical_violations": {
+      "type": "integer",
+      "description": "Number of critical/high-severity violations"
+    },
+    "ilo_gaps": {
+      "type": "integer",
+      "description": "Number of gaps against ILO convention standards"
+    }
+  }
+}

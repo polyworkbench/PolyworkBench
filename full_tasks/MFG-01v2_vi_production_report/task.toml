@@ -1,0 +1,21 @@
+id = "MFG-01v2_vi_production_report"
+name = "Vietnamese production report v2 with verification and maintenance correlation"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 4
+estimated_steps = 8
+timeout_sec = 2400
+tags = ["vi-instruction", "zh-source", "vi-source", "vi-output", "manufacturing", "production", "v2"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["production_report_vi.md", "yield_analysis.json", "maintenance_correlation.json", "verification_results.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

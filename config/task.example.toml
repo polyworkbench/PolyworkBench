@@ -1,0 +1,86 @@
+# ============================================================
+# PolyWorkBench - Task Configuration Example
+# ============================================================
+# This file shows the full task.toml schema with annotations.
+# Copy this template when creating a new task.
+#
+# File location: full_tasks/{DOMAIN}-{NUM}_{lang}_{description}/task.toml
+# ============================================================
+
+# --- Required Fields ---
+
+# Unique task identifier. Must match directory name.
+# Format: {DOMAIN}-{NUM}_{lang}_{short_description}
+# Domains: COM (Commerce), KNW (Knowledge), LEG (Legal), LOC (Localization), MFG (Manufacturing)
+id = "COM-09_ko_compliance_check"
+
+# Human-readable task name
+name = "Multi-framework regulatory compliance check with Korean output"
+
+# Task category (always "multilingual-multimodal" for this benchmark)
+category = "multilingual-multimodal"
+
+# Collection membership: "smoke" | "baseline" | "stress"
+#   smoke    - Quick tasks for CI / setup verification (< 5 min)
+#   baseline - Standard evaluation tasks (5-20 min)
+#   stress   - Hard tasks with 5+ languages, long pipelines (20-50 min)
+collection = "stress"
+
+# Difficulty level: 3-6
+#   L3 - Baseline: 2-3 source files, structured output
+#   L4 - Multi-source cross-reference, precise calculations
+#   L5 - Deep pipeline: 4+ sources, iterative verification
+#   L6 - Stress: 5+ languages, anomaly detection, decision trees
+difficulty = 5
+
+# Estimated number of agent steps to complete the task
+estimated_steps = 9
+
+# Maximum execution time in seconds before timeout
+timeout_sec = 3000
+
+# Tags for filtering. Include instruction language, source languages, output format, domain topics.
+# Convention: "{lang}-instruction", "{lang}-source", "{lang}-output", "{topic}"
+tags = [
+    "ko-instruction",
+    "en-source",
+    "zh-source",
+    "ja-source",
+    "ko-output",
+    "compliance",
+    "regulatory",
+]
+
+
+# --- Environment Configuration ---
+
+[environment]
+# Relative path to environment directory (contains Dockerfile and inputs/)
+path = "environment"
+# Relative path to input files directory (mounted read-only into container)
+inputs = "environment/inputs"
+
+
+# --- Expected Outputs ---
+
+[outputs]
+# Primary answer file the agent must produce
+answer = "answer.json"
+# Additional output files expected (used for completeness checking)
+files = [
+    "compliance_matrix_ko.json",
+    "gap_analysis_ko.md",
+    "action_items_ko.json",
+    "regulatory_summary.json",
+]
+
+
+# --- Scoring Configuration ---
+
+[scoring]
+# Entry point for grading (typically runs pytest)
+entrypoint = "tests/test.sh"
+# JSON schema for validating output structure
+schema = "tests/expected_output_schema.json"
+# Rubric file for LLM-as-Judge evaluation
+rubric = "tests/rubric.md"

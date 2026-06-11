@@ -1,0 +1,21 @@
+id = "LOC-10_multi_locale_release"
+name = "Multi-locale simultaneous release coordination"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 6
+estimated_steps = 12
+timeout_sec = 3600
+tags = ["en-instruction", "zh-source", "ja-source", "ko-source", "ru-source", "vi-source", "fr-source", "en-output", "multi-locale", "qa"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["qa_report.md", "consistency_matrix.json", "changelogs/changelog_zh.md", "changelogs/changelog_ja.md", "changelogs/changelog_ko.md", "changelogs/changelog_ru.md", "changelogs/changelog_vi.md", "changelogs/changelog_fr.md", "issues_found.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

@@ -1,0 +1,104 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-VN-001",
+      "recipient_name": "Nguyễn Văn Minh",
+      "phone": "0912345678",
+      "address": "Số 45, Đường Nguyễn Huệ, Phường Bến Nghé",
+      "district": "Quận 1",
+      "city": "TP. Hồ Chí Minh",
+      "postal_code": "700000",
+      "province": "TP. Hồ Chí Minh"
+    },
+    {
+      "order_id": "ORD-VN-002",
+      "recipient_name": "Trần Thị Hương",
+      "phone": "0987654321",
+      "address": "Số 128, Đường Lê Lợi, Phường Bến Thành",
+      "district": "Quận 1",
+      "city": "TP. Hồ Chí Minh",
+      "postal_code": "700000",
+      "province": "TP. Hồ Chí Minh"
+    },
+    {
+      "order_id": "ORD-VN-003",
+      "recipient_name": "Lê Hoàng Nam",
+      "phone": "0903112233",
+      "address": "Số 67, Đường Trần Phú, Phường 4",
+      "district": "Quận 5",
+      "city": "TP. Hồ Chí Minh",
+      "postal_code": "749000",
+      "province": "TP. Hồ Chí Minh"
+    },
+    {
+      "order_id": "ORD-VN-004",
+      "recipient_name": "Phạm Đức Anh",
+      "phone": "0916778899",
+      "address": "Số 23, Đường Hoàng Diệu, Phường 12",
+      "district": "Quận 4",
+      "city": "TP. Hồ Chí Minh",
+      "postal_code": "754000",
+      "province": "TP. Hồ Chí Minh"
+    },
+    {
+      "order_id": "ORD-VN-005",
+      "recipient_name": "Võ Thị Mai Lan",
+      "phone": "0938445566",
+      "address": "Số 89, Đường Nguyễn Trãi, Phường Nguyễn Cư Trinh",
+      "district": "Quận 1",
+      "city": "TP. Hồ Chí Minh",
+      "postal_code": "700000",
+      "province": "TP. Hồ Chí Minh"
+    },
+    {
+      "order_id": "ORD-VN-006",
+      "recipient_name": "Đặng Quốc Bảo",
+      "phone": "0241234567",
+      "address": "Số 156, Đường Bà Triệu, Phường Lê Đại Hành",
+      "district": "Quận Hai Bà Trưng",
+      "city": "Hà Nội",
+      "postal_code": "100000",
+      "province": "Hà Nội"
+    },
+    {
+      "order_id": "ORD-VN-007",
+      "recipient_name": "Huỳnh Thanh Tùng",
+      "phone": "0236987654",
+      "address": "Số 34, Đường Trần Cao Vân, Phường Thanh Khê Đông",
+      "district": "Quận Thanh Khê",
+      "city": "Đà Nẵng",
+      "postal_code": "550000",
+      "province": "Đà Nẵng"
+    },
+    {
+      "order_id": "ORD-VN-008",
+      "recipient_name": "Ngô Thị Bích Ngọc",
+      "phone": "0905667788",
+      "address": "Số 72, Đường Lý Thường Kiệt, Phường 14",
+      "district": "Quận 10",
+      "city": "TP. Hồ Chí Minh",
+      "postal_code": "740000",
+      "province": "TP. Hồ Chí Minh"
+    },
+    {
+      "order_id": "ORD-VN-009",
+      "recipient_name": "Bùi Minh Tuấn",
+      "phone": "0911223344",
+      "address": "Số 201, Đường Cách Mạng Tháng Tám, Phường 4",
+      "district": "Quận Tân Bình",
+      "city": "TP. Hồ Chí Minh",
+      "postal_code": "736000",
+      "province": "TP. Hồ Chí Minh"
+    },
+    {
+      "order_id": "ORD-VN-010",
+      "recipient_name": "Trương Công Thành",
+      "phone": "0945556677",
+      "address": "Số 15, Đường Phan Đình Phùng, Phường 1",
+      "district": "Quận Phú Nhuận",
+      "city": "TP. Hồ Chí Minh",
+      "postal_code": "725000",
+      "province": "TP. Hồ Chí Minh"
+    }
+  ]
+}

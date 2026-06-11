@@ -1,0 +1,21 @@
+id = "LEG-13_es_evidence_chain"
+name = "Spanish-instruction evidence chain reconstruction"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 6
+estimated_steps = 12
+timeout_sec = 3600
+tags = ["es-instruction", "es-source", "en-source", "zh-source", "es-output", "legal", "evidence"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["cadena_evidencia.md", "timeline.json", "financial_summary.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

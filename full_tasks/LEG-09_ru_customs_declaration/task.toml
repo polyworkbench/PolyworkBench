@@ -1,0 +1,21 @@
+id = "LEG-09_ru_customs_declaration"
+name = "Russian customs declarations from Chinese invoices and English packing lists"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 4
+estimated_steps = 7
+timeout_sec = 2400
+tags = ["ru-instruction", "zh-source", "en-source", "ru-output", "legal", "customs", "trade"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["customs_declarations_ru.json", "hs_classification.json", "value_calculation.json", "declaration_forms_ru.md"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

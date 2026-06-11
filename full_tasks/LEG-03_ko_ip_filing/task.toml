@@ -1,0 +1,21 @@
+id = "LEG-03_ko_ip_filing"
+name = "Korean IP filing from English patent with Japanese and Chinese prior art"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["ko-instruction", "en-source", "ja-source", "zh-source", "ko-output", "legal", "patent", "ip"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["patent_claims_ko.md", "prior_art_analysis_ko.json", "novelty_assessment_ko.md", "filing_checklist_ko.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

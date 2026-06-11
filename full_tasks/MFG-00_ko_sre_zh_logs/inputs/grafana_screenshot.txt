@@ -1,0 +1,30 @@
+# Grafana 面板 OCR 文本（CST 时区显示）
+# 截图时间：2024-11-19 22:30 CST
+
+## 面板标题：支付服务核心指标 (Payment Service Core Metrics)
+
+### Panel 1: 支付成功率 (Payment Success Rate) - last 1h
+- 22:00 CST: 99.8% → 61.2% （断崖式下跌，红色告警）
+- 22:05 CST: 45.0% （最低点）
+- 22:15 CST: 88.0% （回升中）
+- 22:20 CST: 99.7% （恢复正常）
+
+### Panel 2: Redis Master Status
+- redis-master-0：22:02 CST 起 status=DOWN（红色）
+- redis-master-1：22:04 CST 起 status=UP，被选为新主节点
+- Sentinel failover count: 0 → 1（22:04 CST）
+
+### Panel 3: Kafka 消费延迟 (Consumer Lag)
+- topic=payment-events
+  - 22:00 CST: 0
+  - 22:08 CST: 12,450 （飙升）
+  - 22:10 CST: 18,900 （峰值）
+  - 22:17 CST: 6,700
+  - 22:25 CST: 0 （清空）
+
+### Panel 4: 分布式锁等待时间 (Distributed Lock Wait Time)
+- 平均：5ms → 850ms（22:00 CST 起）
+- P99：20ms → 30,000ms（达到 TTL 上限）
+
+### 注释（Grafana annotation）
+- 22:15 CST [zhang.wei]: 手动将分布式锁 TTL 从 30s 调整到 60s，缓解锁未释放问题

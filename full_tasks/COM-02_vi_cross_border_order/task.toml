@@ -1,0 +1,21 @@
+id = "COM-02_vi_cross_border_order"
+name = "Cross-border order reconciliation with Vietnamese customs declarations"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 4
+estimated_steps = 8
+timeout_sec = 2400
+tags = ["vi-instruction", "zh-source", "en-source", "vi-source", "vi-output", "ecommerce", "logistics", "customs"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["orders_reconciled.json", "shipping_labels_vi.json", "customs_declarations_vi.json", "discrepancy_report.md"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "source": "Vietnam Customs HS Code Schedule 2024",
+    "version": "2024.2",
+    "note": "Biểu thuế nhập khẩu ưu đãi MFN áp dụng cho hàng hóa xuất xứ Trung Quốc theo Hiệp định ACFTA"
+  },
+  "hs_codes": [
+    {
+      "hs_code": "8518.30.00",
+      "description_en": "Headphones and earphones, whether or not combined with microphone",
+      "description_vi": "Tai nghe, có hoặc không kết hợp với micro",
+      "duty_rate_mfn": 10,
+      "duty_rate_acfta": 0,
+      "vat_rate": 10,
+      "unit": "chiếc"
+    },
+    {
+      "hs_code": "6204.43.00",
+      "description_en": "Women's or girls' dresses of synthetic fibres",
+      "description_vi": "Váy đầm nữ bằng sợi tổng hợp",
+      "duty_rate_mfn": 20,
+      "duty_rate_acfta": 5,
+      "vat_rate": 10,
+      "unit": "chiếc"
+    },
+    {
+      "hs_code": "6204.49.00",
+      "description_en": "Women's or girls' dresses of other textile materials (silk)",
+      "description_vi": "Váy đầm nữ bằng vật liệu dệt khác (lụa)",
+      "duty_rate_mfn": 20,
+      "duty_rate_acfta": 5,
+      "vat_rate": 10,
+      "unit": "chiếc"
+    },
+    {
+      "hs_code": "7323.93.00",
+      "description_en": "Table, kitchen articles of stainless steel",
+      "description_vi": "Đồ dùng bàn ăn, nhà bếp bằng thép không gỉ",
+      "duty_rate_mfn": 15,
+      "duty_rate_acfta": 5,
+      "vat_rate": 10,
+      "unit": "chiếc"
+    },
+    {
+      "hs_code": "9102.12.00",
+      "description_en": "Wrist-watches, electrically operated, with opto-electronic display",
+      "description_vi": "Đồng hồ đeo tay chạy điện, có bộ hiển thị quang điện tử",
+      "duty_rate_mfn": 15,
+      "duty_rate_acfta": 5,
+      "vat_rate": 10,
+      "unit": "chiếc"
+    },
+    {
+      "hs_code": "9102.91.00",
+      "description_en": "Other wrist-watches, electrically operated",
+      "description_vi": "Đồng hồ đeo tay chạy điện khác",
+      "duty_rate_mfn": 15,
+      "duty_rate_acfta": 5,
+      "vat_rate": 10,
+      "unit": "chiếc"
+    },
+    {
+      "hs_code": "6911.10.00",
+      "description_en": "Tableware and kitchenware of porcelain or china",
+      "description_vi": "Bộ đồ ăn và đồ dùng nhà bếp bằng sứ",
+      "duty_rate_mfn": 25,
+      "duty_rate_acfta": 10,
+      "vat_rate": 10,
+      "unit": "bộ"
+    },
+    {
+      "hs_code": "0902.10.00",
+      "description_en": "Green tea (not fermented), in immediate packings not exceeding 3 kg",
+      "description_vi": "Chè xanh (chưa ủ men), đóng gói trực tiếp không quá 3 kg",
+      "duty_rate_mfn": 30,
+      "duty_rate_acfta": 15,
+      "vat_rate": 10,
+      "unit": "kg"
+    },
+    {
+      "hs_code": "8539.50.00",
+      "description_en": "Light-emitting diode (LED) light sources",
+      "description_vi": "Nguồn sáng đi-ốt phát quang (LED)",
+      "duty_rate_mfn": 15,
+      "duty_rate_acfta": 5,
+      "vat_rate": 10,
+      "unit": "chiếc"
+    },
+    {
+      "hs_code": "3304.99.00",
+      "description_en": "Other beauty or make-up preparations for care of skin",
+      "description_vi": "Các chế phẩm khác dùng chăm sóc da",
+      "duty_rate_mfn": 20,
+      "duty_rate_acfta": 10,
+      "vat_rate": 10,
+      "unit": "hộp"
+    },
+    {
+      "hs_code": "6404.11.00",
+      "description_en": "Sports footwear with outer soles of rubber/plastics and uppers of textile",
+      "description_vi": "Giày thể thao có đế ngoài bằng cao su/nhựa, mũ bằng vật liệu dệt",
+      "duty_rate_mfn": 20,
+      "duty_rate_acfta": 10,
+      "vat_rate": 10,
+      "unit": "đôi"
+    },
+    {
+      "hs_code": "8467.21.00",
+      "description_en": "Drills of all kinds, with self-contained electric motor",
+      "description_vi": "Máy khoan các loại, có động cơ điện tự lắp",
+      "duty_rate_mfn": 5,
+      "duty_rate_acfta": 0,
+      "vat_rate": 10,
+      "unit": "chiếc"
+    },
+    {
+      "hs_code": "8467.29.00",
+      "description_en": "Other tools with self-contained electric motor",
+      "description_vi": "Dụng cụ khác có động cơ điện tự lắp",
+      "duty_rate_mfn": 5,
+      "duty_rate_acfta": 0,
+      "vat_rate": 10,
+      "unit": "bộ"
+    }
+  ],
+  "exchange_rate": {
+    "CNY_to_VND": 3450,
+    "effective_date": "2024-11-15"
+  }
+}

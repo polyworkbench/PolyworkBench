@@ -1,0 +1,63 @@
+{
+  "market_overview": {
+    "title": "日本エッジAIデバイス市場データ 2024",
+    "source": "矢野経済研究所",
+    "year": 2024
+  },
+  "market_size": {
+    "2022": {"value_billion_yen": 285, "growth_rate_pct": 22.5},
+    "2023": {"value_billion_yen": 362, "growth_rate_pct": 27.0},
+    "2024": {"value_billion_yen": 458, "growth_rate_pct": 26.5},
+    "2025_forecast": {"value_billion_yen": 578, "growth_rate_pct": 26.2},
+    "2027_forecast": {"value_billion_yen": 892, "growth_rate_pct": 24.0}
+  },
+  "segments": {
+    "industrial_automation": {
+      "share_pct": 32.5,
+      "key_applications": ["品質検査", "予知保全", "ロボット制御"],
+      "growth_rate_pct": 28.3
+    },
+    "automotive": {
+      "share_pct": 28.0,
+      "key_applications": ["自動運転", "ADAS", "車内モニタリング"],
+      "growth_rate_pct": 35.2
+    },
+    "consumer_electronics": {
+      "share_pct": 18.5,
+      "key_applications": ["スマートフォン", "スマート家電", "ウェアラブル"],
+      "growth_rate_pct": 20.1
+    },
+    "healthcare": {
+      "share_pct": 12.0,
+      "key_applications": ["医療画像診断", "ウェアラブル健康管理", "介護ロボット"],
+      "growth_rate_pct": 31.5
+    },
+    "retail": {
+      "share_pct": 9.0,
+      "key_applications": ["無人店舗", "需要予測", "顧客分析"],
+      "growth_rate_pct": 25.8
+    }
+  },
+  "key_vendors": [
+    {"name": "NVIDIA", "market_share_pct": 24.5, "key_product": "Jetson Series"},
+    {"name": "Qualcomm", "market_share_pct": 18.2, "key_product": "Snapdragon"},
+    {"name": "Intel", "market_share_pct": 12.8, "key_product": "Movidius/OpenVINO"},
+    {"name": "Google", "market_share_pct": 8.5, "key_product": "Edge TPU"},
+    {"name": "Renesas", "market_share_pct": 7.2, "key_product": "RZ/V Series"},
+    {"name": "Sony", "market_share_pct": 5.8, "key_product": "Aitrios"},
+    {"name": "Others", "market_share_pct": 23.0, "key_product": "Various"}
+  ],
+  "trends": [
+    "LLM/生成AIのエッジ展開への関心急増",
+    "産業用途での需要が最も堅調",
+    "自動車向けが最高成長率を記録",
+    "省電力化技術への投資が活発",
+    "日本国内半導体製造能力の強化（TSMC熊本工場等）"
+  ],
+  "challenges": [
+    "熟練エンジニアの不足",
+    "デバイスの多様化によるフラグメンテーション",
+    "セキュリティ・プライバシー要件の厳格化",
+    "投資回収期間の長さ"
+  ]
+}

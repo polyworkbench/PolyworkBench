@@ -1,0 +1,160 @@
+{
+  "taxonomy": {
+    "name": "固体電池技術分類体系",
+    "version": "1.0",
+    "categories": [
+      {
+        "id": "electrolyte_materials",
+        "name_ja": "電解質材料",
+        "name_en": "Electrolyte Materials",
+        "subcategories": [
+          {
+            "id": "oxide",
+            "name_ja": "酸化物系",
+            "description": "ガーネット型(LLZO)、NASICON型、ペロブスカイト型"
+          },
+          {
+            "id": "sulfide",
+            "name_ja": "硫化物系",
+            "description": "アルジロダイト型、Li7P3S11、LGPS系"
+          },
+          {
+            "id": "polymer",
+            "name_ja": "高分子系",
+            "description": "PEO系、ポリカーボネート系"
+          },
+          {
+            "id": "halide",
+            "name_ja": "ハライド系",
+            "description": "Li3YCl6、Li3InCl6系"
+          },
+          {
+            "id": "composite",
+            "name_ja": "複合系",
+            "description": "ポリマー-セラミック複合体"
+          }
+        ]
+      },
+      {
+        "id": "electrode_design",
+        "name_ja": "電極設計",
+        "name_en": "Electrode Design",
+        "subcategories": [
+          {
+            "id": "cathode_interface",
+            "name_ja": "正極界面",
+            "description": "コーティング技術、複合正極"
+          },
+          {
+            "id": "anode_interface",
+            "name_ja": "負極界面",
+            "description": "リチウム金属保護、デンドライト抑制"
+          },
+          {
+            "id": "interlayer",
+            "name_ja": "界面層",
+            "description": "人工SEI、バッファー層"
+          }
+        ]
+      },
+      {
+        "id": "manufacturing",
+        "name_ja": "製造プロセス",
+        "name_en": "Manufacturing Process",
+        "subcategories": [
+          {
+            "id": "sintering",
+            "name_ja": "焼結技術",
+            "description": "低温焼結、フラッシュ焼結"
+          },
+          {
+            "id": "thin_film",
+            "name_ja": "薄膜技術",
+            "description": "ALD、スパッタリング、蒸着"
+          },
+          {
+            "id": "dry_process",
+            "name_ja": "乾式プロセス",
+            "description": "無溶媒製造、ロールツーロール"
+          },
+          {
+            "id": "scalable",
+            "name_ja": "量産技術",
+            "description": "連続生産、コスト削減"
+          }
+        ]
+      },
+      {
+        "id": "cell_system",
+        "name_ja": "セル・システム設計",
+        "name_en": "Cell and System Design",
+        "subcategories": [
+          {
+            "id": "cell_architecture",
+            "name_ja": "セル構造",
+            "description": "バイポーラ型、3D構造"
+          },
+          {
+            "id": "thermal_management",
+            "name_ja": "熱マネジメント",
+            "description": "冷却設計、安全機構"
+          },
+          {
+            "id": "bms",
+            "name_ja": "電池管理",
+            "description": "BMS、状態推定、充電制御"
+          },
+          {
+            "id": "pack_integration",
+            "name_ja": "パック統合",
+            "description": "CTP、モジュール設計"
+          }
+        ]
+      },
+      {
+        "id": "application_specific",
+        "name_ja": "用途特化",
+        "name_en": "Application-Specific",
+        "subcategories": [
+          {
+            "id": "automotive",
+            "name_ja": "車載用",
+            "description": "車規級、大型セル"
+          },
+          {
+            "id": "flexible_wearable",
+            "name_ja": "フレキシブル・ウェアラブル",
+            "description": "柔軟性、薄型"
+          },
+          {
+            "id": "aerospace",
+            "name_ja": "航空宇宙",
+            "description": "極限環境、高信頼性"
+          },
+          {
+            "id": "sodium_ion",
+            "name_ja": "ナトリウムイオン",
+            "description": "Na系固体電池"
+          }
+        ]
+      },
+      {
+        "id": "sustainability",
+        "name_ja": "持続可能性",
+        "name_en": "Sustainability",
+        "subcategories": [
+          {
+            "id": "recycling",
+            "name_ja": "リサイクル",
+            "description": "材料回収、再生"
+          },
+          {
+            "id": "computational",
+            "name_ja": "計算科学",
+            "description": "ML材料探索、シミュレーション"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+return_id,order_id,sku,customer_name,return_date,reason_code,customer_comment,refund_amount_vnd,market
+RET-VN-001,ORD-VN-20101,SKU-TWS-001,Nguyễn Văn Minh,2024-10-06,DEFECTIVE,Tai nghe bên trái không phát ra âm thanh sau 3 ngày sử dụng. Đã thử reset nhiều lần nhưng không được. Chất lượng kém quá.,1890000,Vietnam
+RET-VN-002,ORD-VN-20115,SKU-WATCH-002,Trần Thị Hương,2024-10-09,NOT_AS_DESCRIBED,Màn hình không sáng như trong hình quảng cáo. Pin chỉ dùng được 1.5 ngày thay vì 7 ngày như mô tả. Cảm thấy bị lừa.,2590000,Vietnam
+RET-VN-003,ORD-VN-20128,SKU-SILK-003,Lê Hoàng Nam,2024-10-11,WRONG_SIZE,Kích thước khăn nhỏ hơn nhiều so với mô tả. Đo thực tế chỉ được 155x52cm thay vì 180x65cm. Không chấp nhận được.,1250000,Vietnam
+RET-VN-004,ORD-VN-20142,SKU-BOTTLE-004,Phạm Đức Anh,2024-10-13,DEFECTIVE,Nắp bình bị hở nước khi nghiêng. Nước bị rò rỉ ra ba lô làm ướt sách vở. Thiết kế lỗi.,520000,Vietnam
+RET-VN-005,ORD-VN-20156,SKU-TWS-001,Võ Thị Mai Lan,2024-10-15,COMFORT,Tai nghe quá to không vừa tai. Đã thử tất cả đệm tai kèm theo nhưng vẫn bị rơi ra khi đi bộ. Không phù hợp cho nữ giới tai nhỏ.,1890000,Vietnam
+RET-VN-006,ORD-VN-20170,SKU-CERAMIC-005,Đặng Quốc Bảo,2024-10-17,DAMAGED,Hàng đến tay bị vỡ 4 món. Đóng gói quá sơ sài không có xốp chống sốc. Hộp bên ngoài cũng bị méo.,3350000,Vietnam
+RET-VN-007,ORD-VN-20184,SKU-SERUM-007,Huỳnh Thanh Tùng,2024-10-19,ALLERGIC,Da mặt bị nổi mẩn đỏ và ngứa sau khi dùng. Thành phần ghi trên bao bì không có tiếng Việt nên không biết có chất gì gây dị ứng.,580000,Vietnam
+RET-VN-008,ORD-VN-20198,SKU-SHOES-008,Ngô Thị Bích Ngọc,2024-10-21,WRONG_SIZE,Size giày không đúng bảng quy đổi. Đặt size 37 nhưng nhận được giày quá nhỏ phải đi size 38. Bảng size của shop sai.,1450000,Vietnam
+RET-VN-009,ORD-VN-20212,SKU-TWS-001,Bùi Minh Tuấn,2024-10-23,QUALITY,Chống ồn chủ động rất yếu. Quảng cáo 40dB nhưng thực tế ngồi trong quán cafe vẫn nghe rõ tiếng nhạc bên ngoài. Không đáng tiền.,1890000,Vietnam
+RET-VN-010,ORD-VN-20226,SKU-TEA-006,Trương Công Thành,2024-10-25,QUALITY,Trà có mùi hôi mốc. Mở ra thấy lá trà không đều màu có vẻ bị ẩm. Không dám uống vì sợ ảnh hưởng sức khỏe.,690000,Vietnam
+RET-VN-011,ORD-VN-20240,SKU-LAMP-009,Nguyễn Thị Thanh Hà,2024-10-27,DEFECTIVE,Đèn bị nhấp nháy ở chế độ ánh sáng yếu nhất. Sử dụng được 2 tuần thì bắt đầu có tiếng kêu vo vo. Rất khó chịu.,950000,Vietnam
+RET-VN-012,ORD-VN-20254,SKU-WATCH-002,Hoàng Văn Đức,2024-10-29,DEFECTIVE,Cảm biến nhịp tim cho kết quả sai lệch lớn. So sánh với máy đo huyết áp thì chênh 20-30 nhịp/phút. Không tin tưởng được.,2590000,Vietnam
+RET-VN-013,ORD-VN-20268,SKU-MASK-010,Lý Thị Kim Oanh,2024-10-31,ALLERGIC,Mặt nạ gây kích ứng da nghiêm trọng. Phải đi khám bác sĩ da liễu. Sản phẩm không có chứng nhận an toàn tại Việt Nam.,420000,Vietnam
+RET-VN-014,ORD-VN-20282,SKU-TWS-001,Phan Thanh Hải,2024-11-02,QUALITY,Bluetooth liên tục bị ngắt kết nối khi sử dụng với điện thoại Samsung. Phải kết nối lại 4-5 lần mỗi ngày. Rất bất tiện.,1890000,Vietnam
+RET-VN-015,ORD-VN-20296,SKU-SILK-003,Đinh Thị Ngọc Ánh,2024-11-04,QUALITY,Khăn bị phai màu sau lần giặt đầu tiên dù đã giặt tay với nước lạnh. Chất liệu không giống lụa tơ tằm thật.,1250000,Vietnam
+RET-VN-016,ORD-VN-20310,SKU-CERAMIC-005,Vũ Đình Khoa,2024-11-06,NOT_AS_DESCRIBED,Màu sắc thực tế khác hoàn toàn so với hình trên web. Đặt màu trắng ngà nhưng nhận được màu vàng nhạt. Họa tiết cũng khác.,3350000,Vietnam
+RET-VN-017,ORD-VN-20324,SKU-SHOES-008,Trịnh Văn Phong,2024-11-08,QUALITY,Đế giày bị bong keo sau 10 ngày đi. Có thể thấy keo giữa đế và thân giày. Chất lượng gia công rất kém.,1450000,Vietnam
+RET-VN-018,ORD-VN-20338,SKU-BOTTLE-004,Mai Thị Hồng Nhung,2024-11-10,NOT_AS_DESCRIBED,Bình giữ nhiệt không giữ nóng được 24 giờ như quảng cáo. Sau 5-6 tiếng nước đã nguội gần hết. Thông số kỹ thuật sai.,520000,Vietnam
+RET-VN-019,ORD-VN-20352,SKU-SERUM-007,Cao Minh Quân,2024-11-12,QUALITY,Sản phẩm có mùi lạ không giống bình thường. Chai bị biến màu hơi vàng. Nghi ngờ hàng hết hạn hoặc bảo quản sai.,580000,Vietnam
+RET-VN-020,ORD-VN-20366,SKU-TWS-001,Lương Thị Diệu Linh,2024-11-14,DEFECTIVE,Hộp sạc không nhận sạc qua cổng USB-C. Đã thử nhiều dây cáp khác nhau đều không được. Sạc không dây cũng không hoạt động.,1890000,Vietnam

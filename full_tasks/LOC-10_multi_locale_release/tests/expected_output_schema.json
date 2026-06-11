@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LOC-10 Output Schema",
+  "type": "object",
+  "required": ["locales_covered", "issues_found"],
+  "properties": {
+    "locales_covered": {
+      "type": "integer",
+      "description": "Number of locales covered in the QA release (expected: 6)"
+    },
+    "issues_found": {
+      "type": "integer",
+      "description": "Total number of localization issues found across all locales"
+    },
+    "critical_issues": {
+      "type": "integer",
+      "description": "Number of critical issues requiring fix before release"
+    },
+    "consistency_score": {
+      "type": ["number", "string"],
+      "description": "Overall cross-locale consistency score or rating"
+    },
+    "changelogs_generated": {
+      "type": "integer",
+      "description": "Number of locale-specific changelogs generated"
+    }
+  }
+}

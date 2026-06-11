@@ -1,0 +1,21 @@
+id = "LEG-08_ko_employment_handbook"
+name = "Korean employee handbook localization from English source"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 3
+estimated_steps = 6
+timeout_sec = 1800
+tags = ["ko-instruction", "en-source", "ko-source", "ko-output", "legal", "employment", "localization"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["handbook_ko.md", "change_log_ko.json", "compliance_notes_ko.json", "legal_references_ko.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

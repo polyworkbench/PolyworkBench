@@ -1,0 +1,61 @@
+{
+  "concur_expense_csv_preview": "\ufeffDate,Vendor,Description,Amount_JPY,Tax_Rate,Amount_CNY,Receipt_ID\n2024-11-15,7-Eleven Shinjuku 3-chome,Business trip incidentals (food & beverage),1149,mixed(8%/10%),53.22,R001\n2024-11-18,JR East,Tokyo - Shin-Osaka Shinkansen,14400,10%,667.01,R002\n2024-11-20,Izakaya Sakura Shibuya,Business meal (PENDING REVIEW),31130,10%,1441.94,R003\n",
+  "extraction": [
+    {
+      "receipt_id": "R001",
+      "date_iso": "2024-11-15",
+      "date_jp_original": "令和6年11月15日",
+      "vendor": "7-Eleven Shinjuku 3-chome",
+      "addressee": "(blank)",
+      "tax_breakdown": [
+        {"rate": 0.08, "taxable_amount": 860, "tax": 69},
+        {"rate": 0.10, "taxable_amount": 200, "tax": 20}
+      ],
+      "total_jpy": 1149,
+      "total_cny": 53.22,
+      "handwritten_notes": "出張交通費 (Business trip transport — note: actual content is food/beverage, possible miscategorization)",
+      "stamp_present": true,
+      "confidence": 0.92,
+      "issues": [
+        "Handwritten label '出張交通費' contradicts itemized food/beverage purchases; flagged for reviewer."
+      ]
+    },
+    {
+      "receipt_id": "R002",
+      "date_iso": "2024-11-18",
+      "date_jp_original": "令和6年11月18日",
+      "vendor": "JR East",
+      "addressee": "Acme Research Co., Ltd.",
+      "tax_breakdown": [
+        {"rate": 0.10, "taxable_amount": 13091, "tax": 1309}
+      ],
+      "total_jpy": 14400,
+      "total_cny": 667.01,
+      "handwritten_notes": "",
+      "stamp_present": false,
+      "confidence": 0.99,
+      "issues": []
+    },
+    {
+      "receipt_id": "R003",
+      "date_iso": "2024-11-20",
+      "date_jp_original": "令和6年11月20日",
+      "vendor": "Izakaya Sakura Shibuya",
+      "addressee": "上様 (Ueisama / generic addressee)",
+      "tax_breakdown": [
+        {"rate": 0.10, "taxable_amount": 28300, "tax": 2830, "note": "inferred from subtotal + 10% service charge"}
+      ],
+      "total_jpy": 31130,
+      "total_cny": 1441.94,
+      "handwritten_notes": "ありがとうございました",
+      "stamp_present": true,
+      "confidence": 0.55,
+      "issues": [
+        "Total amount partially obscured by stamp; reconstructed from line items (24500+3800+2830=31130).",
+        "Addressee is '上様' AND total >= 30,000 JPY: per Japan NTA guidance, this receipt cannot be claimed without re-issuance.",
+        "Service charge tax treatment may differ; recommend Finance verification."
+      ]
+    }
+  ],
+  "exceptions_md": "# Exception Report\n\n## Critical (must fix before submission)\n\n### R003 — Izakaya Sakura Shibuya — JPY 31,130\n- **Reason**: Addressee is `上様` (generic) AND amount exceeds the 30,000 JPY threshold permitted by Japan NTA for non-named receipts.\n- **Action**: Reject reimbursement; request a re-issued receipt with the company name (株式会社アクメ・リサーチ 御中).\n- **Secondary issue**: Total amount partially obscured by stamp; reconstructed value 31,130 JPY has confidence 0.55. Verify against credit card statement before re-issuance.\n\n## Warning (review recommended)\n\n### R001 — 7-Eleven Shinjuku — JPY 1,149\n- Handwritten label says 出張交通費 (transport) but items are food/beverage. Likely miscategorization by the employee. Reclassify under 'Meals & Incidentals' before posting to GL.\n\n## Informational\n\n### R002 — JR East — JPY 14,400\n- Clean. Ready for posting."
+}

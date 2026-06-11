@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LOC-01 Output Schema",
+  "type": "object",
+  "required": ["total_strings_translated", "strings_data"],
+  "properties": {
+    "total_strings_translated": {
+      "type": "integer",
+      "description": "Total number of UI strings translated to Russian"
+    },
+    "strings_data": {
+      "type": ["object", "array"],
+      "description": "Translated string key-value pairs in Russian"
+    },
+    "length_violations": {
+      "type": "integer",
+      "description": "Number of strings exceeding character length limits"
+    },
+    "qa_issues": {
+      "type": "integer",
+      "description": "Number of QA issues identified in the localization"
+    }
+  }
+}

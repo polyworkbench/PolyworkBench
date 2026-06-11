@@ -1,0 +1,21 @@
+id = "MFG-04v2_ru_safety_audit"
+name = "Russian safety audit v2 with MTBF calculation and repeat patterns"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 4
+estimated_steps = 8
+timeout_sec = 2400
+tags = ["ru-instruction", "en-source", "zh-source", "ru-output", "manufacturing", "safety", "v2"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["safety_audit_ru.md", "mtbf_analysis.json", "repeat_patterns.json", "action_plan_ru.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

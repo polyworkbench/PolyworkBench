@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["memo_dd_fr_md", "risk_register", "glossaire", "traceability_fr_md"],
+  "properties": {
+    "memo_dd_fr_md": {"type": "string"},
+    "risk_register": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "categorie", "description_fr", "severite", "probabilite", "source"],
+        "properties": {
+          "id": {"type": "string"},
+          "categorie": {"type": "string", "enum": ["financier", "fiscal", "juridique", "gouvernance", "operationnel", "reglementaire"]},
+          "description_fr": {"type": "string"},
+          "severite": {"type": "string", "enum": ["faible", "moyenne", "élevée", "critique"]},
+          "probabilite": {"type": "string", "enum": ["faible", "moyenne", "élevée"]},
+          "source": {"type": "string", "description": "[Source: fichier, ligne/section]"},
+          "mitigation": {"type": "string"}
+        }
+      },
+      "minItems": 5
+    },
+    "glossaire": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["fr", "en"],
+        "properties": {
+          "fr": {"type": "string"},
+          "en": {"type": "string"},
+          "zh": {"type": "string"},
+          "ja": {"type": "string"},
+          "ko": {"type": "string"},
+          "note": {"type": "string"}
+        }
+      },
+      "minItems": 15
+    },
+    "traceability_fr_md": {"type": "string"},
+    "financial_analysis": {
+      "type": "object",
+      "properties": {
+        "years": {"type": "array", "items": {"type": "string"}},
+        "revenue_cny": {"type": "array", "items": {"type": "number"}},
+        "revenue_eur": {"type": "array", "items": {"type": "number"}},
+        "net_income_cny": {"type": "array", "items": {"type": "number"}},
+        "net_income_eur": {"type": "array", "items": {"type": "number"}},
+        "yoy_growth_revenue": {"type": "array"},
+        "net_margin": {"type": "array", "items": {"type": "number"}},
+        "debt_ratio": {"type": "array", "items": {"type": "number"}},
+        "implied_ev_revenue_multiple": {"type": "number"}
+      }
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "description_fr": {"type": "string"},
+          "source_a": {"type": "object"},
+          "source_b": {"type": "object"},
+          "delta": {"type": "string"},
+          "impact_on_valuation": {"type": "string"},
+          "resolution": {"type": "string"}
+        }
+      }
+    },
+    "valuation_analysis": {
+      "type": "object",
+      "properties": {
+        "implied_ev_revenue_multiple": {"type": "number"},
+        "sector_comparison": {"type": "string"},
+        "litigation_impact_eur": {"type": "number"},
+        "nwc_assessment": {"type": "object"}
+      }
+    },
+    "closing_checklist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "condition": {"type": "string"},
+          "source": {"type": "string"},
+          "status": {"type": "string"},
+          "risk": {"type": "string"},
+          "estimated_timeline": {"type": "string"}
+        }
+      }
+    }
+  }
+}

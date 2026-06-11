@@ -1,0 +1,56 @@
+CURRENT PRODUCTION LINE LAYOUT DESCRIPTION
+============================================
+
+Factory: Dongguan Precision Manufacturing Co., Ltd.
+Product: Automotive body panel sub-assemblies
+Line: Main production line #3
+
+LAYOUT TYPE: Functional/Process Layout (NOT cellular)
+Total Floor Area: 2,800 m² (70m × 40m)
+
+PROCESS FLOW (left to right):
+
+    [Raw Material Storage] → 12m → [Stamping Area] → 18m → [Welding Zone 1]
+                                                              ↓ (8m)
+    [Final QC] ← 3m ← [Packaging] ← 8m ← [Inspection]  [Welding Zone 2]
+                                                ↑              ↓ (25m)
+                                           (5m) |         [Painting Booth]
+                                                |              ↓ (3m)
+                                        [Assembly 2]      [Drying Oven]
+                                            ↑ (20m)           ↓ (15m)
+                                        [Assembly 1] ←--------┘
+
+KEY OBSERVATIONS:
+- Material flow is NOT linear; multiple backflows and cross-traffic
+- Painting booth is located far from assembly (25m transport)
+- WIP buffers between most stations (large batch transfers)
+- Welding stations are separated despite sequential processing
+- Assembly stations are far apart (20m) despite being sequential
+- No clear one-piece-flow implementation
+- Forklift paths cross pedestrian walkways in 3 locations
+
+MATERIAL HANDLING:
+- Forklifts: 3 units, constant movement
+- Hand carts: 5 units
+- Conveyor: Only between Drying → Assembly 1 (15m, roller conveyor)
+- All other transport is manual/forklift
+
+STORAGE AREAS:
+- Raw material: 200 m² (contains ~3 days of stock)
+- WIP staging areas: 5 locations, total 180 m²
+- Finished goods: 150 m² (holds ~2 days production)
+
+SHIFT PATTERN:
+- 2 shifts × 8 hours = 16 hours/day production
+- 30 min meal break per shift
+- Planned maintenance: 30 min/day (during shift change)
+- Effective production time: 480 min/shift
+
+CURRENT ISSUES NOTED BY MANAGEMENT:
+1. Cannot meet customer demand of 480 units/day (current: ~400)
+2. High WIP inventory (815 pieces across line)
+3. Welding is identified bottleneck
+4. Long changeover times especially at painting
+5. Quality issues at painting station (4% defect rate)
+6. Excessive transport distances
+7. Workers complain about ergonomic issues at assembly stations

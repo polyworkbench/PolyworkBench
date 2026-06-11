@@ -1,0 +1,74 @@
+NHẬT KÝ BẢO TRÌ - TUẦN 18-24/03/2024
+Phòng Bảo trì - Nhà máy điện tử XYZ
+Người lập: Phạm Minh Tuấn (Trưởng phòng bảo trì)
+
+================================================================
+Mã công việc: MT-2024-0318-01
+Ngày: 2024-03-18
+Thiết bị: Máy pick-and-place SMT-B (PP-B01)
+Loại: Bảo trì phòng ngừa (định kỳ)
+Mô tả: Bảo trì định kỳ hệ thống feeder và nozzle
+Thời gian thực hiện: 22:00-23:30 (ngoài giờ sản xuất)
+Thời gian dừng sản xuất: 0 phút
+Hành động:
+  - Thay 4 nozzle (size 0402, 0603, 0805, 1206)
+  - Vệ sinh 12 feeder
+  - Kiểm tra độ chính xác placement: OK (±0.02mm)
+  - Cập nhật counter: reset về 0
+Chi phí vật tư: 1,200,000 VND
+Kỹ thuật viên: Hoàng Đức
+Trạng thái: Hoàn thành
+
+================================================================
+Mã công việc: MT-2024-0319-01
+Ngày: 2024-03-19
+Thiết bị: Lò reflow SMT-A (RF-A01)
+Loại: Sửa chữa khẩn cấp
+Mô tả: Cảm biến nhiệt độ zone 3 bị lỗi, gây quá nhiệt
+Triệu chứng: Nhiệt độ zone 3 đọc 285C (bình thường 245C)
+Thời gian phát hiện: 07:15
+Thời gian bắt đầu sửa: 07:20
+Thời gian hoàn thành: 08:05
+Thời gian dừng sản xuất: 45 phút
+Nguyên nhân: Cảm biến thermocouple type K bị đứt mối nối
+  - Tuổi thọ cảm biến: 18 tháng (khuyến nghị thay 12 tháng)
+  - Đã vượt thời gian khuyến nghị 6 tháng
+Hành động:
+  - Thay thế cảm biến thermocouple zone 3
+  - Hiệu chuẩn lại profile nhiệt toàn bộ 8 zone
+  - Kiểm tra chất lượng sản phẩm sau sửa: OK
+Chi phí vật tư: 2,500,000 VND
+Kỹ thuật viên: Trần Quốc Bảo
+Trạng thái: Hoàn thành
+Đề xuất: Thay tất cả cảm biến >12 tháng tuổi (còn 3 cái)
+
+================================================================
+Mã công việc: MT-2024-0320-01
+Ngày: 2024-03-20
+Thiết bị: Thiết bị test lắp ráp C (TST-C01)
+Loại: Sửa chữa
+Mô tả: Bo mạch test bị lỗi kết nối với DUT
+Triệu chứng: Màn hình hiển thị "No DUT detected"
+Thời gian phát hiện: 15:00
+Thời gian bắt đầu sửa: 15:10
+Thời gian hoàn thành: 15:40
+Thời gian dừng sản xuất: 30 phút
+Nguyên nhân: Đầu connector 64-pin bị oxy hóa
+  - Môi trường ẩm cao trong tuần qua (độ ẩm 68%)
+Hành động:
+  - Vệ sinh connector bằng IPA
+  - Thay gasket chống ẩm
+  - Kiểm tra toàn bộ 4 test station: 1 cái khác cũng bị nhẹ
+Chi phí vật tư: 500,000 VND
+Kỹ thuật viên: Lê Văn Hải
+Trạng thái: Hoàn thành
+
+================================================================
+TỔNG HỢP TUẦN:
+- Tổng số công việc bảo trì: 3
+- Sửa chữa khẩn cấp: 1 (RF-A01)
+- Sửa chữa thường: 1 (TST-C01)
+- Bảo trì phòng ngừa: 1 (PP-B01)
+- Tổng thời gian dừng sản xuất: 75 phút
+- Tổng chi phí vật tư: 4,200,000 VND
+- Tỷ lệ hoàn thành kế hoạch PM: 100%

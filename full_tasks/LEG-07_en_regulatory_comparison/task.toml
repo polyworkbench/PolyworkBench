@@ -1,0 +1,21 @@
+id = "LEG-07_en_regulatory_comparison"
+name = "Cross-jurisdiction Asian data protection regulatory comparison"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["en-instruction", "zh-source", "ko-source", "vi-source", "ja-source", "en-output", "legal", "regulatory", "data-protection"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["comparative_analysis.md", "regulation_matrix.json", "gap_summary.json", "compliance_roadmap.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

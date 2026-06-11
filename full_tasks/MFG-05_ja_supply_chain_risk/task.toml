@@ -1,0 +1,21 @@
+id = "MFG-05_ja_supply_chain_risk"
+name = "Japanese supply chain risk assessment from multilingual supplier data"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["ja-instruction", "zh-source", "ko-source", "vi-source", "en-source", "ja-output", "manufacturing", "supply-chain"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["risk_register_ja.json", "assessment_report_ja.md", "supplier_scorecard.json", "mitigation_plan_ja.md"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

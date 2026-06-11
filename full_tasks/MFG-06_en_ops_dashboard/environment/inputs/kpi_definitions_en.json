@@ -1,0 +1,70 @@
+{
+  "kpis": {
+    "oee": {
+      "name": "Overall Equipment Effectiveness",
+      "formula": "availability * performance * quality",
+      "components": {
+        "availability": "(planned_time - downtime) / planned_time",
+        "performance": "actual_output / theoretical_max_output",
+        "quality": "good_units / total_units"
+      },
+      "target": 85.0,
+      "unit": "percent",
+      "planned_time_minutes_per_day": 480
+    },
+    "yield_rate": {
+      "name": "First Pass Yield",
+      "formula": "good_units / total_units * 100",
+      "target": 97.5,
+      "unit": "percent"
+    },
+    "throughput": {
+      "name": "Daily Throughput",
+      "formula": "sum(production_units) per day per line",
+      "target_per_line": {
+        "shenzhen": 1250,
+        "haiphong": 900,
+        "busan": 1100
+      },
+      "unit": "units/day"
+    },
+    "downtime_pct": {
+      "name": "Downtime Percentage",
+      "formula": "total_downtime_minutes / planned_time_minutes * 100",
+      "target_max": 10.0,
+      "unit": "percent",
+      "critical_threshold": 20.0
+    },
+    "defect_rate": {
+      "name": "Defect Rate",
+      "formula": "defective_units / total_units * 100",
+      "target_max": 3.0,
+      "unit": "percent",
+      "critical_threshold": 5.0
+    },
+    "energy_efficiency": {
+      "name": "Energy Efficiency",
+      "formula": "total_output / total_energy_kwh",
+      "target_min": 1.8,
+      "unit": "units/kWh"
+    }
+  },
+  "anomaly_detection": {
+    "method": "z_score",
+    "threshold_sigma": 2.0,
+    "target_deviation_threshold_pct": 15.0,
+    "severity_levels": {
+      "critical": "deviation > 3 sigma OR target miss > 25%",
+      "warning": "deviation > 2 sigma OR target miss > 15%"
+    }
+  },
+  "reporting": {
+    "aggregation_levels": ["daily", "weekly"],
+    "week_start": "Monday",
+    "trend_indicators": {
+      "improving": "current_week > previous_week by > 2%",
+      "stable": "change within +/- 2%",
+      "declining": "current_week < previous_week by > 2%"
+    }
+  }
+}

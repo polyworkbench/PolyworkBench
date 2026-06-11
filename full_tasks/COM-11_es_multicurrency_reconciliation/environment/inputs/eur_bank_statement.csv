@@ -1,0 +1,51 @@
+ref,date,counterparty,concept,amount_eur,type,invoice_ref
+BNK-EUR-001,2024-03-01,SAP SE,ERP Module License,5200.00,debit,EUR-INV-001
+BNK-EUR-002,2024-03-02,Deutsche Telekom,Fiber Connection 12mo,3600.00,debit,EUR-INV-002
+BNK-EUR-003,2024-03-04,Siemens AG,Industrial IoT Sensors,7800.00,debit,EUR-INV-003
+BNK-EUR-004,2024-03-06,Bosch GmbH,Quality Control Equipment,4150.00,debit,EUR-INV-004
+BNK-EUR-005,2024-03-08,BASF Chemical,Lab Supplies Q1,2300.00,debit,EUR-INV-005
+BNK-EUR-006,2024-03-10,SAP SE,Cloud Platform Monthly,1850.00,debit,EUR-INV-006
+BNK-EUR-007,2024-03-12,Infineon Tech,Semiconductor Chips,3200.00,debit,EUR-INV-007
+BNK-EUR-008,2024-03-14,Deutsche Telekom,Video Conference License,950.00,debit,EUR-INV-008
+BNK-EUR-009,2024-03-15,Siemens AG,PLC Programming,2100.00,debit,EUR-INV-009
+BNK-EUR-010,2024-03-17,Continental AG,Fleet Tracking System,1780.00,debit,EUR-INV-010
+BNK-US-001,2024-03-01,Acme Corp (USD),Server hosting Q1,4140.00,debit,US-INV-001
+BNK-US-002,2024-03-03,TechParts Inc (USD),Network switches,8050.00,debit,US-INV-002
+BNK-US-003,2024-03-05,CloudServ LLC (USD),Cloud storage,2944.00,debit,US-INV-003
+BNK-US-004,2024-03-07,DataFlow Systems (USD),API gateway,1932.00,debit,US-INV-004
+BNK-US-005,2024-03-08,Acme Corp (USD),Maintenance,1380.00,debit,US-INV-005
+BNK-US-006,2024-03-10,SecureNet (USD),Firewall,3864.00,debit,US-INV-006
+BNK-US-007,2024-03-12,TechParts Inc (USD),RAM modules,3450.00,debit,US-INV-007
+BNK-US-008,2024-03-14,CloudServ LLC (USD),Bandwidth,1656.00,debit,US-INV-008
+BNK-US-009,2024-03-15,LogiTrans (USD),Shipping,874.00,debit,US-INV-009
+BNK-US-010,2024-03-17,DataFlow Systems (USD),Data pipeline,5060.00,debit,US-INV-010
+BNK-US-011,2024-03-19,Acme Corp (USD),Emergency support,2024.00,debit,US-INV-011
+BNK-US-012,2024-03-20,SecureNet (USD),SSL certificates,1472.00,debit,US-INV-012
+BNK-US-013,2024-03-22,TechParts Inc (USD),SSD drives,3174.00,debit,US-INV-013
+BNK-US-014,2024-03-25,CloudServ LLC (USD),Disaster recovery,2576.00,debit,US-INV-014
+BNK-US-015,2024-03-27,DataFlow Systems (USD),ML deployment,3956.00,debit,US-INV-015
+BNK-US-016,2024-03-28,LogiTrans (USD),Express shipping,690.00,debit,US-INV-016
+BNK-US-017,2024-03-29,Acme Corp (USD),Hardware refresh,5612.00,debit,US-INV-017
+BNK-US-018,2024-03-30,SecureNet (USD),Pen testing,2944.00,debit,US-INV-018
+BNK-US-019,2024-03-31,TechParts Inc (USD),Cable kit,782.00,debit,US-INV-019
+INV-2024-017,2024-03-16,Bosch GmbH,Calibration Service,2340.00,debit,EUR-INV-017
+BNK-EUR-011,2024-03-19,Continental AG,Tire Pressure Sensors,1420.50,debit,EUR-INV-011
+BNK-EUR-012,2024-03-21,Infineon Tech,Power Modules,2070.00,debit,EUR-INV-012
+CNY-BNK-001,2024-03-01,Huawei (CNY),Network equipment,5850.00,debit,ZF-0801
+CNY-BNK-002,2024-03-03,Lenovo (CNY),Server hardware,5005.00,debit,ZF-0812
+CNY-BNK-003,2024-03-05,ZTE (CNY),Fiber modules,1664.00,debit,ZF-0823
+CNY-BNK-004,2024-03-07,Kingdee (CNY),ERP license,3640.00,debit,ZF-0834
+CNY-BNK-005,2024-03-09,Hikvision (CNY),Surveillance,4576.00,debit,ZF-0845
+CNY-BNK-006,2024-03-11,DJI (CNY),Drone equipment,2925.00,debit,ZF-0856
+CNY-BNK-007,2024-03-13,Xiaomi (CNY),Tablets,2418.00,debit,ZF-0867
+CNY-BNK-008,2024-03-15,Baosight (CNY),DB maintenance,1950.00,debit,ZF-0878
+CNY-BNK-009,2024-03-17,Huawei (CNY),5G modules,6760.00,debit,ZF-0889
+CNY-BNK-010,2024-03-19,Kingdee (CNY),Cloud service,2106.00,debit,ZF-0892
+CNY-BNK-011,2024-03-19,Kingdee (CNY),Cloud service,2106.00,debit,ZF-0892
+CNY-BNK-012,2024-03-21,Hikvision (CNY),AI cameras,1157.00,debit,ZF-0901
+CNY-BNK-013,2024-03-23,Lenovo (CNY),Laptops,3185.00,debit,ZF-0912
+CNY-BNK-014,2024-03-25,ZTE (CNY),Switch parts,1274.00,debit,ZF-0923
+CNY-BNK-015,2024-03-27,DJI (CNY),Repair service,832.00,debit,ZF-0934
+CNY-BNK-016,2024-03-29,Xiaomi (CNY),IoT sensors,1456.00,debit,ZF-0945
+CNY-BNK-017,2024-03-30,Huawei (CNY),Consulting,2405.00,debit,ZF-0956
+CNY-BNK-018,2024-03-31,Baosight (CNY),Security audit,1755.00,debit,ZF-0967

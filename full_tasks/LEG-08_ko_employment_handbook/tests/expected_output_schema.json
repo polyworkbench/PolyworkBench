@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LEG-08 Output Schema",
+  "type": "object",
+  "required": ["total_sections_localized", "changes_made"],
+  "properties": {
+    "total_sections_localized": {
+      "type": "integer",
+      "description": "Total number of handbook sections localized to Korean"
+    },
+    "changes_made": {
+      "type": "integer",
+      "description": "Number of substantive changes made for Korean legal compliance"
+    },
+    "legal_references_added": {
+      "type": "integer",
+      "description": "Number of Korean legal references added"
+    },
+    "compliance_issues": {
+      "type": "integer",
+      "description": "Number of compliance issues identified requiring adaptation"
+    }
+  }
+}

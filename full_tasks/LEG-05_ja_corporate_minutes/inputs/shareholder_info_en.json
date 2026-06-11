@@ -1,0 +1,122 @@
+{
+  "company": {
+    "name": "NexaTech Holdings Ltd.",
+    "name_ja": "ネクサテックホールディングス株式会社",
+    "stock_code": "4592",
+    "exchange": "Tokyo Stock Exchange (Prime Market)",
+    "fiscal_year_end": "December 31",
+    "shares_outstanding": 25000000,
+    "treasury_shares": 500000,
+    "authorized_shares": 50000000
+  },
+  "shareholders": [
+    {
+      "rank": 1,
+      "name": "Tanaka Hiroshi (田中 博)",
+      "type": "individual",
+      "role": "Chairman / Founder",
+      "shares": 5000000,
+      "percentage": 20.0,
+      "voting_rights": 5000000
+    },
+    {
+      "rank": 2,
+      "name": "Japan Innovation Fund LP",
+      "type": "institutional",
+      "shares": 3750000,
+      "percentage": 15.0,
+      "voting_rights": 3750000
+    },
+    {
+      "rank": 3,
+      "name": "Yamamoto Keiko (山本 恵子)",
+      "type": "individual",
+      "role": "President & CEO",
+      "shares": 2500000,
+      "percentage": 10.0,
+      "voting_rights": 2500000
+    },
+    {
+      "rank": 4,
+      "name": "Nomura Asset Management",
+      "type": "institutional",
+      "shares": 2000000,
+      "percentage": 8.0,
+      "voting_rights": 2000000
+    },
+    {
+      "rank": 5,
+      "name": "Chen Mingwei (陈明伟)",
+      "type": "individual",
+      "role": "Director / CFO",
+      "shares": 1250000,
+      "percentage": 5.0,
+      "voting_rights": 1250000
+    },
+    {
+      "rank": 6,
+      "name": "MUFG Bank Trust Account",
+      "type": "institutional",
+      "shares": 1500000,
+      "percentage": 6.0,
+      "voting_rights": 1500000
+    },
+    {
+      "rank": 7,
+      "name": "Park Jinhee (박진희)",
+      "type": "individual",
+      "role": "Director / COO AP",
+      "shares": 750000,
+      "percentage": 3.0,
+      "voting_rights": 750000
+    },
+    {
+      "rank": 8,
+      "name": "Employee Stock Ownership Plan (ESOP)",
+      "type": "trust",
+      "shares": 1250000,
+      "percentage": 5.0,
+      "voting_rights": 1250000
+    },
+    {
+      "rank": 9,
+      "name": "Other institutional investors",
+      "type": "institutional",
+      "shares": 4500000,
+      "percentage": 18.0,
+      "voting_rights": 4500000
+    },
+    {
+      "rank": 10,
+      "name": "Retail investors and others",
+      "type": "individual",
+      "shares": 2500000,
+      "percentage": 10.0,
+      "voting_rights": 2500000
+    }
+  ],
+  "board_composition": {
+    "total_directors": 7,
+    "inside_directors": 5,
+    "outside_directors": 2,
+    "female_directors": 3,
+    "foreign_directors": 3,
+    "average_age": 52
+  },
+  "upcoming_agm": {
+    "date": "2024-06-27",
+    "venue": "Palace Hotel Tokyo, Grand Ballroom",
+    "record_date": "2024-03-31",
+    "items": [
+      "Approval of FY2023 financial statements",
+      "Dividend distribution",
+      "Election of directors",
+      "Appointment of accounting auditor"
+    ]
+  },
+  "dividend_history": [
+    {"fiscal_year": 2021, "annual_per_share_jpy": 40, "payout_ratio_pct": 32.5},
+    {"fiscal_year": 2022, "annual_per_share_jpy": 55, "payout_ratio_pct": 35.8},
+    {"fiscal_year": 2023, "annual_per_share_jpy": 65, "interim": 20, "year_end": 45, "payout_ratio_pct": 38.2}
+  ]
+}

@@ -1,0 +1,20 @@
+id = "COM-14_en_fraud_detection"
+name = "Cross-border e-commerce fraud detection from multilingual transaction data"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["en-instruction", "ru-source", "vi-source", "en-output", "fraud-detection"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["fraud_report.md", "flagged_transactions.json", "risk_scores.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+rubric = "tests/rubric.md"

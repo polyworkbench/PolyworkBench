@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LEG-10 Output Schema",
+  "type": "object",
+  "required": ["jurisdictions_reviewed", "regulatory_conflicts_found"],
+  "properties": {
+    "jurisdictions_reviewed": {
+      "type": "integer",
+      "description": "Number of jurisdictions reviewed in the M&A analysis"
+    },
+    "regulatory_conflicts_found": {
+      "type": "integer",
+      "description": "Number of regulatory conflicts identified across jurisdictions"
+    },
+    "high_risk_items": {
+      "type": "integer",
+      "description": "Number of high-risk regulatory items"
+    },
+    "deal_recommendation": {
+      "type": "string",
+      "description": "Overall deal recommendation (proceed, conditional, abort)"
+    },
+    "estimated_compliance_cost": {
+      "type": ["number", "string"],
+      "description": "Estimated total compliance cost for the transaction"
+    }
+  }
+}

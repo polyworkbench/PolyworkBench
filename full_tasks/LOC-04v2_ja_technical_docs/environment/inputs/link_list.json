@@ -1,0 +1,17 @@
+{
+  "links": [
+    "#authentication",
+    "#rate-limiting",
+    "#pipeline-configuration",
+    "#monitoring",
+    "#error-handling",
+    "https://docs.datastream.io"
+  ],
+  "internal_refs": [
+    "authentication",
+    "rate-limiting",
+    "pipeline-configuration",
+    "monitoring",
+    "error-handling"
+  ]
+}

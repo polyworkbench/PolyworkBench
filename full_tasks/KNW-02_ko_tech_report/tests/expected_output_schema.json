@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KNW-02 Output Schema",
+  "type": "object",
+  "required": ["technologies_assessed", "recommendation"],
+  "properties": {
+    "technologies_assessed": {
+      "type": "integer",
+      "description": "Number of technologies assessed in the report"
+    },
+    "recommendation": {
+      "type": "string",
+      "description": "Primary technology recommendation"
+    },
+    "feasibility_score": {
+      "type": ["number", "string"],
+      "description": "Overall feasibility assessment score or rating"
+    },
+    "comparison_criteria": {
+      "type": "integer",
+      "description": "Number of comparison criteria used in the matrix"
+    }
+  }
+}

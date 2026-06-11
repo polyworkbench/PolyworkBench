@@ -1,0 +1,21 @@
+id = "MFG-13_de_six_sigma"
+name = "German Six Sigma DMAIC analysis with capability indices"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 10
+timeout_sec = 3000
+tags = ["de-instruction", "de-source", "en-source", "de-output", "manufacturing", "six-sigma", "statistics"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["dmaic_report_de.md", "capability_analysis.json", "control_chart_data.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

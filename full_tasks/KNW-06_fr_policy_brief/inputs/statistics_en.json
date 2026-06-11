@@ -1,0 +1,88 @@
+{
+  "source": "Global AI Market Intelligence Report 2025",
+  "publisher": "International Data Corporation (IDC)",
+  "year": 2025,
+  "data_year": 2024,
+  "global_ai_market": {
+    "total_investment_usd_billion": 154.8,
+    "yoy_growth_percent": 38.2,
+    "projected_2030_usd_billion": 542.0
+  },
+  "regional_breakdown": {
+    "united_states": {
+      "private_investment_usd_billion": 67.2,
+      "market_share_percent": 43.4,
+      "ai_companies_count": 5200,
+      "ai_startups_funded_2024": 1847
+    },
+    "china": {
+      "private_investment_usd_billion": 41.5,
+      "market_share_percent": 26.8,
+      "ai_companies_count": 4400,
+      "core_industry_size_usd_billion": 79.8
+    },
+    "european_union": {
+      "private_investment_usd_billion": 18.3,
+      "market_share_percent": 11.8,
+      "ai_companies_count": 3100,
+      "largest_markets": [
+        "Germany",
+        "France",
+        "Netherlands"
+      ]
+    },
+    "russia": {
+      "market_size_usd_billion": 7.2,
+      "market_share_percent": 4.6,
+      "ai_companies_count": 820,
+      "government_funding_usd_billion": 2.1
+    },
+    "rest_of_world": {
+      "investment_usd_billion": 20.6,
+      "market_share_percent": 13.4
+    }
+  },
+  "workforce": {
+    "global_ai_professionals_million": 4.7,
+    "demand_supply_ratio": 3.2,
+    "average_salary_usd": 142000,
+    "top_roles_in_demand": [
+      "ML Engineer",
+      "AI Safety Researcher",
+      "Data Scientist",
+      "AI Ethics Specialist"
+    ]
+  },
+  "sector_adoption": {
+    "healthcare": {
+      "ai_adoption_percent": 42,
+      "market_value_usd_billion": 28.4
+    },
+    "finance": {
+      "ai_adoption_percent": 58,
+      "market_value_usd_billion": 35.2
+    },
+    "manufacturing": {
+      "ai_adoption_percent": 37,
+      "market_value_usd_billion": 22.1
+    },
+    "transportation": {
+      "ai_adoption_percent": 31,
+      "market_value_usd_billion": 18.7
+    }
+  },
+  "risks_and_concerns": {
+    "bias_rate_in_deployed_systems_percent": 34,
+    "healthcare_diagnostic_disparity_percent": 28,
+    "systems_with_explainability_percent": 12,
+    "ai_cyberattack_increase_yoy_percent": 156,
+    "jobs_high_automation_risk_percent": 23,
+    "ai_safety_incidents_reported_2024": 2340
+  },
+  "foundation_models": {
+    "models_released_2024": 312,
+    "models_over_100B_parameters": 47,
+    "total_training_compute_growth_percent": 410,
+    "open_source_model_share_percent": 38
+  }
+}

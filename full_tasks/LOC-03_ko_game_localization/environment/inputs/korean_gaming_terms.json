@@ -1,0 +1,113 @@
+{
+  "description": "Korean gaming terminology reference for localization",
+  "categories": {
+    "general_gaming": {
+      "quest": "퀘스트",
+      "dungeon": "던전",
+      "boss": "보스",
+      "party": "파티",
+      "guild": "길드",
+      "NPC": "NPC (엔피씨)",
+      "mob": "몹",
+      "aggro": "어그로",
+      "buff": "버프",
+      "debuff": "디버프",
+      "nerf": "너프",
+      "DPS": "딜러/딜",
+      "tank": "탱커/탱",
+      "healer": "힐러/힐",
+      "support": "서포터/서폿",
+      "meta": "메타",
+      "tier": "티어",
+      "farming": "파밍",
+      "grinding": "노가다/그라인딩",
+      "loot": "전리품/드랍",
+      "raid": "레이드"
+    },
+    "rpg_specific": {
+      "level up": "레벨업",
+      "experience points": "경험치",
+      "hit points": "체력/HP",
+      "mana points": "마나/MP",
+      "skill": "스킬",
+      "ultimate skill": "궁극기/필살기",
+      "passive skill": "패시브",
+      "active skill": "액티브",
+      "equipment": "장비",
+      "weapon": "무기",
+      "armor": "방어구",
+      "accessory": "악세서리",
+      "inventory": "인벤토리/가방",
+      "save point": "세이브 포인트",
+      "checkpoint": "체크포인트",
+      "respawn": "리스폰",
+      "game over": "게임 오버"
+    },
+    "combat_terms": {
+      "critical hit": "크리티컬/치명타",
+      "dodge": "회피/닷지",
+      "block": "방어/막기",
+      "combo": "콤보",
+      "counter": "카운터/반격",
+      "stun": "스턴/기절",
+      "poison": "독/중독",
+      "freeze": "빙결",
+      "burn": "화상",
+      "heal": "힐/회복",
+      "revive": "부활/리바이브",
+      "instant death": "즉사"
+    },
+    "item_rarity": {
+      "common": "일반",
+      "uncommon": "고급",
+      "rare": "희귀/레어",
+      "epic": "영웅/에픽",
+      "legendary": "전설/레전더리"
+    },
+    "ui_terms": {
+      "main menu": "메인 메뉴",
+      "settings": "설정",
+      "continue": "이어하기",
+      "new game": "새 게임",
+      "load game": "불러오기",
+      "save game": "저장하기",
+      "quit": "종료",
+      "confirm": "확인",
+      "cancel": "취소",
+      "back": "뒤로"
+    },
+    "story_related": {
+      "protagonist": "주인공",
+      "antagonist": "악역/적",
+      "hero": "용사/영웅",
+      "villain": "빌런/악당",
+      "empire": "제국",
+      "kingdom": "왕국",
+      "prophecy": "예언",
+      "destiny": "운명",
+      "power": "힘/파워",
+      "inheritance": "계승",
+      "betrayal": "배신"
+    },
+    "game_specific_terms": {
+      "Starfrost": "성상 (星霜) / 스타프로스트",
+      "Starfrost Blade": "성상의 칼날",
+      "Starfrost Heir": "성상의 계승자",
+      "Aetheria": "에테리아",
+      "Valus Empire": "발루스 제국",
+      "Kingdom of Eris": "에리스 왕국",
+      "Guild Town Crossroads": "교차로 길드 타운",
+      "Crystal Spire": "수정 첨탑",
+      "Freezing Starfrost (skill)": "빙결의 성상"
+    }
+  },
+  "style_notes": [
+    "Korean gamers are very familiar with English gaming terms written in 한글 (Hangul)",
+    "Use established Korean translations where they exist (e.g., 경험치 for EXP)",
+    "For proper nouns, transliterate to Korean (카타카나 → 한글)",
+    "Battle cries should sound natural in Korean - short and impactful",
+    "System messages use formal polite style (합니다체)",
+    "Avoid overly literal translations of Japanese idioms - adapt to Korean equivalents",
+    "Korean gamers prefer 존댓말 for NPCs addressing the player in formal contexts"
+  ]
+}

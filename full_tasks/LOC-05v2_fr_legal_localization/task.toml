@@ -1,0 +1,21 @@
+id = "LOC-05v2_fr_legal_localization"
+name = "French legal localization v2 with glossary enforcement and cross-references"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 4
+estimated_steps = 8
+timeout_sec = 2400
+tags = ["fr-instruction", "en-source", "fr-output", "localization", "legal", "v2"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["cgu_fr.md", "privacy_policy_fr.md", "cookie_policy_fr.md", "glossary_compliance.json", "cross_reference_validation.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

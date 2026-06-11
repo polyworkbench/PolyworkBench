@@ -1,0 +1,48 @@
+GHI CHÚ GIAO CA - TUẦN 18-24/03/2024
+
+Ngày 18/03 - Ca sáng (Trưởng ca: Nguyễn Văn A)
+- 06:30: Khởi động hệ thống
+- 07:00: Tất cả dây chuyền sản xuất
+- 08:30: SMT-A ổn định
+- 09:00: SMT-B thiếu linh kiện IC-2024-05
+- 09:15: Bổ sung linh kiện (15 phút chờ)
+- 10:00: SMT-B bình thường
+- 11:00: Lắp ráp C ổn định
+- 12:00: Bình thường
+- 13:30: Bàn giao
+
+Ngày 19/03 - Ca sáng (Trưởng ca: Trần Văn B)
+- 06:30: Khởi động bình thường
+- 07:15: SMT-A sự cố nhiệt lò reflow zone 3
+- 07:18: Dừng SMT-A
+- 07:45: Cảm biến zone 3 hỏng
+- 08:00: Bảo trì thay thế
+- 08:05: Khắc phục (dừng 45 phút)
+- 09:00: SMT-A OK
+- 10:00: Bình thường
+- 11:00: Bình thường hết ca
+
+Ngày 20/03 - Ca chiều (Trưởng ca: Lê Thị C)
+- 14:00: Nhận bàn giao OK
+- 15:00: Lắp ráp C lỗi thiết bị test
+- 15:05: Bo mạch test lỗi connector
+- 15:10: Dừng máy sửa chữa
+- 15:35: Vệ sinh connector
+- 15:40: Khắc phục (dừng 30 phút)
+- 16:00: Lắp ráp C OK
+- 18:00: SMT-B lỗi hàn tăng do lô nguyên liệu
+- 18:30: Điều chỉnh thông số
+- 21:00: Kết thúc ca
+
+Ngày 21-24/03:
+- Không sự cố dừng máy
+- SMT-B lỗi hàn ảo cao hơn bình thường
+- Đã liên hệ nhà cung cấp
+
+TỔNG HỢP:
+- Tổng dừng: 75 phút
+- Nguyên nhân: cảm biến (45p), connector (30p)
+- Đề xuất: tăng kiểm tra cảm biến
+- Bảo trì đề nghị thay toàn bộ connector đời cũ
+- Cần đào tạo nhân viên mới về quy trình xử lý sự cố
+- Chất lượng nguyên liệu cần theo dõi thêm 1 tuần

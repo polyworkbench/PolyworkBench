@@ -1,0 +1,17 @@
+2024-11-19 21:58:12.104 CST INFO  payment-service order=ORD20241119001 支付成功 amount=128.50 user=U1024
+2024-11-19 21:59:58.887 CST INFO  payment-service redis_lock renew ok key=stock:SKU8821 ttl=30s
+2024-11-19 22:00:03.219 CST WARN  payment-service Redis latency spike instance=redis-master-0 latency_ms=850
+2024-11-19 22:00:12.004 CST ERROR payment-service Redis master connection failed instance=redis-master-0; sentinel failover triggered
+2024-11-19 22:00:18.441 CST WARN  payment-service 分布式锁续期失败 key=stock:SKU8821 order=ORD20241119087 ttl=30s
+2024-11-19 22:00:25.119 CST ERROR payment-service 下单失败-库存锁未释放 key=stock:SKU8821 order=ORD20241119091 error=LOCK_WAIT_TIMEOUT
+2024-11-19 22:00:31.512 CST INFO  payment-service sentinel elected new master redis-master-1 failover_elapsed=18s
+2024-11-19 22:01:44.876 CST ERROR payment-service 幂等检查失败 order=ORD20241119122 duplicate_event=true redis_state=stale
+2024-11-19 22:02:30.443 CST WARN  payment-service lock wait p99 reached 30000ms key=stock:SKU3301
+2024-11-19 22:03:44.006 CST WARN  payment-service kafka lag rising topic=payment-events group=payment-consumer lag=12450
+2024-11-19 22:05:03.331 CST ERROR payment-service payment success rate degraded current=45.0% baseline=99.8%
+2024-11-19 22:08:10.090 CST ERROR payment-service 下单失败-库存锁未释放 key=stock:SKU3301 order=ORD20241119301 error=LOCK_WAIT_TIMEOUT
+2024-11-19 22:10:13.772 CST WARN  payment-service kafka lag peak topic=payment-events group=payment-consumer lag=18900
+2024-11-19 22:15:02.221 CST INFO  payment-service operator=zhang.wei hotpatch lock_ttl_seconds 30 -> 60 via spring-cloud-config refresh
+2024-11-19 22:18:44.518 CST INFO  payment-service first successful order after intervention order=ORD20241119580
+2024-11-19 22:25:11.009 CST INFO  payment-service kafka lag drained topic=payment-events group=payment-consumer lag=0; no data loss confirmed
+2024-11-19 22:30:00.000 CST INFO  payment-service service restored success_rate=99.7% lock_ttl_seconds=60

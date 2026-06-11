@@ -1,0 +1,214 @@
+{
+  "alerts": [
+    {
+      "alert_id": 1,
+      "timestamp": "2024-03-10 11:07:00",
+      "equipment": "ポンプP-03",
+      "description": "ベアリング温度上昇 - ポンプP-03",
+      "severity": "critical"
+    },
+    {
+      "alert_id": 2,
+      "timestamp": "2024-03-10 14:14:00",
+      "equipment": "タンクT-01",
+      "description": "圧力センサー値異常 - タンクT-01",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 3,
+      "timestamp": "2024-03-10 17:21:00",
+      "equipment": "配電盤PDB-2",
+      "description": "電圧変動検出 - 配電盤PDB-2",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 4,
+      "timestamp": "2024-03-10 10:28:00",
+      "equipment": "CNC旋盤M-05",
+      "description": "冷却水漏れ警報 - CNC旋盤M-05",
+      "severity": "critical"
+    },
+    {
+      "alert_id": 5,
+      "timestamp": "2024-03-10 13:35:00",
+      "equipment": "ポンプP-03",
+      "description": "振動レベル上昇 - ポンプP-03",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 6,
+      "timestamp": "2024-03-11 16:42:00",
+      "equipment": "セルC-02",
+      "description": "安全ドア開放警報 - セルC-02",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 7,
+      "timestamp": "2024-03-11 09:49:00",
+      "equipment": "配電盤PDB-2",
+      "description": "瞬時電圧低下 - 配電盤PDB-2",
+      "severity": "critical"
+    },
+    {
+      "alert_id": 8,
+      "timestamp": "2024-03-11 12:56:00",
+      "equipment": "ポンプP-03",
+      "description": "ベアリング摩耗警告 - ポンプP-03",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 9,
+      "timestamp": "2024-03-11 15:03:00",
+      "equipment": "タンクT-01",
+      "description": "圧力センサー値異常 - タンクT-01",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 10,
+      "timestamp": "2024-03-11 08:10:00",
+      "equipment": "セルC-02",
+      "description": "非常停止操作 - セルC-02",
+      "severity": "critical"
+    },
+    {
+      "alert_id": 11,
+      "timestamp": "2024-03-11 11:17:00",
+      "equipment": "CNC旋盤M-05",
+      "description": "冷却水流量低下 - CNC旋盤M-05",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 12,
+      "timestamp": "2024-03-12 14:24:00",
+      "equipment": "General",
+      "description": "ポンプP-03異常振動",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 13,
+      "timestamp": "2024-03-12 17:31:00",
+      "equipment": "General",
+      "description": "搬送コンベア停止",
+      "severity": "critical"
+    },
+    {
+      "alert_id": 14,
+      "timestamp": "2024-03-12 10:38:00",
+      "equipment": "配電盤PDB-2",
+      "description": "UPS切替発生 - 配電盤PDB-2",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 15,
+      "timestamp": "2024-03-12 13:45:00",
+      "equipment": "タンクT-01",
+      "description": "圧力センサードリフト - タンクT-01",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 16,
+      "timestamp": "2024-03-12 16:52:00",
+      "equipment": "セルC-02",
+      "description": "操作手順違反 - セルC-02",
+      "severity": "critical"
+    },
+    {
+      "alert_id": 17,
+      "timestamp": "2024-03-12 09:59:00",
+      "equipment": "General",
+      "description": "照明回路異常",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 18,
+      "timestamp": "2024-03-13 12:06:00",
+      "equipment": "M-05",
+      "description": "冷却水温度上昇 - M-05",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 19,
+      "timestamp": "2024-03-13 15:13:00",
+      "equipment": "P-03",
+      "description": "ベアリング交換推奨 - P-03",
+      "severity": "critical"
+    },
+    {
+      "alert_id": 20,
+      "timestamp": "2024-03-13 08:20:00",
+      "equipment": "C-02",
+      "description": "安全柵侵入検知 - C-02",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 21,
+      "timestamp": "2024-03-13 11:27:00",
+      "equipment": "General",
+      "description": "排気ファン停止",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 22,
+      "timestamp": "2024-03-13 14:34:00",
+      "equipment": "PDB-2",
+      "description": "電力品質低下 - PDB-2",
+      "severity": "critical"
+    },
+    {
+      "alert_id": 23,
+      "timestamp": "2024-03-13 17:41:00",
+      "equipment": "T-01",
+      "description": "圧力センサー校正必要 - T-01",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 24,
+      "timestamp": "2024-03-14 10:48:00",
+      "equipment": "セルC-02",
+      "description": "操作ミス - セルC-02",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 25,
+      "timestamp": "2024-03-14 13:55:00",
+      "equipment": "M-05",
+      "description": "冷却配管圧力低下 - M-05",
+      "severity": "critical"
+    },
+    {
+      "alert_id": 26,
+      "timestamp": "2024-03-14 16:02:00",
+      "equipment": "General",
+      "description": "空調システム警報",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 27,
+      "timestamp": "2024-03-14 09:09:00",
+      "equipment": "PDB-2",
+      "description": "電源位相異常 - PDB-2",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 28,
+      "timestamp": "2024-03-14 12:16:00",
+      "equipment": "C-02",
+      "description": "手動介入記録 - C-02",
+      "severity": "critical"
+    },
+    {
+      "alert_id": 29,
+      "timestamp": "2024-03-14 15:23:00",
+      "equipment": "General",
+      "description": "集塵機フィルター警告",
+      "severity": "warning"
+    },
+    {
+      "alert_id": 30,
+      "timestamp": "2024-03-15 08:30:00",
+      "equipment": "M-05",
+      "description": "冷却水レベル低 - M-05",
+      "severity": "warning"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LOC-09 Output Schema",
+  "type": "object",
+  "required": ["total_scripts_created", "dialogue_flows_count"],
+  "properties": {
+    "total_scripts_created": {
+      "type": "integer",
+      "description": "Total number of chatbot scripts created in Korean"
+    },
+    "dialogue_flows_count": {
+      "type": "integer",
+      "description": "Number of dialogue flow variations designed"
+    },
+    "persona_attributes": {
+      "type": "integer",
+      "description": "Number of persona attributes defined for the Korean chatbot"
+    },
+    "tone_categories": {
+      "type": "integer",
+      "description": "Number of tone/register categories analyzed"
+    },
+    "cultural_adaptations": {
+      "type": "integer",
+      "description": "Number of cultural adaptations from source persona"
+    }
+  }
+}

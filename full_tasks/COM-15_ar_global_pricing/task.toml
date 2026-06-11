@@ -1,0 +1,20 @@
+id = "COM-15_ar_global_pricing"
+name = "Global pricing strategy development from multilingual market intelligence"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["ar-instruction", "en-source", "zh-source", "ar-output", "en-output", "pricing-strategy"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["pricing_strategy_ar.md", "executive_summary_en.md", "pricing_matrix.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+rubric = "tests/rubric.md"

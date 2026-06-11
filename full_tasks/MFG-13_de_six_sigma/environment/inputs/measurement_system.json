@@ -1,0 +1,63 @@
+{
+  "study_type": "Gage R&R (Crossed)",
+  "standard": "AIAG MSA 4th Edition",
+  "equipment": "Mitutoyo Crysta-Apex S574 CMM",
+  "serial_number": "CMM-2019-0042",
+  "calibration_date": "2024-02-15",
+  "calibration_due": "2024-08-15",
+  "calibration_cert": "CAL-2024-0215-042",
+  "resolution_mm": 0.001,
+  "measurement_range_mm": "0-500",
+  "environment_temp_c": 20.0,
+  "environment_temp_tolerance_c": 1.0,
+  "humidity_percent": 45,
+  "study_parameters": {
+    "operators": [
+      "Mueller",
+      "Schmidt",
+      "Weber"
+    ],
+    "trials_per_operator": 3,
+    "parts": 10,
+    "total_measurements": 90,
+    "study_date": "2024-03-01"
+  },
+  "results": {
+    "repeatability_ev_mm": 0.0085,
+    "reproducibility_av_mm": 0.0052,
+    "total_grr_mm": 0.00996,
+    "repeatability_percent_tv": 8.5,
+    "reproducibility_percent_tv": 5.2,
+    "total_grr_percent_tv": 9.96,
+    "part_variation_pv_mm": 0.0945,
+    "total_variation_tv_mm": 0.1,
+    "number_distinct_categories_ndc": 10,
+    "percent_contribution_repeatability": 72.8,
+    "percent_contribution_reproducibility": 27.2
+  },
+  "acceptance_criteria": {
+    "grr_percent_less_than": 10.0,
+    "ndc_greater_than": 5,
+    "result": "ACCEPTABLE"
+  },
+  "operator_analysis": {
+    "Mueller": {
+      "avg_mm": 10.0118,
+      "range_mm": 0.008,
+      "bias_mm": -0.001
+    },
+    "Schmidt": {
+      "avg_mm": 10.0125,
+      "range_mm": 0.009,
+      "bias_mm": 0.0
+    },
+    "Weber": {
+      "avg_mm": 10.013,
+      "range_mm": 0.007,
+      "bias_mm": 0.001
+    }
+  },
+  "conclusion": "Measurement system is acceptable for process control. GRR < 10% of tolerance.",
+  "approved_by": "Dr. Klaus Hoffmann, Quality Manager",
+  "approval_date": "2024-03-05"
+}

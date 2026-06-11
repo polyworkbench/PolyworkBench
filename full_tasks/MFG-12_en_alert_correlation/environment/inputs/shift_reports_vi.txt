@@ -1,0 +1,65 @@
+BÁO CÁO GIAO CA - TUẦN 10-16/03/2024
+========================================
+
+CA 1 (06:00-14:00) - Ngày 11/03/2024
+Trưởng ca: Nguyễn Văn Minh
+Số nhân viên: 12
+Tình trạng thiết bị: Bình thường (trừ các mục ghi bên dưới)
+
+- 07:00: Khởi động hệ thống, kiểm tra ban đầu OK
+- 08:15: Cảm biến áp suất T-01 báo giá trị bất thường (4.8bar hiển thị, thực tế đo bằng đồng hồ cơ: 4.2bar)
+  Kết luận: cảm biến bị trôi (drift), cần hiệu chuẩn lại
+  Hành động: Ghi nhận, báo bảo trì
+- 09:30: Máy bơm P-03 có tiếng ồn nhẹ, rung hơi tăng
+  Đo rung: 1.9mm/s (gần ngưỡng 2.5)
+  Hành động: Đã báo bộ phận bảo trì kiểm tra
+- 10:00: Cảm biến T-01 lại báo sai (lần 2) - xác nhận false alarm
+- 11:00: Nhân viên Trần Hùng nhầm thao tác mở cửa an toàn cell C-02 khi máy đang chạy
+  Nguyên nhân: Nhầm nút bấm (nút mở gần nút reset)
+  Hành động: Đã nhắc nhở và ghi nhận vào hồ sơ cá nhân
+- 12:00: Vận hành bình thường
+- 13:00: Phát hiện vũng nước dưới máy CNC M-05
+  Nghi rò rỉ dung dịch làm mát từ đường ống hồi
+  Hành động: Đặt khay hứng, báo bảo trì
+- 13:30: Kết thúc ca, bàn giao
+
+CA 2 (14:00-22:00) - Ngày 11/03/2024
+Trưởng ca: Lê Thị Hoa
+Số nhân viên: 11
+
+- 14:30: Nhận bàn giao, kiểm tra các vấn đề tồn đọng
+- 15:00: Điện áp dao động (ghi nhận từ UPS), PDB-2 có cảnh báo
+  UPS đã chuyển mạch tự động, kéo dài khoảng 5 phút
+  Không ảnh hưởng sản xuất (UPS hoạt động tốt)
+- 16:30: Công nhân Phạm Đức nhầm thao tác tại cell C-02
+  Kích hoạt nút dừng khẩn cấp do nhầm lẫn
+  Không có sự cố thực tế - nhầm thao tác (operator error)
+- 17:00: Cảm biến T-01 báo giá trị bất thường lần 3 - false alarm
+- 18:00: Cảm biến T-01 tiếp tục báo sai (lần 4). Đã ghi nhận là false alarm
+  Đề xuất: Tạm ngắt cảnh báo T-01 cho đến khi hiệu chuẩn
+- 19:00: Điện áp trở lại ổn định
+- 20:00: Máy bơm P-03 rung mạnh hơn (đo: 2.3mm/s)
+  Bảo trì đã lên lịch thay thế ổ bi ngày mai
+- 21:30: Kết thúc ca
+
+CA 3 (22:00-06:00) - Ngày 12/03/2024
+Trưởng ca: Hoàng Minh Tuấn
+Số nhân viên: 8
+
+- 22:30: Nhận bàn giao, xác nhận vấn đề tồn
+- 23:00: Cảnh báo rò rỉ nước làm mát M-05 tiếp tục
+  Lượng rò: khoảng 0.5 lít/giờ
+  Đã đặt khay hứng tạm thời, đủ cho ca đêm
+- 01:00: Điện áp ổn định, không có sự cố
+- 02:00: Kiểm tra P-03: rung ổn định ở 2.2mm/s, nhiệt độ 73C
+- 03:00: Công nhân Nguyễn Hải nhầm thao tác reset cell C-02 sai quy trình
+  Đã hướng dẫn lại quy trình đúng
+- 04:30: Cảm biến T-01 lại báo bất thường - false alarm lần 5
+- 05:30: Chuẩn bị bàn giao ca sáng
+
+GHI CHÚ TỔNG HỢP:
+- Các cảnh báo từ cảm biến T-01 đều là báo động giả (false alarm) do cảm biến drift
+- Cell C-02 có nhiều vi phạm do công nhân nhầm thao tác (operator error)
+- Máy bơm P-03 cần thay ổ bi khẩn cấp (rung tăng liên tục)
+- M-05 cần sửa rò rỉ đường ống nước làm mát
+- Điện áp dao động từ lưới - không phải lỗi nội bộ

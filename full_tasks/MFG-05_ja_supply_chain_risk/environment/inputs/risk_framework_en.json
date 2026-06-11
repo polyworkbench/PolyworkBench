@@ -1,0 +1,78 @@
+{
+  "framework": "ISO 31000:2018 - Risk Management",
+  "methodology": {
+    "name": "Supply Chain Risk Assessment Framework",
+    "version": "2.0",
+    "last_updated": "2024-01-15"
+  },
+  "risk_categories": [
+    {
+      "id": "RC-01",
+      "name": "Supply Disruption Risk",
+      "description": "Risk of supply interruption due to supplier failure, natural disaster, or capacity constraints",
+      "sub_categories": ["Single source dependency", "Capacity constraints", "Natural disaster exposure", "Supplier financial instability"]
+    },
+    {
+      "id": "RC-02",
+      "name": "Quality Risk",
+      "description": "Risk of receiving non-conforming materials that impact production or end product quality",
+      "sub_categories": ["Incoming quality defects", "Process capability", "Certification gaps", "Quality system maturity"]
+    },
+    {
+      "id": "RC-03",
+      "name": "Logistics Risk",
+      "description": "Risk of delivery delays, damage during transit, or logistics infrastructure failure",
+      "sub_categories": ["Lead time variability", "Transportation disruption", "Customs/trade barriers", "Inventory management"]
+    },
+    {
+      "id": "RC-04",
+      "name": "Financial Risk",
+      "description": "Risk related to supplier financial health, currency fluctuation, or cost volatility",
+      "sub_categories": ["Supplier bankruptcy", "Currency exposure", "Price volatility", "Payment term risk"]
+    },
+    {
+      "id": "RC-05",
+      "name": "Geopolitical Risk",
+      "description": "Risk from political instability, trade restrictions, sanctions, or regulatory changes",
+      "sub_categories": ["Trade policy changes", "Sanctions/export controls", "Political instability", "Regulatory compliance"]
+    },
+    {
+      "id": "RC-06",
+      "name": "Cybersecurity/IP Risk",
+      "description": "Risk of data breach, IP theft, or cyber attack on supply chain systems",
+      "sub_categories": ["Data security", "IP protection", "System integration risk", "Information sharing risk"]
+    }
+  ],
+  "likelihood_scale": {
+    "1": {"label": "Rare", "description": "May occur only in exceptional circumstances (<5% probability in 12 months)"},
+    "2": {"label": "Unlikely", "description": "Could occur but not expected (5-20% probability)"},
+    "3": {"label": "Possible", "description": "Might occur at some time (20-50% probability)"},
+    "4": {"label": "Likely", "description": "Will probably occur in most circumstances (50-80% probability)"},
+    "5": {"label": "Almost Certain", "description": "Expected to occur (>80% probability)"}
+  },
+  "impact_scale": {
+    "1": {"label": "Insignificant", "description": "Minimal impact, <$10K loss, <1 day disruption"},
+    "2": {"label": "Minor", "description": "Minor impact, $10K-$50K loss, 1-3 days disruption"},
+    "3": {"label": "Moderate", "description": "Moderate impact, $50K-$200K loss, 3-7 days disruption"},
+    "4": {"label": "Major", "description": "Major impact, $200K-$1M loss, 1-4 weeks disruption"},
+    "5": {"label": "Catastrophic", "description": "Catastrophic impact, >$1M loss, >1 month disruption"}
+  },
+  "risk_matrix": {
+    "scoring": "Risk Score = Likelihood × Impact",
+    "thresholds": {
+      "Low": {"range": [1, 4], "action": "Monitor and review periodically"},
+      "Medium": {"range": [5, 9], "action": "Active monitoring, contingency planning required"},
+      "High": {"range": [10, 15], "action": "Immediate mitigation actions required"},
+      "Critical": {"range": [16, 25], "action": "Escalate to senior management, immediate action"}
+    }
+  },
+  "assessment_criteria": {
+    "supplier_scorecard_dimensions": [
+      {"name": "Quality", "weight": 0.30, "metrics": ["defect_rate", "certification_level", "quality_score"]},
+      {"name": "Delivery", "weight": 0.25, "metrics": ["on_time_rate", "lead_time", "lead_time_variability"]},
+      {"name": "Cost", "weight": 0.20, "metrics": ["price_competitiveness", "cost_stability", "total_cost"]},
+      {"name": "Flexibility", "weight": 0.15, "metrics": ["capacity_buffer", "responsiveness", "MOQ_flexibility"]},
+      {"name": "Financial Stability", "weight": 0.10, "metrics": ["financial_rating", "revenue_trend", "debt_ratio"]}
+    ]
+  }
+}

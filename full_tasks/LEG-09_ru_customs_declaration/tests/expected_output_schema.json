@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LEG-09 Output Schema",
+  "type": "object",
+  "required": ["total_declarations", "total_items"],
+  "properties": {
+    "total_declarations": {
+      "type": "integer",
+      "description": "Total number of customs declarations generated"
+    },
+    "total_items": {
+      "type": "integer",
+      "description": "Total number of line items across all declarations"
+    },
+    "total_declared_value_usd": {
+      "type": "number",
+      "description": "Total declared customs value in USD"
+    },
+    "hs_codes_assigned": {
+      "type": "integer",
+      "description": "Number of HS code classifications assigned"
+    },
+    "duty_estimate_rub": {
+      "type": "number",
+      "description": "Estimated total duty in Russian Rubles"
+    }
+  }
+}

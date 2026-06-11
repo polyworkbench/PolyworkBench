@@ -1,0 +1,21 @@
+id = "LEG-06_zh_dispute_brief"
+name = "Chinese litigation brief from English-Russian sources"
+category = "multilingual-multimodal"
+collection = "baseline"
+difficulty = 4
+estimated_steps = 7
+timeout_sec = 2400
+tags = ["zh-instruction", "en-source", "ru-source", "zh-output", "legal", "litigation", "arbitration"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["litigation_brief_zh.md", "strategy_analysis.json", "evidence_list_zh.json", "timeline_zh.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

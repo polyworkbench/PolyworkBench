@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["informe_md", "matriz_cumplimiento", "glosario_trilingue", "acciones_recomendadas"],
+  "properties": {
+    "informe_md": {"type": "string", "description": "Informe completo en español jurídico"},
+    "matriz_cumplimiento": {
+      "type": "array",
+      "description": "Una fila por categoría comparada",
+      "items": {
+        "type": "object",
+        "required": ["categoria", "ccpa_clausula", "dsgvo_clausula", "lfpdppp_referencia", "estado", "comentario"],
+        "properties": {
+          "categoria": {"type": "string"},
+          "ccpa_clausula": {"type": "string", "description": "[Fuente: policy_us_ccpa.md, §N]"},
+          "dsgvo_clausula": {"type": "string"},
+          "lfpdppp_referencia": {"type": "string"},
+          "estado": {"type": "string", "enum": ["✅", "⚠️", "❌"]},
+          "brecha_detectada": {"type": "string"},
+          "comentario": {"type": "string"}
+        }
+      },
+      "minItems": 6
+    },
+    "glosario_trilingue": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["es", "en", "de"],
+        "properties": {
+          "es": {"type": "string"},
+          "en": {"type": "string"},
+          "de": {"type": "string"},
+          "nota": {"type": "string"}
+        }
+      },
+      "minItems": 10
+    },
+    "acciones_recomendadas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "accion", "prioridad", "responsable", "plazo"],
+        "properties": {
+          "id": {"type": "string"},
+          "accion": {"type": "string"},
+          "prioridad": {"type": "string", "enum": ["P0", "P1", "P2"]},
+          "responsable": {"type": "string"},
+          "plazo": {"type": "string", "format": "date"},
+          "dependencias": {"type": "array", "items": {"type": "string"}},
+          "esfuerzo_dias": {"type": "integer"},
+          "costo_estimado_usd": {"type": "number"}
+        }
+      },
+      "minItems": 5
+    },
+    "risk_scores": {
+      "type": "object",
+      "properties": {
+        "categorias": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "categoria": {"type": "string"},
+              "estado": {"type": "string"},
+              "riesgo_probabilidad": {"type": "integer", "minimum": 1, "maximum": 5},
+              "riesgo_impacto": {"type": "integer", "minimum": 1, "maximum": 5},
+              "riesgo_esfuerzo": {"type": "integer", "minimum": 1, "maximum": 5},
+              "puntaje_ponderado": {"type": "number"},
+              "justificacion": {"type": "string"}
+            }
+          }
+        },
+        "puntaje_total": {"type": "number"},
+        "nivel_riesgo_global": {"type": "string"},
+        "multa_maxima_estimada_uma": {"type": "integer"}
+      }
+    },
+    "clause_mapping": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "categoria": {"type": "string"},
+          "ccpa_clause": {"type": "object"},
+          "dsgvo_clause": {"type": "object"},
+          "lfpdppp_ref": {"type": "object"}
+        }
+      }
+    }
+  }
+}

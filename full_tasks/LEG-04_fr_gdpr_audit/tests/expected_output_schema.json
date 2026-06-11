@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LEG-04 Output Schema",
+  "type": "object",
+  "required": ["total_articles_assessed", "non_compliant_count"],
+  "properties": {
+    "total_articles_assessed": {
+      "type": "integer",
+      "description": "Total number of GDPR articles assessed in the audit"
+    },
+    "non_compliant_count": {
+      "type": "integer",
+      "description": "Number of non-compliant areas identified"
+    },
+    "high_risk_findings": {
+      "type": "integer",
+      "description": "Number of high-risk findings requiring immediate action"
+    },
+    "consent_violations": {
+      "type": "integer",
+      "description": "Number of consent mechanism violations detected"
+    }
+  }
+}

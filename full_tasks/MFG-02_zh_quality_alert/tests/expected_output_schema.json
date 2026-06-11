@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MFG-02 Output Schema",
+  "type": "object",
+  "required": ["total_defects", "critical_defects", "top_root_cause"],
+  "properties": {
+    "total_defects": {
+      "type": "integer",
+      "description": "Total number of defects detected from QC logs"
+    },
+    "critical_defects": {
+      "type": "integer",
+      "description": "Number of critical severity defects"
+    },
+    "top_root_cause": {
+      "type": "string",
+      "description": "Primary root cause identified from analysis"
+    },
+    "affected_batches": {
+      "type": "array",
+      "description": "List of affected batch identifiers",
+      "items": {"type": "string"}
+    }
+  }
+}

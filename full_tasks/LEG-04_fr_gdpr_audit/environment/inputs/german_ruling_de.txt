@@ -1,0 +1,115 @@
+LANDGERICHT BERLIN
+Urteil vom 23. März 2023
+Aktenzeichen: 16 O 127/22
+
+---
+
+URTEIL
+
+Im Namen des Volkes
+
+In dem Rechtsstreit
+
+Verbraucherzentrale Bundesverband e.V., Berlin (Kläger)
+
+gegen
+
+DataTrack GmbH, München (Beklagte)
+
+wegen: Unterlassung datenschutzwidriger Einwilligungspraktiken
+
+---
+
+hat das Landgericht Berlin, 16. Zivilkammer, auf die mündliche Verhandlung vom 15. Februar 2023 durch den Vorsitzenden Richter am Landgericht Dr. Müller, die Richterin am Landgericht Schmidt und den Richter am Landgericht Weber
+
+für Recht erkannt:
+
+## TENOR
+
+1. Die Beklagte wird verurteilt, es zu unterlassen, auf ihren Webseiten und in ihren Softwareprodukten Einwilligungen zur Datenverarbeitung mittels sogenannter „Cookie-Banner" einzuholen, die folgende Gestaltungsmerkmale aufweisen:
+
+   a) Vorausgewählte Kontrollkästchen (Pre-checked boxes) für nicht-essentielle Cookies;
+
+   b) Eine farbliche oder größenmäßige Hervorhebung der Schaltfläche „Alle akzeptieren" gegenüber der Schaltfläche „Ablehnen" oder „Einstellungen verwalten";
+
+   c) Die Behandlung des Weitersurfens (Scrolling) als konkludente Einwilligung;
+
+   d) Das Fehlen einer gleichwertigen Option „Alle ablehnen" auf der ersten Ebene des Cookie-Banners;
+
+   e) Die Verwendung von manipulativen Gestaltungsmustern (Dark Patterns), die darauf abzielen, die Entscheidung des Nutzers zugunsten einer umfassenden Datenverarbeitung zu beeinflussen.
+
+2. Die Beklagte wird verurteilt, eine Datenschutz-Folgenabschätzung gemäß Art. 35 DSGVO durchzuführen für alle Verarbeitungstätigkeiten, die systematisches Profiling von Nutzern zum Zweck der Verhaltensanalyse umfassen.
+
+3. Die Beklagte trägt die Kosten des Rechtsstreits.
+
+4. Das Urteil ist gegen Sicherheitsleistung in Höhe von 250.000 Euro vorläufig vollstreckbar.
+
+---
+
+## TATBESTAND
+
+Die Beklagte betreibt eine Online-Analyseplattform, die Webseitenbetreibern Tools zur Verhaltensanalyse ihrer Nutzer zur Verfügung stellt. Dabei werden mittels Cookies und ähnlicher Tracking-Technologien umfangreiche Nutzungsprofile erstellt.
+
+Die Einwilligungsabfrage der Beklagten wies folgende Merkmale auf:
+- Die Schaltfläche „Alle akzeptieren" war grün hinterlegt und deutlich größer gestaltet als der Link „Einstellungen verwalten"
+- Das Kontrollkästchen „Analyse-Cookies" war standardmäßig aktiviert
+- Eine Option „Alle ablehnen" war nicht auf der ersten Ebene verfügbar, sondern nur nach drei weiteren Klicks erreichbar
+- Die fortgesetzte Nutzung der Webseite wurde im Cookie-Banner als Einwilligung gewertet (Text: „Durch die weitere Nutzung stimmen Sie zu")
+
+Der Kläger macht geltend, dass diese Praktiken gegen Art. 4 Nr. 11, Art. 6 Abs. 1 lit. a und Art. 7 DSGVO verstoßen.
+
+## ENTSCHEIDUNGSGRÜNDE
+
+### I. Zulässigkeit
+
+Die Klage ist zulässig. Der Kläger ist gemäß § 8 Abs. 3 Nr. 3 UWG klagebefugt.
+
+### II. Begründetheit
+
+Die Klage ist begründet.
+
+### 1. Anforderungen an eine wirksame Einwilligung
+
+Nach Art. 4 Nr. 11 DSGVO muss eine Einwilligung eine „freiwillig für den bestimmten Fall, in informierter Weise und unmissverständlich abgegebene Willensbekundung" darstellen.
+
+Der EuGH hat in der Rechtssache Planet49 (C-673/17, Urteil vom 1. Oktober 2019) klargestellt:
+
+> „Eine durch ein voreingestelltes Ankreuzkästchen erteilte Einwilligung stellt keine wirksame Einwilligung dar."
+
+### 2. Gleichwertigkeit der Ablehnungsmöglichkeit
+
+Die Kammer stellt fest, dass eine wirksame Einwilligung nur dann vorliegt, wenn die Möglichkeit zur Ablehnung **ebenso leicht zugänglich und ebenso klar gestaltet** ist wie die Möglichkeit zur Annahme.
+
+**Ein „Alle ablehnen"-Button muss auf derselben Ebene und in gleicher visueller Gestaltung wie der „Alle akzeptieren"-Button angeboten werden.**
+
+Die Verwendung von Farbunterschieden, Größenunterschieden oder zusätzlichen Klickwegen zur Erschwerung der Ablehnung stellt einen Verstoß gegen das Gebot der Freiwilligkeit dar.
+
+### 3. Scrollen als Einwilligung
+
+Das bloße Weitersurfen auf einer Webseite kann **nicht** als eindeutige bestätigende Handlung im Sinne von Art. 4 Nr. 11 DSGVO gewertet werden. Dies wurde bereits vom Europäischen Datenschutzausschuss (EDPB) in seinen Leitlinien 05/2020 zur Einwilligung klargestellt.
+
+### 4. Pflicht zur Datenschutz-Folgenabschätzung
+
+Gemäß Art. 35 Abs. 1 DSGVO ist eine Datenschutz-Folgenabschätzung (DSFA) durchzuführen, wenn eine Form der Verarbeitung „voraussichtlich ein hohes Risiko für die Rechte und Freiheiten natürlicher Personen" zur Folge hat.
+
+Das systematische Profiling von Nutzern zum Zweck der Verhaltensvorhersage erfüllt mindestens zwei der in Art. 35 Abs. 3 DSGVO genannten Kriterien:
+- Systematische und umfassende Bewertung persönlicher Aspekte (lit. a)
+- Umfangreiche Überwachung öffentlich zugänglicher Bereiche (lit. c)
+
+Die Unterlassung einer DSFA trotz Vorliegens der Voraussetzungen stellt einen eigenständigen Verstoß gegen die DSGVO dar.
+
+### 5. Verhältnismäßigkeit und Bußgeld
+
+Die festgestellten Verstöße sind geeignet, das Recht auf informationelle Selbstbestimmung einer Vielzahl von Nutzern zu beeinträchtigen. Die Sicherheitsleistung von 250.000 Euro trägt dem wirtschaftlichen Interesse der Beklagten Rechnung.
+
+---
+
+## RECHTSMITTELBELEHRUNG
+
+Gegen dieses Urteil kann Berufung eingelegt werden. Die Berufungsfrist beträgt einen Monat ab Zustellung des Urteils.
+
+---
+
+Dr. Müller                Schmidt                Weber
+Vorsitzender Richter      Richterin              Richter
+am Landgericht            am Landgericht         am Landgericht

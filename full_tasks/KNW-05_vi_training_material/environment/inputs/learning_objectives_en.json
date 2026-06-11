@@ -1,0 +1,86 @@
+{
+  "course": {
+    "title": "Cloud Computing Fundamentals",
+    "duration_hours": 16,
+    "target_audience": "IT professionals transitioning to cloud technologies"
+  },
+  "learning_objectives": [
+    {
+      "id": "LO1",
+      "objective": "Define cloud computing and explain its key characteristics",
+      "bloom_level": "Knowledge",
+      "chapter": 1
+    },
+    {
+      "id": "LO2",
+      "objective": "Differentiate between IaaS, PaaS, and SaaS service models",
+      "bloom_level": "Comprehension",
+      "chapter": 2
+    },
+    {
+      "id": "LO3",
+      "objective": "Compare public, private, hybrid, and multi-cloud deployment models",
+      "bloom_level": "Analysis",
+      "chapter": 3
+    },
+    {
+      "id": "LO4",
+      "objective": "Select appropriate compute services for given workload requirements",
+      "bloom_level": "Application",
+      "chapter": 4
+    },
+    {
+      "id": "LO5",
+      "objective": "Design storage solutions using object, block, and file storage services",
+      "bloom_level": "Synthesis",
+      "chapter": 5
+    },
+    {
+      "id": "LO6",
+      "objective": "Choose appropriate database services based on data model and access patterns",
+      "bloom_level": "Application",
+      "chapter": 6
+    },
+    {
+      "id": "LO7",
+      "objective": "Configure VPC networking with proper security controls",
+      "bloom_level": "Application",
+      "chapter": 7
+    },
+    {
+      "id": "LO8",
+      "objective": "Implement cloud security best practices including IAM and encryption",
+      "bloom_level": "Application",
+      "chapter": 8
+    },
+    {
+      "id": "LO9",
+      "objective": "Design serverless architectures for event-driven applications",
+      "bloom_level": "Synthesis",
+      "chapter": 9
+    },
+    {
+      "id": "LO10",
+      "objective": "Apply cost optimization strategies to reduce cloud spending",
+      "bloom_level": "Application",
+      "chapter": 10
+    },
+    {
+      "id": "LO11",
+      "objective": "Evaluate cloud migration strategies and select appropriate approach",
+      "bloom_level": "Evaluation",
+      "chapter": 11
+    },
+    {
+      "id": "LO12",
+      "objective": "Apply Well-Architected Framework principles to cloud solutions",
+      "bloom_level": "Application",
+      "chapter": 12
+    }
+  ],
+  "assessment_criteria": {
+    "passing_score_pct": 70,
+    "question_types": ["multiple_choice", "true_false", "open_ended"],
+    "time_limit_minutes": 60
+  }
+}

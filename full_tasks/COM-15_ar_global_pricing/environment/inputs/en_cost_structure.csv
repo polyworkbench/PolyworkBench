@@ -1,0 +1,29 @@
+product_id,product_name,category,unit_cost_usd,shipping_mena_usd,shipping_china_usd,shipping_us_usd,marketing_pct,platform_fee_pct,target_margin_mena,target_margin_china,target_margin_us,fixed_costs_annual_usd
+PROD-A,Smart Earbuds,audio,42.00,8.50,5.00,6.00,0.12,0.08,0.45,0.35,0.50,180000
+PROD-B,Smart Watch,wearables,85.00,12.00,7.50,9.00,0.15,0.08,0.45,0.35,0.50,250000
+PROD-C,Fitness Tracker,wearables,28.00,6.00,3.50,4.50,0.10,0.08,0.45,0.35,0.50,120000
+,,,,,,,,,,,,
+# Cost Structure Notes,,,,,,,,,,,,
+# unit_cost = manufacturing + components + assembly,,,,,,,,,,,,
+# shipping = per-unit logistics to region,,,,,,,,,,,,
+# marketing_pct = percentage of revenue allocated to marketing,,,,,,,,,,,,
+# platform_fee_pct = marketplace/payment processing fees,,,,,,,,,,,,
+# target_margin = desired profit margin after all costs,,,,,,,,,,,,
+,,,,,,,,,,,,
+# Margin Calculation:,,,,,,,,,,,,
+# Revenue - COGS - Shipping - Marketing - Platform Fee = Gross Profit,,,,,,,,,,,,
+# Gross Profit / Revenue = Margin,,,,,,,,,,,,
+,,,,,,,,,,,,
+# Price Derivation (MENA example for Product A):,,,,,,,,,,,,
+# Cost basis = $42.00 (unit) + $8.50 (shipping) = $50.50,,,,,,,,,,,,
+# With marketing (12%) and platform (8%) = 20% of price,,,,,,,,,,,,
+# Target margin = 45%,,,,,,,,,,,,
+# Price × (1 - 0.20 - 0.45) = $50.50,,,,,,,,,,,,
+# Price × 0.35 = $50.50,,,,,,,,,,,,
+# Price = $50.50 / 0.35 ≈ $144 (adjusted to $129 for competitive positioning),,,,,,,,,,,,
+,,,,,,,,,,,,
+# Break-even Analysis:,,,,,,,,,,,,
+product_id,break_even_mena_units,break_even_china_units,break_even_us_units
+PROD-A,3200,4500,2800
+PROD-B,1800,2200,1500
+PROD-C,2400,3100,1900

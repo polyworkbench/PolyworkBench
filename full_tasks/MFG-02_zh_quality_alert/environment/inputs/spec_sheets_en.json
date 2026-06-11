@@ -1,0 +1,57 @@
+{
+  "product": {
+    "model": "PCB-A2024",
+    "revision": "Rev C",
+    "description": "4-layer FR4 PCB assembly for IoT gateway module"
+  },
+  "dimensions": {
+    "board_size": {"length_mm": 85.0, "width_mm": 55.0, "tolerance_mm": 0.1},
+    "thickness_mm": {"nominal": 1.6, "tolerance": 0.1}
+  },
+  "solder_joints": {
+    "acceptable_criteria": "IPC-A-610 Class 2",
+    "reflow_profile": {
+      "preheat_rate_C_per_sec": {"min": 1.0, "max": 3.0},
+      "soak_temp_C": {"min": 150, "max": 200},
+      "soak_time_sec": {"min": 60, "max": 120},
+      "peak_temp_C": {"min": 235, "max": 250},
+      "time_above_liquidus_sec": {"min": 45, "max": 90},
+      "cooling_rate_C_per_sec": {"max": 4.0}
+    }
+  },
+  "component_placement": {
+    "chip_components_0402": {"x_offset_max_mm": 0.15, "y_offset_max_mm": 0.15, "rotation_max_deg": 10},
+    "chip_components_0603": {"x_offset_max_mm": 0.20, "y_offset_max_mm": 0.20, "rotation_max_deg": 15},
+    "QFP_packages": {"x_offset_max_mm": 0.10, "y_offset_max_mm": 0.10, "rotation_max_deg": 2},
+    "BGA_packages": {"x_offset_max_mm": 0.05, "y_offset_max_mm": 0.05, "rotation_max_deg": 1},
+    "connectors": {"x_offset_max_mm": 0.25, "y_offset_max_mm": 0.25, "rotation_max_deg": 3}
+  },
+  "electrical_test": {
+    "continuity_resistance_ohm_max": 50,
+    "isolation_resistance_mohm_min": 100,
+    "hipot_voltage_V": 500,
+    "functional_test_items": [
+      {"name": "Power supply", "spec": "3.3V ±5%", "min": 3.135, "max": 3.465, "unit": "V"},
+      {"name": "Clock frequency", "spec": "48MHz ±50ppm", "min": 47.9976, "max": 48.0024, "unit": "MHz"},
+      {"name": "RF output power", "spec": "-2 to +2 dBm", "min": -2, "max": 2, "unit": "dBm"},
+      {"name": "Current consumption idle", "spec": "<15mA", "max": 15, "unit": "mA"},
+      {"name": "Current consumption active", "spec": "<120mA", "max": 120, "unit": "mA"}
+    ]
+  },
+  "visual_inspection": {
+    "solder_mask": {"color": "green", "defects_allowed": "none visible at 3x magnification"},
+    "silkscreen": {"legibility": "all text readable at 1x", "alignment_tolerance_mm": 0.2},
+    "surface_finish": "ENIG",
+    "contamination": "no visible flux residue, no foreign material"
+  },
+  "reliability": {
+    "thermal_cycling": {"range_C": [-40, 85], "cycles": 500},
+    "vibration_test": {"frequency_Hz": [10, 500], "acceleration_g": 5},
+    "humidity": {"temp_C": 85, "RH_percent": 85, "duration_hours": 1000}
+  },
+  "quality_targets": {
+    "first_pass_yield_percent_min": 97.0,
+    "DPMO_max": 500,
+    "customer_return_rate_ppm_max": 100
+  }
+}

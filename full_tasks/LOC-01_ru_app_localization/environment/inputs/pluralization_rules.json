@@ -1,0 +1,62 @@
+{
+  "language": "ru",
+  "description": "Russian pluralization rules for ICU MessageFormat",
+  "categories": {
+    "one": {
+      "rule": "n % 10 == 1 AND n % 100 != 11",
+      "examples": [1, 21, 31, 41, 51, 61, 71, 81, 91, 101]
+    },
+    "few": {
+      "rule": "n % 10 in 2..4 AND n % 100 not in 12..14",
+      "examples": [2, 3, 4, 22, 23, 24, 32, 33, 34]
+    },
+    "many": {
+      "rule": "n % 10 == 0 OR n % 10 in 5..9 OR n % 100 in 11..14",
+      "examples": [0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 25]
+    }
+  },
+  "examples": {
+    "task": {
+      "one": "{count} задача",
+      "few": "{count} задачи",
+      "many": "{count} задач"
+    },
+    "minute": {
+      "one": "{count} минуту назад",
+      "few": "{count} минуты назад",
+      "many": "{count} минут назад"
+    },
+    "hour": {
+      "one": "{count} час назад",
+      "few": "{count} часа назад",
+      "many": "{count} часов назад"
+    },
+    "day": {
+      "one": "{count} день назад",
+      "few": "{count} дня назад",
+      "many": "{count} дней назад"
+    },
+    "notification": {
+      "one": "{count} уведомление",
+      "few": "{count} уведомления",
+      "many": "{count} уведомлений"
+    },
+    "member": {
+      "one": "{count} участник",
+      "few": "{count} участника",
+      "many": "{count} участников"
+    },
+    "file": {
+      "one": "{count} файл",
+      "few": "{count} файла",
+      "many": "{count} файлов"
+    }
+  },
+  "notes": [
+    "Russian requires three plural forms: one, few, many",
+    "The 'other' category in ICU maps to 'many' in Russian",
+    "Numbers 11-14 always use the 'many' form regardless of last digit",
+    "When count is unknown at translation time, provide all three forms",
+    "Format: use {count} as placeholder for the actual number"
+  ]
+}

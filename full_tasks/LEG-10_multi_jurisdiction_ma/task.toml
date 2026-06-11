@@ -1,0 +1,21 @@
+id = "LEG-10_multi_jurisdiction_ma"
+name = "Multi-jurisdiction M&A review with French synthesis memo"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 6
+estimated_steps = 12
+timeout_sec = 3600
+tags = ["fr-instruction", "en-source", "zh-source", "ja-source", "ko-source", "ru-source", "fr-output", "legal", "ma", "regulatory"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["memo_synthese_fr.md", "regulatory_conflicts.json", "jurisdiction_matrix.json", "risk_register_fr.json", "glossaire_multilingue.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

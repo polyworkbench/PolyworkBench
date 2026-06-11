@@ -1,0 +1,117 @@
+{
+  "company": "CloudMetrics Inc.",
+  "platform": "CloudMetrics Analytics SaaS",
+  "data_flows": [
+    {
+      "id": "DF-001",
+      "name": "User Registration & Account Management",
+      "source": "EU/EEA End Users",
+      "destination": "AWS us-east-1 (Virginia, USA)",
+      "data_categories": ["name", "email", "company", "job_title", "billing_info"],
+      "legal_basis": "performance_of_contract",
+      "transfer_mechanism": "EU-US DPF + SCCs",
+      "volume": "~50,000 EU users",
+      "encryption": "TLS 1.3 in transit, AES-256 at rest"
+    },
+    {
+      "id": "DF-002",
+      "name": "Behavioral Analytics Collection",
+      "source": "EU/EEA End Users (browser/platform)",
+      "destination": "Google Cloud us-central1 (Iowa, USA)",
+      "data_categories": ["ip_address", "clickstream", "mouse_movements", "scroll_depth", "session_recordings", "search_queries"],
+      "legal_basis": "legitimate_interest",
+      "transfer_mechanism": "SCCs (2021)",
+      "volume": "~2M events/day from EU users",
+      "encryption": "TLS 1.3 in transit, AES-256 at rest",
+      "tia_completed": false,
+      "notes": "No individual TIA performed. General supplementary measures document exists."
+    },
+    {
+      "id": "DF-003",
+      "name": "Customer Data Processing (Platform Analytics)",
+      "source": "EU/EEA Customer Uploads",
+      "destination": "AWS us-east-1 (Virginia, USA)",
+      "data_categories": ["customer_crm_data", "purchase_history", "demographics", "health_data_occasional", "financial_data"],
+      "legal_basis": "performance_of_contract",
+      "transfer_mechanism": "SCCs (2021) + customer DPA",
+      "volume": "varies by customer, ~500GB total EU customer data",
+      "encryption": "TLS 1.3 in transit, AES-256 at rest",
+      "sensitive_data": true,
+      "tia_completed": false
+    },
+    {
+      "id": "DF-004",
+      "name": "ML Model Training Pipeline",
+      "source": "Aggregated from DF-001, DF-002, DF-003",
+      "destination": "Google Cloud us-central1 (Iowa, USA)",
+      "data_categories": ["pseudonymized_behavioral_data", "usage_patterns", "feature_interactions"],
+      "legal_basis": "legitimate_interest",
+      "transfer_mechanism": "internal processing (same controller)",
+      "volume": "~10TB training dataset",
+      "encryption": "AES-256 at rest",
+      "pseudonymization": "user_id replaced with hash, IP truncated to /24",
+      "notes": "Pseudonymization applied but re-identification theoretically possible with auxiliary data"
+    },
+    {
+      "id": "DF-005",
+      "name": "Customer Support Ticketing",
+      "source": "EU/EEA Customers",
+      "destination": "Zendesk (Philippines support team)",
+      "data_categories": ["name", "email", "support_ticket_content", "account_screenshots"],
+      "legal_basis": "performance_of_contract",
+      "transfer_mechanism": "SCCs with Zendesk",
+      "volume": "~500 tickets/month from EU customers",
+      "encryption": "TLS 1.3 in transit",
+      "tia_completed": false,
+      "notes": "Philippines-based team has direct access to EU customer data including account details"
+    },
+    {
+      "id": "DF-006",
+      "name": "Data Enrichment (Third-Party)",
+      "source": "Clearbit, ZoomInfo (US-based)",
+      "destination": "CloudMetrics platform (AWS us-east-1)",
+      "data_categories": ["company_info", "demographics", "social_media_profiles", "estimated_income", "purchasing_behavior"],
+      "legal_basis": "legitimate_interest",
+      "transfer_mechanism": "N/A (data received from third party)",
+      "volume": "enrichment for ~30,000 EU contacts",
+      "notes": "No verification of third-party data source consent. Data combined with first-party data for profiling."
+    },
+    {
+      "id": "DF-007",
+      "name": "Advertising & Retargeting",
+      "source": "EU/EEA user behavioral data",
+      "destination": "Facebook/Meta (USA), Google Ads (USA), LinkedIn (USA)",
+      "data_categories": ["hashed_email", "behavioral_segments", "conversion_data", "custom_audiences"],
+      "legal_basis": "legitimate_interest",
+      "transfer_mechanism": "Platform-specific mechanisms",
+      "volume": "~100,000 EU user profiles shared",
+      "tia_completed": false,
+      "notes": "User hashed emails shared for lookalike audience creation. Cookie consent relied upon but implementation questioned."
+    },
+    {
+      "id": "DF-008",
+      "name": "Automated Pricing Engine",
+      "source": "User profile data + behavioral analytics",
+      "destination": "Internal pricing algorithm (AWS us-east-1)",
+      "data_categories": ["user_segment", "usage_intensity", "company_size", "geographic_location", "behavioral_score"],
+      "legal_basis": "legitimate_interest",
+      "processing_type": "automated_decision_making",
+      "impact": "Price differences of up to 40% between segments",
+      "human_review": "available_on_request",
+      "dpia_completed": false,
+      "notes": "Pricing determined algorithmically. No DPIA conducted. Users not proactively informed of automated pricing logic."
+    }
+  ],
+  "sub_processors": [
+    {"name": "Amazon Web Services", "location": "USA", "purpose": "Infrastructure", "dpf_certified": true},
+    {"name": "Google Cloud Platform", "location": "USA", "purpose": "Analytics processing", "dpf_certified": true},
+    {"name": "Zendesk", "location": "USA/Philippines", "purpose": "Customer support", "dpf_certified": true},
+    {"name": "Segment (Twilio)", "location": "USA", "purpose": "Data pipeline", "dpf_certified": true},
+    {"name": "Clearbit", "location": "USA", "purpose": "Data enrichment", "dpf_certified": false},
+    {"name": "ZoomInfo", "location": "USA", "purpose": "Data enrichment", "dpf_certified": false},
+    {"name": "Facebook/Meta", "location": "USA", "purpose": "Advertising", "dpf_certified": true},
+    {"name": "Google Ads", "location": "USA", "purpose": "Advertising", "dpf_certified": true},
+    {"name": "Mixpanel", "location": "USA", "purpose": "Product analytics", "dpf_certified": false},
+    {"name": "Hotjar", "location": "Malta/Austria", "purpose": "Session recording", "dpf_certified": false}
+  ]
+}

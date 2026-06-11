@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MFG-10 Output Schema",
+  "type": "object",
+  "required": ["plant_comparison", "inconsistency_findings"],
+  "properties": {
+    "plant_comparison": {
+      "type": ["object", "array"],
+      "description": "Normalized comparison data for all 5 plants with common KPI schema"
+    },
+    "inconsistency_findings": {
+      "type": ["array", "object"],
+      "description": "Detected data inconsistencies including suspiciously constant values"
+    },
+    "benchmark_report": {
+      "type": "string",
+      "description": "English benchmark report with rankings and data quality assessment"
+    },
+    "recommendations": {
+      "type": ["object", "array"],
+      "description": "Per-plant prioritized improvement recommendations"
+    }
+  }
+}

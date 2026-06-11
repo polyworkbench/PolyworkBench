@@ -1,0 +1,20 @@
+id = "COM-12_de_crossborder_tax"
+name = "Cross-border tax compliance calculation across DE/US/JP jurisdictions"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 5
+estimated_steps = 9
+timeout_sec = 3000
+tags = ["de-instruction", "en-source", "ja-source", "de-output", "tax-compliance"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["tax_compliance_report_de.md", "tax_calculations.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+rubric = "tests/rubric.md"

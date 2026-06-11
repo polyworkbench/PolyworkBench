@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LEG-05 Output Schema",
+  "type": "object",
+  "required": ["total_resolutions"],
+  "properties": {
+    "total_resolutions": {
+      "type": "integer",
+      "description": "Total number of board resolutions documented"
+    },
+    "total_revenue_cny": {
+      "type": "number",
+      "description": "Total revenue in CNY extracted from financial data"
+    },
+    "attendees_count": {
+      "type": "integer",
+      "description": "Number of board meeting attendees"
+    },
+    "action_items_count": {
+      "type": "integer",
+      "description": "Number of action items assigned from the meeting"
+    }
+  }
+}

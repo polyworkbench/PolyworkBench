@@ -1,0 +1,26 @@
+{
+  "source": "ECB / Banque de France / 中国人民银行 — 年均参考汇率",
+  "year_avg_to_eur": {
+    "CNY_EUR": {
+      "2021": 0.1316,
+      "2022": 0.1411,
+      "2023": 0.1305
+    },
+    "JPY_EUR": {
+      "2021": 0.00770,
+      "2022": 0.00724,
+      "2023": 0.00657
+    },
+    "KRW_EUR": {
+      "2021": 0.000737,
+      "2022": 0.000737,
+      "2023": 0.000709
+    }
+  },
+  "spot_2024_10_25": {
+    "CNY_EUR": 0.1296,
+    "JPY_EUR": 0.00614,
+    "KRW_EUR": 0.000666
+  },
+  "note": "Pour les besoins du DD, utiliser les moyennes annuelles pour les flux 2021-2023 et le taux spot pour les engagements à la date du closing prévue."
+}

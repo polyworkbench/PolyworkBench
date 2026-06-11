@@ -1,0 +1,21 @@
+id = "LOC-04v2_ja_technical_docs"
+name = "Technical docs localization to Japanese v2 with glossary and link validation"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 4
+estimated_steps = 8
+timeout_sec = 2400
+tags = ["ja-instruction", "en-source", "ja-output", "localization", "technical", "v2"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["api_docs_ja.md", "glossary_applied.json", "link_validation.json", "code_preservation_report.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+schema = "tests/expected_output_schema.json"
+rubric = "tests/rubric.md"

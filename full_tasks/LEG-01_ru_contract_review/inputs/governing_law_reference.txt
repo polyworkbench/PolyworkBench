@@ -1,0 +1,84 @@
+GOVERNING LAW REFERENCE NOTES
+==============================
+
+Prepared by: International Legal Advisory Team
+Date: March 2024
+Re: MPA-2024-0892 (HuaTech / Thornton-Clarke)
+
+1. ENGLISH LAW CONSIDERATIONS
+-----------------------------
+- Under English common law, a side letter may modify the terms of a master agreement
+  provided it is executed with valid consideration and clear intent.
+- The Contracts (Rights of Third Parties) Act 1999 may be relevant if third-party
+  beneficiaries are identified.
+- Under English law, where there is a conflict between documents forming part of the
+  same transaction, the later-in-time document generally prevails unless the master
+  agreement contains a clear hierarchy clause.
+- LCIA arbitration is well-established for international commercial disputes with
+  average proceedings lasting 12-18 months.
+- English courts generally uphold choice of law clauses unless they contravene
+  mandatory public policy.
+
+2. PRC LAW CONSIDERATIONS
+-------------------------
+- Under PRC Contract Law (now Civil Code, effective 2021), supplementary agreements
+  (补充协议) are valid modifications of the original contract when signed by
+  authorized representatives.
+- Article 510 of the PRC Civil Code: where a supplementary agreement conflicts with
+  the original contract, the supplementary agreement prevails as the later expression
+  of the parties' intent.
+- CIETAC is China's primary international arbitration institution; awards are
+  enforceable under the New York Convention (1958).
+- PRC courts may refuse to enforce a foreign governing law clause if it conflicts
+  with PRC mandatory rules (e.g., labor law, environmental regulations, consumer
+  protection).
+- Foreign exchange controls: payments in CNY to/from foreign parties require SAFE
+  (State Administration of Foreign Exchange) approval or registration.
+
+3. CONFLICT OF LAWS ANALYSIS
+-----------------------------
+- The master agreement (Art. 11.3) states: "this Agreement shall prevail unless the
+  side letter expressly states otherwise with reference to the specific Article being
+  modified."
+- The side letter (Art. 1.2) states: "本附函中的约定在与主协议冲突时，以本附函为准"
+  (In case of conflict between this side letter and the master agreement, this side
+  letter shall prevail.)
+- Key conflict: Both documents contain a "prevail" clause favoring themselves.
+- Under English law: the specific hierarchy clause in Art. 11.3 of the master
+  agreement would likely be given effect, meaning the side letter must expressly
+  reference the specific Article being modified.
+- Under PRC law: Article 510 of the Civil Code would likely give priority to the
+  later-in-time document (the side letter) as it represents the latest agreed intent.
+
+4. JURISDICTIONAL CONFLICT
+--------------------------
+- The master agreement designates English law + LCIA arbitration (London).
+- The side letter designates PRC law + CIETAC arbitration (Shenzhen).
+- This creates a potential "battle of jurisdictions" – if a dispute arises, each
+  party may commence proceedings in their preferred forum.
+- Under English law, an anti-suit injunction may be sought to prevent proceedings
+  elsewhere.
+- Under PRC law, CIETAC may accept jurisdiction based on the side letter clause.
+- The New York Convention (to which both UK and China are signatories) generally
+  requires courts to refer parties to arbitration where a valid agreement exists,
+  but conflicting agreements create uncertainty.
+
+5. RISK FACTORS
+---------------
+- Payment term conflict (60 days vs 30 days) creates cash flow uncertainty for
+  the Buyer.
+- Liability cap increase (5M vs 10M CNY) significantly increases Seller's exposure.
+- Jurisdictional conflict is the highest-risk item – may render dispute resolution
+  provisions unenforceable.
+- Currency change (USD to CNY) introduces FX risk for both parties.
+- Warranty period reduction (24 to 12 months) reduces Buyer protections.
+- Delivery term change (CIF London to FOB Shenzhen) shifts significant risk/cost
+  to Buyer.
+
+6. APPLICABLE INTERNATIONAL INSTRUMENTS
+----------------------------------------
+- United Nations Convention on Contracts for the International Sale of Goods (CISG)
+  – potentially applicable unless expressly excluded
+- New York Convention on Recognition and Enforcement of Foreign Arbitral Awards (1958)
+- ICC Incoterms 2020
+- Hague Principles on Choice of Law in International Commercial Contracts (2015)

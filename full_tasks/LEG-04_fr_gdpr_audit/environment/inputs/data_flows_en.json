@@ -1,0 +1,91 @@
+{
+  "company": "CloudMetrics Analytics",
+  "data_flows": [
+    {
+      "id": "DF-001",
+      "name": "End-User Web Tracking",
+      "source": "Customer websites (EU/EEA visitors)",
+      "collection_point": "JavaScript SDK embedded in customer pages",
+      "data_types": ["IP address", "device fingerprint", "browsing behavior", "cookies"],
+      "processing_location": "AWS US-East-1 (Virginia, USA)",
+      "purpose": "Behavioral analytics and profiling",
+      "legal_basis": "Legitimate interest (claimed by CloudMetrics)",
+      "retention_period": "5 years",
+      "recipients": ["CloudMetrics Inc. (US)", "AWS (US)", "Snowflake (US)"],
+      "transfer_mechanism": "Standard Contractual Clauses (SCCs)",
+      "encryption": "TLS in transit, AES-256 at rest",
+      "supplementary_measures": "None documented"
+    },
+    {
+      "id": "DF-002",
+      "name": "Profile Generation",
+      "source": "Aggregated tracking data from DF-001",
+      "collection_point": "Internal processing pipeline",
+      "data_types": ["behavioral profiles", "demographic inferences", "predictive scores", "cross-site patterns"],
+      "processing_location": "Snowflake (US)",
+      "purpose": "Automated profiling for customer insights",
+      "legal_basis": "Legitimate interest",
+      "retention_period": "Indefinite",
+      "recipients": ["CloudMetrics customers", "Advertising partners"],
+      "transfer_mechanism": "N/A (processed in US)",
+      "encryption": "Column-level encryption",
+      "dpia_conducted": false,
+      "automated_decision_making": true
+    },
+    {
+      "id": "DF-003",
+      "name": "Advertising Data Sharing",
+      "source": "Pseudonymized profiles from DF-002",
+      "collection_point": "API integration",
+      "data_types": ["pseudonymized user IDs", "interest categories", "behavioral segments"],
+      "processing_location": "Various (US, EU, Asia)",
+      "purpose": "Retargeting and audience matching",
+      "legal_basis": "Legitimate interest",
+      "retention_period": "36 months",
+      "recipients": ["Google Ads", "Meta Platforms", "The Trade Desk", "Criteo"],
+      "transfer_mechanism": "SCCs with each partner",
+      "re_identification_risk": "High - can be matched with advertising IDs",
+      "consent_obtained": false
+    },
+    {
+      "id": "DF-004",
+      "name": "Customer Account Management",
+      "source": "Customer registration and billing",
+      "collection_point": "CloudMetrics dashboard",
+      "data_types": ["name", "email", "company", "billing info", "usage data"],
+      "processing_location": "AWS EU-West-1 (Ireland)",
+      "purpose": "Service delivery and billing",
+      "legal_basis": "Contract performance",
+      "retention_period": "Duration of contract + 7 years",
+      "recipients": ["Stripe (US)", "SendGrid (US)"],
+      "transfer_mechanism": "SCCs",
+      "encryption": "AES-256"
+    },
+    {
+      "id": "DF-005",
+      "name": "Email Tracking",
+      "source": "Marketing emails sent to prospects",
+      "collection_point": "Email pixel tracker",
+      "data_types": ["email open timestamps", "click-through data", "IP at time of open", "device info"],
+      "processing_location": "SendGrid (US)",
+      "purpose": "Email campaign analytics",
+      "legal_basis": "Consent (opt-in to newsletter)",
+      "retention_period": "Until unsubscribe + 12 months",
+      "recipients": ["SendGrid (US)", "CloudMetrics CRM"],
+      "transfer_mechanism": "SCCs"
+    }
+  ],
+  "data_subjects": {
+    "eu_end_users_estimated": 45000000,
+    "customer_accounts": 3200,
+    "countries_affected": ["FR", "DE", "NL", "BE", "ES", "IT", "PL", "SE", "AT", "IE", "PT", "DK", "FI", "CZ", "RO", "HU", "BG", "HR", "SK", "SI", "LT", "LV", "EE", "LU", "MT", "CY", "EL"],
+    "includes_minors": "Possible - no age verification mechanism"
+  },
+  "technical_infrastructure": {
+    "primary_hosting": "AWS US-East-1",
+    "backup": "Google Cloud US-Central-1",
+    "eu_presence": "AWS EU-West-1 (account data only)",
+    "cdn": "Cloudflare (global edge nodes)",
+    "analytics_processing": "100% in US"
+  }
+}

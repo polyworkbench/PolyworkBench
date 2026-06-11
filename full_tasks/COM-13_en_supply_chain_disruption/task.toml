@@ -1,0 +1,20 @@
+id = "COM-13_en_supply_chain_disruption"
+name = "Supply chain disruption analysis with multilingual intelligence sources"
+category = "multilingual-multimodal"
+collection = "stress"
+difficulty = 6
+estimated_steps = 11
+timeout_sec = 3000
+tags = ["en-instruction", "ko-source", "zh-source", "en-output", "supply-chain", "risk-analysis"]
+
+[environment]
+path = "environment"
+inputs = "environment/inputs"
+
+[outputs]
+answer = "answer.json"
+files = ["decision_report.md", "action_plan.json", "risk_matrix.json"]
+
+[scoring]
+entrypoint = "tests/test.sh"
+rubric = "tests/rubric.md"
