@@ -15,7 +15,7 @@
   <a href="#排行榜"><img alt="Tasks" src="https://img.shields.io/badge/tasks-67-blue"></a>
   <a href="#排行榜"><img alt="Languages" src="https://img.shields.io/badge/languages-10-green"></a>
   <a href="#排行榜"><img alt="Domains" src="https://img.shields.io/badge/domains-5-purple"></a>
-  <a href="#排行榜"><img alt="Models" src="https://img.shields.io/badge/models-5+-orange"></a>
+  <a href="#排行榜"><img alt="Models" src="https://img.shields.io/badge/models-8-orange"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-yellow"></a>
   <a href="https://polyworkbench.github.io/"><img alt="Leaderboard" src="https://img.shields.io/badge/🏆_Leaderboard-PolyWorkBench-8c2416"></a>
 </p>
@@ -77,12 +77,14 @@
 
 | 排名 | 模型 | 机构 | 平均 Grade | COM | KNW | LEG | LOC | MFG | 任务数 |
 |:----:|------|------|:---------:|:---:|:---:|:---:|:---:|:---:|:-----:|
-| 🥇 | **Minimax-M2.7** | MiniMax | 0.729 | 0.779 | 0.691 | 0.623 | 0.752 | 0.797 | 67 |
-| 🥈 | **Minimax-M3** | MiniMax | 0.724 | 0.703 | 0.745 | 0.646 | 0.681 | 0.847 | 67 |
-| 🥉 | **Claude Opus 4.8** | Anthropic | 0.712 | 0.661 | 0.751 | 0.618 | 0.750 | 0.808 | 67 |
-| 4 | **Qwen3.6-27B** | Alibaba Cloud | 0.659 | 0.584 | 0.536 | 0.662 | 0.770 | 0.750 | 67 |
-| 5 | **Qwen3.6-35B-A3B** | Alibaba Cloud | 0.650 | 0.464 | 0.684 | 0.650 | 0.696 | 0.800 | 67 |
-| 6 | **DeepSeek-v4-Flash** | DeepSeek | 0.475 | 0.386 | 0.432 | 0.565 | 0.551 | 0.452 | 67 |
+| 🥇 | **GPT-5.5** | OpenAI | 0.786 | 0.811 | 0.773 | 0.745 | 0.815 | 0.808 | 67 |
+| 🥈 | **Minimax-M2.7** | MiniMax | 0.739 | 0.779 | 0.691 | 0.623 | 0.813 | 0.797 | 67 |
+| 🥉 | **Minimax-M3** | MiniMax | 0.734 | 0.703 | 0.745 | 0.646 | 0.742 | 0.847 | 67 |
+| 4 | **Claude Opus 4.8** | Anthropic | 0.722 | 0.661 | 0.751 | 0.618 | 0.811 | 0.808 | 67 |
+| 5 | **Claude Opus 4.7** | Anthropic | 0.719 | 0.656 | 0.737 | 0.613 | 0.804 | 0.814 | 67 |
+| 6 | **Qwen3.6-27B** | Alibaba Cloud | 0.669 | 0.584 | 0.536 | 0.662 | 0.832 | 0.750 | 67 |
+| 7 | **Qwen3.6-35B-A3B** | Alibaba Cloud | 0.660 | 0.464 | 0.684 | 0.650 | 0.757 | 0.800 | 67 |
+| 8 | **DeepSeek-v4-Flash** | DeepSeek | 0.485 | 0.386 | 0.432 | 0.565 | 0.613 | 0.452 | 67 |
 
 ---
 
