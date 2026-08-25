@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <em>67 个多语种任务 | 10 种语言 | 5 大领域 | 基于 Ground Truth 的精确评分</em>
+  <em>67 个多语种任务 | 10 种语言 | 5 大领域 | 32 个模型&times;Harness 组合</em>
 </p>
 
 <p align="center">
@@ -16,6 +16,7 @@
   <a href="#排行榜"><img alt="Languages" src="https://img.shields.io/badge/languages-10-green"></a>
   <a href="#排行榜"><img alt="Domains" src="https://img.shields.io/badge/domains-5-purple"></a>
   <a href="#排行榜"><img alt="Models" src="https://img.shields.io/badge/models-8-orange"></a>
+  <a href="#排行榜"><img alt="Harnesses" src="https://img.shields.io/badge/harnesses-4-blue"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-yellow"></a>
   <a href="https://polyworkbench.github.io/"><img alt="Leaderboard" src="https://img.shields.io/badge/🏆_Leaderboard-PolyWorkBench-8c2416"></a>
 </p>
@@ -64,7 +65,7 @@
 - **10 种语言、真实内容。** 非机器翻译——使用具有领域术语的母语原始文档（日文 軽減税率、韩文 적합/부적합、德文 Rahmenvertrag）。
 - **三轨评分。** 每个任务由三套独立机制打分：(1) pytest 结构化测试；(2) 带 Ground Truth 断言的加权多维 `grade()`；(3) LLM-as-Judge 质量评估。
 - **预埋 Ground Truth。** 输入文件中包含可精确校验的事实（金额、日期、ID），评分脚本逐项核对。
-- **Harness 无关。** 同一批任务可在 OpenClaw、Claude Code、Codex CLI 或任意通过 Docker 接入的 Agent 框架上运行。
+- **Harness 无关。** 同一批任务可在 ClaudeCode、OpenClaw、Hermes、Codex 或任意通过 Docker 接入的 Agent 框架上运行。
 - **隔离可复现。** 每个任务在独立 Docker 容器内运行，输入文件按需注入；评分脚本对 Agent 不可见。
 
 ---
@@ -73,58 +74,62 @@
 
 完整交互式排行榜：[polyworkbench.github.io](https://polyworkbench.github.io/)
 
-> 所有分数为 **n=1**（单次运行），基于完整 67 任务套件（v4）。Pass@3 / Pass^3 鲁棒性评测即将发布。
+> **32 个模型&times;Harness 组合**（8 个基础模型 &times; 4 种 Harness：ClaudeCode、OpenClaw、Hermes、Codex），每个组合最多 3 次完整运行。
+> **Pass@1** = 全部 67 个任务上的最佳单次运行平均 Grade（主排名指标）；**Pass@3** = 每任务取三次运行最优后的平均 Grade。
+> 分域（COM / KNW / LEG / LOC / MFG）与逐条目的 Judge 分数见交互式排行榜。
 
-| 排名 | 模型 | 机构 | 平均 Grade | COM | KNW | LEG | LOC | MFG | 任务数 |
-|:----:|------|------|:---------:|:---:|:---:|:---:|:---:|:---:|:-----:|
-| 🥇 | **GPT-5.5** | OpenAI | 0.786 | 0.811 | 0.773 | 0.745 | 0.815 | 0.808 | 67 |
-| 🥈 | **Minimax-M2.7** | MiniMax | 0.739 | 0.779 | 0.691 | 0.623 | 0.813 | 0.797 | 67 |
-| 🥉 | **Minimax-M3** | MiniMax | 0.734 | 0.703 | 0.745 | 0.646 | 0.742 | 0.847 | 67 |
-| 4 | **Claude Opus 4.8** | Anthropic | 0.722 | 0.661 | 0.751 | 0.618 | 0.811 | 0.808 | 67 |
-| 5 | **Claude Opus 4.7** | Anthropic | 0.719 | 0.656 | 0.737 | 0.613 | 0.804 | 0.814 | 67 |
-| 6 | **Qwen3.6-27B** | Alibaba Cloud | 0.669 | 0.584 | 0.536 | 0.662 | 0.832 | 0.750 | 67 |
-| 7 | **Qwen3.6-35B-A3B** | Alibaba Cloud | 0.660 | 0.464 | 0.684 | 0.650 | 0.757 | 0.800 | 67 |
-| 8 | **DeepSeek-v4-Flash** | DeepSeek | 0.485 | 0.386 | 0.432 | 0.565 | 0.613 | 0.452 | 67 |
+### 主要结果 —— Pass@1（Pass@3）
+
+| 模型 | ClaudeCode | OpenClaw | Hermes | Codex |
+|------|:----------:|:--------:|:------:|:-----:|
+| **Claude Opus 4.8** | **0.923**（0.927） | 0.778（0.850） | 0.805（0.827） | 0.698（0.786） |
+| GLM-5.2 | 0.855（0.895） | 0.853（0.893） | 0.823（0.875） | 0.887（0.918） |
+| GLM-5.1 | 0.785（0.789） | 0.783（0.798） | 0.790（0.814） | 0.781（0.801） |
+| DeepSeek V4 Flash | 0.796（0.814） | 0.708（0.755） | 0.758（0.828） | 0.797（0.835） |
+| GPT-5.5 | 0.815（0.815） | 0.794（0.917） | 0.837（0.906） | 0.808（0.905） |
+| Qwen3.6-35B-A3B | 0.793（0.824） | 0.673（0.746） | 0.727（0.804） | 0.682（0.822） |
+| Claude Opus 4.7 | 0.797（0.827） | 0.709（0.763） | 0.800（0.849） | 0.612（0.765） |
+| Qwen3.6-27B | 0.801（0.814） | 0.782（0.805） | 0.742（0.801） | 0.766（0.824） |
+
+**加粗** = 综合最佳：**Claude Opus 4.8 + ClaudeCode**（Pass@1 0.923 / Pass@3 0.927）。
+
+### 关键结论
+
+- **即使对前沿模型，该基准也很有挑战性。** 最佳组合 Pass@1 0.923 / Pass@3 0.927；第二名（GLM-5.2 &times; Codex）为 0.887 / 0.918。
+- **Harness 的选择影响显著，但并非对所有模型一致。** Claude Opus 4.8 在四种 Harness 间 Pass@1 跨度达 0.225（ClaudeCode 0.923 &rarr; Codex 0.698），而 GLM-5.1 几乎与 Harness 无关（跨度 &le; 0.009）。
+- **Commerce 是系统性短板。** 全能型强模型在知识/法律/制造上保持 0.85&ndash;0.95 的 Grade，却在 Commerce 上掉到 0.57&ndash;0.72（严格的数值核对与表格结构类任务）。
+- **语言是真实的失败维度。** Claude Opus 4.8/ClaudeCode 在十种语言上表现均衡（0.83&ndash;0.97），而中档模型在俄语、西班牙语和德语上显著退化；同一模型最佳与最差语言之间的 Grade 差距可超过 30 分。
+- **Judge 是诊断信号，不是排名指标。** 平均 Judge 集中在 0.73&ndash;0.84 的窄区间，与 Grade 仅弱相关（r &asymp; 0.23）；而 Grade 与 Pytest 强一致（r = 0.88）。
+- **Pass@3 的增益在头部很小**（Opus 4.8/ClaudeCode 仅 +0.004），在中档条目上变大（Qwen3.6-35B-A3B/Codex 达 +0.140）。
 
 ---
 
 ## 任务总览
 
-67 个任务横跨 5 个领域，难度 L3-L6，覆盖 10 种指令/原文语言。
+67 个任务横跨 5 大领域、10 种语言。平均每个任务携带 **3.4 个输入文件、跨 2.3 种不同语言**，其参考规范包含 **6.2 个加权结构化子分**，共同构成任务级 Grade（依据论文）。
 
 ### 领域分布
 
 | 领域 | 任务数 | 描述 | 示例 |
 |------|:-----:|------|------|
-| **COM**（商业） | 16 | 跨境贸易、定价、欺诈、合规 | 多币种对账，识别 3 处预埋差异 |
-| **KNW**（知识） | 11 | 研究综合、事实核查、矛盾检测 | 跨语言事实核查，需用到全部 4 种语言来源 |
-| **LEG**（法律） | 15 | 合同审查、证据链、专利分析 | 德文合同冲突检测（6 处预埋条款冲突） |
-| **LOC**（本地化） | 11 | 应用文案、游戏台词、代码文档、UI 一致性 | 跨平台 UI 文案不一致检测（8 处预埋） |
-| **MFG**（制造） | 14 | SRE 根因、质量分析、交接班 | 跨韩/中/英日志做时间戳关联以定位根因 |
+| **COM**（商业） | 16 | 跨境运营、定价、物流、税务、市场管理 | 多币种对账，识别预埋差异 |
+| **KNW**（知识） | 11 | 信息综合、技术报告、专利分析、多语言事实核查 | 跨语言事实核查，需用到全部语言来源 |
+| **LEG**（法律） | 15 | 合规分析、合同审查、法规对比、法律起草 | 德文合同冲突检测（预埋条款冲突） |
+| **LOC**（本地化） | 11 | 软件、文档、字幕、营销材料的多语言适配 | 跨平台 UI 文案不一致检测 |
+| **MFG**（制造） | 14 | 质量管理、生产报告、维护、安全审计、供应链分析 | 跨韩/中/英日志做时间戳关联以定位根因 |
 
-### 语言覆盖
+### 语言覆盖（主指令语言）
 
-| 语言 | 任务数 | 角色 |
-|------|:-----:|------|
-| 韩语 (ko) | 12 | 指令 + 原文 |
-| 英语 (en) | 12 | 指令 + 原文 |
-| 法语 (fr) | 8 | 指令 + 原文 |
-| 俄语 (ru) | 8 | 原文 |
-| 日语 (ja) | 7 | 指令 + 原文 |
-| 越南语 (vi) | 7 | 指令 + 原文 |
-| 中文 (zh) | 7 | 指令 + 原文 |
-| 西班牙语 (es) | 4 | 指令 + 原文 |
-| 德语 (de) | 3 | 指令 + 原文 |
-| 阿拉伯语 (ar) | 1 | 指令（RTL） |
+| 语言 | 任务数 | 语言 | 任务数 |
+|------|:-----:|------|:-----:|
+| 韩语 (ko) | 13 | 中文 (zh) | 6 |
+| 英语 (en) | 10 | 多语言混合 (multi) | 5 |
+| 俄语 (ru) | 7 | 西班牙语 (es) | 4 |
+| 日语 (ja) | 6 | 德语 (de) | 3 |
+| 越南语 (vi) | 6 | 阿拉伯语 (ar) | 1 |
+| 法语 (fr) | 6 | | |
 
-### 难度分布
-
-| 难度 | 任务数 | 平均 grade（M2.7） | 描述 |
-|:----:|:-----:|:-----------------:|------|
-| L3 | 8 | 0.75 | 基线：2-3 个原文文件，结构化输出 |
-| L4 | 26 | 0.82 | 多源交叉引用，需要精确计算 |
-| L5 | 23 | 0.65 | 深度流水线：4+ 来源，迭代验证 |
-| L6 | 10 | 0.45 | 压力档：5+ 语言，异常检测，决策树 |
+> &ldquo;multi&rdquo; = 指令交织两种及以上语言、无单一主导语言的任务。阿拉伯语（n=1）为探索性单实例任务，按论文约定不纳入对比统计。许多任务的资源语言与输出语言独立于指令语言选择。
 
 ---
 
@@ -347,14 +352,14 @@ full_tasks/COM-09_ko_compliance_check/
 
 ```
 +---------------------------------------------------------+
-|  Track 1：pytest      -> pass/fail（结构性闸门）          |
-|  Track 2：grade()     -> 0-1.0 加权多维评分               |
-|  Track 3：LLM Judge   -> 0-1.0 质量评估                   |
+|  轨 1：Grade   -> 0-1.0 加权结构化子分                    |
+|  轨 2：Pytest  -> 通过单元测试的比例                       |
+|  轨 3：Judge   -> 0-1.0 LLM-as-Judge 语义评估             |
 +---------------------------------------------------------+
-主指标：grade()（Track 2）
-- 各维度加权 + 非线性缩放
-- Ground Truth 数值断言权重 x2
-- 全部通过封顶 0.85；1.0 仅留给完美匹配 Ground Truth 的产出
+排名指标：Grade，以 Pass@1（最佳单次运行均值）与 Pass@3（每任务取三次最优）报告
+- Grade：任务专属加权结构化子分（合计 1.0），由确定性脚本对磁盘产物打分
+- Pytest：同一套评分规范表达为通过/失败单元测试；得分 = 通过比例（不调用 LLM）
+- Judge：固定提示词，对 4 个维度（模态保真、语言准确、任务完成、长程一致性）取平均；仅作诊断信号，不参与排名
 ```
 
 ---
@@ -434,7 +439,7 @@ PARALLEL=4 bash scripts/run_smoke.sh
 
 ### `scripts/run_full_eval.sh` — 全量评测
 
-运行全部 67 任务 x 3 轮，产出 Pass@3 / Pass^3 统计指标：
+运行全部 67 任务 x 3 轮，产出 Pass@3（每任务三次最优）统计指标：
 ```bash
 bash scripts/run_full_eval.sh
 ```
@@ -528,11 +533,14 @@ python3 -m src.agent --task COM-09_ko_compliance_check --tasks-dir full_tasks
 ## 引用
 
 ```bibtex
-@misc{polyworkbench2026,
-  title={PolyWorkBench: A Cross-Lingual Long-Horizon Agent Benchmark},
-  author={PolyWorkBench Team},
-  year={2026},
-  url={https://github.com/polyworkbench/PolyWorkBench}
+@misc{li2026polyworkbenchbenchmarkingllmagents,
+      title={PolyWorkBench: Benchmarking LLM Agents for Cross-Lingual Long-Horizon Workflows}, 
+      author={Hongliang Li and Yijin Liu and Zhiwei Zhang and Zihe Liu and Xinyue Lou and Jinan Xu and Fandong Meng and Kaiyu Huang},
+      year={2026},
+      eprint={2607.06008},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2607.06008}, 
 }
 ```
 

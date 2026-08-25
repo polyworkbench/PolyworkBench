@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <em>67 multilingual tasks | 10 languages | 5 domains | Ground-truth grading</em>
+  <em>67 multilingual tasks | 10 languages | 5 domains | 32 model&times;harness entries</em>
 </p>
 
 <p align="center">
@@ -17,6 +17,7 @@
   <a href="#-leaderboard"><img alt="Languages" src="https://img.shields.io/badge/languages-10-green"></a>
   <a href="#-leaderboard"><img alt="Domains" src="https://img.shields.io/badge/domains-5-purple"></a>
   <a href="#-leaderboard"><img alt="Models" src="https://img.shields.io/badge/models-8-orange"></a>
+  <a href="#-leaderboard"><img alt="Harnesses" src="https://img.shields.io/badge/harnesses-4-blue"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-yellow"></a>
   <a href="https://polyworkbench.github.io/"><img alt="Leaderboard" src="https://img.shields.io/badge/🏆_Leaderboard-PolyWorkBench-8c2416"></a>
 </p>
@@ -65,7 +66,7 @@ Most agent benchmarks test single-language, single-step capabilities. Real enter
 - **10 languages, real content.** Not machine-translated — native-language source documents with domain terminology (Japanese keigenzeiritsu, Korean jeokap/bujeokap, German Rahmenvertrag).
 - **Three-track scoring.** Each task is graded independently by: (1) pytest structural tests, (2) weighted dimensional `grade()` with ground-truth assertions, (3) LLM-as-Judge quality evaluation.
 - **Seeded ground truth.** Input files contain specific verifiable facts (amounts, dates, IDs) that grading scripts check precisely.
-- **Harness-agnostic.** Same tasks run on OpenClaw, Claude Code, Codex CLI, or any agent framework via Docker containers.
+- **Harness-agnostic.** Same tasks run on ClaudeCode, OpenClaw, Hermes, Codex, or any agent framework via Docker containers.
 - **Reproducible & isolated.** Each task runs in its own Docker container with injected inputs. Grading scripts are never visible to the agent.
 
 ---
@@ -74,58 +75,62 @@ Most agent benchmarks test single-language, single-step capabilities. Real enter
 
 Full interactive leaderboard at [polyworkbench.github.io](https://polyworkbench.github.io/).
 
-> All scores are **n=1** (single run) on the full 67-task suite (v4). Pass@3 / Pass^3 robustness results coming soon.
+> **32 model&times;harness entries** (8 base models &times; 4 harnesses: ClaudeCode, OpenClaw, Hermes, Codex), up to 3 completed runs per entry.
+> **Pass@1** = best-run mean Grade over all 67 tasks (primary ranking metric); **Pass@3** = per-task best-of-three Grade averaged over the top three runs.
+> Per-domain (COM / KNW / LEG / LOC / MFG) and per-entry Judge scores are available on the interactive leaderboard.
 
-| Rank | Model | Org | Avg Grade | COM | KNW | LEG | LOC | MFG | Tasks |
-|:----:|-------|-----|:---------:|:---:|:---:|:---:|:---:|:---:|:-----:|
-| 🥇 | **GPT-5.5** | OpenAI | 0.786 | 0.811 | 0.773 | 0.745 | 0.815 | 0.808 | 67 |
-| 🥈 | **Minimax-M2.7** | MiniMax | 0.739 | 0.779 | 0.691 | 0.623 | 0.813 | 0.797 | 67 |
-| 🥉 | **Minimax-M3** | MiniMax | 0.734 | 0.703 | 0.745 | 0.646 | 0.742 | 0.847 | 67 |
-| 4 | **Claude Opus 4.8** | Anthropic | 0.722 | 0.661 | 0.751 | 0.618 | 0.811 | 0.808 | 67 |
-| 5 | **Claude Opus 4.7** | Anthropic | 0.719 | 0.656 | 0.737 | 0.613 | 0.804 | 0.814 | 67 |
-| 6 | **Qwen3.6-27B** | Alibaba Cloud | 0.669 | 0.584 | 0.536 | 0.662 | 0.832 | 0.750 | 67 |
-| 7 | **Qwen3.6-35B-A3B** | Alibaba Cloud | 0.660 | 0.464 | 0.684 | 0.650 | 0.757 | 0.800 | 67 |
-| 8 | **DeepSeek-v4-Flash** | DeepSeek | 0.485 | 0.386 | 0.432 | 0.565 | 0.613 | 0.452 | 67 |
+### Main Results — Pass@1 (Pass@3)
+
+| Model | ClaudeCode | OpenClaw | Hermes | Codex |
+|-------|:----------:|:--------:|:------:|:-----:|
+| **Claude Opus 4.8** | **0.923** (0.927) | 0.778 (0.850) | 0.805 (0.827) | 0.698 (0.786) |
+| GLM-5.2 | 0.855 (0.895) | 0.853 (0.893) | 0.823 (0.875) | 0.887 (0.918) |
+| GLM-5.1 | 0.785 (0.789) | 0.783 (0.798) | 0.790 (0.814) | 0.781 (0.801) |
+| DeepSeek V4 Flash | 0.796 (0.814) | 0.708 (0.755) | 0.758 (0.828) | 0.797 (0.835) |
+| GPT-5.5 | 0.815 (0.815) | 0.794 (0.917) | 0.837 (0.906) | 0.808 (0.905) |
+| Qwen3.6-35B-A3B | 0.793 (0.824) | 0.673 (0.746) | 0.727 (0.804) | 0.682 (0.822) |
+| Claude Opus 4.7 | 0.797 (0.827) | 0.709 (0.763) | 0.800 (0.849) | 0.612 (0.765) |
+| Qwen3.6-27B | 0.801 (0.814) | 0.782 (0.805) | 0.742 (0.801) | 0.766 (0.824) |
+
+**Bold** = best entry overall: **Claude Opus 4.8 + ClaudeCode** (0.923 Pass@1 / 0.927 Pass@3).
+
+### Key Findings
+
+- **The benchmark is hard even for frontier models.** The best entry reaches 0.923 Pass@1 / 0.927 Pass@3; the runner-up (GLM-5.2 &times; Codex) scores 0.887 / 0.918.
+- **Harness choice matters — but not consistently.** Claude Opus 4.8 spans 0.225 Pass@1 across the four harnesses (0.923 ClaudeCode &rarr; 0.698 Codex), while GLM-5.1 is nearly harness-invariant (&le; 0.009 spread).
+- **Commerce is the systematic weak spot.** Strong all-around models keep 0.85&ndash;0.95 Grade on Knowledge/Legal/Manufacturing but drop to 0.57&ndash;0.72 on Commerce (strict numeric-reconciliation and schema tasks).
+- **Language is a genuine failure axis.** Claude Opus 4.8/ClaudeCode stays balanced across languages (0.83&ndash;0.97), while mid-tier models degrade sharply on Russian, Spanish and German; the best-to-worst language gap of a fixed model can exceed 30 Grade points.
+- **Judge is a diagnostic signal, not a ranking metric.** Mean Judge concentrates in a narrow 0.73&ndash;0.84 band and correlates only weakly with Grade (r &asymp; 0.23), whereas Grade and Pytest align strongly (r = 0.88).
+- **Pass@3 headroom is small at the top** (+0.004 for Opus 4.8/ClaudeCode) and widens for mid-tier entries (up to +0.140 for Qwen3.6-35B-A3B/Codex).
 
 ---
 
 ## Tasks
 
-67 tasks across 5 domains, difficulty L3-L6, covering 10 instruction/source languages.
+67 tasks across 5 domains and 10 languages. On average each task carries **3.4 input files across 2.3 distinct languages**, and its reference specification enforces **6.2 weighted structural sub-scores** that combine into the task-level Grade (per the paper).
 
 ### Domain Distribution
 
 | Domain | Tasks | Description | Example |
 |--------|:-----:|-------------|---------|
-| **COM** (Commerce) | 16 | Cross-border trade, pricing, fraud, compliance | Multi-currency reconciliation detecting 3 seeded discrepancies |
-| **KNW** (Knowledge) | 11 | Research synthesis, fact verification, contradiction detection | Cross-lingual fact-check requiring ALL 4 language sources |
-| **LEG** (Legal) | 15 | Contract review, evidence chains, patent analysis | German contract conflict detection (6 seeded clause conflicts) |
-| **LOC** (Localization) | 11 | App strings, game dialogue, code docs, UI consistency | Cross-platform UI string inconsistency detection (8 seeded) |
-| **MFG** (Manufacturing) | 14 | SRE root cause, quality analysis, shift handover | Timestamp correlation across KO/ZH/EN logs to find root cause |
+| **COM** (Commerce) | 16 | Cross-border operations, pricing, logistics, taxation, marketplace management | Multi-currency reconciliation detecting seeded discrepancies |
+| **KNW** (Knowledge) | 11 | Information synthesis, technical reporting, patent analysis, multilingual fact verification | Cross-lingual fact-check requiring ALL language sources |
+| **LEG** (Legal) | 15 | Compliance analysis, contract review, regulatory comparison, legal drafting | German contract conflict detection (seeded clause conflicts) |
+| **LOC** (Localization) | 11 | Multilingual adaptation of software, documentation, subtitles, marketing materials | Cross-platform UI string inconsistency detection |
+| **MFG** (Manufacturing) | 14 | Quality management, production reporting, maintenance, safety auditing, supply-chain analysis | Timestamp correlation across KO/ZH/EN logs to find root cause |
 
-### Language Coverage
+### Language Coverage (primary instruction language)
 
-| Language | Tasks | Roles |
-|----------|:-----:|-------|
-| Korean (ko) | 12 | Instruction + source |
-| English (en) | 12 | Instruction + source |
-| French (fr) | 8 | Instruction + source |
-| Russian (ru) | 8 | Source |
-| Japanese (ja) | 7 | Instruction + source |
-| Vietnamese (vi) | 7 | Instruction + source |
-| Chinese (zh) | 7 | Instruction + source |
-| Spanish (es) | 4 | Instruction + source |
-| German (de) | 3 | Instruction + source |
-| Arabic (ar) | 1 | Instruction (RTL) |
+| Language | Tasks | Language | Tasks |
+|----------|:-----:|----------|:-----:|
+| Korean (ko) | 13 | Chinese (zh) | 6 |
+| English (en) | 10 | multi-lingual | 5 |
+| Russian (ru) | 7 | Spanish (es) | 4 |
+| Japanese (ja) | 6 | German (de) | 3 |
+| Vietnamese (vi) | 6 | Arabic (ar) | 1 |
+| French (fr) | 6 | | |
 
-### Difficulty Distribution
-
-| Level | Tasks | Avg Grade (M2.7) | Description |
-|:-----:|:-----:|:-----------------:|-------------|
-| L3 | 8 | 0.75 | Baseline: 2-3 source files, structured output |
-| L4 | 26 | 0.82 | Multi-source cross-reference, precise calculations |
-| L5 | 23 | 0.65 | Deep pipeline: 4+ sources, iterative verification |
-| L6 | 10 | 0.45 | Stress: 5+ languages, anomaly detection, decision trees |
+> &ldquo;multi&rdquo; = instructions interleaving two or more languages with no single dominant language. Arabic (n=1) is an exploratory single-instance task excluded from comparative statistics (per the paper). Resource and output languages are chosen independently of the instruction language for many tasks.
 
 ---
 
@@ -337,14 +342,14 @@ full_tasks/COM-09_ko_compliance_check/
 
 ```
 +---------------------------------------------------------+
-|  Track 1: pytest        -> pass/fail gate (structural)   |
-|  Track 2: grade()       -> 0-1.0 weighted dimensions     |
-|  Track 3: LLM Judge     -> 0-1.0 quality assessment      |
+|  Track 1: Grade   -> 0-1.0 weighted structural sub-scores|
+|  Track 2: Pytest  -> fraction of passing unit tests      |
+|  Track 3: Judge   -> 0-1.0 LLM-as-Judge semantic score    |
 +---------------------------------------------------------+
-Primary metric: grade() (Track 2)
-- Weighted dimensions with non-linear scaling
-- Ground-truth numerical assertions (weight 2x)
-- Cap at 0.85 for all-pass; 1.0 reserved for perfect ground-truth
+Ranking metric: Grade, reported as Pass@1 (best-run mean) and Pass@3 (per-task best-of-three)
+- Grade: task-specific weighted structural sub-scores (sum to 1.0), computed by deterministic scripts on the on-disk artifact
+- Pytest: the same rubric expressed as pass/fail unit tests; score = fraction of tests passed (never calls an LLM)
+- Judge: fixed prompt rating 4 dimensions (modality fidelity, language accuracy, task completion, long-range consistency), averaged; diagnostic signal, not used for ranking
 ```
 
 ### System Architecture
@@ -438,7 +443,7 @@ PARALLEL=4 bash scripts/run_smoke.sh
 
 ### `scripts/run_full_eval.sh` - Full Evaluation
 
-Runs all 67 tasks x 3 repetitions with Pass@3/Pass^3 metrics:
+Runs all 67 tasks x 3 repetitions and reports Pass@3 (per-task best-of-three):
 ```bash
 bash scripts/run_full_eval.sh
 ```
@@ -545,11 +550,14 @@ Any model accessible via OpenRouter, Anthropic API, or OpenAI-compatible API. Se
 ## Citation
 
 ```bibtex
-@misc{polyworkbench2026,
-  title={PolyWorkBench: A Cross-Lingual Long-Horizon Agent Benchmark},
-  author={PolyWorkBench Team},
-  year={2026},
-  url={https://github.com/polyworkbench/PolyWorkBench}
+@misc{li2026polyworkbenchbenchmarkingllmagents,
+      title={PolyWorkBench: Benchmarking LLM Agents for Cross-Lingual Long-Horizon Workflows}, 
+      author={Hongliang Li and Yijin Liu and Zhiwei Zhang and Zihe Liu and Xinyue Lou and Jinan Xu and Fandong Meng and Kaiyu Huang},
+      year={2026},
+      eprint={2607.06008},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2607.06008}, 
 }
 ```
 
