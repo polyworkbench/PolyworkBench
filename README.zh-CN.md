@@ -365,35 +365,9 @@ full_tasks/COM-09_ko_compliance_check/
 ---
 
 ## 支持的 Harness
+PolyWorkBench 使用 WildClawBench 提供的四种 Harness 环境开展实验。相关环境托管于 Hugging Face。
 
-PolyWorkBench 提供 **四个** Docker 镜像，每个 Harness 一个。镜像托管在 [HuggingFace](https://huggingface.co/datasets/polyworkbench/PolyWorkBench)。
-
-| Harness | 镜像文件 | 加载后的 Tag |
-|---------|---------|-------------|
-| **openclaw** | `polyworkbench-openclaw.tar` | `polyworkbench-openclaw:v1` |
-| **claudecode** | `polyworkbench-claudecode.tar` | `polyworkbench-claudecode:v1` |
-| **codex** | `polyworkbench-codex.tar` | `polyworkbench-codex:v1` |
-| **hermesagent** | `polyworkbench-hermes.tar` | `polyworkbench-hermes:v1` |
-
-### 下载与加载镜像
-
-```bash
-pip install -U "huggingface_hub[cli]"
-
-# 下载所需镜像（可选择性下载，或全部下载）
-huggingface-cli download polyworkbench/PolyWorkBench \
-    Images/polyworkbench-openclaw.tar \
-    Images/polyworkbench-claudecode.tar \
-    Images/polyworkbench-codex.tar \
-    Images/polyworkbench-hermes.tar \
-    --repo-type dataset --local-dir .
-
-# 加载到 Docker
-docker load -i Images/polyworkbench-openclaw.tar
-docker load -i Images/polyworkbench-claudecode.tar
-docker load -i Images/polyworkbench-codex.tar
-docker load -i Images/polyworkbench-hermes.tar
-```
+Docker 镜像的加载说明与 WildClawBench 的配置方式保持一致。
 
 ### 覆盖镜像
 
@@ -495,12 +469,8 @@ open -a Docker
 ```
 
 ### 镜像未找到
-重新下载并加载镜像：
-```bash
-huggingface-cli download polyworkbench/PolyWorkBench \
-    Images/polyworkbench-openclaw.tar \
-    --repo-type dataset --local-dir .
-docker load -i Images/polyworkbench-openclaw.tar
+重新下载并加载WildClawBench镜像
+
 
 # 或在 .env 中设置：
 # LONGHORIZON_OPENCLAW_IMAGE=your-registry/your-image:tag
