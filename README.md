@@ -370,34 +370,9 @@ Ranking metric: Grade, reported as Pass@1 (best-run mean) and Pass@3 (per-task b
 
 ## Supported Harnesses
 
-PolyWorkBench ships **four** Docker images, one per harness. They are hosted on [HuggingFace](https://huggingface.co/datasets/polyworkbench/PolyWorkBench).
+PolyWorkBench conducts experiments using the four harness environments provided by [WildClawBench](https://github.com/InternLM/WildClawBench). They are hosted on [HuggingFace](https://huggingface.co/datasets/internlm/WildClawBench).
 
-| Harness | Image Tarball | Loaded Tag |
-|---------|--------------|------------|
-| **openclaw** | `polyworkbench-openclaw.tar` | `polyworkbench-openclaw:v1` |
-| **claudecode** | `polyworkbench-claudecode.tar` | `polyworkbench-claudecode:v1` |
-| **codex** | `polyworkbench-codex.tar` | `polyworkbench-codex:v1` |
-| **hermesagent** | `polyworkbench-hermes.tar` | `polyworkbench-hermes:v1` |
-
-### Download & Load Images
-
-```bash
-pip install -U "huggingface_hub[cli]"
-
-# Download images (pick the harness(es) you need, or all four)
-huggingface-cli download polyworkbench/PolyWorkBench \
-    Images/polyworkbench-openclaw.tar \
-    Images/polyworkbench-claudecode.tar \
-    Images/polyworkbench-codex.tar \
-    Images/polyworkbench-hermes.tar \
-    --repo-type dataset --local-dir .
-
-# Load into Docker
-docker load -i Images/polyworkbench-openclaw.tar
-docker load -i Images/polyworkbench-claudecode.tar
-docker load -i Images/polyworkbench-codex.tar
-docker load -i Images/polyworkbench-hermes.tar
-```
+Docker loading instructions consistent with the WildClawBench setup.
 
 ### Override Images
 
