@@ -154,18 +154,6 @@ pip install -r src/agent/requirements.txt
 
 Images are hosted on HuggingFace. Download and load the harness(es) you want to use:
 
-```bash
-pip install -U "huggingface_hub[cli]"
-
-# Download OpenClaw image (recommended for first-time use)
-huggingface-cli download polyworkbench/PolyWorkBench \
-    Images/polyworkbench-openclaw.tar \
-    --repo-type dataset --local-dir .
-
-# Load into Docker
-docker load -i Images/polyworkbench-openclaw.tar
-```
-
 > See [Supported Harnesses](#supported-harnesses) for the full list of available images.
 
 ### 3. Configure API Keys
@@ -473,17 +461,6 @@ sudo systemctl start docker
 open -a Docker
 ```
 
-### "Image not found"
-Re-download and load the image:
-```bash
-huggingface-cli download polyworkbench/PolyWorkBench \
-    Images/polyworkbench-openclaw.tar \
-    --repo-type dataset --local-dir .
-docker load -i Images/polyworkbench-openclaw.tar
-
-# Or set a custom image in .env:
-# LONGHORIZON_OPENCLAW_IMAGE=your-registry/your-image:tag
-```
 
 ### "API key not set"
 Edit `src/agent/.env` with your API key. See [Configure API Keys](#2-configure-api-keys) above.
